@@ -18128,6 +18128,171 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "GE1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Primera 2U Enclosure": {
+        Manufacturer: "HPE",
+        Model: "Primera 2U Enclosure",
+        Slug: "hpe-primera-2u-enclosure",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 33,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Primera 4U Enclosure": {
+        Manufacturer: "HPE",
+        Model: "Primera 4U Enclosure",
+        Slug: "hpe-primera-4u-enclosure",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 67,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU3", Label: "", Position: "PSU3" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl3", Label: "" },
+            { Name: "Ctrl2", Label: "" },
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Primera A630 Controller": {
+        Manufacturer: "HPE",
+        Model: "Primera A630 Controller",
+        Slug: "hpe-primera-a630-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Service", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot-3", Label: "", Position: "3" },
+            { Name: "Slot-4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Slot-1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Slot-2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Primera A650 Controller": {
+        Manufacturer: "HPE",
+        Model: "Primera A650 Controller",
+        Slug: "hpe-primera-a650-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Service", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot-3", Label: "", Position: "3" },
+            { Name: "Slot-4", Label: "", Position: "4" },
+            { Name: "Slot-5", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Slot-1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Slot-2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "ProCurve 1700-24": {
         Manufacturer: "HPE",
         Model: "ProCurve 1700-24",
@@ -23809,6 +23974,49 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "SAS", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "StoreEver MSL3040": {
+        Manufacturer: "HPE",
+        Model: "StoreEver MSL3040",
+        Slug: "hpe-storeever-msl3040",
+        UHeight: 3,
+        PartNumber: "Q6Q62C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "console usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "LTO_Drive_1", Label: "", Position: "1" },
+            { Name: "LTO_Drive_2", Label: "", Position: "2" },
+            { Name: "LTO_Drive_3", Label: "", Position: "3" },
+            { Name: "PSU1", Label: "", Position: "4" },
+            { Name: "PSU2", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "StoreEver MSL6480": {

@@ -150,7 +150,7 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         },
     },
     "SAN24B-6": {
-        Manufacturer: "Ibm",
+        Manufacturer: "IBM",
         Model: "SAN24B-6",
         Slug: "ibm-san24b-6",
         UHeight: 1,

@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
     "Xanto 1000": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 1000",
         Slug: "online-usv-systeme-xanto-1000",
         UHeight: 6,

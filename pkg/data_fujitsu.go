@@ -44,6 +44,47 @@ var DeviceTypesMapfujitsu = map[string]*DeviceData{
             { Name: "iRMC-S5", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PRIMERGY RX2540 M4": {
+        Manufacturer: "Fujitsu",
+        Model: "PRIMERGY RX2540 M4",
+        Slug: "fujitsu-primergy-rx2540-m4",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iRMC-S4", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PRIMERGY RX2540 M5": {
         Manufacturer: "Fujitsu",
         Model: "PRIMERGY RX2540 M5",

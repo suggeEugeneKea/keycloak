@@ -153,7 +153,6 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Ruckus": DeviceTypesMapruckus,
     "SMC Networks": DeviceTypesMapsmc_networks,
     "SNR": DeviceTypesMapsnr,
-    "device-types": DeviceTypesMapdevice_types,
     "SSD": DeviceTypesMapssd,
     "Sangoma": DeviceTypesMapsangoma,
     "Schneider Electric": DeviceTypesMapschneider_electric,
