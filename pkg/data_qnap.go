@@ -1361,6 +1361,51 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "Adapter 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-h1277AXU-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-h1277AXU-RP",
+        Slug: "qnap-ts-h1277axu-rp",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe-1", Label: "", Position: "PCIE1" },
+            { Name: "PCIe-2", Label: "", Position: "PCIE2" },
+            { Name: "PCIe-3", Label: "", Position: "PCIE3" },
+            { Name: "PCIe-4", Label: "", Position: "PCIE4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "2.5GE-1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5GE-2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "10GE-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GE-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "TS-h1886XU-RP": {
         Manufacturer: "QNAP",
         Model: "TS-h1886XU-RP",
