@@ -683,6 +683,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth3", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TS-439 Pro II": {
+        Manufacturer: "QNAP",
+        Model: "TS-439 Pro II",
+        Slug: "qnap-ts-439-pro-ii",
+        UHeight: 0,
+        PartNumber: "TS-439proII",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-453B": {
         Manufacturer: "QNAP",
         Model: "TS-453B",

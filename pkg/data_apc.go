@@ -4281,6 +4281,53 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "BX1500M": {
+        Manufacturer: "APC",
+        Model: "BX1500M",
+        Slug: "apc-bx1500m",
+        UHeight: 0,
+        PartNumber: "BX1500M",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet Surge Protection 1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Surge Protection 2", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Surge Protection 3", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Surge Protection 4", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Surge Protection 5", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Battery Backup 1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Battery Backup 2", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Battery Backup 3", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Battery Backup 4", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet Battery Backup 5", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "EPDU1016b": {
         Manufacturer: "APC",
         Model: "EPDU1016b",

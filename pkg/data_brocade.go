@@ -1999,4 +1999,67 @@ var DeviceTypesMapbrocade = map[string]*DeviceData{
             { Name: "10GigabitEthernet4/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "SAN Switch 6505": {
+        Manufacturer: "Brocade",
+        Model: "SAN Switch 6505",
+        Slug: "brocade-6505",
+        UHeight: 1,
+        PartNumber: "6505",
+        IsFullDepth: true,
+        Airflow: "rear-to-front",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "Serial Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "fc0", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc1", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc2", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc3", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc4", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc5", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc6", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc7", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc8", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc9", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc10", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc11", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc12", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc13", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc14", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc15", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc16", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc17", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc18", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc19", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc20", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc21", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc22", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "fc23", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+        },
+    },
 }

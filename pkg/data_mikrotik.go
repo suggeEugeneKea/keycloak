@@ -2573,6 +2573,50 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "SFP2", Label: "SFP&#43; 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Chateau 5G ax": {
+        Manufacturer: "MikroTik",
+        Model: "Chateau 5G ax",
+        Slug: "mikrotik-chateau-5g-ax",
+        UHeight: 0,
+        PartNumber: "S53UG&#43;M-5HaxD2HaxD-TC&amp;RG502Q-EA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 19, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wifi2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "LTE-1", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "L009UiGS-RM": {
         Manufacturer: "MikroTik",
         Model: "L009UiGS-RM",
