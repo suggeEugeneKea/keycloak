@@ -45,7 +45,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 1000 R": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 1000 R",
         Slug: "online-usv-systeme-xanto-1000-r",
         UHeight: 2,
@@ -91,7 +91,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 1500": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 1500",
         Slug: "online-usv-systeme-xanto-1500",
         UHeight: 6,
@@ -133,7 +133,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 1500 R": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 1500 R",
         Slug: "online-usv-systeme-xanto-1500-r",
         UHeight: 2,
@@ -179,7 +179,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 2000": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 2000",
         Slug: "online-usv-systeme-xanto-2000",
         UHeight: 8,
@@ -225,7 +225,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 2000 R": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 2000 R",
         Slug: "online-usv-systeme-xanto-2000-r",
         UHeight: 2,
@@ -271,7 +271,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 3000": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 3000",
         Slug: "online-usv-systeme-xanto-3000",
         UHeight: 8,
@@ -318,7 +318,7 @@ var DeviceTypesMaponline_usv_systeme = map[string]*DeviceData{
         },
     },
     "Xanto 3000 R": {
-        Manufacturer: "Online USV-Systeme",
+        Manufacturer: "ONLINE USV-Systeme",
         Model: "Xanto 3000 R",
         Slug: "online-usv-systeme-xanto-3000-r",
         UHeight: 2,

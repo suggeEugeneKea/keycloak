@@ -17054,6 +17054,86 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Port X10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "MSA 2050 Enclosure": {
+        Manufacturer: "HPE",
+        Model: "MSA 2050 Enclosure",
+        Slug: "hpe-msa-2050-enclosure",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "MSA 2050 SAS Controller": {
+        Manufacturer: "HPE",
+        Model: "MSA 2050 SAS Controller",
+        Slug: "hpe-msa-2050-sas-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Service", Type: "usb-mini-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SAS12g-1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS12g-2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS12g-3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS12g-4", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "MSA ES Large Form Factor LFF chassis": {
         Manufacturer: "HPE",
         Model: "MSA ES Large Form Factor LFF chassis",
@@ -18138,7 +18218,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 33,
         WeightUnit: "",
         IsPowered: false,
@@ -18177,7 +18257,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 67,
         WeightUnit: "",
         IsPowered: false,
@@ -22455,6 +22535,49 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL345 Gen11": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL345 Gen11",
+        Slug: "hpe-proliant-dl345-gen11",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP3_1", Label: "", Position: "OCP3_1" },
+            { Name: "OCP3_2", Label: "", Position: "OCP3_2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL360 Gen10": {
         Manufacturer: "HPE",
         Model: "ProLiant DL360 Gen10",
@@ -22464,7 +22587,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: true,
-        RearImage: false,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 13.04,
         WeightUnit: "",
@@ -22507,8 +22630,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
@@ -22550,8 +22673,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "P19766-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 14.56,
         WeightUnit: "",
@@ -22883,8 +23006,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "P52534-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 16,
         WeightUnit: "",

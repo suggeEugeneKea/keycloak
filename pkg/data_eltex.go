@@ -134,15 +134,15 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
     "MES2308P": {
         Manufacturer: "Eltex",
         Model: "MES2308P",
-        Slug: "eltex-mes3510p",
-        UHeight: 4,
-        PartNumber: "MES3510P",
+        Slug: "eltex-mes2308p",
+        UHeight: 1,
+        PartNumber: "MES2308P",
         IsFullDepth: false,
-        Airflow: "passive",
+        Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 1.74,
+        Weight: 2.55,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -151,8 +151,7 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "dc-terminal", MaximumDraw: 260, AllocatedDraw: 0 },
-            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 260, AllocatedDraw: 0 },
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 275, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -175,8 +174,8 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "gigabitethernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "gigabitethernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "gigabitethernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "gigabitethernet1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "gigabitethernet1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "gigabitethernet1/0/11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "gigabitethernet1/0/12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
@@ -827,6 +826,56 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "tengigabitethernet1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "tengigabitethernet1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "tengigabitethernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "MES3510P": {
+        Manufacturer: "Eltex",
+        Model: "MES3510P",
+        Slug: "eltex-mes3510p",
+        UHeight: 4,
+        PartNumber: "MES3510P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "dc-terminal", MaximumDraw: 260, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 260, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
 }

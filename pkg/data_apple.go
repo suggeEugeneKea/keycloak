@@ -230,6 +230,44 @@ var DeviceTypesMapapple = map[string]*DeviceData{
             { Name: "wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "Mac mini (2018)": {
+        Manufacturer: "Apple",
+        Model: "Mac mini (2018)",
+        Slug: "apple-mac-mini-2018",
+        UHeight: 0,
+        PartNumber: "A1993",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c8", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wireless", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Mac mini (2023)": {
         Manufacturer: "Apple",
         Model: "Mac mini (2023)",

@@ -83,6 +83,52 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "3906-900": {
+        Manufacturer: "Ciena",
+        Model: "3906-900",
+        Slug: "ciena-3906-900",
+        UHeight: 1,
+        PartNumber: "170-3906-900",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 40 },
+            { Name: "PSB", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "FRU 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "3916-900": {
         Manufacturer: "Ciena",
         Model: "3916-900",
@@ -124,6 +170,7 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "3916-901": {
@@ -167,6 +214,7 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "3916-902": {
@@ -211,6 +259,7 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "3916-904": {
@@ -254,6 +303,7 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "3916-906": {
@@ -298,6 +348,7 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "3926": {
