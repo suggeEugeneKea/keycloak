@@ -2386,7 +2386,8 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ether1", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "ether2", Label: "", Type: "10gbase-t", MgmtOnly: true },
             { Name: "qsfp28-1-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "qsfp28-2-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "qsfp28-3-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
@@ -2407,8 +2408,6 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp28-2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "sfp28-3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "sfp28-4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "CSS318-16G-2S&#43;IN": {

@@ -4572,6 +4572,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "UniFi Cloud Gateway Max": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Cloud Gateway Max",
+        Slug: "ubiquiti-unifi-cloud-gateway-max",
+        UHeight: 0,
+        PartNumber: "UCG-Max",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 519,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C Power", Label: "", Type: "usb-c", MaximumDraw: 16, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "UniFi Cloud Key": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Cloud Key",
@@ -4792,6 +4833,46 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "port.9", Label: "Port 9 - WAN 1", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "port.10", Label: "Port 10 - SFP&#43; WAN 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "port.11", Label: "Port 11 - SFP&#43; LAN", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "UniFi Express (UX)": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Express (UX)",
+        Slug: "ubiquiti-unifi-express-ux",
+        UHeight: 0,
+        PartNumber: "UX",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C Power", Label: "", Type: "usb-c", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "UniFi Gateway Lite": {
