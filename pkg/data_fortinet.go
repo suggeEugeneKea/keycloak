@@ -1591,7 +1591,7 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         Slug: "fortinet-fg-200f",
         UHeight: 1,
         PartNumber: "FG-200F",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,

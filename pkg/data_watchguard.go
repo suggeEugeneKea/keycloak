@@ -47,6 +47,48 @@ var DeviceTypesMapwatchguard = map[string]*DeviceData{
             { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Firebox T45": {
+        Manufacturer: "WatchGuard",
+        Model: "Firebox T45",
+        Slug: "watchguard-firebox-t45",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 0.88,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "mgmnt", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Firebox T80": {
         Manufacturer: "WatchGuard",
         Model: "Firebox T80",

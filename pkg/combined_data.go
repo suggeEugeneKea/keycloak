@@ -146,6 +146,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Qotom": DeviceTypesMapqotom,
     "Quantum": DeviceTypesMapquantum,
     "RAD": DeviceTypesMaprad,
+    "Rackmount IT": DeviceTypesMaprackmount_it,
     "Raritan": DeviceTypesMapraritan,
     "Raspberry Pi": DeviceTypesMapraspberry_pi,
     "Reichle &amp; De-Massari": DeviceTypesMapreichle__de_massari,

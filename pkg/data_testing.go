@@ -8,7 +8,7 @@ var DeviceTypesMaptesting = map[string]*DeviceData{
         Slug: "generic-test-1000",
         UHeight: 2,
         PartNumber: "",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
         RearImage: false,

@@ -8,7 +8,7 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         Slug: "lenovo-flex-system",
         UHeight: 10,
         PartNumber: "8721W3X",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
         RearImage: false,

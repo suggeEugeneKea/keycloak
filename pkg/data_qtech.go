@@ -79,7 +79,7 @@ var DeviceTypesMapqtech = map[string]*DeviceData{
         Slug: "qtech-qsw-6900-56f",
         UHeight: 1,
         PartNumber: "QSW-6900-56F",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
