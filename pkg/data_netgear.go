@@ -1965,6 +1965,50 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "1/0/52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "XS508M": {
+        Manufacturer: "Netgear",
+        Model: "XS508M",
+        Slug: "netgear-xs508m",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.49,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 39, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "XS708T": {
         Manufacturer: "Netgear",
         Model: "XS708T",
