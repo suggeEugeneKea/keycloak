@@ -303,6 +303,50 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "GS108PP": {
+        Manufacturer: "Netgear",
+        Model: "GS108PP",
+        Slug: "netgear-gs108pp",
+        UHeight: 1,
+        PartNumber: "GS108PP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 130, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "GS110EMX": {
         Manufacturer: "Netgear",
         Model: "GS110EMX",

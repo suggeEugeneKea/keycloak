@@ -203,7 +203,7 @@ var DeviceTypesMapbarracuda = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 2,

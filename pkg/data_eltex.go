@@ -532,6 +532,53 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "tengigabitethernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "MES2408B": {
+        Manufacturer: "Eltex",
+        Model: "MES2408B",
+        Slug: "eltex-mes2408b",
+        UHeight: 1,
+        PartNumber: "MES2408B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU front", Label: "", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "MES2408C": {
         Manufacturer: "Eltex",
         Model: "MES2408C",
@@ -624,6 +671,71 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "gi0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "gi0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "gi0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "MES2428B": {
+        Manufacturer: "Eltex",
+        Model: "MES2428B",
+        Slug: "eltex-mes2428b",
+        UHeight: 1,
+        PartNumber: "MES2428B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU front", Label: "", Type: "iec-60320-c14", MaximumDraw: 45, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi0/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi0/27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "MES2428P": {
