@@ -2,26 +2,26 @@
 package devices
 
 var DeviceTypesMapdevice_types = map[string]*DeviceData{
-    "Meraki MX75": {
-        Manufacturer: "Cisco",
-        Model: "Meraki MX75",
-        Slug: "cisco-meraki-mx75",
+    "SRX1600": {
+        Manufacturer: "Juniper",
+        Model: "SRX1600",
+        Slug: "juniper-srx1600",
         UHeight: 1,
-        PartNumber: "MX75",
+        PartNumber: "SRX1600-CHAS",
         IsFullDepth: false,
-        Airflow: "passive",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 1.87,
+        Weight: 15.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Slot 1", Label: "", Type: "dc-terminal", MaximumDraw: 79, AllocatedDraw: 11 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -30,26 +30,39 @@ var DeviceTypesMapdevice_types = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 0", Label: "", Position: "0" },
+            { Name: "PSU 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "USB", Label: "", Type: "lte", MgmtOnly: false },
-            { Name: "Internet 1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "Internet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Internet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 9", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 10", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 11", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 12", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Port 13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "fxp0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ctl0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ctl1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ge-0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-0/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "et-0/1/16", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "et-0/1/17", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "xe-0/2/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xe-0/2/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xe-0/2/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xe-0/2/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
 }
