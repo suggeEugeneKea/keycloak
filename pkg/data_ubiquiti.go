@@ -3929,6 +3929,46 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "U7 Lite": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Lite",
+        Slug: "ubiquiti-u7-lite",
+        UHeight: 0,
+        PartNumber: "U7-Lite",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 313,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: true },
+            { Name: "Wlan 0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wlan 1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wlan 3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Wlan 4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "U7 Outdoor": {
         Manufacturer: "Ubiquiti",
         Model: "U7 Outdoor",
