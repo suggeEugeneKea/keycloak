@@ -149,6 +149,68 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SAN24B-6": {
+        Manufacturer: "Ibm",
+        Model: "SAN24B-6",
+        Slug: "ibm-san24b-6",
+        UHeight: 1,
+        PartNumber: "0089690000F24",
+        IsFullDepth: false,
+        Airflow: "rear-to-front",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 77, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "FC port 0/0", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/1", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/2", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/3", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/4", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/5", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/6", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/7", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/8", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/9", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/10", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/11", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/12", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/13", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/14", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/15", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/16", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/17", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/18", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/19", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/20", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/21", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/22", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/23", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+        },
+    },
     "System x3550": {
         Manufacturer: "IBM",
         Model: "System x3550",

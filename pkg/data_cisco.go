@@ -1718,11 +1718,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 10,
         PartNumber: "ASR-9006",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 59.65,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40785,6 +40785,51 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TwentyFiveGigE0/0/0/39", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "NCS-5504": {
+        Manufacturer: "Cisco",
+        Model: "NCS-5504",
+        Slug: "cisco-ncs-5504",
+        UHeight: 7,
+        PartNumber: "NCS-5504",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 38.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RP0", Label: "", Position: "0" },
+            { Name: "RP1", Label: "", Position: "1" },
+            { Name: "LC0", Label: "", Position: "0" },
+            { Name: "LC1", Label: "", Position: "1" },
+            { Name: "LC2", Label: "", Position: "2" },
+            { Name: "LC3", Label: "", Position: "3" },
+            { Name: "PM0", Label: "", Position: "0" },
+            { Name: "PM1", Label: "", Position: "1" },
+            { Name: "PM2", Label: "", Position: "2" },
+            { Name: "PM3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "NCS-5508": {
         Manufacturer: "Cisco",
         Model: "NCS-5508",
@@ -40796,7 +40841,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 68,
+        Weight: 68.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40830,6 +40875,69 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "PM5", Label: "", Position: "5" },
             { Name: "PM6", Label: "", Position: "6" },
             { Name: "PM7", Label: "", Position: "7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "NCS-5516": {
+        Manufacturer: "Cisco",
+        Model: "NCS-5516",
+        Slug: "cisco-ncs-5516",
+        UHeight: 21,
+        PartNumber: "NCS-5516",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 87.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RP0", Label: "", Position: "0" },
+            { Name: "RP1", Label: "", Position: "1" },
+            { Name: "LC0", Label: "", Position: "0" },
+            { Name: "LC1", Label: "", Position: "1" },
+            { Name: "LC2", Label: "", Position: "2" },
+            { Name: "LC3", Label: "", Position: "3" },
+            { Name: "LC4", Label: "", Position: "4" },
+            { Name: "LC5", Label: "", Position: "5" },
+            { Name: "LC6", Label: "", Position: "6" },
+            { Name: "LC7", Label: "", Position: "7" },
+            { Name: "LC8", Label: "", Position: "8" },
+            { Name: "LC9", Label: "", Position: "9" },
+            { Name: "LC10", Label: "", Position: "10" },
+            { Name: "LC11", Label: "", Position: "11" },
+            { Name: "LC12", Label: "", Position: "12" },
+            { Name: "LC13", Label: "", Position: "13" },
+            { Name: "LC14", Label: "", Position: "14" },
+            { Name: "LC15", Label: "", Position: "15" },
+            { Name: "PM0", Label: "", Position: "0" },
+            { Name: "PM1", Label: "", Position: "1" },
+            { Name: "PM2", Label: "", Position: "2" },
+            { Name: "PM3", Label: "", Position: "3" },
+            { Name: "PM4", Label: "", Position: "4" },
+            { Name: "PM5", Label: "", Position: "5" },
+            { Name: "PM6", Label: "", Position: "6" },
+            { Name: "PM7", Label: "", Position: "7" },
+            { Name: "PM8", Label: "", Position: "8" },
+            { Name: "PM9", Label: "", Position: "9" },
         },
 			  DeviceBays: []DeviceBay{
         },
