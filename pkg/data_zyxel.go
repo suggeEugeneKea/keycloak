@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMapzyxel = map[string]*DeviceData{
+    "ES1100-8P": {
+        Manufacturer: "Zyxel",
+        Model: "ES1100-8P",
+        Slug: "zyxel-es1100-8p",
+        UHeight: 1,
+        PartNumber: "ES1100-8P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "iec-60320-c14", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "FMG3005-R20A": {
         Manufacturer: "Zyxel",
         Model: "FMG3005-R20A",
@@ -38,6 +82,91 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "PON", Label: "PON", Type: "gpon", MgmtOnly: false },
             { Name: "LAN", Label: "LAN", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "GS-105B-v3": {
+        Manufacturer: "Zyxel",
+        Model: "GS-105B-v3",
+        Slug: "zyxel-gs-105b-v3",
+        UHeight: 0,
+        PartNumber: "GS-105B-v3",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 229,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "GS-108B-v3": {
+        Manufacturer: "Zyxel",
+        Model: "GS-108B-v3",
+        Slug: "zyxel-gs-108b-v3",
+        UHeight: 0,
+        PartNumber: "GS-108B-v3",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 325,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "GS1100-16": {
@@ -804,6 +933,49 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "P-660HNU-T1": {
+        Manufacturer: "Zyxel",
+        Model: "P-660HNU-T1",
+        Slug: "zyxel-p-660hnu-t1",
+        UHeight: 0,
+        PartNumber: "P-660HNU-T1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 245,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "USB", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "DSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "PMG1005-T20B": {

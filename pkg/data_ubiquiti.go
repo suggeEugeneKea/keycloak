@@ -1452,6 +1452,53 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "EdgeRouter Infinity": {
+        Manufacturer: "Ubiquiti",
+        Model: "EdgeRouter Infinity",
+        Slug: "ubiquiti-edgerouter-infinity",
+        UHeight: 1,
+        PartNumber: "ER-8-XG",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.05,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "EdgeRouter Lite": {
         Manufacturer: "Ubiquiti",
         Model: "EdgeRouter Lite",

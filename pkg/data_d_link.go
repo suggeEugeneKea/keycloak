@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapd_link = map[string]*DeviceData{
+    "DES-1005P": {
+        Manufacturer: "D-Link",
+        Model: "DES-1005P",
+        Slug: "d-link-des-1005p",
+        UHeight: 1,
+        PartNumber: "DES-1005P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1210-28": {
         Manufacturer: "D-Link",
         Model: "DES-1210-28",

@@ -2,6 +2,186 @@
 package devices
 
 var DeviceTypesMaplancom = map[string]*DeviceData{
+    "1681V": {
+        Manufacturer: "LANCOM",
+        Model: "1681V",
+        Slug: "lancom-1681v",
+        UHeight: 0,
+        PartNumber: "1681V",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "ISDN-S0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "1711&#43;": {
+        Manufacturer: "LANCOM",
+        Model: "1711&#43;",
+        Slug: "lancom-1711-plus",
+        UHeight: 0,
+        PartNumber: "1711&#43;",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN-S0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "1781VAW": {
+        Manufacturer: "LANCOM",
+        Model: "1781VAW",
+        Slug: "lancom-1781vaw",
+        UHeight: 0,
+        PartNumber: "1781VAW",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "ISDN-S0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "1783VA-4G": {
+        Manufacturer: "LANCOM",
+        Model: "1783VA-4G",
+        Slug: "lancom-1783va-4g",
+        UHeight: 0,
+        PartNumber: "1783VA-4G",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "1783VAW (over ISDN)": {
         Manufacturer: "LANCOM",
         Model: "1783VAW (over ISDN)",
@@ -417,6 +597,54 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Cellular Interface (LTE)", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "883 VoIP": {
+        Manufacturer: "LANCOM",
+        Model: "883 VoIP",
+        Slug: "lancom-883-voip",
+        UHeight: 0,
+        PartNumber: "883 VoIP",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "GS-1108": {

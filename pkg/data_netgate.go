@@ -42,6 +42,50 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
             { Name: "mvneta0.4092", Label: "OPT", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "4100 Security Gateway": {
+        Manufacturer: "Netgate",
+        Model: "4100 Security Gateway",
+        Slug: "netgate-4100-security-gateway",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console-usb", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "console-rj45", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ix3", Label: "WAN1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ix2", Label: "WAN2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "igc0", Label: "LAN1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "igc1", Label: "LAN2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "igc2", Label: "LAN3", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "igc3", Label: "LAN4", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "6100 Security Gateway": {
         Manufacturer: "Netgate",
         Model: "6100 Security Gateway",

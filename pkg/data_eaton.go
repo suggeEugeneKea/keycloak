@@ -1892,6 +1892,54 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Tripp-Lite ISOBAR12ULTRA": {
+        Manufacturer: "Eaton",
+        Model: "Tripp-Lite ISOBAR12ULTRA",
+        Slug: "eaton-tripp-lite-isobar12ultra",
+        UHeight: 1,
+        PartNumber: "ISOBAR12ULTRA",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.22,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Primary", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Front 1", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front 2", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 1", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 2", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 3", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 4", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 5", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 6", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 7", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 8", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 9", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 10", Type: "nema-5-15r", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Tripp-Lite PDU1215": {
         Manufacturer: "Eaton",
         Model: "Tripp-Lite PDU1215",

@@ -2965,6 +2965,41 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "shelf-1he-full-depth": {
+        Manufacturer: "Generic",
+        Model: "shelf-1he-full-depth",
+        Slug: "generic-shelf-1he-full-depth",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "shelf-2he": {
         Manufacturer: "Generic",
         Model: "shelf-2he",

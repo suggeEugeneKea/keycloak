@@ -824,6 +824,44 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperChassis 826-BE1C4": {
+        Manufacturer: "Supermicro",
+        Model: "SuperChassis 826-BE1C4",
+        Slug: "supermicro-superchassis-826-be1c4",
+        UHeight: 2,
+        PartNumber: "SuperChassis 826BE1C4-R1K23LPB",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 18.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "System Board", Label: "System Board" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SuperChassis 846BE1C-R1K03JBOD": {
         Manufacturer: "Supermicro",
         Model: "SuperChassis 846BE1C-R1K03JBOD",
@@ -1227,6 +1265,49 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "SuperServer 5019S-M": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5019S-M",
+        Slug: "supermicro-sys-5019s-m",
+        UHeight: 1,
+        PartNumber: "SYS-5019S-M",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial-1", Type: "de-9", Label: "Front", Poe: false },
+            { Name: "Serial-2", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 400, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "M.2 1", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 5029P-WTR": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 5029P-WTR",
@@ -1455,6 +1536,47 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperServer 6028TR-HTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6028TR-HTR",
+        Slug: "supermicro-sys-6028tr-htr",
+        UHeight: 2,
+        PartNumber: "SYS-6028TR-HTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 38.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SuperServer 6029P-TR": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 6029P-TR",
@@ -1500,6 +1622,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 6029U-TR4T&#43;": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6029U-TR4T&#43;",
+        Slug: "supermicro-sys-6029u-tr4t-plus",
+        UHeight: 2,
+        PartNumber: "SYS-6029U-TR4T&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "SuperServer A&#43; Server 1014S-WTRT": {
