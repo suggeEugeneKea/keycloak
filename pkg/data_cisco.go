@@ -41095,6 +41095,66 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "FourHundredGigE0/0/0/29", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
         },
     },
+    "NCS-6008": {
+        Manufacturer: "Cisco",
+        Model: "NCS-6008",
+        Slug: "cisco-ncs-6008",
+        UHeight: 48,
+        PartNumber: "NCS-6008",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 352,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Rack 0", Label: "", Position: "0" },
+            { Name: "Power Tray Slot 0", Label: "PT0", Position: "0" },
+            { Name: "Power Tray Slot 1", Label: "PT1", Position: "1" },
+            { Name: "Power Tray Slot 2", Label: "PT2", Position: "2" },
+            { Name: "Power Tray Slot 3", Label: "PT3", Position: "3" },
+            { Name: "Power Tray Slot 4", Label: "PT4", Position: "4" },
+            { Name: "Power Tray Slot 5", Label: "PT5", Position: "5" },
+            { Name: "Fan Tray Slot 0", Label: "FT0", Position: "0" },
+            { Name: "Fan Tray Slot 1", Label: "FT1", Position: "1" },
+            { Name: "Line Card Slot 0", Label: "LC0", Position: "0" },
+            { Name: "Line Card Slot 1", Label: "LC1", Position: "1" },
+            { Name: "Line Card Slot 2", Label: "LC2", Position: "2" },
+            { Name: "Line Card Slot 3", Label: "LC3", Position: "3" },
+            { Name: "Line Card Slot 4", Label: "LC4", Position: "4" },
+            { Name: "Line Card Slot 5", Label: "LC5", Position: "5" },
+            { Name: "Line Card Slot 6", Label: "LC6", Position: "6" },
+            { Name: "Line Card Slot 7", Label: "LC7", Position: "7" },
+            { Name: "Route Processor Slot 0", Label: "RSP0", Position: "0" },
+            { Name: "Fabric Card Slot 0", Label: "FC0", Position: "0" },
+            { Name: "Fabric Card Slot 1", Label: "FC1", Position: "1" },
+            { Name: "Fabric Card Slot 2", Label: "FC2", Position: "2" },
+            { Name: "Fabric Card Slot 3", Label: "FC3", Position: "3" },
+            { Name: "Fabric Card Slot 4", Label: "FC4", Position: "4" },
+            { Name: "Fabric Card Slot 5", Label: "FC5", Position: "5" },
+            { Name: "Route Processor Slot 1", Label: "RSP1", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Nexus 3048": {
         Manufacturer: "Cisco",
         Model: "Nexus 3048",

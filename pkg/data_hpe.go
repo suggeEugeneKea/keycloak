@@ -17134,6 +17134,45 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "SAS12g-4", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "MSA 3600 LFF Disk Enclosure": {
+        Manufacturer: "HPE",
+        Model: "MSA 3600 LFF Disk Enclosure",
+        Slug: "hpe-msa-3600-lff-disk-enclosure",
+        UHeight: 2,
+        PartNumber: "QW968A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "PS1" },
+            { Name: "PS2", Label: "", Position: "PS2" },
+            { Name: "Ctrl A", Label: "", Position: "A" },
+            { Name: "Ctrl B", Label: "", Position: "B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "MSA ES Large Form Factor LFF chassis": {
         Manufacturer: "HPE",
         Model: "MSA ES Large Form Factor LFF chassis",
@@ -22851,6 +22890,53 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL360p Gen8": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL360p Gen8",
+        Slug: "hpe-proliant-dl360p-gen8",
+        UHeight: 1,
+        PartNumber: "673648-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL365 Gen11": {
         Manufacturer: "HPE",
         Model: "ProLiant DL365 Gen11",
@@ -23322,6 +23408,51 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "HDDBox1", Label: "", Position: "box1" },
             { Name: "HDDBox2", Label: "", Position: "box2" },
             { Name: "HDDBox3", Label: "", Position: "box3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant DL385 Gen11": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL385 Gen11",
+        Slug: "hpe-proliant-dl385-gen11",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP3", Label: "", Position: "OCP3" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
         },
 			  DeviceBays: []DeviceBay{
         },

@@ -140,6 +140,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "QSAN": DeviceTypesMapqsan,
     "QTECH": DeviceTypesMapqtech,
     "Qotom": DeviceTypesMapqotom,
+    "Quantum": DeviceTypesMapquantum,
     "RAD": DeviceTypesMaprad,
     "Raritan": DeviceTypesMapraritan,
     "Raspberry Pi": DeviceTypesMapraspberry_pi,
