@@ -459,6 +459,50 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "1800EF-5G": {
+        Manufacturer: "LANCOM",
+        Model: "1800EF-5G",
+        Slug: "lancom-1800ef-5g",
+        UHeight: 0,
+        PartNumber: "62140",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 450,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 18, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LTE", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "1803VA-4G": {
         Manufacturer: "LANCOM",
         Model: "1803VA-4G",

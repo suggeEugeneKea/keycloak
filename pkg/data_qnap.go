@@ -446,6 +446,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-253E-8G": {
+        Manufacturer: "QNAP",
+        Model: "TS-253E-8G",
+        Slug: "qnap-ts-253e-8g",
+        UHeight: 0,
+        PartNumber: "TS-253E",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.57,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 20 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "TS-412": {
         Manufacturer: "QNAP",
         Model: "TS-412",

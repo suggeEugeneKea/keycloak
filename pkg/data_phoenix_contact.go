@@ -46,4 +46,90 @@ var DeviceTypesMapphoenix_contact = map[string]*DeviceData{
             { Name: "ETH-8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FL SWITCH 7004-4GC-EIP": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 7004-4GC-EIP",
+        Slug: "phoenix-contact-fl-switch-7004-4gc-eip",
+        UHeight: 0,
+        PartNumber: "2701553",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1010,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ETH-5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ETH-6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ETH-7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ETH-8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "TC EXTENDER 6004": {
+        Manufacturer: "Phoenix Contact",
+        Model: "TC EXTENDER 6004",
+        Slug: "phoenix-contact-tc-extender-6004",
+        UHeight: 0,
+        PartNumber: "2702255",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SHDSL-A", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "SHDSL-B", Label: "", Type: "xdsl", MgmtOnly: false },
+        },
+    },
 }
