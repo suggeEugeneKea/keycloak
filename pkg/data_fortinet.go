@@ -4088,6 +4088,57 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 7081F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 7081F",
+        Slug: "fortinet-fortigate-7081f",
+        UHeight: 12,
+        PartNumber: "FG-7081F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 90,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console 1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console 2", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "P1" },
+            { Name: "PSU2", Label: "", Position: "P2" },
+            { Name: "PSU3", Label: "", Position: "P3" },
+            { Name: "PSU4", Label: "", Position: "P4" },
+            { Name: "PSU5", Label: "", Position: "P5" },
+            { Name: "PSU6", Label: "", Position: "P6" },
+            { Name: "FIM Slot 1", Label: "", Position: "F1" },
+            { Name: "FIM Slot 2", Label: "", Position: "F2" },
+            { Name: "FPM Slot 3", Label: "", Position: "F3" },
+            { Name: "FPM Slot 4", Label: "", Position: "F4" },
+            { Name: "FPM Slot 5", Label: "", Position: "F5" },
+            { Name: "FPM Slot 6", Label: "", Position: "F6" },
+            { Name: "FPM Slot 7", Label: "", Position: "F7" },
+            { Name: "FPM Slot 8", Label: "", Position: "F8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "FortiGate 70F": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 70F",
@@ -4133,6 +4184,59 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "dmz", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FortiGate 7121F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 7121F",
+        Slug: "fortinet-fortigate-7121f",
+        UHeight: 16,
+        PartNumber: "FG-7121F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 97,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "FIM Slot 1", Label: "", Position: "1" },
+            { Name: "FIM Slot 2", Label: "", Position: "2" },
+            { Name: "FPM Slot 3", Label: "", Position: "3" },
+            { Name: "FPM Slot 4", Label: "", Position: "4" },
+            { Name: "FPM Slot 5", Label: "", Position: "5" },
+            { Name: "FPM Slot 6", Label: "", Position: "6" },
+            { Name: "FPM Slot 7", Label: "", Position: "7" },
+            { Name: "FPM Slot 8", Label: "", Position: "8" },
+            { Name: "FPM Slot 9", Label: "", Position: "9" },
+            { Name: "FPM Slot 10", Label: "", Position: "10" },
+            { Name: "FPM Slot 11", Label: "", Position: "11" },
+            { Name: "FPM Slot 12", Label: "", Position: "12" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "PSU3", Label: "", Position: "3" },
+            { Name: "PSU4", Label: "", Position: "4" },
+            { Name: "PSU5", Label: "", Position: "5" },
+            { Name: "PSU6", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "FortiGate 800D": {

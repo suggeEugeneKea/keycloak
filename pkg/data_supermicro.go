@@ -690,6 +690,50 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Storage SuperServer SSG-610P-ACR12N4H": {
+        Manufacturer: "Supermicro",
+        Model: "Storage SuperServer SSG-610P-ACR12N4H",
+        Slug: "supermicro-ssg-610p-acr12n4h",
+        UHeight: 1,
+        PartNumber: "SSG-610P-ACR12N4H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 17.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E A1", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "Storage SuperServer SSG-620P-E1CR24L": {
         Manufacturer: "Supermicro",
         Model: "Storage SuperServer SSG-620P-E1CR24L",

@@ -34198,54 +34198,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "ISR 4461-X": {
-        Manufacturer: "Cisco",
-        Model: "ISR 4461-X",
-        Slug: "cisco-isr-4461-x",
-        UHeight: 2,
-        PartNumber: "",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 13.6,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "SM-X Slot 1", Label: "", Position: "1" },
-            { Name: "SM-X Slot 2", Label: "", Position: "2" },
-            { Name: "NIM Slot 1", Label: "", Position: "3" },
-            { Name: "NIM Slot 2", Label: "", Position: "4" },
-            { Name: "NIM Slot 3", Label: "", Position: "5" },
-            { Name: "NIM Slot 4", Label: "", Position: "6" },
-            { Name: "PSU Slot 1", Label: "", Position: "PSU1" },
-            { Name: "PSU Slot 2", Label: "", Position: "PSU2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
     "ISR C1111-4P": {
         Manufacturer: "Cisco",
         Model: "ISR C1111-4P",
@@ -35068,11 +35020,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 3,
         PartNumber: "ISR4461-X/K9",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 13.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -35085,8 +35037,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -35095,6 +35045,14 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SM-X Slot 1", Label: "", Position: "1" },
+            { Name: "SM-X Slot 2", Label: "", Position: "2" },
+            { Name: "NIM Slot 1", Label: "", Position: "3" },
+            { Name: "NIM Slot 2", Label: "", Position: "4" },
+            { Name: "NIM Slot 3", Label: "", Position: "5" },
+            { Name: "NIM Slot 4", Label: "", Position: "6" },
+            { Name: "PSU Slot 1", Label: "", Position: "PSU1" },
+            { Name: "PSU Slot 2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -35102,12 +35060,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "TenGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "ISR7604": {
