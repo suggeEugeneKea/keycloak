@@ -352,6 +352,43 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS218&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS218&#43;",
+        Slug: "synology-ds218-plus",
+        UHeight: 0,
+        PartNumber: "DS218&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 17 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS218j": {
         Manufacturer: "Synology",
         Model: "DS218j",
@@ -563,6 +600,44 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DS918&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS918&#43;",
+        Slug: "synology-ds918-plus",
+        UHeight: 0,
+        PartNumber: "DS918&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 29 },
         },
         PowerOutlets: []PowerOutlet{
         },

@@ -89,6 +89,50 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "ISDN-S0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "1781VA": {
+        Manufacturer: "LANCOM",
+        Model: "1781VA",
+        Slug: "lancom-1781va",
+        UHeight: 0,
+        PartNumber: "1781VA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "ISDN-S0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "1781VAW": {
         Manufacturer: "LANCOM",
         Model: "1781VAW",
@@ -377,7 +421,7 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
         IsFullDepth: false,
         Airflow: "",
         FrontImage: false,
-        RearImage: false,
+        RearImage: true,
         SubdeviceRole: "child",
         Weight: 520,
         WeightUnit: "",
