@@ -17132,6 +17132,86 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Nimble HF40 Controller": {
+        Manufacturer: "HPE",
+        Model: "Nimble HF40 Controller",
+        Slug: "hpe-nimble-hf40-controller",
+        UHeight: 0,
+        PartNumber: "Q8H68A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "other", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "NIC1", Label: "", Position: "1" },
+            { Name: "NIC2", Label: "", Position: "2" },
+            { Name: "NIC3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0a", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "eth0b", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "Nimble-HF40": {
+        Manufacturer: "HPE",
+        Model: "Nimble-HF40",
+        Slug: "hpe-nimble-hf40",
+        UHeight: 4,
+        PartNumber: "Q8H39A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "Controller A" },
+            { Name: "B", Label: "Controller B" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "OfficeConnect 1810-24G": {
         Manufacturer: "HPE",
         Model: "OfficeConnect 1810-24G",
