@@ -2,6 +2,44 @@
 package devices
 
 var DeviceTypesMapubiquiti = map[string]*DeviceData{
+    "10G PoE&#43;&#43; Adapter (60W)": {
+        Manufacturer: "Ubiquiti",
+        Model: "10G PoE&#43;&#43; Adapter (60W)",
+        Slug: "ubiquiti-uacc-poe-plus-plus-10g",
+        UHeight: 0,
+        PartNumber: "UACC-PoE-plus-plus-10G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 210,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c6", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "24-Port Blank Keystone Patch Panel": {
         Manufacturer: "Ubiquiti",
         Model: "24-Port Blank Keystone Patch Panel",
@@ -339,6 +377,84 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "AI Port": {
+        Manufacturer: "Ubiquiti",
+        Model: "AI Port",
+        Slug: "ubiquiti-up-ai-port",
+        UHeight: 0,
+        PartNumber: "UP-AI-Port",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 258.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "PoE IN", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth1", Label: "PoE OUT", Type: "1000base-tx", MgmtOnly: false },
+        },
+    },
+    "AI Port Rack Mount": {
+        Manufacturer: "Ubiquiti",
+        Model: "AI Port Rack Mount",
+        Slug: "ubiquiti-uacc-ai-port-rm",
+        UHeight: 1,
+        PartNumber: "UACC-AI-Port-RM",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 650,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "AI Port Slot 1" },
+            { Name: "2", Label: "AI Port Slot 2" },
+            { Name: "3", Label: "AI Port Slot 3" },
+            { Name: "4", Label: "AI Port Slot 4" },
+            { Name: "5", Label: "AI Port Slot 5" },
+            { Name: "6", Label: "AI Port Slot 6" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Access Point": {
@@ -3893,6 +4009,88 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "WLAN 4", Label: "6 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
+    "U7 Pro XG": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Pro XG",
+        Slug: "ubiquiti-u7-pro-xg",
+        UHeight: 0,
+        PartNumber: "U7-Pro-XG",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 750,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "WLAN 0", Label: "2.4 GHz", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "WLAN 1", Label: "5 GHz", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "WLAN 2", Label: "6 GHz (WiFi 6E)", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 3", Label: "5 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "WLAN 4", Label: "6 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "U7 Pro XGS": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Pro XGS",
+        Slug: "ubiquiti-u7-pro-xgs",
+        UHeight: 0,
+        PartNumber: "U7-Pro-XGS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "WLAN 0", Label: "2.4 GHz", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "WLAN 1", Label: "5 GHz", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "WLAN 2", Label: "6 GHz (WiFi 6E)", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 3", Label: "5 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "WLAN 4", Label: "6 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "U7 Professional": {
         Manufacturer: "Ubiquiti",
         Model: "U7 Professional",
@@ -7130,6 +7328,116 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G6 Bullet": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 Bullet",
+        Slug: "ubiquiti-unifi-uvc-g6-bullet",
+        UHeight: 0,
+        PartNumber: "UVC-G6-Bullet",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 737,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G6 Instant": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 Instant",
+        Slug: "ubiquiti-unifi-uvc-g6-ins",
+        UHeight: 0,
+        PartNumber: "UVC-G6-INS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 180,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "usb-c", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wlan", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Unifi G6 Turret": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 Turret",
+        Slug: "ubiquiti-unifi-uvc-g6-turret",
+        UHeight: 0,
+        PartNumber: "UVC-G6-Turret",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 550,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

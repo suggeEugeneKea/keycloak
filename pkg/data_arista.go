@@ -2170,6 +2170,109 @@ var DeviceTypesMaparista = map[string]*DeviceData{
             { Name: "Ethernet56", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "CCS-755": {
+        Manufacturer: "Arista",
+        Model: "CCS-755",
+        Slug: "arista-ccs-755",
+        UHeight: 7,
+        PartNumber: "CCS-755-CH",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "Supervisor", Position: "1" },
+            { Name: "Slot 2", Label: "Supervisor", Position: "2" },
+            { Name: "Slot 3", Label: "Line Card", Position: "3" },
+            { Name: "Slot 4", Label: "Line Card", Position: "4" },
+            { Name: "Slot 5", Label: "Line Card", Position: "5" },
+            { Name: "Slot 6", Label: "Line Card", Position: "6" },
+            { Name: "Slot 7", Label: "Line Card", Position: "7" },
+            { Name: "PSU 1", Label: "Power Supply 1", Position: "1" },
+            { Name: "PSU 2", Label: "Power Supply 2", Position: "2" },
+            { Name: "PSU 3", Label: "Power Supply 3", Position: "3" },
+            { Name: "PSU 4", Label: "Power Supply 4", Position: "4" },
+            { Name: "PSU 5", Label: "Power Supply 5", Position: "5" },
+            { Name: "PSU 6", Label: "Power Supply 6", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "CCS-758": {
+        Manufacturer: "Arista",
+        Model: "CCS-758",
+        Slug: "arista-ccs-758",
+        UHeight: 10,
+        PartNumber: "CCS-758-CH",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 31.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "Supervisor", Position: "1" },
+            { Name: "Slot 2", Label: "Supervisor", Position: "2" },
+            { Name: "Slot 3", Label: "Line Card", Position: "3" },
+            { Name: "Slot 4", Label: "Line Card", Position: "4" },
+            { Name: "Slot 5", Label: "Line Card", Position: "5" },
+            { Name: "Slot 6", Label: "Line Card", Position: "6" },
+            { Name: "Slot 7", Label: "Line Card", Position: "7" },
+            { Name: "Slot 8", Label: "Line Card", Position: "8" },
+            { Name: "Slot 9", Label: "Line Card", Position: "9" },
+            { Name: "Slot 10", Label: "Line Card", Position: "10" },
+            { Name: "PSU 1", Label: "Power Supply 1", Position: "1" },
+            { Name: "PSU 2", Label: "Power Supply 2", Position: "2" },
+            { Name: "PSU 3", Label: "Power Supply 3", Position: "3" },
+            { Name: "PSU 4", Label: "Power Supply 4", Position: "4" },
+            { Name: "PSU 5", Label: "Power Supply 5", Position: "5" },
+            { Name: "PSU 6", Label: "Power Supply 6", Position: "6" },
+            { Name: "PSU 7", Label: "Power Supply 7", Position: "7" },
+            { Name: "PSU 8", Label: "Power Supply 8", Position: "8" },
+            { Name: "PSU 9", Label: "Power Supply 9", Position: "9" },
+            { Name: "PSU 10", Label: "Power Supply 10", Position: "10" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "DCS-7010T-48-DC-F": {
         Manufacturer: "Arista",
         Model: "DCS-7010T-48-DC-F",
