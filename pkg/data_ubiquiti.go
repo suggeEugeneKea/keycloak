@@ -4785,6 +4785,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Lan 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "UniFi Gateway Max": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Gateway Max",
+        Slug: "ubiquiti-unifi-gateway-max",
+        UHeight: 0,
+        PartNumber: "UXG-Max",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "usb-c", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Lan 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Lan 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Lan 3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Lan 4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "UniFi Gateway Pro": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Gateway Pro",
@@ -6728,6 +6769,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "UniFi Switch Flex Mini 2.5G": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Flex Mini 2.5G",
+        Slug: "ubiquiti-usw-flex-2-5g-5",
+        UHeight: 0,
+        PartNumber: "USW-Flex-2-5G-5",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 206,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "usb-c", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 5 (PoE IN)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
     "UniFi Switch Flex XG": {

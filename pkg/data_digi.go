@@ -2,6 +2,72 @@
 package devices
 
 var DeviceTypesMapdigi = map[string]*DeviceData{
+    "AnywhereUSB 24 Plus": {
+        Manufacturer: "Digi",
+        Model: "AnywhereUSB 24 Plus",
+        Slug: "digi-anywhereusb-24-plus",
+        UHeight: 1,
+        PartNumber: "AW24-G300",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "USB_1", Type: "usb-a", Label: "" },
+            { Name: "USB_2", Type: "usb-a", Label: "" },
+            { Name: "USB_3", Type: "usb-a", Label: "" },
+            { Name: "USB_4", Type: "usb-a", Label: "" },
+            { Name: "USB_5", Type: "usb-a", Label: "" },
+            { Name: "USB_6", Type: "usb-a", Label: "" },
+            { Name: "USB_7", Type: "usb-a", Label: "" },
+            { Name: "USB_8", Type: "usb-a", Label: "" },
+            { Name: "USB_9", Type: "usb-a", Label: "" },
+            { Name: "USB_10", Type: "usb-a", Label: "" },
+            { Name: "USB_11", Type: "usb-a", Label: "" },
+            { Name: "USB_12", Type: "usb-a", Label: "" },
+            { Name: "USB_13", Type: "usb-a", Label: "" },
+            { Name: "USB_14", Type: "usb-a", Label: "" },
+            { Name: "USB_15", Type: "usb-a", Label: "" },
+            { Name: "USB_16", Type: "usb-a", Label: "" },
+            { Name: "USB_17", Type: "usb-a", Label: "" },
+            { Name: "USB_18", Type: "usb-a", Label: "" },
+            { Name: "USB_19", Type: "usb-a", Label: "" },
+            { Name: "USB_20", Type: "usb-a", Label: "" },
+            { Name: "USB_21", Type: "usb-a", Label: "" },
+            { Name: "USB_22", Type: "usb-a", Label: "" },
+            { Name: "USB_23", Type: "usb-a", Label: "" },
+            { Name: "USB_24", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 160, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 160, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ETH2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43;1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43;2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "CM-16": {
         Manufacturer: "Digi",
         Model: "CM-16",
