@@ -176,6 +176,52 @@ var DeviceTypesMapavm = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "FRITZ!Box 7490": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 7490",
+        Slug: "avm-fritzbox-7490",
+        UHeight: 0,
+        PartNumber: "20002678",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 491,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DSL", Label: "DSL", Type: "xdsl", MgmtOnly: false },
+            { Name: "FON1", Label: "FON 1", Type: "other", MgmtOnly: false },
+            { Name: "FON2", Label: "FON 2", Type: "other", MgmtOnly: false },
+            { Name: "FONS0", Label: "FON S0", Type: "other", MgmtOnly: false },
+            { Name: "WAN", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN 4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "FRITZ!Box 7510": {
         Manufacturer: "AVM",
         Model: "FRITZ!Box 7510",
