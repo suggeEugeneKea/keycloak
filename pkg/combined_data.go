@@ -75,6 +75,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "FS": DeviceTypesMapfs,
     "Factor-TS": DeviceTypesMapfactor_ts,
     "FireBrick": DeviceTypesMapfirebrick,
+    "Firewalla": DeviceTypesMapfirewalla,
     "Fortinet": DeviceTypesMapfortinet,
     "Forza": DeviceTypesMapforza,
     "Fujitsu": DeviceTypesMapfujitsu,

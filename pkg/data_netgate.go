@@ -42,6 +42,49 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
             { Name: "mvneta0.4092", Label: "OPT", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "3100 Security Gateway": {
+        Manufacturer: "Netgate",
+        Model: "3100 Security Gateway",
+        Slug: "netgate-3100-security-gateway",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console-usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mvneta0", Label: "OPT1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mvneta1-1", Label: "LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mvneta1-2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mvneta1-3", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mvneta1-4", Label: "LAN4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mvneta2", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "4100 Security Gateway": {
         Manufacturer: "Netgate",
         Model: "4100 Security Gateway",

@@ -45,6 +45,43 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "EAP683-LR": {
+        Manufacturer: "TP-Link",
+        Model: "EAP683-LR",
+        Slug: "tp-link-eap683-lr",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "ER605-V2": {
         Manufacturer: "TP-Link",
         Model: "ER605-V2",

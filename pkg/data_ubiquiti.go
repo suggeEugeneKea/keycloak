@@ -7535,6 +7535,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Unifi G3 Bullet": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G3 Bullet",
+        Slug: "ubiquiti-unifi-uvc-g3-bullet",
+        UHeight: 0,
+        PartNumber: "UVC-G3-Bullet",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "Unifi G3 Flex": {
         Manufacturer: "Ubiquiti",
         Model: "Unifi G3 Flex",
@@ -7547,6 +7583,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G3 Pro": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G3 Pro",
+        Slug: "ubiquiti-unifi-uvc-g3-pro",
+        UHeight: 0,
+        PartNumber: "UVC-G3-Pro",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 660,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
