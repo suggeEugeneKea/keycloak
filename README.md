@@ -1,4 +1,4 @@
-# Devices data
+# sentiment_classification
 
 This [data](./pkg/combined_data.go) file is automatically fetched and generated from netbox's [devicetype-library](https://github.com/netbox-community/devicetype-library). Current version is matched with latest [commit](./sha.txt) on master branch.
 
@@ -12,7 +12,7 @@ package main
 import (
   "fmt"
 
-  devices "github.com/src-doo/go-devicetype-library/pkg"
+  devices "github.com/src-doo/sentiment_classification/pkg"
 )
 
 func main() {
