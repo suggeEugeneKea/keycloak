@@ -1081,6 +1081,48 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "SuperServer 4028GR-TRT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 4028GR-TRT",
+        Slug: "supermicro-superserver-4028gr-trt",
+        UHeight: 4,
+        PartNumber: "SYS-4028GR-TRT07-NC24B",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 29.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "PSU 3", Label: "", Position: "PSU-3" },
+            { Name: "PSU 4", Label: "", Position: "PSU-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 5018D-FN8T": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 5018D-FN8T",

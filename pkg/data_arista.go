@@ -22724,6 +22724,58 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "DCS-7304X3": {
+        Manufacturer: "Arista",
+        Model: "DCS-7304X3",
+        Slug: "arista-dcs-7304x3",
+        UHeight: 8,
+        PartNumber: "DCS-7304X3",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 89,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Linecard Slot 1", Label: "", Position: "L1" },
+            { Name: "Linecard Slot 2", Label: "", Position: "L2" },
+            { Name: "Linecard Slot 3", Label: "", Position: "L3" },
+            { Name: "Linecard Slot 4", Label: "", Position: "L4" },
+            { Name: "Supervisor Slot 1", Label: "", Position: "S1" },
+            { Name: "Supervisor Slot 2", Label: "", Position: "S2" },
+            { Name: "Fabric Module Slot 1", Label: "", Position: "F1" },
+            { Name: "Fabric Module Slot 2", Label: "", Position: "F2" },
+            { Name: "Fabric Module Slot 3", Label: "", Position: "F3" },
+            { Name: "Fabric Module Slot 4", Label: "", Position: "F4" },
+            { Name: "PSU Slot 1", Label: "", Position: "P1" },
+            { Name: "PSU Slot 2", Label: "", Position: "P2" },
+            { Name: "PSU Slot 3", Label: "", Position: "P3" },
+            { Name: "PSU Slot 4", Label: "", Position: "P4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DCS-7358-F": {
         Manufacturer: "Arista",
         Model: "DCS-7358-F",
@@ -22925,6 +22977,121 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "DCS-7368X4": {
+        Manufacturer: "Arista",
+        Model: "DCS-7368X4",
+        Slug: "arista-dcs-7368x4",
+        UHeight: 4,
+        PartNumber: "DCS-7368X4",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Linecard Slot 1", Label: "", Position: "L1" },
+            { Name: "Linecard Slot 2", Label: "", Position: "L2" },
+            { Name: "Linecard Slot 3", Label: "", Position: "L3" },
+            { Name: "Linecard Slot 4", Label: "", Position: "L4" },
+            { Name: "Linecard Slot 5", Label: "", Position: "L5" },
+            { Name: "Linecard Slot 6", Label: "", Position: "L6" },
+            { Name: "Linecard Slot 7", Label: "", Position: "L7" },
+            { Name: "Linecard Slot 8", Label: "", Position: "L8" },
+            { Name: "Supervisor Slot", Label: "", Position: "SU1" },
+            { Name: "Switch Card Slot", Label: "", Position: "SW1" },
+            { Name: "Fan Module Slot 1", Label: "", Position: "F1" },
+            { Name: "Fan Module Slot 2", Label: "", Position: "F2" },
+            { Name: "Fan Module Slot 3", Label: "", Position: "F3" },
+            { Name: "Fan Module Slot 4", Label: "", Position: "F4" },
+            { Name: "Fan Module Slot 5", Label: "", Position: "F5" },
+            { Name: "PSU Slot 1", Label: "", Position: "P1" },
+            { Name: "PSU Slot 2", Label: "", Position: "P2" },
+            { Name: "PSU Slot 3", Label: "", Position: "P3" },
+            { Name: "PSU Slot 4", Label: "", Position: "P4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DCS-7388X5": {
+        Manufacturer: "Arista",
+        Model: "DCS-7388X5",
+        Slug: "arista-dcs-7388x5",
+        UHeight: 4,
+        PartNumber: "DCS-7388X5",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 50,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Linecard Slot 1", Label: "", Position: "L1" },
+            { Name: "Linecard Slot 2", Label: "", Position: "L2" },
+            { Name: "Linecard Slot 3", Label: "", Position: "L3" },
+            { Name: "Linecard Slot 4", Label: "", Position: "L4" },
+            { Name: "Linecard Slot 5", Label: "", Position: "L5" },
+            { Name: "Linecard Slot 6", Label: "", Position: "L6" },
+            { Name: "Linecard Slot 7", Label: "", Position: "L7" },
+            { Name: "Linecard Slot 8", Label: "", Position: "L8" },
+            { Name: "Supervisor Slot", Label: "", Position: "1" },
+            { Name: "Switch Card Slot", Label: "", Position: "2" },
+            { Name: "Fan Module Slot 1", Label: "", Position: "3" },
+            { Name: "Fan Module Slot 2", Label: "", Position: "4" },
+            { Name: "Fan Module Slot 3", Label: "", Position: "5" },
+            { Name: "Fan Module Slot 4", Label: "", Position: "6" },
+            { Name: "Fan Module Slot 5", Label: "", Position: "7" },
+            { Name: "Fan Module Slot 6", Label: "", Position: "8" },
+            { Name: "PSU Slot 1", Label: "", Position: "9" },
+            { Name: "PSU Slot 2", Label: "", Position: "10" },
+            { Name: "PSU Slot 3", Label: "", Position: "11" },
+            { Name: "PSU Slot 4", Label: "", Position: "12" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DCS-7508": {
