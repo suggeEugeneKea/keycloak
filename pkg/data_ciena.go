@@ -2,6 +2,44 @@
 package devices
 
 var DeviceTypesMapciena = map[string]*DeviceData{
+    "3802": {
+        Manufacturer: "Ciena",
+        Model: "3802",
+        Slug: "ciena-3802",
+        UHeight: 0,
+        PartNumber: "170-3802-900",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC 12V", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 3 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XGS-PON", Label: "", Type: "xgs-pon", MgmtOnly: false },
+            { Name: "10G LAN", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "3806": {
         Manufacturer: "Ciena",
         Model: "3806",
