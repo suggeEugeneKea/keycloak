@@ -4613,6 +4613,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "LAN4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "UniFi Cloud Gateway Ultra": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Cloud Gateway Ultra",
+        Slug: "ubiquiti-unifi-cloud-gateway-ultra",
+        UHeight: 0,
+        PartNumber: "UCG-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C Power", Label: "", Type: "usb-c", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "WAN1", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "UniFi Cloud Key": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Cloud Key",
