@@ -1115,6 +1115,45 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth3", Label: "4", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-873AeU": {
+        Manufacturer: "QNAP",
+        Model: "TS-873AeU",
+        Slug: "qnap-ts-873aeu",
+        UHeight: 2,
+        PartNumber: "TS-873AeU",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.97,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 53 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Adapter 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Adapter 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "TS-879 Pro": {
         Manufacturer: "QNAP",
         Model: "TS-879 Pro",

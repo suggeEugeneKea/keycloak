@@ -233,6 +233,57 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "IMM", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "System x3650 M5": {
+        Manufacturer: "Lenovo",
+        Model: "System x3650 M5",
+        Slug: "lenovo-system-x3650-m5",
+        UHeight: 2,
+        PartNumber: "8871",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
+            { Name: "PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
+            { Name: "PCIe slot 3 or ML2 - FH", Label: "3", Position: "PCIe-3" },
+            { Name: "PCIe slot 4 - LP", Label: "4", Position: "PCIe-4" },
+            { Name: "PCIe slot 5 - LP", Label: "5", Position: "PCIe-5" },
+            { Name: "PCIe slot 6 - FH", Label: "6", Position: "PCIe-6" },
+            { Name: "PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
+            { Name: "PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
+            { Name: "Mezzanine LOM (ML2)", Label: "LOM", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IMM", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "System x3750 M4": {
         Manufacturer: "Lenovo",
         Model: "System x3750 M4",
