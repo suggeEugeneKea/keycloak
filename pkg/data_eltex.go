@@ -245,6 +245,71 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "tengigabitethernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "MES2324FB": {
+        Manufacturer: "Eltex",
+        Model: "MES2324FB",
+        Slug: "eltex-mes2324fb",
+        UHeight: 1,
+        PartNumber: "MES2324FB",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 85, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet1/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/13", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/14", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/15", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/16", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/21", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/22", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/23", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/24", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "tengigabitethernet1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tengigabitethernet1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tengigabitethernet1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tengigabitethernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "MES2324P": {
         Manufacturer: "Eltex",
         Model: "MES2324P",
@@ -308,6 +373,73 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "tengigabitethernet1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "tengigabitethernet1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "tengigabitethernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "MES2328I": {
+        Manufacturer: "Eltex",
+        Model: "MES2328I",
+        Slug: "eltex-mes2328i",
+        UHeight: 1,
+        PartNumber: "MES2328i",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.85,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Front  USB1", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet1/0/28", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "MES2348P": {
@@ -1014,6 +1146,232 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/0/31", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "TenGigabitEthernet1/0/32", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "oob", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SMG-200": {
+        Manufacturer: "Eltex",
+        Model: "SMG-200",
+        Slug: "eltex-smg-200",
+        UHeight: 1,
+        PartNumber: "SMG-200",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.47,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "fxo1", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo2", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo3", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo4", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo5", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo6", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo7", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo8", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo9", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo10", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo11", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo12", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo13", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo14", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo15", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "fxo16", Label: "", Type: "xdsl", MgmtOnly: false },
+        },
+    },
+    "SMG1016M": {
+        Manufacturer: "Eltex",
+        Model: "SMG1016M",
+        Slug: "eltex-smg1016m",
+        UHeight: 1,
+        PartNumber: "SMG1016M",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ge0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "TAU-72IP": {
+        Manufacturer: "Eltex",
+        Model: "TAU-72IP",
+        Slug: "eltex-tau-72ip",
+        UHeight: 1,
+        PartNumber: "TAU-72IP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 55, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ge0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "ToPGATE-4E1-2FG": {
+        Manufacturer: "Eltex",
+        Model: "ToPGATE-4E1-2FG",
+        Slug: "eltex-topgate-4e1-2fg",
+        UHeight: 1,
+        PartNumber: "ToPGATE-4E1-2FG",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi1/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "E1-0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "E1-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "E1-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "E1-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "WLC-HW-50": {
+        Manufacturer: "Eltex",
+        Model: "WLC-HW-50",
+        Slug: "eltex-wlc-hw-50",
+        UHeight: 3,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
 }

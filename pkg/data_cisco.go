@@ -4432,9 +4432,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "TenGigabitEthernet0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
@@ -4474,9 +4473,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "TenGigabitEthernet0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
@@ -4540,6 +4538,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -4577,6 +4576,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5322,6 +5322,96 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Vlan1", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "CBS250-8PP-D": {
+        Manufacturer: "Cisco",
+        Model: "CBS250-8PP-D",
+        Slug: "cisco-cbs250-8pp-d",
+        UHeight: 1,
+        PartNumber: "CBS250-8PP-D",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "CBS250-8T-D": {
+        Manufacturer: "Cisco",
+        Model: "CBS250-8T-D",
+        Slug: "cisco-cbs250-8t-d",
+        UHeight: 1,
+        PartNumber: "CBS250-8T-D",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "CBS250-8T-E-2G": {
         Manufacturer: "Cisco",
         Model: "CBS250-8T-E-2G",
@@ -5330,7 +5420,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "CBS250-8T-E-2G",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 1.39,
@@ -35893,7 +35983,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "main", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "main", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
@@ -36165,7 +36255,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "main", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "main", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },

@@ -4372,6 +4372,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SC420I": {
+        Manufacturer: "APC",
+        Model: "SC420I",
+        Slug: "apc-sc420i",
+        UHeight: 0,
+        PartNumber: "SC420I",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ISDN in", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN out", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SMC1500I": {
         Manufacturer: "APC",
         Model: "SMC1500I",
