@@ -3146,6 +3146,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "iDRAC9 1", Label: "iDRAC", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "PowerEdge R7515": {

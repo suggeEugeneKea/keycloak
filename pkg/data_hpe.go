@@ -22298,7 +22298,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "P19766-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 13.04,
@@ -22318,22 +22318,19 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
-            { Name: "PCIe1", Label: "", Position: "PCIe1" },
-            { Name: "PCIe2", Label: "", Position: "PCIe2" },
-            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "Embedded ALOM / Flexible LOM", Label: "", Position: "ALOM" },
+            { Name: "Embedded LOM", Label: "", Position: "LOM" },
+            { Name: "PCI-E Slot 1", Label: "", Position: "PCIe1" },
+            { Name: "PCI-E Slot 2", Label: "", Position: "PCIe2" },
+            { Name: "PCI-E Slot 3", Label: "", Position: "PCIe3" },
+            { Name: "PSU Bay 1", Label: "", Position: "PSU1" },
+            { Name: "PSU Bay 2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
