@@ -24766,6 +24766,68 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SN3600B": {
+        Manufacturer: "HPE",
+        Model: "SN3600B",
+        Slug: "hpe-sn3600b",
+        UHeight: 1,
+        PartNumber: "R8P28A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "port0", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port21", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port22", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+            { Name: "port23", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+        },
+    },
     "StoreEver 1/8 G2": {
         Manufacturer: "HPE",
         Model: "StoreEver 1/8 G2",
