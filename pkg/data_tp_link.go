@@ -49,7 +49,7 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         Manufacturer: "TP-Link",
         Model: "ER605-V2",
         Slug: "tp-link-er605-v2",
-        UHeight: 0,
+        UHeight: 1,
         PartNumber: "TL-R605",
         IsFullDepth: false,
         Airflow: "passive",
@@ -91,7 +91,7 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         Manufacturer: "TP-Link",
         Model: "ER707-M2",
         Slug: "tp-link-er707-m2",
-        UHeight: 0,
+        UHeight: 1,
         PartNumber: "ER707-M2",
         IsFullDepth: false,
         Airflow: "passive",
@@ -128,6 +128,47 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wan/lan5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan/lan6", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan/lan7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "ER7206": {
+        Manufacturer: "TP-Link",
+        Model: "ER7206",
+        Slug: "tp-link-er7206",
+        UHeight: 1,
+        PartNumber: "ER7206",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power", Label: "", Type: "iec-60320-c6", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "sfp-wan/lan1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "OC200": {
@@ -1186,6 +1227,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG2210MP": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG2210MP",
+        Slug: "tp-link-sg2210mp",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.85,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 175, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 9", Label: "SFP 1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet 10", Label: "SFP 2", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "TL-SG3210": {
         Manufacturer: "TP-Link",
         Model: "TL-SG3210",
@@ -1232,6 +1319,54 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "gigabitEthernet 1/0/8", Label: "8", Type: "1000base-t", MgmtOnly: false },
             { Name: "gigabitEthernet 1/0/9", Label: "9", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "gigabitEthernet 1/0/10", Label: "10", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "TL-SG3210X-M2": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG3210X-M2",
+        Slug: "tp-link-sg3210x-m2",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "3", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "4", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 5", Label: "5", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 6", Label: "6", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 7", Label: "7", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 8", Label: "8", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 9", Label: "SFP&#43; 1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 10", Label: "SFP&#43; 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "TL-SG3424": {

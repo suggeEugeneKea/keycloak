@@ -619,6 +619,50 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FS6400": {
+        Manufacturer: "Synology",
+        Model: "FS6400",
+        Slug: "synology-fs6400",
+        UHeight: 2,
+        PartNumber: "FS6400",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 14.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "RS1219&#43;": {
         Manufacturer: "Synology",
         Model: "RS1219&#43;",
