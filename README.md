@@ -1,4 +1,4 @@
-# sentiment_classification
+# IPv4
 
 This [data](./pkg/combined_data.go) file is automatically fetched and generated from netbox's [devicetype-library](https://github.com/netbox-community/devicetype-library). Current version is matched with latest [commit](./sha.txt) on master branch.
 
