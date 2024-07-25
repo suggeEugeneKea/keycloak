@@ -102,6 +102,55 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Alletra 6000": {
+        Manufacturer: "HPE",
+        Model: "Alletra 6000",
+        Slug: "hpe-alletra-6000",
+        UHeight: 4,
+        PartNumber: "R4U28A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 54.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU3", Label: "", Position: "PSU3" },
+            { Name: "PSU4", Label: "", Position: "PSU4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Alletra 6050": {
         Manufacturer: "HPE",
         Model: "Alletra 6050",
@@ -202,6 +251,174 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "Gig-E 7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Apollo R2000 Chassis": {
+        Manufacturer: "HPE",
+        Model: "Apollo R2000 Chassis",
+        Slug: "hpe-apollo-r2000-chassis",
+        UHeight: 2,
+        PartNumber: "798152-B21/798153-B21/798152-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RCM", Label: "", Position: "RCM" },
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "Node 1" },
+            { Name: "2", Label: "Node 2" },
+            { Name: "3", Label: "Node 3" },
+            { Name: "4", Label: "Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Apollo R2200 Chassis": {
+        Manufacturer: "HPE",
+        Model: "Apollo R2200 Chassis",
+        Slug: "hpe-apollo-r2200-chassis",
+        UHeight: 2,
+        PartNumber: "798152-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RCM", Label: "", Position: "RCM" },
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "Node 1" },
+            { Name: "2", Label: "Node 2" },
+            { Name: "3", Label: "Node 3" },
+            { Name: "4", Label: "Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Apollo R2600 Chassis": {
+        Manufacturer: "HPE",
+        Model: "Apollo R2600 Chassis",
+        Slug: "hpe-apollo-r2600-chassis",
+        UHeight: 2,
+        PartNumber: "798153-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RCM", Label: "", Position: "RCM" },
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "Node 1" },
+            { Name: "2", Label: "Node 2" },
+            { Name: "3", Label: "Node 3" },
+            { Name: "4", Label: "Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Apollo R2800 Chassis": {
+        Manufacturer: "HPE",
+        Model: "Apollo R2800 Chassis",
+        Slug: "hpe-apollo-r2800-chassis",
+        UHeight: 2,
+        PartNumber: "798154-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "RCM", Label: "", Position: "RCM" },
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "Node 1" },
+            { Name: "2", Label: "Node 2" },
+            { Name: "3", Label: "Node 3" },
+            { Name: "4", Label: "Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Aruba 10000-48Y6C Back-to-Front": {
@@ -594,8 +811,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         PartNumber: "JL685A",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 3.13,
         WeightUnit: "",
@@ -1737,6 +1954,93 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "Aruba 2530-48G-2SFP&#43;": {
+        Manufacturer: "HPE",
+        Model: "Aruba 2530-48G-2SFP&#43;",
+        Slug: "hpe-aruba-2530-48g-2sfpp",
+        UHeight: 1,
+        PartNumber: "J9855A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 55, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "49", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "50", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Aruba 2530-48G-PoE&#43;": {
         Manufacturer: "HPE",
         Model: "Aruba 2530-48G-PoE&#43;",
@@ -2477,6 +2781,95 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 44, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "49", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "50", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "51", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "Aruba 2620-48 PoE&#43;": {
+        Manufacturer: "HPE",
+        Model: "Aruba 2620-48 PoE&#43;",
+        Slug: "hpe-aruba-2620-48-poep",
+        UHeight: 1,
+        PartNumber: "J9627A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 437, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5937,76 +6330,6 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "Aruba 6300M-24GSR-POE6-4SFP56": {
-        Manufacturer: "HPE",
-        Model: "Aruba 6300M-24GSR-POE6-4SFP56",
-        Slug: "hpe-aruba-6300m-24gsr-poe6-4sfp56",
-        UHeight: 1,
-        PartNumber: "JL660A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "usb-c", Type: "usb-c", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS1", Label: "", Position: "1" },
-            { Name: "PS2", Label: "", Position: "2" },
-            { Name: "FAN1", Label: "", Position: "1" },
-            { Name: "FAN2", Label: "", Position: "2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "1/1/1", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/2", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/3", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/4", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/5", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/6", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/7", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/8", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/9", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/10", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/11", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/12", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/13", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/14", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/15", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/16", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/17", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/18", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/19", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/20", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/21", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/22", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/23", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/24", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
-        },
-    },
     "Aruba 6300M-24SFPP-4SFP56": {
         Manufacturer: "HPE",
         Model: "Aruba 6300M-24SFPP-4SFP56",
@@ -6070,6 +6393,76 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "1/1/22", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "1/1/23", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "1/1/24", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/1/25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba 6300M-24SR5-POE6-4SFP56": {
+        Manufacturer: "HPE",
+        Model: "Aruba 6300M-24SR5-POE6-4SFP56",
+        Slug: "hpe-aruba-6300m-24sr5-poe6-4sfp56",
+        UHeight: 1,
+        PartNumber: "JL660A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb-c", Type: "usb-c", Label: "", Poe: false },
+            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1/1/1", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/2", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/3", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/4", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/5", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/6", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/7", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/8", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/9", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/10", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/11", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/12", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/13", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/14", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/15", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/16", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/17", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/18", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/19", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/20", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/21", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/22", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/23", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/24", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "1/1/25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "1/1/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "1/1/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
@@ -6265,100 +6658,6 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "Aruba 6300M-48GSR-POE6-4SFP56": {
-        Manufacturer: "HPE",
-        Model: "Aruba 6300M-48GSR-POE6-4SFP56",
-        Slug: "hpe-aruba-6300m-48gsr-poe6-4sfp56",
-        UHeight: 1,
-        PartNumber: "JL659A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "usb-c", Type: "usb-c", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS1", Label: "", Position: "1" },
-            { Name: "PS2", Label: "", Position: "2" },
-            { Name: "FAN1", Label: "", Position: "1" },
-            { Name: "FAN2", Label: "", Position: "2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "1/1/1", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/2", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/3", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/4", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/5", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/6", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/7", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/8", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/9", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/10", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/11", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/12", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/13", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/14", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/15", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/16", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/17", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/18", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/19", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/20", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/21", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/22", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/23", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/24", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/25", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/26", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/27", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/28", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/29", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/30", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/31", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/32", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/33", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/34", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/35", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/36", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/37", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/38", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/39", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/40", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/41", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/42", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/43", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/44", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/45", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/46", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/47", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/48", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "1/1/49", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/50", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/51", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "1/1/52", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
-        },
-    },
     "Aruba 6300M-48SR10-POE8-4QSFP28": {
         Manufacturer: "HPE",
         Model: "Aruba 6300M-48SR10-POE8-4QSFP28",
@@ -6451,6 +6750,100 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "1/1/50", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "1/1/51", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "1/1/52", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba 6300M-48SR5-POE6-4SFP56": {
+        Manufacturer: "HPE",
+        Model: "Aruba 6300M-48SR5-POE6-4SFP56",
+        Slug: "hpe-aruba-6300m-48sr5-poe6-4sfp56",
+        UHeight: 1,
+        PartNumber: "JL659A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb-c", Type: "usb-c", Label: "", Poe: false },
+            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1/1/1", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/2", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/3", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/4", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/5", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/6", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/7", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/8", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/9", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/10", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/11", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/12", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/13", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/14", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/15", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/16", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/17", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/18", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/19", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/20", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/21", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/22", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/23", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/24", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/25", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/26", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/27", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/28", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/29", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/30", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/31", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/32", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/33", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/34", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/35", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/36", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/37", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/38", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/39", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/40", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/41", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/42", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/43", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/44", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/45", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/46", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/47", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/48", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "1/1/49", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/50", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/51", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "1/1/52", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -6629,12 +7022,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "5", Label: "", Position: "5" },
             { Name: "6", Label: "", Position: "6" },
             { Name: "7", Label: "", Position: "7" },
-            { Name: "PS1", Label: "", Position: "PS1" },
-            { Name: "PS2", Label: "", Position: "PS2" },
-            { Name: "PS3", Label: "", Position: "PS3" },
-            { Name: "PS4", Label: "", Position: "PS4" },
-            { Name: "Fan1", Label: "", Position: "Fan1" },
-            { Name: "Fan2", Label: "", Position: "Fan2" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+            { Name: "Fan1", Label: "", Position: "1" },
+            { Name: "Fan2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -6677,12 +7070,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "5", Label: "", Position: "5" },
             { Name: "6", Label: "", Position: "6" },
             { Name: "7", Label: "", Position: "7" },
-            { Name: "PS1", Label: "", Position: "PS1" },
-            { Name: "PS2", Label: "", Position: "PS2" },
-            { Name: "PS3", Label: "", Position: "PS3" },
-            { Name: "PS4", Label: "", Position: "PS4" },
-            { Name: "Fan1", Label: "", Position: "Fan1" },
-            { Name: "Fan2", Label: "", Position: "Fan2" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+            { Name: "Fan1", Label: "", Position: "1" },
+            { Name: "Fan2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -6730,14 +7123,14 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "10", Label: "", Position: "10" },
             { Name: "11", Label: "", Position: "11" },
             { Name: "12", Label: "", Position: "12" },
-            { Name: "PS1", Label: "", Position: "PS1" },
-            { Name: "PS2", Label: "", Position: "PS2" },
-            { Name: "PS3", Label: "", Position: "PS3" },
-            { Name: "PS4", Label: "", Position: "PS4" },
-            { Name: "Fan1", Label: "", Position: "Fan1" },
-            { Name: "Fan2", Label: "", Position: "Fan2" },
-            { Name: "Fan3", Label: "", Position: "Fan3" },
-            { Name: "Fan4", Label: "", Position: "Fan4" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+            { Name: "Fan1", Label: "", Position: "1" },
+            { Name: "Fan2", Label: "", Position: "2" },
+            { Name: "Fan3", Label: "", Position: "3" },
+            { Name: "Fan4", Label: "", Position: "4" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -6785,14 +7178,14 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "10", Label: "", Position: "10" },
             { Name: "11", Label: "", Position: "11" },
             { Name: "12", Label: "", Position: "12" },
-            { Name: "PS1", Label: "", Position: "PS1" },
-            { Name: "PS2", Label: "", Position: "PS2" },
-            { Name: "PS3", Label: "", Position: "PS3" },
-            { Name: "PS4", Label: "", Position: "PS4" },
-            { Name: "Fan1", Label: "", Position: "Fan1" },
-            { Name: "Fan2", Label: "", Position: "Fan2" },
-            { Name: "Fan3", Label: "", Position: "Fan3" },
-            { Name: "Fan4", Label: "", Position: "Fan4" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+            { Name: "Fan1", Label: "", Position: "1" },
+            { Name: "Fan2", Label: "", Position: "2" },
+            { Name: "Fan3", Label: "", Position: "3" },
+            { Name: "Fan4", Label: "", Position: "4" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -8845,12 +9238,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console Interface", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -8865,8 +9258,9 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "ENET", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
     "Aruba AP-207": {
@@ -8884,12 +9278,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "other", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -8904,8 +9298,9 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ENET", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -8924,13 +9319,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -8945,8 +9339,9 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ENET", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "Aruba AP-303": {
@@ -8964,12 +9359,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -8985,7 +9380,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9004,13 +9400,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "48 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9029,7 +9424,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9048,13 +9444,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "other", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9069,8 +9464,9 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ENET", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9089,13 +9485,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "other", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9110,8 +9505,9 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ENET", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9130,8 +9526,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -9153,7 +9548,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "ENET0", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "ENET1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9172,12 +9568,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "AC Power", Label: "", Type: "other", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9194,7 +9590,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9213,12 +9610,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "AC Power", Label: "", Type: "other", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9235,7 +9632,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9254,13 +9652,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9276,7 +9673,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9296,12 +9694,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "48 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9321,7 +9718,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "E2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9336,17 +9734,16 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 810,
+        Weight: 1010,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9363,8 +9760,10 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-535": {
@@ -9382,13 +9781,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "48 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9405,7 +9803,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
@@ -9424,13 +9823,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "48 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9447,8 +9845,52 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "Aruba AP-574": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-574",
+        Slug: "hpe-aruba-ap-574",
+        UHeight: 0,
+        PartNumber: "AP-574",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-575": {
@@ -9466,7 +9908,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-c", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -9487,8 +9929,52 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "Aruba AP-577": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-577",
+        Slug: "hpe-aruba-ap-577",
+        UHeight: 0,
+        PartNumber: "AP-577",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-605H": {
@@ -9506,13 +9992,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "48 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9532,8 +10017,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "E2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-615": {
@@ -9557,7 +10045,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9573,8 +10061,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-635": {
@@ -9588,17 +10079,16 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 1.3,
+        Weight: 1300,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9615,8 +10105,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-655": {
@@ -9634,13 +10127,12 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9657,8 +10149,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "5gbase-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-675": {
@@ -9676,14 +10171,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
-            { Name: "USB2", Type: "usb-c", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9700,8 +10192,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-677": {
@@ -9719,14 +10214,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
-            { Name: "USB2", Type: "usb-c", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9743,8 +10235,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba AP-679": {
@@ -9762,14 +10257,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
-            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
-            { Name: "USB2", Type: "usb-c", Label: "", Poe: false },
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -9786,8 +10278,11 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "6GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
     "Aruba IAP-205": {
@@ -15867,6 +16362,175 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "OfficeConnect 1920-16G": {
+        Manufacturer: "HPE",
+        Model: "OfficeConnect 1920-16G",
+        Slug: "hpe-officeconnect-1920-16g",
+        UHeight: 1,
+        PartNumber: "JG923A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "OfficeConnect 1920-24G": {
+        Manufacturer: "HPE",
+        Model: "OfficeConnect 1920-24G",
+        Slug: "hpe-officeconnect-1920-24g",
+        UHeight: 1,
+        PartNumber: "JG924A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 19, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "OfficeConnect 1920-8G": {
+        Manufacturer: "HPE",
+        Model: "OfficeConnect 1920-8G",
+        Slug: "hpe-officeconnect-1920-8g",
+        UHeight: 1,
+        PartNumber: "JG920A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "OfficeConnect 1920S-24G-2SFP": {
         Manufacturer: "HPE",
         Model: "OfficeConnect 1920S-24G-2SFP",
@@ -16273,7 +16937,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Model: "ProCurve 2510G-48",
         Slug: "hpe-procurve-2510g-48",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "J9020A",
         IsFullDepth: false,
         Airflow: "side-to-rear",
         FrontImage: false,
@@ -16783,6 +17447,93 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 66, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "49", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "50", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ProCurve 2610-48-PoE": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 2610-48-PoE",
+        Slug: "hpe-procurve-2610-48-poe",
+        UHeight: 1,
+        PartNumber: "J9089A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 492, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -17466,6 +18217,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+            { Name: "RPS", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -17506,18 +18258,18 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "ProCurve 2910al-24G": {
+    "ProCurve 2848": {
         Manufacturer: "HPE",
-        Model: "ProCurve 2910al-24G",
-        Slug: "hpe-procurve-2910al-24g",
+        Model: "ProCurve 2848",
+        Slug: "hpe-procurve-2848",
         UHeight: 1,
-        PartNumber: "J9145A",
+        PartNumber: "J4904A",
         IsFullDepth: false,
         Airflow: "",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 4.95,
+        Weight: 4.84,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -17526,7 +18278,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 82, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+            { Name: "RPS", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -17565,6 +18318,269 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ProCurve 2900-48G": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 2900-48G",
+        Slug: "hpe-procurve-2900-48g",
+        UHeight: 1,
+        PartNumber: "J9050A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+            { Name: "RPS", Label: "", Type: "dc-terminal", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "A1", Label: "", Type: "10gbase-x-x2", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "10gbase-cx4", MgmtOnly: false },
+            { Name: "A3", Label: "", Type: "10gbase-cx4", MgmtOnly: false },
+            { Name: "A4", Label: "", Type: "10gbase-x-x2", MgmtOnly: false },
+        },
+    },
+    "ProCurve 2910al-24G": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 2910al-24G",
+        Slug: "hpe-procurve-2910al-24g",
+        UHeight: 1,
+        PartNumber: "J9145A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 82, AllocatedDraw: 0 },
+            { Name: "RPS", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ProCurve 2910al-48G": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 2910al-48G",
+        Slug: "hpe-procurve-2910al-48g",
+        UHeight: 1,
+        PartNumber: "J9147A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 105, AllocatedDraw: 0 },
+            { Name: "RPS", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "48", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "ProCurve 3500-48G-PoE yl": {
@@ -18329,6 +19345,50 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "ProCurve 600": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 600",
+        Slug: "hpe-procurve-600",
+        UHeight: 1,
+        PartNumber: "J8168A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 821, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "RPS1", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS2", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS3", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS4", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS5", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS6", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "EPS1", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "EPS2", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ProCurve 6108": {
         Manufacturer: "HPE",
         Model: "ProCurve 6108",
@@ -18372,6 +19432,44 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ProCurve 630": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 630",
+        Slug: "hpe-procurve-630",
+        UHeight: 1,
+        PartNumber: "J9443A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "RPS", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "EPS", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "ProCurve A5800-24G": {
@@ -18926,6 +20024,53 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL360 Gen11": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL360 Gen11",
+        Slug: "hpe-proliant-dl360-gen11",
+        UHeight: 1,
+        PartNumber: "P19766-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL360 Gen7": {
         Manufacturer: "HPE",
         Model: "ProLiant DL360 Gen7",
@@ -18979,8 +20124,8 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         PartNumber: "755258-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 12.25,
         WeightUnit: "",
@@ -19172,7 +20317,7 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 14.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -19937,6 +21082,76 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant XL170r G9 (1U)": {
+        Manufacturer: "HPE",
+        Model: "ProLiant XL170r G9 (1U)",
+        Slug: "hpe-proliant-xl170r-g9-1u",
+        UHeight: 0,
+        PartNumber: "798155-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ProLiant XL170r G9 (2U)": {
+        Manufacturer: "HPE",
+        Model: "ProLiant XL170r G9 (2U)",
+        Slug: "hpe-proliant-xl170r-g9-2u",
+        UHeight: 0,
+        PartNumber: "798156-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "StoreEver 1/8 G2": {
         Manufacturer: "HPE",
         Model: "StoreEver 1/8 G2",
@@ -20492,6 +21707,53 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "interconnect {module}, Q8", Label: "", Type: "50gbase-x-sfp28", MgmtOnly: false },
             { Name: "interconnect {module}, X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "interconnect {module}, X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Virtual Connect SE 40Gb F8 Module for Synergy": {
+        Manufacturer: "HPE",
+        Model: "Virtual Connect SE 40Gb F8 Module for Synergy",
+        Slug: "hpe-virtual-connect-se-40gb-f8-module-for-synergy",
+        UHeight: 0,
+        PartNumber: "794502-B23",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "interconnect {module}, L1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "interconnect {module}, L2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "interconnect {module}, L3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "interconnect {module}, L4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "interconnect {module}, Q1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q4", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q5", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q6", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q7", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "interconnect {module}, Q8", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
     "t740": {

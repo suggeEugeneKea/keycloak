@@ -289,4 +289,47 @@ var DeviceTypesMapZTE = map[string]*DeviceData{
             { Name: "gei_0/3/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ZXHN H298Q": {
+        Manufacturer: "ZTE",
+        Model: "ZXHN H298Q",
+        Slug: "zte-zxhn-h298q",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Phone1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Phone2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

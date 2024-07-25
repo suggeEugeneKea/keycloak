@@ -113,6 +113,82 @@ var DeviceTypesMapCanon = map[string]*DeviceData{
             { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "imageRunner ADVANCE 525i III": {
+        Manufacturer: "Canon",
+        Model: "imageRunner ADVANCE 525i III",
+        Slug: "canon-imagerunner-advance-525i-iii",
+        UHeight: 0,
+        PartNumber: "IR-ADV-525I-III",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi", Label: "Wireless", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "imageRunner ADVANCE DX 527i": {
+        Manufacturer: "Canon",
+        Model: "imageRunner ADVANCE DX 527i",
+        Slug: "canon-imagerunner-advance-dx-527i",
+        UHeight: 0,
+        PartNumber: "IR-ADV-527I",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi", Label: "Wireless", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "imageRunner ADVANCE DX C3720": {
         Manufacturer: "Canon",
         Model: "imageRunner ADVANCE DX C3720",

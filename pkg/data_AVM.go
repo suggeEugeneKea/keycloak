@@ -2,6 +2,133 @@
 package devices
 
 var DeviceTypesMapAVM = map[string]*DeviceData{
+    "FRITZ!Box 5530 Fiber": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 5530 Fiber",
+        Slug: "avm-fritzbox-5530-fiber",
+        UHeight: 0,
+        PartNumber: "20002960",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Fiber", Label: "Fiber", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "FON", Label: "FON", Type: "other", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FRITZ!Box 5590 Fiber": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 5590 Fiber",
+        Slug: "avm-fritzbox-5590-fiber",
+        UHeight: 0,
+        PartNumber: "20002981",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Fiber", Label: "Fiber", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "FON1", Label: "FON 1", Type: "other", MgmtOnly: false },
+            { Name: "FON2", Label: "FON 2", Type: "other", MgmtOnly: false },
+            { Name: "WAN", Label: "WAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN 4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FRITZ!Box 7510": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 7510",
+        Slug: "avm-fritzbox-7510",
+        UHeight: 0,
+        PartNumber: "20002839",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DSL", Label: "DSL", Type: "xdsl", MgmtOnly: false },
+            { Name: "FON1", Label: "FON 1", Type: "other", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "FRITZ!Box 7530": {
         Manufacturer: "AVM",
         Model: "FRITZ!Box 7530",
@@ -270,6 +397,50 @@ var DeviceTypesMapAVM = map[string]*DeviceData{
             { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN4", Label: "LAN 4", Type: "1000base-t", MgmtOnly: false },
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FRITZ!Box 7690": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 7690",
+        Slug: "avm-fritzbox-7690",
+        UHeight: 0,
+        PartNumber: "20003057",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DSL", Label: "DSL", Type: "xdsl", MgmtOnly: false },
+            { Name: "FON1", Label: "FON 1", Type: "other", MgmtOnly: false },
+            { Name: "FON2", Label: "FON 2", Type: "other", MgmtOnly: false },
+            { Name: "WAN_LAN", Label: "WAN/LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
 }

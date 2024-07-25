@@ -52,7 +52,7 @@ var DeviceTypesMapAdtran = map[string]*DeviceData{
         PartNumber: "17004660F1",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 3.2,

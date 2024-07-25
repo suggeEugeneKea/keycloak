@@ -200,6 +200,123 @@ var DeviceTypesMapDLink = map[string]*DeviceData{
             { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DGS-1210-20": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1210-20",
+        Slug: "d-link-dgs-1210-20",
+        UHeight: 1,
+        PartNumber: "DGS-1210-20",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "18F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "19F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "20F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DGS-1210-20/ME": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1210-20/ME",
+        Slug: "d-link-dgs-1210-20-me",
+        UHeight: 1,
+        PartNumber: "DGS-1210-20/ME",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "DGS-1210-52": {
         Manufacturer: "D-Link",
         Model: "DGS-1210-52",

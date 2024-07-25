@@ -202,4 +202,41 @@ var DeviceTypesMapIntel = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "NUC8i3BEK3": {
+        Manufacturer: "Intel",
+        Model: "NUC8i3BEK3",
+        Slug: "intel-nuc8iebek3",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 90 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

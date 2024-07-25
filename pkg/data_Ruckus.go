@@ -527,4 +527,44 @@ var DeviceTypesMapRuckus = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "R760": {
+        Manufacturer: "Ruckus",
+        Model: "R760",
+        Slug: "ruckus-r760",
+        UHeight: 0,
+        PartNumber: "901-R760-XX00",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 38, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "10G Eth PoE", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
 }

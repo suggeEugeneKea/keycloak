@@ -2,6 +2,42 @@
 package devices
 
 var DeviceTypesMapNEC = map[string]*DeviceData{
+    "AP400": {
+        Manufacturer: "NEC",
+        Model: "AP400",
+        Slug: "nec-ap400",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 302,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "eth0", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "UNIVERGE IX2015": {
         Manufacturer: "NEC",
         Model: "UNIVERGE IX2015",

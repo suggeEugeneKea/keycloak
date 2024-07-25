@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapFS = map[string]*DeviceData{
+    "FHD-1U-CMP400": {
+        Manufacturer: "FS",
+        Model: "FHD-1U-CMP400",
+        Slug: "fs-fhd-1u-cmp400",
+        UHeight: 1,
+        PartNumber: "70419",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "FHD-1UFCE": {
         Manufacturer: "FS",
         Model: "FHD-1UFCE",
@@ -14,6 +53,84 @@ var DeviceTypesMapFS = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FHD-1UFMT-N": {
+        Manufacturer: "FS",
+        Model: "FHD-1UFMT-N",
+        Slug: "fs-fhd-1ufmt-n",
+        UHeight: 1,
+        PartNumber: "FHD-1UFMT-N (#96427)",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FHD-1UFMT-s": {
+        Manufacturer: "FS",
+        Model: "FHD-1UFMT-s",
+        Slug: "fs-fhd-1ufmt-s",
+        UHeight: 1,
+        PartNumber: "FHD-1UFMT-S (#145167)",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -84,15 +201,62 @@ var DeviceTypesMapFS = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "FHD-4UFCE": {
+        Manufacturer: "FS",
+        Model: "FHD-4UFCE",
+        Slug: "fs-fhd-4ufce",
+        UHeight: 4,
+        PartNumber: "FHD-4UFCE (#73206)",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7", Label: "", Position: "7" },
+            { Name: "8", Label: "", Position: "8" },
+            { Name: "9", Label: "", Position: "9" },
+            { Name: "10", Label: "", Position: "10" },
+            { Name: "11", Label: "", Position: "11" },
+            { Name: "12", Label: "", Position: "12" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "FHD-FPP5DRL": {
         Manufacturer: "FS",
         Model: "FHD-FPP5DRL",
         Slug: "fs-fhd-fpp5drl",
         UHeight: 1,
-        PartNumber: "FHD-FPP5DRL (#72910)",
+        PartNumber: "72910",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -757,6 +921,100 @@ var DeviceTypesMapFS = map[string]*DeviceData{
             { Name: "Hu0/54", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "Hu0/55", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "Hu0/56", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+        },
+    },
+    "N8560-48BC": {
+        Manufacturer: "FS",
+        Model: "N8560-48BC",
+        Slug: "fs-n8560-48bc",
+        UHeight: 1,
+        PartNumber: "n8560-48bc",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Management", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "TFGigabitEthernet0/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/13", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/14", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/15", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/16", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/17", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/18", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/19", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/20", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/21", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/22", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/23", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/24", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/29", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/30", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/31", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/32", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/33", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/34", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/35", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/36", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/37", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/38", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/39", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/40", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/41", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/42", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/43", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/44", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/45", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/46", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/47", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TFGigabitEthernet0/48", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/49", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/50", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/51", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/52", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/53", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/54", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/55", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet0/56", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
     "PDU-2PE42I-VMO": {

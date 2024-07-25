@@ -2,9 +2,9 @@
 package devices
 
 var DeviceTypesMapUbiquiti = map[string]*DeviceData{
-    "8‑Port GPON Optical Line Terminal": {
+    "8-Port GPON Optical Line Terminal": {
         Manufacturer: "Ubiquiti",
-        Model: "8‑Port GPON Optical Line Terminal",
+        Model: "8-Port GPON Optical Line Terminal",
         Slug: "ubiquiti-uf-olt",
         UHeight: 1,
         PartNumber: "UF-OLT",
@@ -2966,6 +2966,44 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Swiss Army Knife": {
+        Manufacturer: "Ubiquiti",
+        Model: "Swiss Army Knife",
+        Slug: "ubiquiti-uk-ultra",
+        UHeight: 0,
+        PartNumber: "UK-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 173,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Switch Enterprise 8 PoE": {
         Manufacturer: "Ubiquiti",
         Model: "Switch Enterprise 8 PoE",
@@ -3284,6 +3322,46 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "U7 Professional": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Professional",
+        Slug: "ubiquiti-u7-pro",
+        UHeight: 0,
+        PartNumber: "U7-Pro",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 680,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: true },
+            { Name: "Wlan 0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wlan 1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wlan 3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Wlan 4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "UISP Router": {
         Manufacturer: "Ubiquiti",
         Model: "UISP Router",
@@ -3461,7 +3539,7 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -3717,6 +3795,53 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
             { Name: "port.11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Dream Machine Pro Max": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Dream Machine Pro Max",
+        Slug: "ubiquiti-unifi-dream-machine-pro-max",
+        UHeight: 1,
+        PartNumber: "UDM-PRO-MAX",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "ps1", Label: "", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port.1", Label: "Port 1 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.2", Label: "Port 2 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.3", Label: "Port 3 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.4", Label: "Port 4 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.5", Label: "Port 5 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.6", Label: "Port 6 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.7", Label: "Port 7 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.8", Label: "Port 8 - LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port.9", Label: "Port 9 - WAN 1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "port.10", Label: "Port 10 - SFP&#43; WAN 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port.11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Dream Machine Pro Special Edition": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Dream Machine Pro Special Edition",
@@ -3762,6 +3887,154 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
             { Name: "port.9", Label: "Port 9 - WAN 1", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "port.10", Label: "Port 10 - SFP&#43; WAN 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "port.11", Label: "Port 11 - SFP&#43; LAN", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "UniFi Gateway Pro": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Gateway Pro",
+        Slug: "ubiquiti-unifi-gateway-pro",
+        UHeight: 1,
+        PartNumber: "UXG-Pro",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN 2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Lan 2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "UniFi Pro Max 16": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Pro Max 16",
+        Slug: "ubiquiti-unifi-pro-max-16",
+        UHeight: 1,
+        PartNumber: "USW-Pro-Max-16",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "usb-c", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GbE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2.5 GbE 13", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 14", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 15", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 16", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "UniFi Pro Max 16 PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Pro Max 16 PoE",
+        Slug: "ubiquiti-unifi-pro-max-16-poe",
+        UHeight: 1,
+        PartNumber: "USW-Pro-Max-16-PoE",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GbE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbE 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2.5 GbE 13", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 14", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 15", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5 GbE 16", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "UniFi Protect Network Video Recorder": {

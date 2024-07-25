@@ -108,6 +108,58 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
             { Name: "2.4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "BIG-IP 4000s": {
+        Manufacturer: "F5",
+        Model: "BIG-IP 4000s",
+        Slug: "f5-big-ip-4000s",
+        UHeight: 1,
+        PartNumber: "4000s",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "usb2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Failover", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1.1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1.8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2.1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "2.2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "BIG-IP 4200v": {
         Manufacturer: "F5",
         Model: "BIG-IP 4200v",
@@ -314,11 +366,11 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "i2600",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 8.16,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -329,8 +381,6 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
-            { Name: "psu2", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -339,6 +389,8 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -361,11 +413,11 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "i2800",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 8.16,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -376,8 +428,6 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
-            { Name: "psu2", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -386,6 +436,8 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -518,7 +570,7 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 76,
+        Weight: 24.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -571,7 +623,7 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 24.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -582,8 +634,6 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "", Type: "iec-60320-c14", MaximumDraw: 330, AllocatedDraw: 0 },
-            { Name: "psu2", Label: "", Type: "iec-60320-c14", MaximumDraw: 330, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -592,6 +642,8 @@ var DeviceTypesMapF5 = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

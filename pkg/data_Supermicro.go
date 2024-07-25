@@ -2,12 +2,53 @@
 package devices
 
 var DeviceTypesMapSupermicro = map[string]*DeviceData{
+    "A&#43; Server 2124BT-HNTR": {
+        Manufacturer: "Supermicro",
+        Model: "A&#43; Server 2124BT-HNTR",
+        Slug: "supermicro-as-2124bt-hntr",
+        UHeight: 2,
+        PartNumber: "AS-2124BT-HNTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 24.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AS-1114S-WN10RT": {
         Manufacturer: "Supermicro",
         Model: "AS-1114S-WN10RT",
         Slug: "supermicro-as-1114s-wn10rt",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "AS-1114S-WN10RT",
         IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
@@ -38,8 +79,9 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "AS-1123US-TR4": {
@@ -126,6 +168,167 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
             { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "LAN6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
+    "Motherboard H12DST-B": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard H12DST-B",
+        Slug: "supermicro-mbd-h12dst-b",
+        UHeight: 0,
+        PartNumber: "MBD-H12DST-B",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "M.2", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Motherboard X11SCD-F": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X11SCD-F",
+        Slug: "supermicro-mbd-x11scd-f",
+        UHeight: 0,
+        PartNumber: "MBD-X11SCD-F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "M.2 1", Label: "", Position: "3" },
+            { Name: "M.2 2", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Motherboard X11SSD-F": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X11SSD-F",
+        Slug: "supermicro-mbd-x11ssd-f",
+        UHeight: 0,
+        PartNumber: "MBD-X11SSD-F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Motherboard X12STD-F": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X12STD-F",
+        Slug: "supermicro-mbd-x12std-f",
+        UHeight: 0,
+        PartNumber: "MBD-X12STD-F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "M.2 1", Label: "", Position: "3" },
+            { Name: "M.2 2", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SYS-1019P-WTR": {
@@ -218,6 +421,91 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Storage SuperServer SSG-620P-E1CR24L": {
+        Manufacturer: "Supermicro",
+        Model: "Storage SuperServer SSG-620P-E1CR24L",
+        Slug: "supermicro-storage-superserver-ssg-620p-e1cr24l",
+        UHeight: 2,
+        PartNumber: "SSG-620P-E1CR24L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E A1", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperChassis 504-203B": {
+        Manufacturer: "Supermicro",
+        Model: "SuperChassis 504-203B",
+        Slug: "supermicro-superchassis-504-203b",
+        UHeight: 1,
+        PartNumber: "504-203B",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 1018R-WC0R": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1018R-WC0R",
@@ -259,6 +547,151 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperServer 1029U-TR4T": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 1029U-TR4T",
+        Slug: "supermicro-sys-1029u-tr4t",
+        UHeight: 1,
+        PartNumber: "SYS-1029U-TR4T",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 2029U-E1CR25M": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 2029U-E1CR25M",
+        Slug: "supermicro-sys-2029u-e1cr25m",
+        UHeight: 2,
+        PartNumber: "SYS-2029U-E1CR25M",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+            { Name: "PCI-E 8", Label: "", Position: "8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
+    "SuperServer 5018D-FN8T": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5018D-FN8T",
+        Slug: "supermicro-sys-5018d-fn8t",
+        UHeight: 1,
+        PartNumber: "SYS-5018D-FN8T",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2 1", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Gig-E 8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 5018D-MTF": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 5018D-MTF",
@@ -297,6 +730,646 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer 5019D-FN8TP": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5019D-FN8TP",
+        Slug: "supermicro-sys-5019d-fn8tp",
+        UHeight: 1,
+        PartNumber: "SYS-5019D-FN8TP",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2 1", Label: "", Position: "4" },
+            { Name: "M.2 2", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Gig-E 8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer 5019P-MTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5019P-MTR",
+        Slug: "supermicro-sys-5019p-mtr",
+        UHeight: 1,
+        PartNumber: "SYS-5019P-MTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial-1", Type: "de-9", Label: "Front", Poe: false },
+            { Name: "Serial-2", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "M.2 1", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 5019P-WTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5019P-WTR",
+        Slug: "supermicro-sys-5019p-wtr",
+        UHeight: 1,
+        PartNumber: "SYS-5019P-WTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.89,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2 1", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 5029P-WTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5029P-WTR",
+        Slug: "supermicro-sys-5029p-wtr",
+        UHeight: 2,
+        PartNumber: "SYS-5029P-WTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial-1", Type: "de-9", Label: "Front", Poe: false },
+            { Name: "Serial-2", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "M.2 1", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 5039MC-H8TRF": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5039MC-H8TRF",
+        Slug: "supermicro-sys-5039mc-h8trf",
+        UHeight: 3,
+        PartNumber: "SYS-5039MC-H8TRF",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 28.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+            { Name: "Node 5", Label: "Compute Node 5" },
+            { Name: "Node 6", Label: "Compute Node 6" },
+            { Name: "Node 7", Label: "Compute Node 7" },
+            { Name: "Node 8", Label: "Compute Node 8" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC 1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "BMC 2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer 5039MS-H8TRF": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5039MS-H8TRF",
+        Slug: "supermicro-sys-5039ms-h8trf",
+        UHeight: 3,
+        PartNumber: "SYS-5039MS-H8TRF",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 28.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+            { Name: "Node 5", Label: "Compute Node 5" },
+            { Name: "Node 6", Label: "Compute Node 6" },
+            { Name: "Node 7", Label: "Compute Node 7" },
+            { Name: "Node 8", Label: "Compute Node 8" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SuperServer 530MT-H8TNR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 530MT-H8TNR",
+        Slug: "supermicro-sys-530mt-h8tnr",
+        UHeight: 3,
+        PartNumber: "SYS-530MT-H8TNR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 28.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+            { Name: "Node 5", Label: "Compute Node 5" },
+            { Name: "Node 6", Label: "Compute Node 6" },
+            { Name: "Node 7", Label: "Compute Node 7" },
+            { Name: "Node 8", Label: "Compute Node 8" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC 1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "BMC 2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer 6018R-MT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6018R-MT",
+        Slug: "supermicro-sys-6018r-mt",
+        UHeight: 1,
+        PartNumber: "SYS-6018R-MT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.33,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 480, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer A&#43; Server 1014S-WTRT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer A&#43; Server 1014S-WTRT",
+        Slug: "supermicro-as-1014s-wtrt",
+        UHeight: 1,
+        PartNumber: "AS-1014S-WTRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2 1", Label: "", Position: "4" },
+            { Name: "M.2 2", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer SSG-640P-E1CR24H": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SSG-640P-E1CR24H",
+        Slug: "supermicro-superserver-ssg-640p-e1cr24h",
+        UHeight: 4,
+        PartNumber: "SSG-640P-E1CR24H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "SuperDOM-1", Label: "", Position: "SuperDOM-1" },
+            { Name: "SuperDOM-2", Label: "", Position: "SuperDOM-2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x16", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 LP x8", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe-5 NVME", Label: "", Position: "NVME" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer SYS-110P-WTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SYS-110P-WTR",
+        Slug: "supermicro-sys-110p-wtr",
+        UHeight: 1,
+        PartNumber: "SYS-110P-WTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.34,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer SYS-E300-9D": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SYS-E300-9D",
+        Slug: "supermicro-superserver-sys-e300-9d",
+        UHeight: 1,
+        PartNumber: "SYS-E300-9D",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperStorage 6028r-E1CR16T": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6028r-E1CR16T",
+        Slug: "supermicro-superstorage-6028r-e1cr16t",
+        UHeight: 2,
+        PartNumber: "SSG-6028R-E1CR16T",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x8", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x8", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 LP x8", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe-5 LP x8", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe-6 LP x8", Label: "", Position: "PCIe-6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperStorage 6029P-E1CR12T": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6029P-E1CR12T",
+        Slug: "supermicro-superstorage-6029p-e1cr12t",
+        UHeight: 2,
+        PartNumber: "SSG-6029P-E1CR12T",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 27.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x16", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 LP x8", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe-5 LP x8", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe-6 LP x8", Label: "", Position: "PCIe-6" },
+            { Name: "PCIe-7 LP x8", Label: "", Position: "PCIe-7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
 }

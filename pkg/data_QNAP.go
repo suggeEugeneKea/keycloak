@@ -288,6 +288,44 @@ var DeviceTypesMapQNAP = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-231P2": {
+        Manufacturer: "QNAP",
+        Model: "TS-231P2",
+        Slug: "qnap-ts-231p2",
+        UHeight: 0,
+        PartNumber: "TS-231P2",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 1.46,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-251&#43;": {
         Manufacturer: "QNAP",
         Model: "TS-251&#43;",
@@ -856,6 +894,44 @@ var DeviceTypesMapQNAP = map[string]*DeviceData{
             { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth2", Label: "3", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth3", Label: "4", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TS-879 Pro": {
+        Manufacturer: "QNAP",
+        Model: "TS-879 Pro",
+        Slug: "qnap-ts-879-pro",
+        UHeight: 0,
+        PartNumber: "TS-879-pro",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 13.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 101, AllocatedDraw: 101 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "TS-879U-RP": {

@@ -497,6 +497,68 @@ var DeviceTypesMapNetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "GS324TP": {
+        Manufacturer: "Netgear",
+        Model: "GS324TP",
+        Slug: "netgear-gs324tp",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Supply", Label: "", Type: "iec-60320-c14", MaximumDraw: 230, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "JGS524": {
         Manufacturer: "Netgear",
         Model: "JGS524",

@@ -2,6 +2,53 @@
 package devices
 
 var DeviceTypesMapIBM = map[string]*DeviceData{
+    "00P3663": {
+        Manufacturer: "IBM",
+        Model: "00P3663",
+        Slug: "ibm-00p3663",
+        UHeight: 0,
+        PartNumber: "00P3663",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "nema-l6-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet R1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R7", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R10", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet R11", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "BladeCenter H": {
         Manufacturer: "IBM",
         Model: "BladeCenter H",
@@ -143,6 +190,54 @@ var DeviceTypesMapIBM = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "TenGig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "TenGig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "System x3650": {
+        Manufacturer: "IBM",
+        Model: "System x3650",
+        Slug: "ibm-system-x3650",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Front USB1", Type: "usb-a", Label: "" },
+            { Name: "Front USB2", Type: "usb-a", Label: "" },
+            { Name: "Front USB3", Type: "usb-a", Label: "" },
+            { Name: "Rear USB1", Type: "usb-a", Label: "" },
+            { Name: "Rear USB2", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "eServer x226": {

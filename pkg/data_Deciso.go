@@ -250,6 +250,48 @@ var DeviceTypesMapDeciso = map[string]*DeviceData{
             { Name: "igb3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DEC2750": {
+        Manufacturer: "Deciso",
+        Model: "DEC2750",
+        Slug: "deciso-dec2750",
+        UHeight: 1,
+        PartNumber: "DEC2750",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 176, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "igb0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "igb1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "igb2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "ax0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ax1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "DEC3840": {
         Manufacturer: "Deciso",
         Model: "DEC3840",

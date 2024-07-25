@@ -13,7 +13,7 @@ var DeviceTypesMapAFL = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -53,7 +53,7 @@ var DeviceTypesMapAFL = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

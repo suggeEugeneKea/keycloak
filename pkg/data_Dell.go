@@ -366,6 +366,95 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "virtual", MgmtOnly: true },
         },
     },
+    "PowerConnect 5548p": {
+        Manufacturer: "Dell",
+        Model: "PowerConnect 5548p",
+        Slug: "dell-powerconnect-5548p",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "tengigabitethernet0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tengigabitethernet0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "virtual", MgmtOnly: true },
+        },
+    },
     "PowerConnect 6224": {
         Manufacturer: "Dell",
         Model: "PowerConnect 6224",
@@ -649,12 +738,12 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         Slug: "dell-poweredge-c6400",
         UHeight: 2,
         PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        SubdeviceRole: "parent",
+        Weight: 45,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -674,6 +763,10 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "Power 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "1", Label: "Sled 1" },
+            { Name: "2", Label: "Sled 2" },
+            { Name: "3", Label: "Sled 3" },
+            { Name: "4", Label: "Sled 4" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -684,14 +777,14 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         Manufacturer: "Dell",
         Model: "PowerEdge C6420",
         Slug: "dell-poweredge-c6420",
-        UHeight: 2,
+        UHeight: 0,
         PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        SubdeviceRole: "child",
+        Weight: 5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -707,8 +800,6 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Power 1", Label: "", Position: "1" },
-            { Name: "Power 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -870,6 +961,47 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "PowerEdge R220": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R220",
+        Slug: "dell-poweredge-r220",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial", Type: "de-9", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Riser PCIe slot 1", Label: "1", Position: "PCIe-1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "PowerEdge R230": {
@@ -1072,6 +1204,47 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerEdge R350": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R350",
+        Slug: "dell-poweredge-r350",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1730,7 +1903,7 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 29,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2467,6 +2640,54 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "iDRAC9 1", Label: "iDRAC", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge R750xs": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R750xs",
+        Slug: "dell-poweredge-r750xs",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Rear Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
+            { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+            { Name: "NUMA 0 - PCIe slot 4 - FH", Label: "4", Position: "PCIe-4" },
+            { Name: "NUMA 1 - PCIe slot 5 - FH", Label: "5", Position: "PCIe-5" },
+            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
+            { Name: "NUMA 1 - PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
+            { Name: "NUMA 1 - PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC9 1", Label: "iDRAC", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge R7515": {
         Manufacturer: "Dell",
         Model: "PowerEdge R7515",
@@ -2547,6 +2768,54 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerEdge R760": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R760",
+        Slug: "dell-poweredge-r760",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Rear Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
+            { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+            { Name: "NUMA 0 - PCIe slot 4 - FH", Label: "4", Position: "PCIe-4" },
+            { Name: "NUMA 1 - PCIe slot 5 - FH", Label: "5", Position: "PCIe-5" },
+            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
+            { Name: "NUMA 1 - PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
+            { Name: "NUMA 1 - PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC9 1", Label: "iDRAC", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "PowerEdge R7615": {
@@ -3139,6 +3408,47 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "iDRAC9", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge T630": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge T630",
+        Slug: "dell-poweredge-t630",
+        UHeight: 5,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge T640": {
         Manufacturer: "Dell",
         Model: "PowerEdge T640",
@@ -3222,18 +3532,18 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "128gfc-qsfp28", MgmtOnly: false },
         },
     },
-    "PowerScale H700": {
+    "PowerScale A3000": {
         Manufacturer: "Dell",
-        Model: "PowerScale H700",
-        Slug: "dell-powerscale-h700",
+        Model: "PowerScale A3000",
+        Slug: "dell-powerscale-a3000",
         UHeight: 4,
-        PartNumber: "h700",
+        PartNumber: "",
         IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 118,
+        Weight: 137.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3596,6 +3906,100 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "Te1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Te1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerSwitch N3248P-ON": {
+        Manufacturer: "Dell",
+        Model: "PowerSwitch N3248P-ON",
+        Slug: "dell-powerswitch-n3248p-on",
+        UHeight: 1,
+        PartNumber: "N3248P-ON",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 7.57,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "PSU Slot 1", Position: "1" },
+            { Name: "2", Label: "PSU Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "out-of-band", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gi1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gi1/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Te1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Te1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Te1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Te1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Hu1/0/1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Hu1/0/2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
     "PowerSwitch N3248TE-ON": {
@@ -3961,6 +4365,130 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "fortyGigE 1/53", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "fortyGigE 1/54", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerSwitch S4112F-ON": {
+        Manufacturer: "Dell",
+        Model: "PowerSwitch S4112F-ON",
+        Slug: "dell-powerswitch-s4112f-on",
+        UHeight: 1,
+        PartNumber: "S4112F-ON",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1/1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet 1/1/13", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet 1/1/14", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet 1/1/15", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Management 1/1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerSwitch S4128F-ON": {
+        Manufacturer: "Dell",
+        Model: "PowerSwitch S4128F-ON",
+        Slug: "dell-powerswitch-s4128f-on",
+        UHeight: 1,
+        PartNumber: "S4128F-ON",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 8.92,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "PSU Slot 1", Position: "1" },
+            { Name: "2", Label: "PSU Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1/1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/22", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/23", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/24", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/25", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "ethernet1/1/26", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "ethernet1/1/27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/29", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet1/1/30", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "PowerSwitch S4148F-ON": {
@@ -4571,6 +5099,89 @@ var DeviceTypesMapDell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Powerscale H700": {
+        Manufacturer: "Dell",
+        Model: "Powerscale H700",
+        Slug: "dell-powerscale-h700",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "128gfc-qsfp28", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "128gfc-qsfp28", MgmtOnly: false },
+        },
+    },
+    "Powerscale H700 Chassis": {
+        Manufacturer: "Dell",
+        Model: "Powerscale H700 Chassis",
+        Slug: "dell-powerscale-h700-chassis",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 118,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "1" },
+            { Name: "Node 2", Label: "2" },
+            { Name: "Node 3", Label: "3" },
+            { Name: "Node 4", Label: "4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Unity XT 880F": {
         Manufacturer: "Dell",
         Model: "Unity XT 880F",
@@ -4608,6 +5219,51 @@ var DeviceTypesMapDell = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "SP-A ETH0", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SP-B ETH0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "VEP4600": {
+        Manufacturer: "Dell",
+        Model: "VEP4600",
+        Slug: "dell-vep4600",
+        UHeight: 1,
+        PartNumber: "vep4600",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CPU", Type: "rj-45", Label: "", Poe: false },
+            { Name: "BMC", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power 1", Label: "", Position: "PSU1" },
+            { Name: "Power 2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10GbE 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GbE 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "VxRail E560": {

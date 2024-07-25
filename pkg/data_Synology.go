@@ -885,6 +885,52 @@ var DeviceTypesMapSynology = map[string]*DeviceData{
             { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS3621xs&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS3621xs&#43;",
+        Slug: "synology-rs3621xs-plus",
+        UHeight: 2,
+        PartNumber: "RS3621xs&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 14.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Expansion 1", Label: "", Type: "infiniband-ndr", MgmtOnly: false },
+            { Name: "Expansion 2", Label: "", Type: "infiniband-ndr", MgmtOnly: false },
+        },
+    },
     "RS815&#43;": {
         Manufacturer: "Synology",
         Model: "RS815&#43;",

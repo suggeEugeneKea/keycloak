@@ -46,7 +46,7 @@ var DeviceTypesMapPCEngines = map[string]*DeviceData{
         Manufacturer: "PC Engines",
         Model: "APU2",
         Slug: "pc-engines-apu2",
-        UHeight: 1,
+        UHeight: 0,
         PartNumber: "apu2",
         IsFullDepth: false,
         Airflow: "",

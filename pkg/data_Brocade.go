@@ -499,6 +499,45 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
             { Name: "FC port 0/101", Label: "", Type: "128gfc-qsfp28", MgmtOnly: false },
         },
     },
+    "ICX 6400-EPS1500": {
+        Manufacturer: "Brocade",
+        Model: "ICX 6400-EPS1500",
+        Slug: "brocade-icx6400-eps1500",
+        UHeight: 1,
+        PartNumber: "ICX6400-EPS1500",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 1600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "EPS OUT 1", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "EPS OUT 2", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "EPS OUT 3", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ICX 6430-24": {
         Manufacturer: "Brocade",
         Model: "ICX 6430-24",
@@ -520,6 +559,7 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+            { Name: "EPS1", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -586,6 +626,7 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 38, AllocatedDraw: 0 },
+            { Name: "EPS1", Label: "", Type: "dc-terminal", MaximumDraw: 38, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -676,6 +717,7 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 37, AllocatedDraw: 0 },
+            { Name: "EPS1", Label: "", Type: "dc-terminal", MaximumDraw: 37, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -742,6 +784,7 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 400, AllocatedDraw: 0 },
+            { Name: "EPS1", Label: "", Type: "dc-terminal", MaximumDraw: 400, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -808,6 +851,7 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 55, AllocatedDraw: 0 },
+            { Name: "EPS1", Label: "", Type: "dc-terminal", MaximumDraw: 55, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -897,8 +941,6 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -907,6 +949,8 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -950,6 +994,79 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
             { Name: "ethernet 1/3/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ICX 6610-24F": {
+        Manufacturer: "Brocade",
+        Model: "ICX 6610-24F",
+        Slug: "brocade-icx6610-24f",
+        UHeight: 1,
+        PartNumber: "ICX6610-24F",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigEthernetmgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet 1/1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/13", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/14", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/15", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/16", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/21", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/22", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/23", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/1/24", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet 1/2/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "ethernet 1/2/6", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ethernet 1/3/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "ICX 6610-48": {
         Manufacturer: "Brocade",
         Model: "ICX 6610-48",
@@ -970,8 +1087,6 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -980,6 +1095,8 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1067,8 +1184,6 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1077,6 +1192,8 @@ var DeviceTypesMapBrocade = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
