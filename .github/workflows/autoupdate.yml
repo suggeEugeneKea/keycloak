@@ -1,7 +1,7 @@
 name: Generate Code and Commit
 
 on:
-  workflow_dispatch: # So we can run workflow manually
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
 
@@ -24,25 +24,27 @@ jobs:
           GITHUB_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
 
       - name: Check for changes
+        id: check_for_changes
         run: |
           if git diff --exit-code; then
             echo "No changes detected."
-            exit 0
+            echo "::set-output name=changes::false"
           else
             echo "Changes detected."
+            echo "::set-output name=changes::true"
           fi
 
       - name: Commit changes
-        if: success() && steps.check-for-changes.outcome == 'success'
+        if: steps.check_for_changes.outputs.changes == 'true'
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "svccicd"
+          git config user.email "187764736+svccicd@users.noreply.github.com"
           git add .
           DATE=$(date '+%Y-%m-%d')
           git commit -m "fix(devicetype-library): updating data from remote repo <$DATE>."
 
       - name: Push changes
-        if: success() && steps.check-for-changes.outcome == 'success'
+        if: steps.check_for_changes.outputs.changes == 'true'
         uses: ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df # v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
