@@ -5,7 +5,7 @@ var DeviceTypesMapTPLink = map[string]*DeviceData{
     "Archer C7 AC1750 v4": {
         Manufacturer: "TP-Link",
         Model: "Archer C7 AC1750 v4",
-        Slug: "tp-link-archer-c7-v4",
+        Slug: "tp-link-archer-c7-ac1750-v4",
         UHeight: 0,
         PartNumber: "",
         IsFullDepth: false,

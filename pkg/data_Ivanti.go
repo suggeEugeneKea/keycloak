@@ -5,7 +5,7 @@ var DeviceTypesMapIvanti = map[string]*DeviceData{
     "PulseSecure PSA300": {
         Manufacturer: "Ivanti",
         Model: "PulseSecure PSA300",
-        Slug: "ivanti-pulse-secure-psa300",
+        Slug: "ivanti-pulsesecure-psa300",
         UHeight: 0,
         PartNumber: "PSA300",
         IsFullDepth: false,
@@ -44,7 +44,7 @@ var DeviceTypesMapIvanti = map[string]*DeviceData{
     "PulseSecure PSA3000": {
         Manufacturer: "Ivanti",
         Model: "PulseSecure PSA3000",
-        Slug: "ivanti-pulse-secure-psa3000",
+        Slug: "ivanti-pulsesecure-psa3000",
         UHeight: 1,
         PartNumber: "PSA3000",
         IsFullDepth: false,
@@ -84,7 +84,7 @@ var DeviceTypesMapIvanti = map[string]*DeviceData{
     "PulseSecure PSA5000": {
         Manufacturer: "Ivanti",
         Model: "PulseSecure PSA5000",
-        Slug: "ivanti-pulse-secure-psa5000",
+        Slug: "ivanti-pulsesecure-psa5000",
         UHeight: 1,
         PartNumber: "PSA5000",
         IsFullDepth: false,
@@ -124,7 +124,7 @@ var DeviceTypesMapIvanti = map[string]*DeviceData{
     "PulseSecure PSA7000c": {
         Manufacturer: "Ivanti",
         Model: "PulseSecure PSA7000c",
-        Slug: "ivanti-pulse-secure-psa7000c",
+        Slug: "ivanti-pulsesecure-psa7000c",
         UHeight: 2,
         PartNumber: "PSA7000c",
         IsFullDepth: true,
@@ -167,7 +167,7 @@ var DeviceTypesMapIvanti = map[string]*DeviceData{
     "PulseSecure PSA7000f": {
         Manufacturer: "Ivanti",
         Model: "PulseSecure PSA7000f",
-        Slug: "ivanti-pulse-secure-psa7000f",
+        Slug: "ivanti-pulsesecure-psa7000f",
         UHeight: 2,
         PartNumber: "PSA7000f",
         IsFullDepth: true,

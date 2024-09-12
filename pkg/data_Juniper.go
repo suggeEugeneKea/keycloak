@@ -16065,12 +16065,12 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         Slug: "juniper-srx240h2",
         UHeight: 0,
         PartNumber: "",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -16079,7 +16079,7 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 74, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -16088,6 +16088,10 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "MPM1", Label: "", Position: "1" },
+            { Name: "MPM2", Label: "", Position: "2" },
+            { Name: "MPM3", Label: "", Position: "3" },
+            { Name: "MPM4", Label: "", Position: "4" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -16120,10 +16124,10 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -16132,7 +16136,7 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -16141,6 +16145,10 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "MPM1", Label: "", Position: "1" },
+            { Name: "MPM2", Label: "", Position: "2" },
+            { Name: "MPM3", Label: "", Position: "3" },
+            { Name: "MPM4", Label: "", Position: "4" },
         },
 			  DeviceBays: []DeviceBay{
         },

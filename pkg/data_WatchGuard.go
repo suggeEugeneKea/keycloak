@@ -140,7 +140,7 @@ var DeviceTypesMapWatchGuard = map[string]*DeviceData{
     "M270": {
         Manufacturer: "WatchGuard",
         Model: "M270",
-        Slug: "watchguard-firebox-m270",
+        Slug: "watchguard-m270",
         UHeight: 1,
         PartNumber: "M270",
         IsFullDepth: false,

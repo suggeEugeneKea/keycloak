@@ -25523,6 +25523,63 @@ var DeviceTypesMapCisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet0/1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Catalyst C1200-16T-2G": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst C1200-16T-2G",
+        Slug: "cisco-c1200-16t-2g",
+        UHeight: 1,
+        PartNumber: "C1200-16T-2G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console (USB)", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Vlan1", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
     "Catalyst C3650-12X48UQ": {
         Manufacturer: "Cisco",
         Model: "Catalyst C3650-12X48UQ",
@@ -40820,7 +40877,7 @@ var DeviceTypesMapCisco = map[string]*DeviceData{
     "Nexus C3064PQ-10GE": {
         Manufacturer: "Cisco",
         Model: "Nexus C3064PQ-10GE",
-        Slug: "cisco-n3k-c3064q-10ge",
+        Slug: "cisco-nexus-c3064pq-10ge",
         UHeight: 1,
         PartNumber: "N3K-C3064PQ-10GE",
         IsFullDepth: false,

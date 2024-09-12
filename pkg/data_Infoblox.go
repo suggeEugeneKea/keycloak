@@ -2,12 +2,12 @@
 package devices
 
 var DeviceTypesMapInfoblox = map[string]*DeviceData{
-    "IB-1410": {
+    "TE-1410": {
         Manufacturer: "Infoblox",
-        Model: "IB-1410",
-        Slug: "infoblox-ib-1410",
+        Model: "TE-1410",
+        Slug: "infoblox-te-1410",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "TE-1410",
         IsFullDepth: false,
         Airflow: "",
         FrontImage: false,
@@ -38,147 +38,19 @@ var DeviceTypesMapInfoblox = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "IB-1420": {
+    "TE-1415": {
         Manufacturer: "Infoblox",
-        Model: "IB-1420",
-        Slug: "infoblox-ib-1420",
+        Model: "TE-1415",
+        Slug: "infoblox-te-1415",
         UHeight: 1,
-        PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "IB-2220": {
-        Manufacturer: "Infoblox",
-        Model: "IB-2220",
-        Slug: "infoblox-ib-2220",
-        UHeight: 2,
-        PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 960, AllocatedDraw: 0 },
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 960, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "IB-825": {
-        Manufacturer: "Infoblox",
-        Model: "IB-825",
-        Slug: "infoblox-ib-825",
-        UHeight: 1,
-        PartNumber: "TE-805-HW-AC",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 17,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 106, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "TE-1415-NS1GD-AC": {
-        Manufacturer: "Infoblox",
-        Model: "TE-1415-NS1GD-AC",
-        Slug: "infoblox-te-1415-ns1gd-ac",
-        UHeight: 1,
-        PartNumber: "",
+        PartNumber: "TE-1415",
         IsFullDepth: false,
         Airflow: "",
         FrontImage: false,
@@ -209,19 +81,19 @@ var DeviceTypesMapInfoblox = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "TE-815-NS1GD-AC": {
+    "TE-1420": {
         Manufacturer: "Infoblox",
-        Model: "TE-815-NS1GD-AC",
-        Slug: "infoblox-te-815-ns1gd-ac",
+        Model: "TE-1420",
+        Slug: "infoblox-te-1420",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "TE-1420",
         IsFullDepth: false,
         Airflow: "",
         FrontImage: false,
@@ -236,7 +108,8 @@ var DeviceTypesMapInfoblox = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 350, AllocatedDraw: 0 },
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -251,19 +124,105 @@ var DeviceTypesMapInfoblox = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "Trinzic TE-805": {
+    "TE-1425": {
         Manufacturer: "Infoblox",
-        Model: "Trinzic TE-805",
-        Slug: "infoblox-te-805-hw-ac-b",
+        Model: "TE-1425",
+        Slug: "infoblox-te-1425",
         UHeight: 1,
-        PartNumber: "TE-805-HW-AC-B",
+        PartNumber: "TE-1425",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 450, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TE-2220": {
+        Manufacturer: "Infoblox",
+        Model: "TE-2220",
+        Slug: "infoblox-te-2220",
+        UHeight: 2,
+        PartNumber: "TE-2220",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 960, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 960, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TE-805": {
+        Manufacturer: "Infoblox",
+        Model: "TE-805",
+        Slug: "infoblox-te-805",
+        UHeight: 1,
+        PartNumber: "TE-805-HW",
         IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
@@ -298,6 +257,90 @@ var DeviceTypesMapInfoblox = map[string]*DeviceData{
             { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "TE-815": {
+        Manufacturer: "Infoblox",
+        Model: "TE-815",
+        Slug: "infoblox-te-815",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 350, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TE-825": {
+        Manufacturer: "Infoblox",
+        Model: "TE-825",
+        Slug: "infoblox-te-825",
+        UHeight: 1,
+        PartNumber: "TE-825",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 106, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "HA", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
 }

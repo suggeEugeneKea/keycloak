@@ -5,7 +5,7 @@ var DeviceTypesMapSchweitzerEngineeringLaboratories = map[string]*DeviceData{
     "SEL-2242 10-bay Chassis/Backplane": {
         Manufacturer: "Schweitzer Engineering Laboratories",
         Model: "SEL-2242 10-bay Chassis/Backplane",
-        Slug: "schweitzer-engineering-laboratories-2242-10-bay-chassis-backplane",
+        Slug: "schweitzer-engineering-laboratories-sel-2242-10-bay-chassis-backplane",
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: false,
@@ -50,7 +50,7 @@ var DeviceTypesMapSchweitzerEngineeringLaboratories = map[string]*DeviceData{
     "SEL-2242 4-bay Chassis/Backplane": {
         Manufacturer: "Schweitzer Engineering Laboratories",
         Model: "SEL-2242 4-bay Chassis/Backplane",
-        Slug: "schweitzer-engineering-laboratories-2242-4-bay-chassis-backplane",
+        Slug: "schweitzer-engineering-laboratories-sel-2242-4-bay-chassis-backplane",
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: false,
@@ -133,7 +133,7 @@ var DeviceTypesMapSchweitzerEngineeringLaboratories = map[string]*DeviceData{
     "SEL-451-5 Relay": {
         Manufacturer: "Schweitzer Engineering Laboratories",
         Model: "SEL-451-5 Relay",
-        Slug: "schweitzer-engineering-laboratories-351a-r-relay",
+        Slug: "schweitzer-engineering-laboratories-sel-451-5-relay",
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: false,
@@ -175,7 +175,7 @@ var DeviceTypesMapSchweitzerEngineeringLaboratories = map[string]*DeviceData{
     "SEL-451-6 SV": {
         Manufacturer: "Schweitzer Engineering Laboratories",
         Model: "SEL-451-6 SV",
-        Slug: "schweitzer-engineering-laboratories-351a-6-sv",
+        Slug: "schweitzer-engineering-laboratories-sel-451-6-sv",
         UHeight: 4,
         PartNumber: "",
         IsFullDepth: false,
@@ -220,7 +220,7 @@ var DeviceTypesMapSchweitzerEngineeringLaboratories = map[string]*DeviceData{
     "SEL-451-6 TiDL": {
         Manufacturer: "Schweitzer Engineering Laboratories",
         Model: "SEL-451-6 TiDL",
-        Slug: "schweitzer-engineering-laboratories-351a-5-tidl",
+        Slug: "schweitzer-engineering-laboratories-sel-451-6-tidl",
         UHeight: 4,
         PartNumber: "",
         IsFullDepth: false,

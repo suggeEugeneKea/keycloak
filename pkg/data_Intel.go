@@ -205,7 +205,7 @@ var DeviceTypesMapIntel = map[string]*DeviceData{
     "NUC8i3BEK3": {
         Manufacturer: "Intel",
         Model: "NUC8i3BEK3",
-        Slug: "intel-nuc8iebek3",
+        Slug: "intel-nuc8i3bek3",
         UHeight: 0,
         PartNumber: "",
         IsFullDepth: false,

@@ -6079,7 +6079,7 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
     "airFiber 5XHD": {
         Manufacturer: "Ubiquiti",
         Model: "airFiber 5XHD",
-        Slug: "ubiquiti-airfiber-af-5xhd",
+        Slug: "ubiquiti-airfiber-5xhd",
         UHeight: 0,
         PartNumber: "AF-5XHD",
         IsFullDepth: false,

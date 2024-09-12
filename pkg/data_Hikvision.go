@@ -646,7 +646,7 @@ var DeviceTypesMapHikvision = map[string]*DeviceData{
     "DS-7632NI-I2/16P": {
         Manufacturer: "Hikvision",
         Model: "DS-7632NI-I2/16P",
-        Slug: "hikvision-ds-7632ni-i2-165",
+        Slug: "hikvision-ds-7632ni-i2-16p",
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
