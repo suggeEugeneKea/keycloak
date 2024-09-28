@@ -8,10 +8,6 @@ on:
 jobs:
   generate-code:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
@@ -50,4 +46,6 @@ jobs:
         if: steps.check_for_changes.outputs.changes == 'true'
         uses: ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df # v0.8.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Here we are not allowed to use GITHUB_TOKEN so release action runs
+          # see https://github.com/orgs/community/discussions/25702
+          github_token: ${{ secrets.GH_TOKEN }}
