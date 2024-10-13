@@ -158,4 +158,102 @@ var DeviceTypesMapDigi = map[string]*DeviceData{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "PortServer TS 16": {
+        Manufacturer: "Digi",
+        Model: "PortServer TS 16",
+        Slug: "digi-portserver-ts-16",
+        UHeight: 1,
+        PartNumber: "70001743",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial_1", Type: "rj-45", Label: "" },
+            { Name: "Serial_2", Type: "rj-45", Label: "" },
+            { Name: "Serial_3", Type: "rj-45", Label: "" },
+            { Name: "Serial_4", Type: "rj-45", Label: "" },
+            { Name: "Serial_5", Type: "rj-45", Label: "" },
+            { Name: "Serial_6", Type: "rj-45", Label: "" },
+            { Name: "Serial_7", Type: "rj-45", Label: "" },
+            { Name: "Serial_8", Type: "rj-45", Label: "" },
+            { Name: "Serial_9", Type: "rj-45", Label: "" },
+            { Name: "Serial_10", Type: "rj-45", Label: "" },
+            { Name: "Serial_11", Type: "rj-45", Label: "" },
+            { Name: "Serial_12", Type: "rj-45", Label: "" },
+            { Name: "Serial_13", Type: "rj-45", Label: "" },
+            { Name: "Serial_14", Type: "rj-45", Label: "" },
+            { Name: "Serial_15", Type: "rj-45", Label: "" },
+            { Name: "Serial_16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "PortServer TS 8": {
+        Manufacturer: "Digi",
+        Model: "PortServer TS 8",
+        Slug: "digi-portserver-ts-8",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial_1", Type: "rj-45", Label: "" },
+            { Name: "Serial_2", Type: "rj-45", Label: "" },
+            { Name: "Serial_3", Type: "rj-45", Label: "" },
+            { Name: "Serial_4", Type: "rj-45", Label: "" },
+            { Name: "Serial_5", Type: "rj-45", Label: "" },
+            { Name: "Serial_6", Type: "rj-45", Label: "" },
+            { Name: "Serial_7", Type: "rj-45", Label: "" },
+            { Name: "Serial_8", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU (External)", Label: "", Type: "iec-60320-c14", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }

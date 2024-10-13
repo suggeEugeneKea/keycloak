@@ -170,6 +170,53 @@ var DeviceTypesMapSupermicro = map[string]*DeviceData{
             { Name: "LAN6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "MicroCloud A&#43; Server AS 3015MR-H8TNR": {
+        Manufacturer: "Supermicro",
+        Model: "MicroCloud A&#43; Server AS 3015MR-H8TNR",
+        Slug: "supermicro-as-3015mr-h8tnr",
+        UHeight: 3,
+        PartNumber: "AS-3015MR-H8TNR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 28.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+            { Name: "Node 5", Label: "Compute Node 5" },
+            { Name: "Node 6", Label: "Compute Node 6" },
+            { Name: "Node 7", Label: "Compute Node 7" },
+            { Name: "Node 8", Label: "Compute Node 8" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI 1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "IPMI 2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Motherboard H12DST-B": {
         Manufacturer: "Supermicro",
         Model: "Motherboard H12DST-B",
