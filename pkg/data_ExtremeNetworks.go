@@ -9220,6 +9220,269 @@ var DeviceTypesMapExtremeNetworks = map[string]*DeviceData{
             { Name: "33", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "X620-10x": {
+        Manufacturer: "Extreme Networks",
+        Model: "X620-10x",
+        Slug: "extreme-networks-x620-10x",
+        UHeight: 1,
+        PartNumber: "17404",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "C14", Label: "", Type: "iec-60320-c14", MaximumDraw: 36, AllocatedDraw: 0 },
+            { Name: "RPS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt-port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "X620-16p": {
+        Manufacturer: "Extreme Networks",
+        Model: "X620-16p",
+        Slug: "extreme-networks-x620-16p",
+        UHeight: 1,
+        PartNumber: "17403",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt-port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "X620-16t": {
+        Manufacturer: "Extreme Networks",
+        Model: "X620-16t",
+        Slug: "extreme-networks-x620-16t",
+        UHeight: 1,
+        PartNumber: "17402",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt-port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "X620-16x": {
+        Manufacturer: "Extreme Networks",
+        Model: "X620-16x",
+        Slug: "extreme-networks-x620-16x",
+        UHeight: 1,
+        PartNumber: "17401",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt-port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "X620-8t-2x": {
+        Manufacturer: "Extreme Networks",
+        Model: "X620-8t-2x",
+        Slug: "extreme-networks-x620-8t-2x",
+        UHeight: 1,
+        PartNumber: "17405",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.92,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "C14", Label: "", Type: "iec-60320-c14", MaximumDraw: 52, AllocatedDraw: 0 },
+            { Name: "RPS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt-port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "X650-24t": {
         Manufacturer: "Extreme Networks",
         Model: "X650-24t",

@@ -41029,7 +41029,7 @@ var DeviceTypesMapCisco = map[string]*DeviceData{
     "Nexus C3064PQ-10GE": {
         Manufacturer: "Cisco",
         Model: "Nexus C3064PQ-10GE",
-        Slug: "cisco-nexus-c3064pq-10ge",
+        Slug: "cisco-n3k-c3064pq-10ge",
         UHeight: 1,
         PartNumber: "N3K-C3064PQ-10GE",
         IsFullDepth: false,

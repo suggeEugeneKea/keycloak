@@ -915,6 +915,8 @@ var DeviceTypesMapSynology = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU-1", Label: "1", Position: "PSU-1" },
             { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

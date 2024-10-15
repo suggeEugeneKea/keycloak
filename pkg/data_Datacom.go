@@ -2,6 +2,146 @@
 package devices
 
 var DeviceTypesMapDatacom = map[string]*DeviceData{
+    "DM2104-2GX": {
+        Manufacturer: "Datacom",
+        Model: "DM2104-2GX",
+        Slug: "datacom-dm2104-2gx",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Input AC/DC", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "DM2104-4GX": {
+        Manufacturer: "Datacom",
+        Model: "DM2104-4GX",
+        Slug: "datacom-dm2104-4gx",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Input AC/DC", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth9", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth10", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "DM2104G2 EDD": {
+        Manufacturer: "Datacom",
+        Model: "DM2104G2 EDD",
+        Slug: "datacom-dm2104g2-edd",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Input AC/DC", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "DM2500 4GT&#43;2GX&#43;LTE": {
         Manufacturer: "Datacom",
         Model: "DM2500 4GT&#43;2GX&#43;LTE",
