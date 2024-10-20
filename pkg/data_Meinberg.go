@@ -47,4 +47,43 @@ var DeviceTypesMapMeinberg = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Lantime M300": {
+        Manufacturer: "Meinberg",
+        Model: "Lantime M300",
+        Slug: "meinberg-lantime-m300",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial", Type: "de-9", Label: "Terminal", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR1", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "LAN0", Type: "100base-tx", MgmtOnly: false },
+            { Name: "lan1", Label: "LAN1", Type: "1000base-tx", MgmtOnly: false },
+        },
+    },
 }
