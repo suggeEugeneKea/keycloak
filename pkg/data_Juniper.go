@@ -5381,8 +5381,6 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
             { Name: "xe-0/0/35", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "et-0/1/0", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "et-0/1/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
     "EX4300-32F-DC": {
@@ -5462,8 +5460,6 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
             { Name: "xe-0/0/35", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "et-0/1/0", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "et-0/1/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
     "EX4300-32F-DC-TAA": {
@@ -5543,8 +5539,6 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
             { Name: "xe-0/0/35", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "et-0/1/0", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "et-0/1/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
     "EX4300-32F-TAA": {
@@ -5624,8 +5618,6 @@ var DeviceTypesMapJuniper = map[string]*DeviceData{
             { Name: "xe-0/0/35", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "et-0/1/0", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
             { Name: "et-0/1/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
-            { Name: "et-0/1/3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
     "EX4300-48MP": {
