@@ -220,7 +220,7 @@ var DeviceTypesMapOpengear = map[string]*DeviceData{
         PartNumber: "CM7132-2-DAC",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
