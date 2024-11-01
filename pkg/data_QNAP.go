@@ -522,6 +522,89 @@ var DeviceTypesMapQNAP = map[string]*DeviceData{
             { Name: "Adapter 3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TS-432PXU": {
+        Manufacturer: "QNAP",
+        Model: "TS-432PXU",
+        Slug: "qnap-ts-432pxu",
+        UHeight: 1,
+        PartNumber: "TS-432PXU",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 9.26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TS-432PXU-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-432PXU-RP",
+        Slug: "qnap-ts-432pxu-rp",
+        UHeight: 1,
+        PartNumber: "TS-432PXU-RP",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 11.03,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TS-453B": {
         Manufacturer: "QNAP",
         Model: "TS-453B",
@@ -844,6 +927,48 @@ var DeviceTypesMapQNAP = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "eth0", Label: "1", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TS-832PXU-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-832PXU-RP",
+        Slug: "qnap-ts-832pxu-rp",
+        UHeight: 2,
+        PartNumber: "TS-832PXU-RP",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 14.61,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "TS-873": {
