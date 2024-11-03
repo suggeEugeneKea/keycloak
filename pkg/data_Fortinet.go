@@ -3585,6 +3585,53 @@ var DeviceTypesMapFortinet = map[string]*DeviceData{
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 60E-POE": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 60E-POE",
+        Slug: "fortinet-fg-60e-poe",
+        UHeight: 1,
+        PartNumber: "FG-60E-POE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "12V DC", Type: "dc-terminal", MaximumDraw: 95, AllocatedDraw: 20 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FortiGate 60F": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 60F",
