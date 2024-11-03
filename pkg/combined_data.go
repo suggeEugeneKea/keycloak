@@ -68,6 +68,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Fujitsu": DeviceTypesMapFujitsu,
     "Generic": DeviceTypesMapGeneric,
     "HPE": DeviceTypesMapHPE,
+    "HUBER SUHNER": DeviceTypesMapHUBERSUHNER,
     "Hikvision": DeviceTypesMapHikvision,
     "Huawei": DeviceTypesMapHuawei,
     "IBM": DeviceTypesMapIBM,
