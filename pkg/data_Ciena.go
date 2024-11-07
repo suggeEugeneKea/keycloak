@@ -83,6 +83,223 @@ var DeviceTypesMapCiena = map[string]*DeviceData{
             { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "3916-900": {
+        Manufacturer: "Ciena",
+        Model: "3916-900",
+        Slug: "ciena-3916-900",
+        UHeight: 1,
+        PartNumber: "170-3916-900",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "3916-901": {
+        Manufacturer: "Ciena",
+        Model: "3916-901",
+        Slug: "ciena-3916-901",
+        UHeight: 1,
+        PartNumber: "170-3916-901",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "3916-902": {
+        Manufacturer: "Ciena",
+        Model: "3916-902",
+        Slug: "ciena-3916-902",
+        UHeight: 1,
+        PartNumber: "170-3916-902",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+            { Name: "PSB", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "3916-904": {
+        Manufacturer: "Ciena",
+        Model: "3916-904",
+        Slug: "ciena-3916-904",
+        UHeight: 1,
+        PartNumber: "170-3916-904",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "3916-906": {
+        Manufacturer: "Ciena",
+        Model: "3916-906",
+        Slug: "ciena-3916-906",
+        UHeight: 1,
+        PartNumber: "170-3916-906",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+            { Name: "PSB", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "3926": {
         Manufacturer: "Ciena",
         Model: "3926",
@@ -204,6 +421,58 @@ var DeviceTypesMapCiena = map[string]*DeviceData{
         PowerPorts: []PowerPort{
             { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 40 },
             { Name: "PSB", Label: "", Type: "iec-60320-c14", MaximumDraw: 96, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "3928 DC": {
+        Manufacturer: "Ciena",
+        Model: "3928 DC",
+        Slug: "ciena-3928-dc",
+        UHeight: 1,
+        PartNumber: "170-3928-901",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "dc-terminal", MaximumDraw: 62, AllocatedDraw: 0 },
+            { Name: "PSB", Label: "", Type: "dc-terminal", MaximumDraw: 62, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

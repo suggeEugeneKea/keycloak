@@ -4076,6 +4076,45 @@ var DeviceTypesMapUbiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 2 (LAN)", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Protect Network Video Recorder Pro": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Protect Network Video Recorder Pro",
+        Slug: "ubiquiti-unifi-protect-network-video-recorder-pro",
+        UHeight: 2,
+        PartNumber: "UNVR-Pro",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+            { Name: "USP-RPS connector for PSU failover", Label: "", Type: "ubiquiti-smartpower", MaximumDraw: 160, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43; 2 (LAN)", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Security Gateway Pro": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Security Gateway Pro",
