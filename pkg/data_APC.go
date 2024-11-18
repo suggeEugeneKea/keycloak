@@ -3907,6 +3907,52 @@ var DeviceTypesMapAPC = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SMX3000RMLV2U": {
+        Manufacturer: "APC",
+        Model: "SMX3000RMLV2U",
+        Slug: "apc-smx3000rmlv2u",
+        UHeight: 2,
+        PartNumber: "SMX3000RMLV2U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 84.77,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l5-30p", MaximumDraw: 3600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 Outlet 1", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 2", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 3 Outlet 1", Type: "nema-l5-30r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SUA1500RMI2U": {
         Manufacturer: "APC",
         Model: "SUA1500RMI2U",

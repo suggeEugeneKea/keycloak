@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapNetApp = map[string]*DeviceData{
+    "DE460C": {
+        Manufacturer: "NetApp",
+        Model: "DE460C",
+        Slug: "netapp-de460c",
+        UHeight: 4,
+        PartNumber: "DE460C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 112.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOM A", Label: "", Position: "IOM A" },
+            { Name: "IOM B", Label: "", Position: "IOM B" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "E2824": {
         Manufacturer: "NetApp",
         Model: "E2824",
@@ -107,6 +146,7 @@ var DeviceTypesMapNetApp = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "con1", Type: "usb-micro-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -125,13 +165,54 @@ var DeviceTypesMapNetApp = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "e0a", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0b", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0c", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0d", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0e", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0f", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "e0m", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0a", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "0b", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "FAS2720": {
+        Manufacturer: "NetApp",
+        Model: "FAS2720",
+        Slug: "netapp-fas2720",
+        UHeight: 2,
+        PartNumber: "FAS2720",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 27.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "FAS2750": {
@@ -141,11 +222,11 @@ var DeviceTypesMapNetApp = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "FAS2750",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 26,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -154,8 +235,6 @@ var DeviceTypesMapNetApp = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -164,10 +243,12 @@ var DeviceTypesMapNetApp = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "A", Label: "", Position: "" },
-            { Name: "B", Label: "", Position: "" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

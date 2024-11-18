@@ -354,4 +354,53 @@ var DeviceTypesMapEdgecore = map[string]*DeviceData{
             { Name: "Ethernet124", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "ECS4100-12T": {
+        Manufacturer: "Edgecore",
+        Model: "ECS4100-12T",
+        Slug: "edgecore-ecs4100-12t",
+        UHeight: 1,
+        PartNumber: "ECS4100-12T",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
 }
