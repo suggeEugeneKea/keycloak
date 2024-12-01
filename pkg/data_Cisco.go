@@ -8802,6 +8802,70 @@ var DeviceTypesMapCisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Catalyst 2960S-24PD-L": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 2960S-24PD-L",
+        Slug: "cisco-ws-c2960s-24pd-l",
+        UHeight: 1,
+        PartNumber: "WS-C2960S-24PD-L",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 449, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "Catalyst 2960S-24PS-L": {
         Manufacturer: "Cisco",
         Model: "Catalyst 2960S-24PS-L",
@@ -43716,6 +43780,62 @@ var DeviceTypesMapCisco = map[string]*DeviceData{
             { Name: "TengigabitEthernet1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "TengigabitEthernet1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "vlan1", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
+    "SG355-10P": {
+        Manufacturer: "Cisco",
+        Model: "SG355-10P",
+        Slug: "cisco-sg355-10p-k9",
+        UHeight: 1,
+        PartNumber: "SG355-10P-K9",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External PS", Label: "", Type: "iec-60320-c14", MaximumDraw: 84, AllocatedDraw: 13 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Port-Channel1", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel2", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel3", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel4", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel5", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel6", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel7", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "Port-Channel8", Label: "", Type: "lag", MgmtOnly: false },
+            { Name: "vlan 1", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
     "SG500-28": {
