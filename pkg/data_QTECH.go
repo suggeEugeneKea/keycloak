@@ -93,8 +93,6 @@ var DeviceTypesMapQTECH = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 550, AllocatedDraw: 300 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 550, AllocatedDraw: 300 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -103,12 +101,22 @@ var DeviceTypesMapQTECH = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Power 1", Label: "PWR1", Position: "1" },
+            { Name: "Power 2", Label: "PWR2", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "HundredGigabitEthernet 0/49", Label: "49F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/50", Label: "50F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/51", Label: "51F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/52", Label: "52F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/53", Label: "53F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/54", Label: "54F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/55", Label: "55F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "HundredGigabitEthernet 0/56", Label: "56F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "TFGigabitEthernet 0/1", Label: "1F", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "TFGigabitEthernet 0/2", Label: "2F", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "TFGigabitEthernet 0/3", Label: "3F", Type: "25gbase-x-sfp28", MgmtOnly: false },
@@ -157,14 +165,6 @@ var DeviceTypesMapQTECH = map[string]*DeviceData{
             { Name: "TFGigabitEthernet 0/46", Label: "46F", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "TFGigabitEthernet 0/47", Label: "47F", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "TFGigabitEthernet 0/48", Label: "48F", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/49", Label: "49F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/50", Label: "50F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/51", Label: "51F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/52", Label: "52F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/53", Label: "53F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/54", Label: "54F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/55", Label: "55F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
-            { Name: "HundredGigabitEthernet 0/56", Label: "56F", Type: "100gbase-x-qsfp28", MgmtOnly: false },
             { Name: "mgmt 0", Label: "MGMT", Type: "1000base-t", MgmtOnly: true },
         },
     },

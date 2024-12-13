@@ -430,9 +430,9 @@ var DeviceTypesMapPanduit = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
-    "DP5e Flat Cat 5e Punchdown Patch Panel 48 Ports, 1RU, Black": {
+    "DP5e Flat Cat 5e Punchdown Patch Panel 24 Ports, 1RU, Black": {
         Manufacturer: "Panduit",
-        Model: "DP5e Flat Cat 5e Punchdown Patch Panel 48 Ports, 1RU, Black",
+        Model: "DP5e Flat Cat 5e Punchdown Patch Panel 24 Ports, 1RU, Black",
         Slug: "panduit-dp245e88tgy",
         UHeight: 1,
         PartNumber: "DP245E88TGY",
