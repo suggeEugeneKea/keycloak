@@ -109,6 +109,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Panduit": DeviceTypesMapPanduit,
     "Parks": DeviceTypesMapParks,
     "Peplink": DeviceTypesMapPeplink,
+    "Planet": DeviceTypesMapPlanet,
     "Pluribus": DeviceTypesMapPluribus,
     "QCT": DeviceTypesMapQCT,
     "QNAP": DeviceTypesMapQNAP,
