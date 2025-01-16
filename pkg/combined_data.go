@@ -13,6 +13,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Albis-Elcon": DeviceTypesMapAlbisElcon,
     "Alcatel-Lucent": DeviceTypesMapAlcatelLucent,
     "Allied Telesis": DeviceTypesMapAlliedTelesis,
+    "Allot": DeviceTypesMapAllot,
     "Alpha": DeviceTypesMapAlpha,
     "Apple": DeviceTypesMapApple,
     "Arctic-Wolf": DeviceTypesMapArcticWolf,
