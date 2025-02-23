@@ -42,5 +42,5 @@ jobs:
           git config user.email "187764736+svccicd@users.noreply.github.com"
           git add .
           DATE=$(date '+%Y-%m-%d')
-          git commit -m "fix(devicetype-library): updating data from remote repo <$DATE>."
+          git commit -m "fix(devicetype-library): updating data from remote repo ($DATE)."
           git push -f origin main
