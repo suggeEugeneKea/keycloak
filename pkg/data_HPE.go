@@ -19715,6 +19715,49 @@ var DeviceTypesMapHPE = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL20 Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL20 Gen10",
+        Slug: "hpe-proliant-dl20-gen10",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.41,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL320e Gen8": {
         Manufacturer: "HPE",
         Model: "ProLiant DL320e Gen8",
