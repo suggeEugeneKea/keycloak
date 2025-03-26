@@ -409,6 +409,47 @@ var DeviceTypesMapNetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "GS305E": {
+        Manufacturer: "Netgear",
+        Model: "GS305E",
+        Slug: "netgear-gs305e",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "GS308E": {
         Manufacturer: "Netgear",
         Model: "GS308E",
@@ -1469,6 +1510,52 @@ var DeviceTypesMapNetgear = map[string]*DeviceData{
             { Name: "1/0/50", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "1/0/51", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "1/0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "XS708T": {
+        Manufacturer: "Netgear",
+        Model: "XS708T",
+        Slug: "netgear-xs708t",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.61,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 50, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "TenGigabitEthernet/1", Label: "1", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/2", Label: "2", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/3", Label: "3", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/4", Label: "4", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/5", Label: "5", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/6", Label: "6", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/7T", Label: "7T", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/8T", Label: "8T", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/7F", Label: "7F", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet/8F", Label: "8F", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
 }

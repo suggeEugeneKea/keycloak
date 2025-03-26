@@ -2,6 +2,53 @@
 package devices
 
 var DeviceTypesMapLANCOM = map[string]*DeviceData{
+    "1793VA": {
+        Manufacturer: "LANCOM",
+        Model: "1793VA",
+        Slug: "lancom-1793va",
+        UHeight: 0,
+        PartNumber: "62115",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 2/4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 1/3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "1793VA-4G": {
         Manufacturer: "LANCOM",
         Model: "1793VA-4G",
@@ -12,7 +59,7 @@ var DeviceTypesMapLANCOM = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "child",
         Weight: 520,
         WeightUnit: "",
         IsPowered: false,
@@ -47,6 +94,53 @@ var DeviceTypesMapLANCOM = map[string]*DeviceData{
             { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Cellular Interface (LTE)", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "1793VAW": {
+        Manufacturer: "LANCOM",
+        Model: "1793VAW",
+        Slug: "lancom-1793vaw",
+        UHeight: 0,
+        PartNumber: "62115",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 2/4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 1/3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "1800EF": {
@@ -90,6 +184,59 @@ var DeviceTypesMapLANCOM = map[string]*DeviceData{
             { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "1926VAG": {
+        Manufacturer: "LANCOM",
+        Model: "1926VAG",
+        Slug: "lancom-1926vag",
+        UHeight: 1,
+        PartNumber: "62122",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 34, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "G.FAST/VDSL 1", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "VDSL 2", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "WAN 1 (SFP)", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "WAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ANALOG 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ANALOG 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ANALOG 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ANALOG 4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1 (NT)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2 (NT)", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "730-4G&#43;": {
@@ -2038,6 +2185,42 @@ var DeviceTypesMapLANCOM = map[string]*DeviceData{
             { Name: "eth2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "Rack Mount": {
+        Manufacturer: "LANCOM",
+        Model: "Rack Mount",
+        Slug: "lancom-rack-mount",
+        UHeight: 1,
+        PartNumber: "61501",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Device", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "WLC-1000": {

@@ -444,6 +444,44 @@ var DeviceTypesMapQNAP = map[string]*DeviceData{
             { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-431U": {
+        Manufacturer: "QNAP",
+        Model: "TS-431U",
+        Slug: "qnap-ts-431u",
+        UHeight: 1,
+        PartNumber: "TS-431U",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 35 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-431X": {
         Manufacturer: "QNAP",
         Model: "TS-431X",
