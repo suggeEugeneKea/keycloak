@@ -4,7 +4,6 @@ package main
 
 import (
 	"context"
-	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"html/template"
@@ -12,6 +11,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strings"
 
@@ -21,11 +21,12 @@ import (
 )
 
 const (
-	githubRepoURL    = "https://api.github.com/repos/netbox-community/devicetype-library/contents/device-types"
+	githubRepoURL    = "https://github.com/netbox-community/devicetype-library.git"
 	shaCommitFile    = "../../sha.txt"
 	manufacturerDir  = "../../pkg/"
 	combinedFile     = "../../pkg/combined_data.go"
 	githubRepo       = "devicetype-library"
+	cloneDir         = "/tmp/" + githubRepo
 	githubRepoSubdir = "device-types"
 	githubOwner      = "netbox-community"
 	branch           = "master"
@@ -115,17 +116,6 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
 }
 `
 
-type RepoContents struct {
-	Name string `json:"name"`
-	Path string `json:"path"`
-	URL  string `json:"url"`
-	Type string `json:"type"`
-}
-
-type FileResponse struct {
-	Content string `json:"content"` // base64 encoded content
-}
-
 type LatestCommitSHAResponse struct {
 	SHA string `json:"sha"`
 }
@@ -180,92 +170,6 @@ func readSHAFromFile(filename string) (string, error) {
 	return string(data), nil
 }
 
-// getGtihubSubRepoAndExtractContent calls the url which should be of format
-// https://api.github.com/repos/{{owner}}/{{repo}}/contents/{{path}} and returns
-// RepoContents representing all subfiles in the repository.
-func getGithubSubRepoAndExtractContent(ctx context.Context, url string) ([]RepoContents, error) {
-	fmt.Printf("getting dir content with path %s\n", url)
-
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
-	if err != nil {
-		return nil, fmt.Errorf("failed to create request: %v", err)
-	}
-	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", os.Getenv("GITHUB_API_TOKEN")))
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("failed to download content: %v", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("failed to download content: status code %d", resp.StatusCode)
-	}
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("failed to read response body: %v", err)
-	}
-
-	var repoResponse []RepoContents
-	err = json.Unmarshal(body, &repoResponse)
-	if err != nil {
-		return nil, fmt.Errorf("error unmarshalling repo response: %v", err)
-	}
-	return repoResponse, nil
-}
-
-// getFileContent calls the fileURL which should be of the format
-// https://api.github.com/repos/netbox-community/devicetype-library/contents/device-types/Cisco/2951-ISR.yaml?ref=master. And returns the string representation of this file.
-func getFileContent(ctx context.Context, fileURL string) ([]byte, error) {
-	fmt.Printf("getting file content with path %s\n", fileURL)
-
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, fileURL, nil)
-	if err != nil {
-		return nil, fmt.Errorf("failed to create request: %v", err)
-	}
-	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", os.Getenv("GITHUB_API_TOKEN")))
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("failed to download file: %v", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("failed to download file: status code %d", resp.StatusCode)
-	}
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("failed to read response body: %v", err)
-	}
-
-	var fileResponse FileResponse
-	err = json.Unmarshal(body, &fileResponse)
-	if err != nil {
-		return nil, fmt.Errorf("error unmarshalling file response: %v", err)
-	}
-
-	decoded, err := base64.StdEncoding.DecodeString(fileResponse.Content)
-	if err != nil {
-		return nil, fmt.Errorf("error decoding base64 content: %v", err)
-	}
-
-	return decoded, nil
-}
-
-func getObjectFromFile(ctx context.Context, url string) (*devices.DeviceData, error) {
-	content, err := getFileContent(ctx, url)
-	if err != nil {
-		return nil, fmt.Errorf("get file content: %s", err)
-	}
-	var obj devices.DeviceData
-	err = yaml.Unmarshal(content, &obj)
-	if err != nil {
-		return nil, fmt.Errorf("error unmarshaling file content into object: %s", err)
-	}
-	return &obj, nil
-}
-
 func createManufacturerTemplate(manufacturer string, deviceData map[string]*devices.DeviceData) error {
 	manufacturerTrimmed := trimManufacturer(manufacturer)
 	filepath := filepath.Join(manufacturerDir, fmt.Sprintf("data_%s.go", manufacturerTrimmed))
@@ -297,9 +201,10 @@ func createManufacturerTemplate(manufacturer string, deviceData map[string]*devi
 
 // Function that trims Manufacturer into a name that can be used as a golang variable name.
 func trimManufacturer(manufacturer string) string {
-	manufacturer = strings.ReplaceAll(manufacturer, " ", "")
-	manufacturer = strings.ReplaceAll(manufacturer, "-", "")
+	manufacturer = strings.ReplaceAll(manufacturer, " ", "_")
+	manufacturer = strings.ReplaceAll(manufacturer, "-", "_")
 	manufacturer = strings.ReplaceAll(manufacturer, "&", "")
+	manufacturer = strings.ToLower(manufacturer)
 	return manufacturer
 }
 
@@ -348,40 +253,19 @@ func run() error {
 		fmt.Printf("github.com/%s/%s latest commit is %s. It is the same as last sync, skipping...", githubOwner, githubRepo, currentCommitSHA)
 		return nil
 	}
+	fmt.Printf("New commit found. Last commit: %s, Current commit: %s\n", lastCommitSHA, currentCommitSHA)
 
-	// When new version is published regenerate data
-	url := fmt.Sprintf("https://api.github.com/repos/%s/%s/contents/%s?ref=%s", githubOwner, githubRepo, githubRepoSubdir, branch)
-	repoEntries, err := getGithubSubRepoAndExtractContent(ctx, url)
+	// Clone the repository with depth 1 and master branch.
+	err = cloneRepo(githubRepoURL, branch, cloneDir)
 	if err != nil {
-		return fmt.Errorf("get github sub repo and extract content: %s", err)
+		return fmt.Errorf("clone repo: %s", err)
 	}
 
-	manufacturers := []string{}
-	manufacturersTrimmed := []string{}
-	manufacturer2deviceType2deviceData := map[string]map[string]*devices.DeviceData{}
-	for _, entry := range repoEntries {
-		if entry.Type == "dir" {
-			manufacturerEntries, err := getGithubSubRepoAndExtractContent(ctx, entry.URL)
-			if err != nil {
-				return fmt.Errorf("get github subRepo and extract content: %s", err)
-			}
-			for _, manufacturerEntry := range manufacturerEntries {
-				if manufacturerEntry.Type == "file" && (strings.HasSuffix(manufacturerEntry.Name, ".yml") || strings.HasSuffix(manufacturerEntry.Name, ".yaml")) {
-					obj, err := getObjectFromFile(ctx, manufacturerEntry.URL)
-					if err != nil {
-						return fmt.Errorf("get object from file: %s", err)
-					}
-					manufacturerName := entry.Name
-					manufacturerNameTrimmed := trimManufacturer(manufacturerName)
-					if _, ok := manufacturer2deviceType2deviceData[manufacturerName]; !ok {
-						manufacturer2deviceType2deviceData[manufacturerName] = make(map[string]*devices.DeviceData)
-						manufacturers = append(manufacturers, manufacturerName)
-						manufacturersTrimmed = append(manufacturersTrimmed, manufacturerNameTrimmed)
-					}
-					manufacturer2deviceType2deviceData[manufacturerName][obj.Model] = obj
-				}
-			}
-		}
+	// Go through all of the files in the cloned repo and store them in a
+	// map called manufacturer2deviceType2deviceData.
+	manufacturer2deviceType2deviceData, manufacturers, manufacturersTrimmed, err := processClonedRepo(cloneDir)
+	if err != nil {
+		return fmt.Errorf("process cloned repo: %s", err)
 	}
 
 	// Generate manufacturer files
@@ -408,6 +292,75 @@ func run() error {
 		fmt.Printf("Successfully collected %d device types for manufacturer %s\n", len(deviceData), manufacturer)
 	}
 	return nil
+}
+
+func cloneRepo(repoURL, branch, cloneDir string) error {
+	// Remove the directory if it exists
+	if _, err := os.Stat(cloneDir); !os.IsNotExist(err) {
+		if err := os.RemoveAll(cloneDir); err != nil {
+			return fmt.Errorf("failed to remove existing clone directory: %w", err)
+		}
+	}
+
+	// Clone the repository
+	cmd := exec.Command("git", "clone", "--depth", "1", "-b", branch, repoURL, cloneDir)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	fmt.Printf("Cloning repository %s to %s\n", repoURL, cloneDir)
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to clone repository: %w", err)
+	}
+	return nil
+}
+
+func processClonedRepo(cloneDir string) (map[string]map[string]*devices.DeviceData, []string, []string, error) {
+	manufacturers := []string{}
+	manufacturersTrimmed := []string{}
+	manufacturer2deviceType2deviceData := map[string]map[string]*devices.DeviceData{}
+
+	err := filepath.Walk(cloneDir+"/"+githubRepoSubdir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+
+		// Skip directories
+		if info.IsDir() {
+			return nil
+		}
+
+		// Process YAML files
+		if strings.HasSuffix(info.Name(), ".yml") || strings.HasSuffix(info.Name(), ".yaml") {
+			dir := filepath.Dir(path)
+			manufacturer := filepath.Base(dir)
+
+			content, err := os.ReadFile(path)
+			if err != nil {
+				return fmt.Errorf("failed to read file %s: %w", path, err)
+			}
+
+			var obj devices.DeviceData
+			if err := yaml.Unmarshal(content, &obj); err != nil {
+				return fmt.Errorf("failed to unmarshal YAML from %s: %w", path, err)
+			}
+
+			manufacturerTrimmed := trimManufacturer(manufacturer)
+			if _, exists := manufacturer2deviceType2deviceData[manufacturer]; !exists {
+				manufacturer2deviceType2deviceData[manufacturer] = make(map[string]*devices.DeviceData)
+				manufacturers = append(manufacturers, manufacturer)
+				manufacturersTrimmed = append(manufacturersTrimmed, manufacturerTrimmed)
+			}
+
+			manufacturer2deviceType2deviceData[manufacturer][obj.Model] = &obj
+		}
+
+		return nil
+	})
+
+	if err != nil {
+		return nil, nil, nil, err
+	}
+
+	return manufacturer2deviceType2deviceData, manufacturers, manufacturersTrimmed, nil
 }
 
 func main() {
