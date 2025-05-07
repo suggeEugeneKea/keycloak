@@ -84,6 +84,50 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "AS-1115SV-WTNRT": {
+        Manufacturer: "Supermicro",
+        Model: "AS-1115SV-WTNRT",
+        Slug: "supermicro-as-1115sv-wtnrt",
+        UHeight: 1,
+        PartNumber: "AS-1115SV-WTNRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.53,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "AS-1123US-TR4": {
         Manufacturer: "Supermicro",
         Model: "AS-1123US-TR4",

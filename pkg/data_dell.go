@@ -4009,6 +4009,51 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "128gfc-qsfp28", MgmtOnly: false },
         },
     },
+    "PowerScale F710": {
+        Manufacturer: "Dell",
+        Model: "PowerScale F710",
+        Slug: "dell-powerscale-f710",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 22.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "", Position: "1" },
+            { Name: "PSU-2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt-1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt-2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "idrac-1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "100gige-front-end-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "100gige-front-end-2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "100gige-back-end-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "100gige-back-end-2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+        },
+    },
     "PowerSwitch N1124P-ON": {
         Manufacturer: "Dell",
         Model: "PowerSwitch N1124P-ON",
