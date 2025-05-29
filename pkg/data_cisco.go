@@ -27434,6 +27434,57 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
         },
     },
+    "FPR4215-NGFW-K9": {
+        Manufacturer: "Cisco",
+        Model: "FPR4215-NGFW-K9",
+        Slug: "cisco-fpr4215-ngfw-k9",
+        UHeight: 1,
+        PartNumber: "FPR4215-NGFW-K9",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Network Module 2", Label: "", Position: "2" },
+            { Name: "Network Module 3", Label: "", Position: "3" },
+            { Name: "PM0", Label: "", Position: "0/PM0" },
+            { Name: "PM1", Label: "", Position: "0/PM1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Management 1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Management 1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
     "FirePOWER 3110 Next-Generation Firewall": {
         Manufacturer: "Cisco",
         Model: "FirePOWER 3110 Next-Generation Firewall",
