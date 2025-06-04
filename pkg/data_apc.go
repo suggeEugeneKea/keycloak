@@ -3445,7 +3445,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3534,7 +3534,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3577,14 +3577,14 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT1500RMI2UNC": {
@@ -3621,14 +3621,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT2200I": {
@@ -3716,14 +3715,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT2200RMI2UNC": {
@@ -3765,14 +3763,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT3000RMI2U": {
@@ -3814,14 +3811,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT3000RMI2UC": {
@@ -3863,14 +3859,14 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT3000RMI2UNC": {
@@ -3912,14 +3908,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMT750I": {
@@ -4008,7 +4003,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMX120BP": {
@@ -4085,14 +4080,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SMX2200HV": {
@@ -4136,7 +4130,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4186,7 +4180,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4234,7 +4228,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4280,7 +4274,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4323,7 +4317,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4406,7 +4400,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4457,7 +4451,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Smart-UPS C 3000VA rack mount LCD 230V": {
@@ -4499,7 +4493,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4543,13 +4537,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "Smart-UPS RT 3000VA 230V": {
@@ -4591,7 +4585,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4639,7 +4633,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4685,7 +4679,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4729,7 +4723,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4826,14 +4820,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT 5000VA 200V": {
@@ -4869,6 +4862,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4907,6 +4901,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -4953,6 +4948,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5001,6 +4997,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5138,14 +5135,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT1500RMXLI-NC": {
@@ -5184,14 +5180,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT1500UXI-NCLI": {
@@ -5232,14 +5227,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT3000RMXLT": {
@@ -5275,7 +5269,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5322,14 +5316,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT5KRMXLT": {
@@ -5366,7 +5359,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SmartSlot", Label: "", Position: "Rear" },
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5413,13 +5406,13 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
 }
