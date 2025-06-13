@@ -771,6 +771,47 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG105": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG105",
+        Slug: "tp-link-tl-sg105",
+        UHeight: 0,
+        PartNumber: "TL-SG105",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External Power Adapter", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TL-SG105E": {
         Manufacturer: "TP-Link",
         Model: "TL-SG105E",
@@ -779,7 +820,7 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         PartNumber: "TL-SG105E",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
