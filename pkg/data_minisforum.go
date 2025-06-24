@@ -41,8 +41,8 @@ var DeviceTypesMapminisforum = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ethernet-1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "ethernet-1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfpp-1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfpp-1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "ethernet-2/1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "ethernet-2/2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
