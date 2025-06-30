@@ -143,6 +143,58 @@ var DeviceTypesMapbarracuda = map[string]*DeviceData{
             { Name: "p8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "F400C-F20": {
+        Manufacturer: "Barracuda",
+        Model: "F400C-F20",
+        Slug: "barracuda-f400c-f20",
+        UHeight: 1,
+        PartNumber: "F400 Rev. C .F20",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 9.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "a1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "a2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "p1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "p9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "p10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "p11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "p12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "F80B": {
         Manufacturer: "Barracuda",
         Model: "F80B",

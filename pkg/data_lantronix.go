@@ -126,4 +126,58 @@ var DeviceTypesMaplantronix = map[string]*DeviceData{
             { Name: "AUI", Label: "", Type: "other", MgmtOnly: true },
         },
     },
+    "LM83X": {
+        Manufacturer: "Lantronix",
+        Model: "LM83X",
+        Slug: "lantronix-lm83x",
+        UHeight: 1,
+        PartNumber: "LM83X",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB-A", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-C", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "1/1", Type: "rj-45", Label: "" },
+            { Name: "1/2", Type: "rj-45", Label: "" },
+            { Name: "1/3", Type: "rj-45", Label: "" },
+            { Name: "1/4", Type: "rj-45", Label: "" },
+            { Name: "1/5", Type: "rj-45", Label: "" },
+            { Name: "1/6", Type: "rj-45", Label: "" },
+            { Name: "1/7", Type: "rj-45", Label: "" },
+            { Name: "1/8", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "slot2", Label: "", Position: "2" },
+            { Name: "slot3", Label: "", Position: "3" },
+            { Name: "slot4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "E2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "E3", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
 }

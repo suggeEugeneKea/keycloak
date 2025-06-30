@@ -71,6 +71,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "GL-iNet": DeviceTypesMapgl_inet,
     "Generic": DeviceTypesMapgeneric,
     "Google": DeviceTypesMapgoogle,
+    "HP": DeviceTypesMaphp,
     "HPE": DeviceTypesMaphpe,
     "HUBER SUHNER": DeviceTypesMaphuber_suhner,
     "Hikvision": DeviceTypesMaphikvision,
