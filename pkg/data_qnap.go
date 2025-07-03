@@ -967,6 +967,46 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-653 Pro": {
+        Manufacturer: "QNAP",
+        Model: "TS-653 Pro",
+        Slug: "qnap-ts-653-pro",
+        UHeight: 0,
+        PartNumber: "TS-653-Pro",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 80 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "LAN4", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-832PXU-RP": {
         Manufacturer: "QNAP",
         Model: "TS-832PXU-RP",

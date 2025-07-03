@@ -454,6 +454,67 @@ var DeviceTypesMapvertiv = map[string]*DeviceData{
             { Name: "Network Option (IntelliSlot Port)", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Geist rPDU GI10022L": {
+        Manufacturer: "Vertiv",
+        Model: "Geist rPDU GI10022L",
+        Slug: "vertiv-geist-rpdu-gi10022l",
+        UHeight: 0,
+        PartNumber: "MG01D4W1-36PT63-3PS6B2A10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60309-p-n-e-4h", MaximumDraw: 7360, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "01", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "02", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "03", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "04", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "05", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "06", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "07", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "08", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "09", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "11", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "13", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "14", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "15", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "16", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "17", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "18", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "19", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "20", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "21", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "22", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "23", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "24", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IMD", Label: "", Position: "0/IMD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "MPUIQ-VMCHS": {
         Manufacturer: "Vertiv",
         Model: "MPUIQ-VMCHS",
