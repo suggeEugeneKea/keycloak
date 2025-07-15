@@ -134,6 +134,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Rohde &amp; Schwarz": DeviceTypesMaprohde__schwarz,
     "Ruckus": DeviceTypesMapruckus,
     "SNR": DeviceTypesMapsnr,
+    "SSD": DeviceTypesMapssd,
     "Sangoma": DeviceTypesMapsangoma,
     "Schneider Electric": DeviceTypesMapschneider_electric,
     "Schweitzer Engineering Laboratories": DeviceTypesMapschweitzer_engineering_laboratories,

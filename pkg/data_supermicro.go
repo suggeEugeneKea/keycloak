@@ -597,6 +597,44 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperChassis 846BE1C-R1K03JBOD": {
+        Manufacturer: "Supermicro",
+        Model: "SuperChassis 846BE1C-R1K03JBOD",
+        Slug: "supermicro-superchassis-846be1c-r1k03jbod",
+        UHeight: 4,
+        PartNumber: "846BE1C-R1K03JBOD",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 1018R-WC0R": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1018R-WC0R",

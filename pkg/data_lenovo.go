@@ -386,7 +386,7 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         Manufacturer: "Lenovo",
         Model: "ThinkSystem SR630",
         Slug: "lenovo-thinksystem-sr630",
-        UHeight: 0,
+        UHeight: 1,
         PartNumber: "7X02",
         IsFullDepth: true,
         Airflow: "",
