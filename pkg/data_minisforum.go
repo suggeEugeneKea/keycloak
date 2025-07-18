@@ -21,17 +21,13 @@ var DeviceTypesMapminisforum = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Barrel Jack", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
         },
         RearPorts: []RearPort{
-            { Name: "usb-c-1/1", Label: "", Type: "usb-c", Positions: 0, Poe: false },
-            { Name: "usb-c-1/2", Label: "", Type: "usb-c", Positions: 0, Poe: false },
-            { Name: "usb-a-1/1", Label: "", Type: "usb-a", Positions: 0, Poe: false },
-            { Name: "usb-a-1/2", Label: "", Type: "usb-a", Positions: 0, Poe: false },
         },
         ModuleBays: []ModuleBay{
             { Name: "PCIe Slot", Label: "", Position: "1" },
