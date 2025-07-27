@@ -86,6 +86,53 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "gi1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "MES2408CP": {
+        Manufacturer: "Eltex",
+        Model: "MES2408CP",
+        Slug: "eltex-mes2408cp",
+        UHeight: 1,
+        PartNumber: "MES2408CP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU#1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gi0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "MES2428P": {
         Manufacturer: "Eltex",
         Model: "MES2428P",
