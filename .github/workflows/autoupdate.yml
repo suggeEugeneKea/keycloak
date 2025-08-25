@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.SVC_GITHUB_TOKEN }}
 
       - name: Set up Go
         uses: actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34 # v5
@@ -22,7 +22,7 @@ jobs:
       - name: Run go generate
         run: go generate ./...
         env:
-          GITHUB_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GITHUB_API_TOKEN: ${{ secrets.SVC_GITHUB_TOKEN }}
 
       - name: Check for changes
         id: check_for_changes
@@ -34,6 +34,14 @@ jobs:
             echo "Changes detected."
             echo "changes=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@cb9bde2e2525e640591a934b1fd28eef1dcaf5e5 # v6
+        with:
+          gpg_private_key: ${{ secrets.SVC_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SVC_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
 
       - name: Commit changes
         if: steps.check_for_changes.outputs.changes == 'true'
