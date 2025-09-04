@@ -86,6 +86,51 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "gi1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ESR-200": {
+        Manufacturer: "Eltex",
+        Model: "ESR-200",
+        Slug: "eltex-esr-200",
+        UHeight: 1,
+        PartNumber: "ESR-200",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU#1", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "MES2408CP": {
         Manufacturer: "Eltex",
         Model: "MES2408CP",
