@@ -171,6 +171,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ASG-2015S-E1CR24L": {
+        Manufacturer: "Supermicro",
+        Model: "ASG-2015S-E1CR24L",
+        Slug: "supermicro-asg-2015s-e1cr24l",
+        UHeight: 2,
+        PartNumber: "ASG-2015S-E1CR24L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 23.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "Slot 5", Label: "", Position: "5" },
+            { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Slot A1", Label: "", Position: "A1" },
+            { Name: "Slot A2", Label: "", Position: "A2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "IoT SuperServer SYS-510D-8C-FN6P": {
         Manufacturer: "Supermicro",
         Model: "IoT SuperServer SYS-510D-8C-FN6P",
