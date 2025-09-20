@@ -26472,6 +26472,57 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "eth3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Cisco WS-C2950G-12-EI": {
+        Manufacturer: "Cisco",
+        Model: "Cisco WS-C2950G-12-EI",
+        Slug: "cisco-ws-c2950g-12-ei",
+        UHeight: 1,
+        PartNumber: "WS-C2950G-12-EI",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "POWER", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-x-gbic", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-x-gbic", MgmtOnly: false },
+        },
+    },
     "DN1-HW-APL": {
         Manufacturer: "Cisco",
         Model: "DN1-HW-APL",
