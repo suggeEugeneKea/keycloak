@@ -186,6 +186,54 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "1803VA-4G": {
+        Manufacturer: "LANCOM",
+        Model: "1803VA-4G",
+        Slug: "lancom-1803va-4g",
+        UHeight: 0,
+        PartNumber: "62155",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Config", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Cellular Interface (LTE)", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "1926VAG": {
         Manufacturer: "LANCOM",
         Model: "1926VAG",
