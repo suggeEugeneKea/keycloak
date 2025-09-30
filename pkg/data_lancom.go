@@ -2,6 +2,53 @@
 package devices
 
 var DeviceTypesMaplancom = map[string]*DeviceData{
+    "1783VAW (over ISDN)": {
+        Manufacturer: "LANCOM",
+        Model: "1783VAW (over ISDN)",
+        Slug: "lancom-1783vaw-over-isdn",
+        UHeight: 0,
+        PartNumber: "62055",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Analog 2/4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Analog 1/3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "1793VA": {
         Manufacturer: "LANCOM",
         Model: "1793VA",
