@@ -1594,6 +1594,55 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperStorage 6038r-E1CR16H": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6038r-E1CR16H",
+        Slug: "supermicro-superstorage-6038r-e1cr16h",
+        UHeight: 3,
+        PartNumber: "SSG-6038R-E1CR16H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 40,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x8", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x8", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 LP x8", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe-5 LP x8", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe-6 LP x8", Label: "", Position: "PCIe-6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Supermicro SSE-X3348TR": {
         Manufacturer: "Supermicro",
         Model: "Supermicro SSE-X3348TR",

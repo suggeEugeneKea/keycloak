@@ -113,6 +113,43 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProDesk 400 G6 MT": {
+        Manufacturer: "HP",
+        Model: "ProDesk 400 G6 MT",
+        Slug: "hpe-prodesk-400-g6-mt",
+        UHeight: 0,
+        PartNumber: "8DS76PA",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.47,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Z420": {
         Manufacturer: "HP",
         Model: "Z420",

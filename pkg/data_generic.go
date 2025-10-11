@@ -1700,6 +1700,44 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
             { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Media-Converter-1G-SC": {
+        Manufacturer: "Generic",
+        Model: "Media-Converter-1G-SC",
+        Slug: "generic-media-converter-1g-sc",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c6", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Ethernet", Label: "", Type: "8p8c", RearPort: "LAN", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "LAN", Label: "", Type: "sc-upc", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "POE Injector": {
         Manufacturer: "Generic",
         Model: "POE Injector",
