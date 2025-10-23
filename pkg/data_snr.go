@@ -318,4 +318,41 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
             { Name: "Ethernet", Label: "", Type: "1000base-tx", MgmtOnly: true },
         },
     },
+    "erd-4s": {
+        Manufacturer: "SNR",
+        Model: "erd-4s",
+        Slug: "snr-erd-4s",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR", Label: "", Type: "hardwired", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }

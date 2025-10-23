@@ -2403,23 +2403,19 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Optional OCP NIC", Label: "", Position: "ocp" },
+            { Name: "Optional BOSS-2 Removed", Label: "", Position: "boss" },
+            { Name: "PCIe-Gen4 1", Label: "", Position: "pcie1" },
+            { Name: "Optional PCIe-Gen4 2", Label: "", Position: "pcie2" },
+            { Name: "Optional PCIe-Gen4 3", Label: "", Position: "pcie3" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Optional OCP NIC", Label: "" },
-            { Name: "Optional BOSS-2 Removed", Label: "" },
-            { Name: "PCIe-Gen4 1", Label: "" },
-            { Name: "Optional PCIe-Gen4 2", Label: "" },
-            { Name: "Optional PCIe-Gen4 3", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Optional/OCP Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Optional/OCP Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Optional/OCP Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Optional/OCP Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC9", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
