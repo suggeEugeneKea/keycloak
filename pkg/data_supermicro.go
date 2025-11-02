@@ -1453,6 +1453,50 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "SuperStorage 2029P-E1CR48H": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 2029P-E1CR48H",
+        Slug: "supermicro-superstorage-2029p-e1cr48h",
+        UHeight: 2,
+        PartNumber: "SSG-2029P-E1CR48H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 29.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x8", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x16", Label: "", Position: "PCIe-3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperStorage 6027R-E1R12N": {
         Manufacturer: "Supermicro",
         Model: "SuperStorage 6027R-E1R12N",
