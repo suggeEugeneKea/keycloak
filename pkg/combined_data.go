@@ -172,6 +172,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "WTI": DeviceTypesMapwti,
     "WatchGuard": DeviceTypesMapwatchguard,
     "Winegard": DeviceTypesMapwinegard,
+    "Wireless-tag Technology": DeviceTypesMapwireless_tag_technology,
     "YAMAHA": DeviceTypesMapyamaha,
     "Yeastar": DeviceTypesMapyeastar,
     "ZPE": DeviceTypesMapzpe,

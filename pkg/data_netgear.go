@@ -450,6 +450,47 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "GS305EP": {
+        Manufacturer: "Netgear",
+        Model: "GS305EP",
+        Slug: "netgear-gs305ep",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 70, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "GS308E": {
         Manufacturer: "Netgear",
         Model: "GS308E",

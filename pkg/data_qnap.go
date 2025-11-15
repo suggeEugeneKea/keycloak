@@ -183,7 +183,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -203,8 +203,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -222,7 +220,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 1.28,
         WeightUnit: "",
         IsPowered: false,
@@ -260,7 +258,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 1.28,
         WeightUnit: "",
         IsPowered: false,
@@ -298,7 +296,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 1.46,
         WeightUnit: "",
         IsPowered: false,
@@ -336,7 +334,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 1.28,
         WeightUnit: "",
         IsPowered: false,
@@ -374,7 +372,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 1.74,
         WeightUnit: "",
         IsPowered: false,
@@ -412,7 +410,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -432,10 +430,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -492,7 +486,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 2.01,
         WeightUnit: "",
         IsPowered: false,
@@ -729,7 +723,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -750,10 +744,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -774,7 +764,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -794,10 +784,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -854,7 +840,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -874,10 +860,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -896,7 +878,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -917,10 +899,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -1059,7 +1037,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -1081,14 +1059,6 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "Slot 2", Label: "", Position: "" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "Disk 1", Label: "" },
-            { Name: "Disk 2", Label: "" },
-            { Name: "Disk 3", Label: "" },
-            { Name: "Disk 4", Label: "" },
-            { Name: "Disk 5", Label: "" },
-            { Name: "Disk 6", Label: "" },
-            { Name: "Disk 7", Label: "" },
-            { Name: "Disk 8", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -1109,7 +1079,7 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
+        SubdeviceRole: "",
         Weight: 13.98,
         WeightUnit: "",
         IsPowered: false,

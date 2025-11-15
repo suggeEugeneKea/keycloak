@@ -2817,7 +2817,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Manufacturer: "MikroTik",
         Model: "RB2011UiAS-IN",
         Slug: "mikrotik-rb2011uias-in",
-        UHeight: 0,
+        UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
@@ -3004,7 +3004,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Manufacturer: "MikroTik",
         Model: "RB2011iLS-IN",
         Slug: "mikrotik-rb2011ils-in",
-        UHeight: 0,
+        UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
@@ -3066,7 +3066,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3086,6 +3086,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "RB260GSP": {
