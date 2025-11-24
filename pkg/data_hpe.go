@@ -22139,6 +22139,57 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant ML350 Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant ML350 Gen10",
+        Slug: "hpe-proliant-ml350-gen10",
+        UHeight: 4,
+        PartNumber: "P22094-XX1",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "", Position: "PCIe8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant ML350p Gen8": {
         Manufacturer: "HPE",
         Model: "ProLiant ML350p Gen8",

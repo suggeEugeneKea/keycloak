@@ -11357,6 +11357,72 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "et-0/1/3", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "QFX5100-24Q": {
+        Manufacturer: "Juniper",
+        Model: "QFX5100-24Q",
+        Slug: "juniper-qfx5100-24q",
+        UHeight: 1,
+        PartNumber: "QFX5100-24Q",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "Module 1", Label: "", Position: "1" },
+            { Name: "Module 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "et-0/0/0", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/4", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/5", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/6", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/7", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/8", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/9", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/10", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/11", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/12", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/13", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/14", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/15", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/16", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/17", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/18", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/19", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/20", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/21", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/22", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "et-0/0/23", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "em0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "em1", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
     "QFX5100-48S-3afo": {
         Manufacturer: "Juniper",
         Model: "QFX5100-48S-3afo",
@@ -11377,8 +11443,6 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -11387,6 +11451,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -11472,8 +11538,6 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -11482,6 +11546,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -11614,8 +11680,6 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -11624,6 +11688,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -11707,8 +11773,6 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -11717,6 +11781,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -16377,7 +16443,7 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 46 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 46 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -16422,7 +16488,7 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 46 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 46 },
         },
         PowerOutlets: []PowerOutlet{
         },
