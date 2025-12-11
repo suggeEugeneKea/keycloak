@@ -2,6 +2,117 @@
 package devices
 
 var DeviceTypesMapbastion = map[string]*DeviceData{
+    "RAPAN-UPS1000-RACK-IN-2X9": {
+        Manufacturer: "Bastion",
+        Model: "RAPAN-UPS1000-RACK-IN-2X9",
+        Slug: "bastion-rapan-ups1000-rack-in-2x9",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c20", MaximumDraw: 1300, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Out1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Out2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SKAT-BC-48-18S3-RACK": {
+        Manufacturer: "Bastion",
+        Model: "SKAT-BC-48-18S3-RACK",
+        Slug: "bastion-skat-bc-48-18s3-rack",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 27.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 600 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SKAT-BC-72-18S3-RACK": {
+        Manufacturer: "Bastion",
+        Model: "SKAT-BC-72-18S3-RACK",
+        Slug: "bastion-skat-bc-72-18s3-rack",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 39.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 600 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SKAT-UPS10000-RACK-ON": {
         Manufacturer: "Bastion",
         Model: "SKAT-UPS10000-RACK-ON",

@@ -22363,7 +22363,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Manufacturer: "HPE",
         Model: "ProLiant XL170r G9 (2U)",
         Slug: "hpe-proliant-xl170r-g9-2u",
-        UHeight: 2,
+        UHeight: 0,
         PartNumber: "798156-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",

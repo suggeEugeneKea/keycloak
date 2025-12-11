@@ -644,6 +644,41 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "HORIZONTAL CABLE MGR FRONT 2 RU": {
+        Manufacturer: "Panduit",
+        Model: "HORIZONTAL CABLE MGR FRONT 2 RU",
+        Slug: "panduit-wmpf1e",
+        UHeight: 2,
+        PartNumber: "WMPF1E",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Mini-Com DIN Rail Patch Panel (8 Port)": {
         Manufacturer: "Panduit",
         Model: "Mini-Com DIN Rail Patch Panel (8 Port)",

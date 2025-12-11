@@ -47,6 +47,51 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "Analog 1/3", Label: "", Type: "other", MgmtOnly: false },
             { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "1790VAW": {
+        Manufacturer: "LANCOM",
+        Model: "1790VAW",
+        Slug: "lancom-1790vaw",
+        UHeight: 0,
+        PartNumber: "62111",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VDSL/ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "1793VA": {
@@ -188,6 +233,7 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "Analog 1/3", Label: "", Type: "other", MgmtOnly: false },
             { Name: "ISDN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ISDN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "1800EF": {

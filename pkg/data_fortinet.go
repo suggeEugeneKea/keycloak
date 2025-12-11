@@ -4467,8 +4467,8 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "AC Input 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 552, AllocatedDraw: 0 },
-            { Name: "AC Input 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 552, AllocatedDraw: 0 },
+            { Name: "AC-Input 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 552, AllocatedDraw: 0 },
+            { Name: "AC-Input 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 552, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "DC Output 1-1", Type: "dc-terminal", Label: "", PowerPort: "AC-Input 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
