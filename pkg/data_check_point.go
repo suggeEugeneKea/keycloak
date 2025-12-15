@@ -352,6 +352,49 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "eth18", Label: "18", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG2200": {
+        Manufacturer: "Check Point",
+        Model: "SG2200",
+        Slug: "check-point-sg2200",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2200",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU-External", Label: "", Type: "iec-60320-c14", MaximumDraw: 40, AllocatedDraw: 35 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG23800": {
         Manufacturer: "Check Point",
         Model: "SG23800",

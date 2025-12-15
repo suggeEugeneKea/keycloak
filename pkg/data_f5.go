@@ -767,4 +767,55 @@ var DeviceTypesMapf5 = map[string]*DeviceData{
             { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "BIG-IP r5600": {
+        Manufacturer: "F5",
+        Model: "BIG-IP r5600",
+        Slug: "f5-big-ip-r5600",
+        UHeight: 1,
+        PartNumber: "r5600",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "9.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "10.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

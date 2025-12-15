@@ -7099,14 +7099,14 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PowerPorts: []PowerPort{
         },
         PowerOutlets: []PowerOutlet{
-            { Name: "1A", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "1B", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "1C", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "1D", Type: "dc-terminal", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "2A", Type: "dc-terminal", Label: "", PowerPort: "PS2", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "2B", Type: "dc-terminal", Label: "", PowerPort: "PS2", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "3A", Type: "dc-terminal", Label: "", PowerPort: "PS3", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "3B", Type: "dc-terminal", Label: "", PowerPort: "PS3", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "1A", Type: "dc-terminal", Label: "PS1-A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "1B", Type: "dc-terminal", Label: "PS1-B", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "1C", Type: "dc-terminal", Label: "PS1-C", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "1D", Type: "dc-terminal", Label: "PS1-D", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2A", Type: "dc-terminal", Label: "PS2-A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2B", Type: "dc-terminal", Label: "PS2-B", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3A", Type: "dc-terminal", Label: "PS3-A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3B", Type: "dc-terminal", Label: "PS3-B", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },
