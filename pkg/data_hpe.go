@@ -22328,7 +22328,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Manufacturer: "HPE",
         Model: "ProLiant XL170r G9 (1U)",
         Slug: "hpe-proliant-xl170r-g9-1u",
-        UHeight: 1,
+        UHeight: 0,
         PartNumber: "798155-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
@@ -22469,6 +22469,52 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "SAS", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "StoreEver MSL6480": {
+        Manufacturer: "HPE",
+        Model: "StoreEver MSL6480",
+        Slug: "hpe-storeever-msl6480",
+        UHeight: 6,
+        PartNumber: "QU625A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 43.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "console usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "LTO_Drive_1", Label: "", Position: "1" },
+            { Name: "LTO_Drive_2", Label: "", Position: "2" },
+            { Name: "LTO_Drive_3", Label: "", Position: "3" },
+            { Name: "LTO_Drive_4", Label: "", Position: "4" },
+            { Name: "LTO_Drive_5", Label: "", Position: "5" },
+            { Name: "LTO_Drive_6", Label: "", Position: "6" },
+            { Name: "PSU1", Label: "", Position: "7" },
+            { Name: "PSU2", Label: "", Position: "8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "StoreOnce 5100": {

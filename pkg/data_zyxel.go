@@ -646,6 +646,52 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "50", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "GS2210-8": {
+        Manufacturer: "Zyxel",
+        Model: "GS2210-8",
+        Slug: "zyxel-gs2210-8",
+        UHeight: 1,
+        PartNumber: "GS2210-8",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "iec-60320-c14", MaximumDraw: 13, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "PMG1005-T20B": {
         Manufacturer: "Zyxel",
         Model: "PMG1005-T20B",

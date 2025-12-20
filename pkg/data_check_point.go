@@ -135,6 +135,63 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "qsfp56", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "SG1490": {
+        Manufacturer: "Check Point",
+        Model: "SG1490",
+        Slug: "check-point-sg1490",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1490-NGTP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "ttyS1", Type: "usb-c", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU-External", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 55 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG1570": {
         Manufacturer: "Check Point",
         Model: "SG1570",

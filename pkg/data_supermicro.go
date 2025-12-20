@@ -602,6 +602,55 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Storage SuperServer SSG-640P-E1CR36L": {
+        Manufacturer: "Supermicro",
+        Model: "Storage SuperServer SSG-640P-E1CR36L",
+        Slug: "supermicro-ssg-640p-e1cr36l",
+        UHeight: 4,
+        PartNumber: "SSG-640P-E1CR36L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 48,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x8", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x8", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 LP x8", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe-5 LP x8", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe-6 LP x8", Label: "", Position: "PCIe-6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperChassis 504-203B": {
         Manufacturer: "Supermicro",
         Model: "SuperChassis 504-203B",
