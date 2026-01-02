@@ -843,9 +843,9 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
     },
     "Tripp Lite B051-000": {
-        Manufacturer: "Tripp Lite",
+        Manufacturer: "Eaton",
         Model: "Tripp Lite B051-000",
-        Slug: "tripp-lite-b051-000",
+        Slug: "eaton-tripp-lite-b051-000",
         UHeight: 0,
         PartNumber: "B051-000",
         IsFullDepth: false,
@@ -1275,17 +1275,17 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
     },
     "Tripp Lite N054-024": {
-        Manufacturer: "Tripp Lite",
+        Manufacturer: "Eaton",
         Model: "Tripp Lite N054-024",
-        Slug: "tripp-lite-n054-024",
+        Slug: "eaton-tripp-lite-n054-024",
         UHeight: 1,
         PartNumber: "N054-024",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1347,6 +1347,56 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "22", Label: "", Type: "8p8c", Positions: 22, Poe: false },
             { Name: "23", Label: "", Type: "8p8c", Positions: 23, Poe: false },
             { Name: "24", Label: "", Type: "8p8c", Positions: 24, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Tripp Lite PDUH20HVL6": {
+        Manufacturer: "Eaton",
+        Model: "Tripp Lite PDUH20HVL6",
+        Slug: "eaton-tripp-lite-pduh20hvl6",
+        UHeight: 1,
+        PartNumber: "037332158970",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Primary", Label: "", Type: "nema-l6-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Front 1", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front 2", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front 3", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front 4", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 1", Type: "iec-60320-c19", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 2", Type: "iec-60320-c19", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 3", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 4", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 5", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 6", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 7", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 8", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 9", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 10", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
         },

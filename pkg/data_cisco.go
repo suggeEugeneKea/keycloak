@@ -27841,6 +27841,118 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "FPR3110-NGFW-K9": {
+        Manufacturer: "Cisco",
+        Model: "FPR3110-NGFW-K9",
+        Slug: "cisco-fpr3110-ngfw-k9",
+        UHeight: 1,
+        PartNumber: "FPR3110-NGFW-K9",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "0" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "Expansion module", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: true },
+        },
+    },
+    "FPR3120-NGFW-K9": {
+        Manufacturer: "Cisco",
+        Model: "FPR3120-NGFW-K9",
+        Slug: "cisco-fpr3120-ngfw-k9",
+        UHeight: 1,
+        PartNumber: "FPR3120-NGFW-K9",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "0" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "Expansion module", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: true },
+        },
+    },
     "FPR4110-NGFW-K9": {
         Manufacturer: "Cisco",
         Model: "FPR4110-NGFW-K9",
@@ -28290,60 +28402,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Ethernet1/8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "Management 1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "Management 1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
-        },
-    },
-    "FirePOWER 3110 Next-Generation Firewall": {
-        Manufacturer: "Cisco",
-        Model: "FirePOWER 3110 Next-Generation Firewall",
-        Slug: "cisco-firepower-3110-next-generation-firewall",
-        UHeight: 1,
-        PartNumber: "FPR3110-NGFW-K9",
-        IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 10.5,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-0", Label: "", Position: "0" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ethernet1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Management1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: true },
         },
     },
     "IE-2000-16PTC-G-E": {

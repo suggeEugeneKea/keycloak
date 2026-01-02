@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMaphuawei = map[string]*DeviceData{
+    "1288H-V6": {
+        Manufacturer: "Huawei",
+        Model: "1288H-V6",
+        Slug: "huawei-1288h-v6",
+        UHeight: 1,
+        PartNumber: "0231Y025",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "2288H V5": {
         Manufacturer: "Huawei",
         Model: "2288H V5",
@@ -3739,8 +3782,6 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3749,6 +3790,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
