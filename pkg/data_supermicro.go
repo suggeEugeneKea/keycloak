@@ -43,6 +43,47 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "A&#43; Server 2124BT-HTR": {
+        Manufacturer: "Supermicro",
+        Model: "A&#43; Server 2124BT-HTR",
+        Slug: "supermicro-as-2124bt-htr",
+        UHeight: 2,
+        PartNumber: "AS-2124BT-HTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU 0" },
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AS-1114S-WN10RT": {
         Manufacturer: "Supermicro",
         Model: "AS-1114S-WN10RT",
@@ -467,6 +508,96 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "SSE-G3648B": {
+        Manufacturer: "Supermicro",
+        Model: "SSE-G3648B",
+        Slug: "supermicro-sse-g3648b",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 8.18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp49", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "swp50", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "swp51", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "swp52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "SYS-1019P-WTR": {
@@ -1324,6 +1455,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperServer 6029P-TR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6029P-TR",
+        Slug: "supermicro-sys-6029p-tr",
+        UHeight: 2,
+        PartNumber: "SYS-6029P-TR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 16.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer A&#43; Server 1014S-WTRT": {
         Manufacturer: "Supermicro",
         Model: "SuperServer A&#43; Server 1014S-WTRT",
@@ -1734,6 +1912,54 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperStorage 6049P-E1CR36H": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6049P-E1CR36H",
+        Slug: "supermicro-ssg-6049p-e1cr36h",
+        UHeight: 4,
+        PartNumber: "SSG-6049P-E1CR36H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 29.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "Supermicro SSE-X3348TR": {
