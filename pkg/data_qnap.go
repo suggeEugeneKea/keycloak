@@ -324,6 +324,52 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-2483XU-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-2483XU-RP",
+        Slug: "qnap-ts-2483xu-rp",
+        UHeight: 4,
+        PartNumber: "TS-2483XU-RP",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIE1" },
+            { Name: "PCIe2", Label: "", Position: "PCIE2" },
+            { Name: "PCIe3", Label: "", Position: "PCIE3" },
+            { Name: "PCIe4", Label: "", Position: "PCIE4" },
+            { Name: "PCIe5", Label: "", Position: "PCIE5" },
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-251&#43;": {
         Manufacturer: "QNAP",
         Model: "TS-251&#43;",

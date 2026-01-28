@@ -148,6 +148,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Sedna": DeviceTypesMapsedna,
     "Server Technology": DeviceTypesMapserver_technology,
     "Siemon": DeviceTypesMapsiemon,
+    "Smartoptics": DeviceTypesMapsmartoptics,
     "Softline": DeviceTypesMapsoftline,
     "Solid Optics": DeviceTypesMapsolid_optics,
     "Sonar": DeviceTypesMapsonar,

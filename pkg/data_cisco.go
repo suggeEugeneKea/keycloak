@@ -2726,6 +2726,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Loopback0", Label: "", Type: "virtual", MgmtOnly: true },
         },
     },
+    "ASR1004": {
+        Manufacturer: "Cisco",
+        Model: "ASR1004",
+        Slug: "cisco-asr1004",
+        UHeight: 4,
+        PartNumber: "ASR1004",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 31.16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Aux 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "SPA subslot 0/0", Label: "", Position: "SPA subslot 0/0" },
+            { Name: "SPA subslot 0/1", Label: "", Position: "SPA subslot 0/1" },
+            { Name: "SPA subslot 0/2", Label: "", Position: "SPA subslot 0/2" },
+            { Name: "SPA subslot 0/3", Label: "", Position: "SPA subslot 0/3" },
+            { Name: "SPA subslot 1/0", Label: "", Position: "SPA subslot 1/0" },
+            { Name: "SPA subslot 1/1", Label: "", Position: "SPA subslot 1/1" },
+            { Name: "SPA subslot 1/2", Label: "", Position: "SPA subslot 1/2" },
+            { Name: "SPA subslot 1/3", Label: "", Position: "SPA subslot 1/3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ASR1006": {
         Manufacturer: "Cisco",
         Model: "ASR1006",

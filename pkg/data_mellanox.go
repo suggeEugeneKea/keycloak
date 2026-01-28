@@ -138,6 +138,61 @@ var DeviceTypesMapmellanox = map[string]*DeviceData{
             { Name: "swp22", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "SN2100": {
+        Manufacturer: "Mellanox",
+        Model: "SN2100",
+        Slug: "mellanox-sn2100",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "usb-mini-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "swp1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp3", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp4", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp5", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp6", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp7", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp8", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp9", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp10", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp11", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp12", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp13", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp14", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp15", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "swp16", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+        },
+    },
     "SN2700": {
         Manufacturer: "Mellanox",
         Model: "SN2700",

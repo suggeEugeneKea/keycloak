@@ -126,7 +126,7 @@ var DeviceTypesMapschweitzer_engineering_laboratories = map[string]*DeviceData{
             { Name: "5A", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "5B", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "Serial Port 1", Label: "EIA-485 Engineering Compression Terminal", Type: "other", MgmtOnly: false },
-            { Name: "Serial Port 2", Label: "Standard multisession Modbus, ASCII, TCP, Modbus RTU, DNP3, Telnet, Webserver, and IEC 61850", Type: "other", MgmtOnly: false },
+            { Name: "Serial Port 2", Label: "ASCII, TCP, Modbus RTU, DNP3, Telnet, Webserver, and IEC 61850", Type: "other", MgmtOnly: false },
             { Name: "Serial Port 3", Label: "SEL Dual-channel MIRRORED BITS", Type: "other", MgmtOnly: false },
         },
     },
@@ -287,7 +287,7 @@ var DeviceTypesMapschweitzer_engineering_laboratories = map[string]*DeviceData{
         ConsolePorts: []ConsolePort{
         },
         ConsoleServerPorts: []ConsoleServerPort{
-            { Name: "Port F", Type: "de-9", Label: "Communications with Modbus RTU-Slave, ASCII terminals, local HMI, SCADA, or DCS systems" },
+            { Name: "Port F", Type: "de-9", Label: "Modbus RTU-Slave, ASCII terminals, HMI, SCADA, or DCS systems" },
         },
         PowerPorts: []PowerPort{
             { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
