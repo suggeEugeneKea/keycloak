@@ -17,7 +17,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	devices "github.com/bl4ko/go-devicetype-library/pkg"
+	devices "github.com/src-doo/go-devicetype-library/pkg"
 )
 
 const (
@@ -122,8 +122,18 @@ type LatestCommitSHAResponse struct {
 
 // Function that fetches and returns the latest commit sha from
 // github.com/netbox-community/devicetype-library.
-func getLatestCommitSHA(ctx context.Context, owner string, repo string, branch string) (string, error) {
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, fmt.Sprintf("https://api.github.com/repos/%s/%s/commits/%s", owner, repo, branch), nil)
+func getLatestCommitSHA(
+	ctx context.Context,
+	owner string,
+	repo string,
+	branch string,
+) (string, error) {
+	req, err := http.NewRequestWithContext(
+		ctx,
+		http.MethodGet,
+		fmt.Sprintf("https://api.github.com/repos/%s/%s/commits/%s", owner, repo, branch),
+		nil,
+	)
 	if err != nil {
 		return "", fmt.Errorf("new request with context: %s", err)
 	}
@@ -170,7 +180,10 @@ func readSHAFromFile(filename string) (string, error) {
 	return string(data), nil
 }
 
-func createManufacturerTemplate(manufacturer string, deviceData map[string]*devices.DeviceData) error {
+func createManufacturerTemplate(
+	manufacturer string,
+	deviceData map[string]*devices.DeviceData,
+) error {
 	manufacturerTrimmed := trimManufacturer(manufacturer)
 	filepath := filepath.Join(manufacturerDir, fmt.Sprintf("data_%s.go", manufacturerTrimmed))
 	file, err := os.Create(filepath)
@@ -250,10 +263,19 @@ func run() error {
 	}
 
 	if lastCommitSHA == currentCommitSHA {
-		fmt.Printf("github.com/%s/%s latest commit is %s. It is the same as last sync, skipping...", githubOwner, githubRepo, currentCommitSHA)
+		fmt.Printf(
+			"github.com/%s/%s latest commit is %s. It is the same as last sync, skipping...",
+			githubOwner,
+			githubRepo,
+			currentCommitSHA,
+		)
 		return nil
 	}
-	fmt.Printf("New commit found. Last commit: %s, Current commit: %s\n", lastCommitSHA, currentCommitSHA)
+	fmt.Printf(
+		"New commit found. Last commit: %s, Current commit: %s\n",
+		lastCommitSHA,
+		currentCommitSHA,
+	)
 
 	// Clone the repository with depth 1 and master branch.
 	err = cloneRepo(githubRepoURL, branch, cloneDir)
@@ -263,7 +285,9 @@ func run() error {
 
 	// Go through all of the files in the cloned repo and store them in a
 	// map called manufacturer2deviceType2deviceData.
-	manufacturer2deviceType2deviceData, manufacturers, manufacturersTrimmed, err := processClonedRepo(cloneDir)
+	manufacturer2deviceType2deviceData, manufacturers, manufacturersTrimmed, err := processClonedRepo(
+		cloneDir,
+	)
 	if err != nil {
 		return fmt.Errorf("process cloned repo: %s", err)
 	}
@@ -289,7 +313,11 @@ func run() error {
 
 	// Print general information
 	for manufacturer, deviceData := range manufacturer2deviceType2deviceData {
-		fmt.Printf("Successfully collected %d device types for manufacturer %s\n", len(deviceData), manufacturer)
+		fmt.Printf(
+			"Successfully collected %d device types for manufacturer %s\n",
+			len(deviceData),
+			manufacturer,
+		)
 	}
 	return nil
 }
@@ -313,48 +341,55 @@ func cloneRepo(repoURL, branch, cloneDir string) error {
 	return nil
 }
 
-func processClonedRepo(cloneDir string) (map[string]map[string]*devices.DeviceData, []string, []string, error) {
+func processClonedRepo(
+	cloneDir string,
+) (map[string]map[string]*devices.DeviceData, []string, []string, error) {
 	manufacturers := []string{}
 	manufacturersTrimmed := []string{}
 	manufacturer2deviceType2deviceData := map[string]map[string]*devices.DeviceData{}
 
-	err := filepath.Walk(cloneDir+"/"+githubRepoSubdir, func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
-
-		// Skip directories
-		if info.IsDir() {
-			return nil
-		}
-
-		// Process YAML files
-		if strings.HasSuffix(info.Name(), ".yml") || strings.HasSuffix(info.Name(), ".yaml") {
-			dir := filepath.Dir(path)
-			manufacturer := filepath.Base(dir)
-
-			content, err := os.ReadFile(path)
+	err := filepath.Walk(
+		cloneDir+"/"+githubRepoSubdir,
+		func(path string, info os.FileInfo, err error) error {
 			if err != nil {
-				return fmt.Errorf("failed to read file %s: %w", path, err)
+				return err
 			}
 
-			var obj devices.DeviceData
-			if err := yaml.Unmarshal(content, &obj); err != nil {
-				return fmt.Errorf("failed to unmarshal YAML from %s: %w", path, err)
+			// Skip directories
+			if info.IsDir() {
+				return nil
 			}
 
-			manufacturerTrimmed := trimManufacturer(manufacturer)
-			if _, exists := manufacturer2deviceType2deviceData[manufacturer]; !exists {
-				manufacturer2deviceType2deviceData[manufacturer] = make(map[string]*devices.DeviceData)
-				manufacturers = append(manufacturers, manufacturer)
-				manufacturersTrimmed = append(manufacturersTrimmed, manufacturerTrimmed)
+			// Process YAML files
+			if strings.HasSuffix(info.Name(), ".yml") || strings.HasSuffix(info.Name(), ".yaml") {
+				dir := filepath.Dir(path)
+				manufacturer := filepath.Base(dir)
+
+				content, err := os.ReadFile(path)
+				if err != nil {
+					return fmt.Errorf("failed to read file %s: %w", path, err)
+				}
+
+				var obj devices.DeviceData
+				if err := yaml.Unmarshal(content, &obj); err != nil {
+					return fmt.Errorf("failed to unmarshal YAML from %s: %w", path, err)
+				}
+
+				manufacturerTrimmed := trimManufacturer(manufacturer)
+				if _, exists := manufacturer2deviceType2deviceData[manufacturer]; !exists {
+					manufacturer2deviceType2deviceData[manufacturer] = make(
+						map[string]*devices.DeviceData,
+					)
+					manufacturers = append(manufacturers, manufacturer)
+					manufacturersTrimmed = append(manufacturersTrimmed, manufacturerTrimmed)
+				}
+
+				manufacturer2deviceType2deviceData[manufacturer][obj.Model] = &obj
 			}
 
-			manufacturer2deviceType2deviceData[manufacturer][obj.Model] = &obj
-		}
-
-		return nil
-	})
+			return nil
+		},
+	)
 
 	if err != nil {
 		return nil, nil, nil, err

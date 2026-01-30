@@ -1,4 +1,4 @@
-module github.com/bl4ko/go-devicetype-library
+module github.com/src-doo/go-devicetype-library
 
 go 1.23.1
 

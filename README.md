@@ -12,7 +12,7 @@ package main
 import (
   "fmt"
 
-  devices "github.com/bl4ko/go-devicetype-library/pkg"
+  devices "github.com/src-doo/go-devicetype-library/pkg"
 )
 
 func main() {
