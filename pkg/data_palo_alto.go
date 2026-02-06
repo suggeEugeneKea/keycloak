@@ -925,7 +925,7 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 15,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -934,7 +934,7 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 150 },
         },
         PowerOutlets: []PowerOutlet{
         },

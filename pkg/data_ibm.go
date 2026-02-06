@@ -49,6 +49,68 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "46M4137": {
+        Manufacturer: "IBM",
+        Model: "46M4137",
+        Slug: "ibm-46m4137",
+        UHeight: 0,
+        PartNumber: "46M4137",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-12", Label: "Serial", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Cord", Label: "", Type: "iec-60309-3p-n-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "L1 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "Network", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "BladeCenter H": {
         Manufacturer: "IBM",
         Model: "BladeCenter H",
@@ -147,6 +209,175 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "FlashSystem 5035": {
+        Manufacturer: "IBM",
+        Model: "FlashSystem 5035",
+        Slug: "ibm-flashsystem-5035",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 16.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller 1", Label: "" },
+            { Name: "Controller 2", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FlashSystem 5300": {
+        Manufacturer: "IBM",
+        Model: "FlashSystem 5300",
+        Slug: "ibm-flashsystem-5300",
+        UHeight: 1,
+        PartNumber: "4662-7H2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller 1", Label: "" },
+            { Name: "Controller 2", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SAN Volume Controller 2145-SV2": {
+        Manufacturer: "IBM",
+        Model: "SAN Volume Controller 2145-SV2",
+        Slug: "ibm-san-volume-controller-2145-sv2",
+        UHeight: 2,
+        PartNumber: "2145-SV2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Adapter 1", Label: "", Position: "Adapter 1" },
+            { Name: "Adapter 2", Label: "", Position: "Adapter 2" },
+            { Name: "Adapter 3", Label: "", Position: "Adapter 3" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SAN Volume Controller 2145-SV3": {
+        Manufacturer: "IBM",
+        Model: "SAN Volume Controller 2145-SV3",
+        Slug: "ibm-san-volume-controller-2145-sv3",
+        UHeight: 2,
+        PartNumber: "2145-SV3",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Adapter 1", Label: "", Position: "Adapter 1" },
+            { Name: "Adapter 2", Label: "", Position: "Adapter 2" },
+            { Name: "Adapter 3", Label: "", Position: "Adapter 3" },
+            { Name: "Adapter 4", Label: "", Position: "Adapter 4" },
+            { Name: "Adapter 5", Label: "", Position: "Adapter 5" },
+            { Name: "Adapter 6", Label: "", Position: "Adapter 6" },
+            { Name: "Adapter 7", Label: "", Position: "Adapter 7" },
+            { Name: "Adapter 8", Label: "", Position: "Adapter 8" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SAN24B-6": {
@@ -265,7 +496,7 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 25,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

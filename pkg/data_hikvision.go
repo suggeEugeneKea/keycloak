@@ -2,6 +2,44 @@
 package devices
 
 var DeviceTypesMaphikvision = map[string]*DeviceData{
+    "DS-2CD2047G2-LU(C)": {
+        Manufacturer: "Hikvision",
+        Model: "DS-2CD2047G2-LU(C)",
+        Slug: "hikvision-ds-2cd2047g2-luc",
+        UHeight: 0,
+        PartNumber: "DS-2CD2047G2-LU(C)",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 690,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD/microSDHC/microSDXC", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DS-3E0524-E-C": {
         Manufacturer: "Hikvision",
         Model: "DS-3E0524-E-C",
@@ -641,6 +679,80 @@ var DeviceTypesMaphikvision = map[string]*DeviceData{
             { Name: "52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "53", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "54", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "DS-7616NXI-K2": {
+        Manufacturer: "Hikvision",
+        Model: "DS-7616NXI-K2",
+        Slug: "hikvision-ds-7616nxi-k2",
+        UHeight: 1,
+        PartNumber: "DS-7616NXI-K2",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "12V", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "lan", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DS-7616NXI-K2-1U": {
+        Manufacturer: "Hikvision",
+        Model: "DS-7616NXI-K2-1U",
+        Slug: "hikvision-ds-7616nxi-k2-1u",
+        UHeight: 1,
+        PartNumber: "DS-7616NXI-K2-1U",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "12V", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "lan", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DS-7632NI-I2/16P": {

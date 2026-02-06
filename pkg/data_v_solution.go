@@ -2,6 +2,72 @@
 package devices
 
 var DeviceTypesMapv_solution = map[string]*DeviceData{
+    "V1600D16": {
+        Manufacturer: "V-Solution",
+        Model: "V1600D16",
+        Slug: "v-solution-v1600d16",
+        UHeight: 1,
+        PartNumber: "V1600D16",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 95 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "AUX Interface", Label: "AUX", Type: "100base-fx", MgmtOnly: true },
+            { Name: "epon 0/1", Label: "PON1", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/2", Label: "PON2", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/3", Label: "PON3", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/4", Label: "PON4", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/5", Label: "PON5", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/6", Label: "PON6", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/7", Label: "PON7", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/8", Label: "PON8", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/9", Label: "PON9", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/10", Label: "PON10", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/11", Label: "PON11", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/12", Label: "PON12", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/13", Label: "PON13", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/14", Label: "PON14", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/15", Label: "PON15", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/16", Label: "PON16", Type: "epon", MgmtOnly: false },
+            { Name: "gigabitethernet 0/1", Label: "GE1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/2", Label: "GE2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/3", Label: "GE3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/4", Label: "GE4", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/5", Label: "GE5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/6", Label: "GE6", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/7", Label: "GE7", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/8", Label: "GE8", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/9", Label: "GE9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/10", Label: "GE10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/11", Label: "GE11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/12", Label: "GE12", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "V1600D2": {
         Manufacturer: "V-Solution",
         Model: "V1600D2",
@@ -44,6 +110,118 @@ var DeviceTypesMapv_solution = map[string]*DeviceData{
             { Name: "epon 0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "epon 0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "aux", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "V1600D4": {
+        Manufacturer: "V-Solution",
+        Model: "V1600D4",
+        Slug: "v-solution-v1600d4",
+        UHeight: 1,
+        PartNumber: "V1600D4",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "AUX Interface", Label: "AUX", Type: "100base-fx", MgmtOnly: true },
+            { Name: "epon 0/1", Label: "PON1", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/2", Label: "PON2", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/3", Label: "PON3", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/4", Label: "PON4", Type: "epon", MgmtOnly: false },
+            { Name: "gigabitethernet 0/1", Label: "GE1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/2", Label: "GE2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/3", Label: "GE3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/4", Label: "GE4", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/5", Label: "GE5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/6", Label: "GE6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/7", Label: "GE7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/8", Label: "GE8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "V1600D8": {
+        Manufacturer: "V-Solution",
+        Model: "V1600D8",
+        Slug: "v-solution-v1600d8",
+        UHeight: 1,
+        PartNumber: "V1600D8",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 70, AllocatedDraw: 55 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "AUX Interface", Label: "AUX", Type: "100base-fx", MgmtOnly: true },
+            { Name: "epon 0/1", Label: "PON1", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/2", Label: "PON2", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/3", Label: "PON3", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/4", Label: "PON4", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/5", Label: "PON5", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/6", Label: "PON6", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/7", Label: "PON7", Type: "epon", MgmtOnly: false },
+            { Name: "epon 0/8", Label: "PON8", Type: "epon", MgmtOnly: false },
+            { Name: "gigabitethernet 0/1", Label: "GE1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/2", Label: "GE2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/3", Label: "GE3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/4", Label: "GE4", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/5", Label: "GE5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/6", Label: "GE6", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/7", Label: "GE7", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/8", Label: "GE8", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/9", Label: "GE9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/10", Label: "GE10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/11", Label: "GE11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/12", Label: "GE12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/13", Label: "GE13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/14", Label: "GE14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/15", Label: "GE15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/16", Label: "GE16", Type: "1000base-t", MgmtOnly: false },
         },
     },
 }

@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMaparris = map[string]*DeviceData{
+    "S33v2": {
+        Manufacturer: "ARRIS",
+        Model: "S33v2",
+        Slug: "arris-s33v2",
+        UHeight: 0,
+        PartNumber: "SB00DAD3S33V2RT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Coax 1", Label: "", Type: "docsis", MgmtOnly: false },
+        },
+    },
     "SB8200": {
         Manufacturer: "ARRIS",
         Model: "SB8200",

@@ -2,6 +2,89 @@
 package devices
 
 var DeviceTypesMapcommscope = map[string]*DeviceData{
+    "360-E-MOD-1U-24": {
+        Manufacturer: "Commscope",
+        Model: "360-E-MOD-1U-24",
+        Slug: "commscope-360-e-mod-1u-24",
+        UHeight: 1,
+        PartNumber: "760187187",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
+            { Name: "2", Label: "", Type: "8p8c", RearPort: "2", RearPortPosition: 1 },
+            { Name: "3", Label: "", Type: "8p8c", RearPort: "3", RearPortPosition: 1 },
+            { Name: "4", Label: "", Type: "8p8c", RearPort: "4", RearPortPosition: 1 },
+            { Name: "5", Label: "", Type: "8p8c", RearPort: "5", RearPortPosition: 1 },
+            { Name: "6", Label: "", Type: "8p8c", RearPort: "6", RearPortPosition: 1 },
+            { Name: "7", Label: "", Type: "8p8c", RearPort: "7", RearPortPosition: 1 },
+            { Name: "8", Label: "", Type: "8p8c", RearPort: "8", RearPortPosition: 1 },
+            { Name: "9", Label: "", Type: "8p8c", RearPort: "9", RearPortPosition: 1 },
+            { Name: "10", Label: "", Type: "8p8c", RearPort: "10", RearPortPosition: 1 },
+            { Name: "11", Label: "", Type: "8p8c", RearPort: "11", RearPortPosition: 1 },
+            { Name: "12", Label: "", Type: "8p8c", RearPort: "12", RearPortPosition: 1 },
+            { Name: "13", Label: "", Type: "8p8c", RearPort: "13", RearPortPosition: 1 },
+            { Name: "14", Label: "", Type: "8p8c", RearPort: "14", RearPortPosition: 1 },
+            { Name: "15", Label: "", Type: "8p8c", RearPort: "15", RearPortPosition: 1 },
+            { Name: "16", Label: "", Type: "8p8c", RearPort: "16", RearPortPosition: 1 },
+            { Name: "17", Label: "", Type: "8p8c", RearPort: "17", RearPortPosition: 1 },
+            { Name: "18", Label: "", Type: "8p8c", RearPort: "18", RearPortPosition: 1 },
+            { Name: "19", Label: "", Type: "8p8c", RearPort: "19", RearPortPosition: 1 },
+            { Name: "20", Label: "", Type: "8p8c", RearPort: "20", RearPortPosition: 1 },
+            { Name: "21", Label: "", Type: "8p8c", RearPort: "21", RearPortPosition: 1 },
+            { Name: "22", Label: "", Type: "8p8c", RearPort: "22", RearPortPosition: 1 },
+            { Name: "23", Label: "", Type: "8p8c", RearPort: "23", RearPortPosition: 1 },
+            { Name: "24", Label: "", Type: "8p8c", RearPort: "24", RearPortPosition: 1 },
+        },
+        RearPorts: []RearPort{
+            { Name: "1", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "2", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "3", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "4", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "5", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "6", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "7", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "8", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "9", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "10", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "11", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "12", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "13", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "14", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "15", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "16", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "17", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "18", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "19", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "20", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "21", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "22", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "23", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "24", Label: "", Type: "110-punch", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "360G2-1U-MOD-SD": {
         Manufacturer: "Commscope",
         Model: "360G2-1U-MOD-SD",
@@ -461,6 +544,88 @@ var DeviceTypesMapcommscope = map[string]*DeviceData{
             { Name: "Port 48", Label: "", Type: "splice", Positions: 0, Poe: false },
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "HD-1U": {
+        Manufacturer: "Commscope",
+        Model: "HD-1U",
+        Slug: "commscope-hd-1u",
+        UHeight: 1,
+        PartNumber: "760209940",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "HD-2U": {
+        Manufacturer: "Commscope",
+        Model: "HD-2U",
+        Slug: "commscope-hd-2u",
+        UHeight: 2,
+        PartNumber: "760209957",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.71,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7", Label: "", Position: "7" },
+            { Name: "8", Label: "", Position: "8" },
         },
 			  DeviceBays: []DeviceBay{
         },

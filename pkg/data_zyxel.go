@@ -281,6 +281,52 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "GS1900-10HP": {
+        Manufacturer: "Zyxel",
+        Model: "GS1900-10HP",
+        Slug: "zyxel-gs1900-10hp",
+        UHeight: 0,
+        PartNumber: "GS1900-10HP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "GS1900-16": {
         Manufacturer: "Zyxel",
         Model: "GS1900-16",
@@ -402,7 +448,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "GS1900-24E",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -462,7 +508,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "GS1900-48",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -656,7 +702,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "GS1920-24HPv2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "right-to-left",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -784,7 +830,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "GS1920-48HPv2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "right-to-left",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -870,7 +916,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "GS1920-48v2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -1436,7 +1482,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1501,7 +1547,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1566,7 +1612,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1655,7 +1701,7 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

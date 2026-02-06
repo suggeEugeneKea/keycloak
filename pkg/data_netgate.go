@@ -42,6 +42,48 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
             { Name: "mvneta0.4092", Label: "OPT", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "1537 Security Gateway": {
+        Manufacturer: "Netgate",
+        Model: "1537 Security Gateway",
+        Slug: "netgate-1537-security-gateway",
+        UHeight: 1,
+        PartNumber: "xg-1537",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ix0", Label: "OPT1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ix1", Label: "OPT2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "igb0", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb1", Label: "LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ipmi", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "3100 Security Gateway": {
         Manufacturer: "Netgate",
         Model: "3100 Security Gateway",
@@ -277,8 +319,8 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 6.05,
         WeightUnit: "",
@@ -289,7 +331,6 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "", Type: "iec-60320-c16", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -298,6 +339,8 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

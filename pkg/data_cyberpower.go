@@ -475,6 +475,54 @@ var DeviceTypesMapcyberpower = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PDU20BHVIEC12R": {
+        Manufacturer: "CyberPower",
+        Model: "PDU20BHVIEC12R",
+        Slug: "cyberpower-pdu20bhviec12r",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "IN01", Label: "", Type: "iec-60320-c20", MaximumDraw: 3600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "OUT1", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT2", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT3", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT4", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT5", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT6", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT7", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT8", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT9", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT10", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT11", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "OUT12", Type: "iec-60320-c13", Label: "", PowerPort: "IN01", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "PDU81005": {
         Manufacturer: "CyberPower",
         Model: "PDU81005",

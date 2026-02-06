@@ -2,6 +2,52 @@
 package devices
 
 var DeviceTypesMapbizone = map[string]*DeviceData{
+    "sdwan-ce1000n-8t2n": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce1000n-8t2n",
+        Slug: "bizone-sdwan-ce1000n-8t2n",
+        UHeight: 1,
+        PartNumber: "sdwan-ce1000n-8t2n",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "sdwan-ce1000n-8t2n-4xs": {
         Manufacturer: "BiZone",
         Model: "sdwan-ce1000n-8t2n-4xs",
@@ -52,18 +98,157 @@ var DeviceTypesMapbizone = map[string]*DeviceData{
             { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
-    "sdwan-ce20n-3tm": {
+    "sdwan-ce1000n-8t2n-8xs": {
         Manufacturer: "BiZone",
-        Model: "sdwan-ce20n-3tm",
-        Slug: "bizone-sdwan-ce20n-3tm",
+        Model: "sdwan-ce1000n-8t2n-8xs",
+        Slug: "bizone-sdwan-ce1000n-8t2n-8xs",
         UHeight: 1,
-        PartNumber: "sdwan-ce20n-3tm",
+        PartNumber: "sdwan-ce1000n-8t2n-8xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce100n-4t1s": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce100n-4t1s",
+        Slug: "bizone-sdwan-ce100n-4t1s",
+        UHeight: 1,
+        PartNumber: "sdwan-ce100n-4t1s",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 1.2,
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 12v 3a", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce100n-4t1sm": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce100n-4t1sm",
+        Slug: "bizone-sdwan-ce100n-4t1sm",
+        UHeight: 1,
+        PartNumber: "sdwan-ce100n-4t1sm",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 12v 3a", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LTE0", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce20n-3t": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce20n-3t",
+        Slug: "bizone-sdwan-ce20n-3t",
+        UHeight: 1,
+        PartNumber: "sdwan-ce20n-3t",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -90,7 +275,133 @@ var DeviceTypesMapbizone = map[string]*DeviceData{
             { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce20n-3t2m": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce20n-3t2m",
+        Slug: "bizone-sdwan-ce20n-3t2m",
+        UHeight: 1,
+        PartNumber: "sdwan-ce20n-3t2m",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 12v 3a", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lte0", Label: "", Type: "lte", MgmtOnly: false },
             { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce20n-3tm": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce20n-3tm",
+        Slug: "bizone-sdwan-ce20n-3tm",
+        UHeight: 1,
+        PartNumber: "sdwan-ce20n-3tm",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 12v 3a", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lte0", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce3000d-2t4xs": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce3000d-2t4xs",
+        Slug: "bizone-sdwan-ce3000d-2t4xs",
+        UHeight: 4,
+        PartNumber: "sdwan-ce3000d-2t4xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 300 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 300 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
     "sdwan-ce300n-4t2s2xs": {
@@ -138,6 +449,94 @@ var DeviceTypesMapbizone = map[string]*DeviceData{
             { Name: "port8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "sdwan-ce500n-4t4xs": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce500n-4t4xs",
+        Slug: "bizone-sdwan-ce500n-4t4xs",
+        UHeight: 1,
+        PartNumber: "sdwan-ce500n-4t4xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "sdwan-ce50n-4t1s": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce50n-4t1s",
+        Slug: "bizone-sdwan-ce50n-4t1s",
+        UHeight: 1,
+        PartNumber: "sdwan-ce50n-4t1s",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 12v 3a", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "sdwan-ce50n-4t1sm": {
         Manufacturer: "BiZone",
         Model: "sdwan-ce50n-4t1sm",
@@ -178,6 +577,7 @@ var DeviceTypesMapbizone = map[string]*DeviceData{
             { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LTE0", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
 }

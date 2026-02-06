@@ -2646,6 +2646,45 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "LW-700": {
+        Manufacturer: "LANCOM",
+        Model: "LW-700",
+        Slug: "lancom-lw-700",
+        UHeight: 1,
+        PartNumber: "61931",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 820,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "DC 12 V", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "LX-6402": {
         Manufacturer: "LANCOM",
         Model: "LX-6402",
@@ -2686,6 +2725,47 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "LX-7300": {
+        Manufacturer: "LANCOM",
+        Model: "LX-7300",
+        Slug: "lancom-lx-7300",
+        UHeight: 1,
+        PartNumber: "61893",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "DC 12 V", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "ETH1 (PoE)", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "ETH2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "Rack Mount": {
         Manufacturer: "LANCOM",
         Model: "Rack Mount",
@@ -2720,6 +2800,47 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "UF-60": {
+        Manufacturer: "LANCOM",
+        Model: "UF-60",
+        Slug: "lancom-uf-60",
+        UHeight: 1,
+        PartNumber: "55002",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.77,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "com", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "WLC-1000": {

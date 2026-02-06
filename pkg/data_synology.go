@@ -77,6 +77,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS1517&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS1517&#43;",
+        Slug: "synology-ds1517-plus",
+        UHeight: 4,
+        PartNumber: "DS1517&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 43, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS1522&#43;": {
         Manufacturer: "Synology",
         Model: "DS1522&#43;",
@@ -84,11 +124,11 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "DS1522&#43;",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -313,6 +353,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DS2015xs": {
+        Manufacturer: "Synology",
+        Model: "DS2015xs",
+        Slug: "synology-ds2015xs",
+        UHeight: 0,
+        PartNumber: "DS2015xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Lan 1", Label: "1GbE RJ45 LAN port 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 2", Label: "1GbE RJ45 LAN port 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 3", Label: "10Gb SFP&#43; LAN Port 3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Lan 4", Label: "10Gb SFP&#43; LAN Port 3", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "DS218": {
@@ -1250,6 +1330,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Expansion 2", Label: "", Type: "infiniband-ndr", MgmtOnly: false },
         },
     },
+    "RS422&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS422&#43;",
+        Slug: "synology-rs422-plus",
+        UHeight: 1,
+        PartNumber: "RS422&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+            { Name: "USB-1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External PSU 1", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 37 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RS815&#43;": {
         Manufacturer: "Synology",
         Model: "RS815&#43;",
@@ -1330,6 +1450,45 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS819": {
+        Manufacturer: "Synology",
+        Model: "RS819",
+        Slug: "synology-rs819",
+        UHeight: 1,
+        PartNumber: "RS819",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 4.34,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 100 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RS820&#43;": {
         Manufacturer: "Synology",
         Model: "RS820&#43;",
@@ -1337,11 +1496,11 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "RS820&#43;",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1359,6 +1518,51 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "RS820RP&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS820RP&#43;",
+        Slug: "synology-rs820rp-plus",
+        UHeight: 1,
+        PartNumber: "RS820RP&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.96,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+            { Name: "Rear USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Rear USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "Rear eSATA", Type: "other", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "Power Source 1", Position: "1" },
+            { Name: "PSU2", Label: "Power Source 2", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

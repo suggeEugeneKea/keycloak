@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapcudy = map[string]*DeviceData{
+    "LT300 v3": {
+        Manufacturer: "Cudy",
+        Model: "LT300 v3",
+        Slug: "cudy-lt300-v3",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 126,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "usb-c", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "WR3000 v1": {
         Manufacturer: "Cudy",
         Model: "WR3000 v1",

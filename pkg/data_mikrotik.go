@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapmikrotik = map[string]*DeviceData{
+    "ATLGM": {
+        Manufacturer: "MikroTik",
+        Model: "ATLGM",
+        Slug: "mikrotik-atlgm",
+        UHeight: 0,
+        PartNumber: "ATLGM&amp;RG520F-EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LTE-1", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "C52iG-5HaxD2HaxD-TC": {
         Manufacturer: "MikroTik",
         Model: "C52iG-5HaxD2HaxD-TC",
@@ -96,7 +133,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "front-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -329,17 +366,17 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Model: "CCR1016-12S-1S&#43;",
         Slug: "mikrotik-ccr1016-12s-1s-plus",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "CCR1016-12S-1S&#43;",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.55,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -348,6 +385,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "power2", Label: "", Type: "iec-60320-c14", MaximumDraw: 48, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
+            { Name: "microUSB", Type: "usb-micro-b", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },
@@ -360,19 +398,71 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp1", Label: "SFP1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "SFP2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp3", Label: "SFP3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp4", Label: "SFP4", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp5", Label: "SFP5", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp6", Label: "SFP6", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp7", Label: "SFP7", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp8", Label: "SFP8", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp9", Label: "SFP9", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp10", Label: "SFP10", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp11", Label: "SFP11", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp12", Label: "SFP12", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfpplus1", Label: "SFP&#43;", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "CCR1016-12S-1S&#43;-r2": {
+        Manufacturer: "MikroTik",
+        Model: "CCR1016-12S-1S&#43;-r2",
+        Slug: "mikrotik-ccr1016-12s-1s-plus-r2",
+        UHeight: 1,
+        PartNumber: "CCR1016-12S-1S&#43;r2",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power1", Label: "", Type: "iec-60320-c14", MaximumDraw: 48, AllocatedDraw: 0 },
+            { Name: "power2", Label: "", Type: "iec-60320-c14", MaximumDraw: 48, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "usb", Type: "usb-a", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "sfp1", Label: "SFP1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "SFP2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp3", Label: "SFP3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp4", Label: "SFP4", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp5", Label: "SFP5", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp6", Label: "SFP6", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp7", Label: "SFP7", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp8", Label: "SFP8", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp9", Label: "SFP9", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp10", Label: "SFP10", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp11", Label: "SFP11", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp12", Label: "SFP12", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp-sfpplus1", Label: "SFP&#43;1", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "CCR1036-12G-4S": {
@@ -386,7 +476,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.15,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -538,7 +628,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -633,15 +723,15 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "CCR2004-16G-2S&#43;",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 1.18,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -654,32 +744,33 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "power1", Label: "", Position: "power1" },
-            { Name: "power2", Label: "", Position: "power2" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether9", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether10", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether11", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether12", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether13", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether14", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether15", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether16", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ether1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp-sfpplus1", Label: "SFP&#43; 1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp-sfpplus2", Label: "SFP&#43; 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "CCR2004-1G-12S&#43;2XS": {
@@ -801,7 +892,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2520,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -944,11 +1035,11 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.85,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -993,11 +1084,11 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "CRS112-8P-4S",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0.85,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1006,8 +1097,8 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "DC IN 18-28V", Type: "dc-terminal", MaximumDraw: 160, AllocatedDraw: 0 },
-            { Name: "psu2", Label: "DC IN 48-57V", Type: "dc-terminal", MaximumDraw: 160, AllocatedDraw: 0 },
+            { Name: "DC1", Label: "DC IN", Type: "dc-terminal", MaximumDraw: 160, AllocatedDraw: 10 },
+            { Name: "DC2", Label: "DC IN", Type: "dc-terminal", MaximumDraw: 160, AllocatedDraw: 10 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1047,7 +1138,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.28,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1056,7 +1147,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1387,7 +1478,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "CRS309-1G-8S&#43;",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -1440,7 +1531,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1460,7 +1551,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether1", Label: "ETH/PoE in", Type: "1000base-t", MgmtOnly: false },
             { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "sfp3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
@@ -1533,7 +1624,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial1", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1581,7 +1672,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "CRS317-1G-16S&#43;",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -1643,7 +1734,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1692,13 +1783,13 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Model: "CRS326-24G-2S&#43;RM",
         Slug: "mikrotik-crs326-24g-2s-plus-rm",
         UHeight: 1,
-        PartNumber: "CRS326-24G-2S",
+        PartNumber: "CRS326-24G-2S&#43;RM",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 1.08,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1707,7 +1798,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "DC 10-28V", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 0 },
+            { Name: "DC", Label: "DC 10-28V", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1765,7 +1856,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1786,6 +1877,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "ether1", Label: "MGMT/BOOT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -1829,7 +1921,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1887,14 +1979,14 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1959,7 +2051,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2025,7 +2117,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2094,6 +2186,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether49", Label: "MGMT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -2117,7 +2210,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2185,6 +2278,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether49", Label: "MGMT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -2249,7 +2343,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2460,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2301,7 +2395,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4545,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2622,6 +2716,89 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "LTE-1", Label: "", Type: "5g", MgmtOnly: false },
         },
     },
+    "E50UG": {
+        Manufacturer: "MikroTik",
+        Model: "E50UG",
+        Slug: "mikrotik-e50ug",
+        UHeight: 0,
+        PartNumber: "E50UG",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "E60iUGS": {
+        Manufacturer: "MikroTik",
+        Model: "E60iUGS",
+        Slug: "mikrotik-e60iugs",
+        UHeight: 0,
+        PartNumber: "E60iUGS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "2.5G SFP", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "L009UiGS-RM": {
         Manufacturer: "MikroTik",
         Model: "L009UiGS-RM",
@@ -2729,7 +2906,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1200,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2974,7 +3151,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 880,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3161,7 +3338,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 212,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3428,11 +3605,11 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "RB750Gr3",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.13,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3556,7 +3733,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 139,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3626,6 +3803,49 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "RB951Ui-2HnD": {
+        Manufacturer: "MikroTik",
+        Model: "RB951Ui-2HnD",
+        Slug: "mikrotik-rb951ui-2hnd",
+        UHeight: 0,
+        PartNumber: "RB951Ui-2HnD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
         },
     },
     "RB960PGS": {
@@ -3821,6 +4041,199 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "RDS2216-2XG-4S&#43;4XS-2XQ": {
+        Manufacturer: "MikroTik",
+        Model: "RDS2216-2XG-4S&#43;4XS-2XQ",
+        Slug: "mikrotik-rds2216-2xg-4s-plus-4xs-2xq",
+        UHeight: 1,
+        PartNumber: "RDS2216-2XG-4S&#43;4XS-2XQ",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 11.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "sata1", Label: "", Position: "sata1" },
+            { Name: "sata2", Label: "", Position: "sata2" },
+            { Name: "nvme1", Label: "", Position: "nvme1" },
+            { Name: "nvme2", Label: "", Position: "nvme2" },
+            { Name: "nvme3", Label: "", Position: "nvme3" },
+            { Name: "nvme4", Label: "", Position: "nvme4" },
+            { Name: "nvme5", Label: "", Position: "nvme5" },
+            { Name: "nvme6", Label: "", Position: "nvme6" },
+            { Name: "nvme7", Label: "", Position: "nvme7" },
+            { Name: "nvme8", Label: "", Position: "nvme8" },
+            { Name: "nvme9", Label: "", Position: "nvme9" },
+            { Name: "nvme10", Label: "", Position: "nvme10" },
+            { Name: "nvme11", Label: "", Position: "nvme11" },
+            { Name: "nvme12", Label: "", Position: "nvme12" },
+            { Name: "nvme13", Label: "", Position: "nvme13" },
+            { Name: "nvme14", Label: "", Position: "nvme14" },
+            { Name: "nvme15", Label: "", Position: "nvme15" },
+            { Name: "nvme16", Label: "", Position: "nvme16" },
+            { Name: "nvme17", Label: "", Position: "nvme17" },
+            { Name: "nvme18", Label: "", Position: "nvme18" },
+            { Name: "nvme19", Label: "", Position: "nvme19" },
+            { Name: "nvme20", Label: "", Position: "nvme20" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "qsfp28-1-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "qsfp28-2-1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp-sfpplus4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp28-1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "sfp28-2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "sfp28-3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "sfp28-4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SSF-8644 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SSF-8644 2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "cAP XL ac": {
+        Manufacturer: "MikroTik",
+        Model: "cAP XL ac",
+        Slug: "mikrotik-cap-xl-ac",
+        UHeight: 0,
+        PartNumber: "RBcAPGi-5acD2nD-XL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 700,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "ETH1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "cAP ac": {
+        Manufacturer: "MikroTik",
+        Model: "cAP ac",
+        Slug: "mikrotik-cap-ac",
+        UHeight: 0,
+        PartNumber: "RBcAPGi-5acD2nD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 400,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "ETH1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "cAP ax": {
+        Manufacturer: "MikroTik",
+        Model: "cAP ax",
+        Slug: "mikrotik-cap-ax",
+        UHeight: 0,
+        PartNumber: "cAPGi-5HaxD2HaxD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "ETH1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "hAP": {
         Manufacturer: "MikroTik",
         Model: "hAP",
@@ -3864,12 +4277,12 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
         },
     },
-    "hAP ac2": {
+    "hAP ac": {
         Manufacturer: "MikroTik",
-        Model: "hAP ac2",
-        Slug: "mikrotik-hap-ac2",
+        Model: "hAP ac",
+        Slug: "mikrotik-hap-ac",
         UHeight: 0,
-        PartNumber: "RBD52G-5HacD2HnD-TC",
+        PartNumber: "RB962UiGS",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -3879,12 +4292,12 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Usb-storage", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 7 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3899,11 +4312,99 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "SFP1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ether1", Label: "Ether1", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "Ether2", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "ether3", Label: "Ether3", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "ether4", Label: "Ether4", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "ether5", Label: "Ether5", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "hAP ac lite TC": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ac lite TC",
+        Slug: "mikrotik-hap-ac-lite-tc",
+        UHeight: 0,
+        PartNumber: "RB952Ui-5ac2nD-TC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 370,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "hAP ac2": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ac2",
+        Slug: "mikrotik-hap-ac2",
+        UHeight: 0,
+        PartNumber: "RBD52G-5HacD2HnD-TC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 370,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },

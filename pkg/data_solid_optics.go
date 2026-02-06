@@ -41,6 +41,55 @@ var DeviceTypesMapsolid_optics = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SO-DWDM-8x100G-EDFAMUX": {
+        Manufacturer: "Solid Optics",
+        Model: "SO-DWDM-8x100G-EDFAMUX",
+        Slug: "solid-optics-dwdm-8x100g-edfamux",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "C28", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 1 },
+            { Name: "C29", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 2 },
+            { Name: "C30", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 3 },
+            { Name: "C31", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 4 },
+            { Name: "C32", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 5 },
+            { Name: "C34", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 6 },
+            { Name: "C35", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 7 },
+            { Name: "C59", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 8 },
+            { Name: "C60", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 9 },
+            { Name: "EXT", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 10 },
+            { Name: "MON", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 11 },
+        },
+        RearPorts: []RearPort{
+            { Name: "COM", Label: "", Type: "lc", Positions: 11, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SO-DWDM-MUX-8CH&#43;UPG": {
         Manufacturer: "Solid Optics",
         Model: "SO-DWDM-MUX-8CH&#43;UPG",
@@ -130,6 +179,84 @@ var DeviceTypesMapsolid_optics = map[string]*DeviceData{
         },
         RearPorts: []RearPort{
             { Name: "COM", Label: "", Type: "lc", Positions: 18, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SO-DWDM-MUX-CH20-59&#43;MON&#43;1310": {
+        Manufacturer: "Solid Optics",
+        Model: "SO-DWDM-MUX-CH20-59&#43;MON&#43;1310",
+        Slug: "solid-optics-so-dwdm-mux-ch20-59-plus-mon-plus-1310",
+        UHeight: 1,
+        PartNumber: "SO-DWDM-MUX-CH20-59&#43;MON&#43;1310",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "C20", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 1 },
+            { Name: "C21", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 2 },
+            { Name: "C22", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 3 },
+            { Name: "C23", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 4 },
+            { Name: "C24", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 5 },
+            { Name: "C25", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 6 },
+            { Name: "C26", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 7 },
+            { Name: "C27", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 8 },
+            { Name: "C28", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 9 },
+            { Name: "C29", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 10 },
+            { Name: "C30", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 11 },
+            { Name: "C31", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 12 },
+            { Name: "C32", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 13 },
+            { Name: "C33", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 14 },
+            { Name: "C34", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 15 },
+            { Name: "C35", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 16 },
+            { Name: "C36", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 17 },
+            { Name: "C37", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 18 },
+            { Name: "C38", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 19 },
+            { Name: "C39", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 20 },
+            { Name: "C40", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 21 },
+            { Name: "C41", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 22 },
+            { Name: "C42", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 23 },
+            { Name: "C43", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 24 },
+            { Name: "C44", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 25 },
+            { Name: "C45", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 26 },
+            { Name: "C46", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 27 },
+            { Name: "C47", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 28 },
+            { Name: "C48", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 29 },
+            { Name: "C49", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 30 },
+            { Name: "C50", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 31 },
+            { Name: "C51", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 32 },
+            { Name: "C52", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 33 },
+            { Name: "C53", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 34 },
+            { Name: "C54", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 35 },
+            { Name: "C55", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 36 },
+            { Name: "C56", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 37 },
+            { Name: "C57", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 38 },
+            { Name: "C58", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 39 },
+            { Name: "C59", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 40 },
+            { Name: "1310", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 41 },
+            { Name: "MON", Label: "", Type: "lc", RearPort: "COM", RearPortPosition: 42 },
+        },
+        RearPorts: []RearPort{
+            { Name: "COM", Label: "", Type: "lc", Positions: 42, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },

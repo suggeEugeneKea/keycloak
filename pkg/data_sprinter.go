@@ -68,4 +68,48 @@ var DeviceTypesMapsprinter = map[string]*DeviceData{
             { Name: "slot0/23", Label: "", Type: "e1", MgmtOnly: false },
         },
     },
+    "Sprinter TX 48-2E1-2FE-AC220": {
+        Manufacturer: "Sprinter",
+        Model: "Sprinter TX 48-2E1-2FE-AC220",
+        Slug: "sprinter-tx-48-2e1-2fe-ac220",
+        UHeight: 1,
+        PartNumber: "Sprinter-TX-48-2E1-2FE-AC220",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "eth-0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth-1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "e1-port1", Label: "", Type: "e1", MgmtOnly: false },
+            { Name: "e1-port2", Label: "", Type: "e1", MgmtOnly: false },
+        },
+    },
 }

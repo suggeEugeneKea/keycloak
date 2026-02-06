@@ -2,6 +2,54 @@
 package devices
 
 var DeviceTypesMapasus = map[string]*DeviceData{
+    "Pro WS X570-ACE": {
+        Manufacturer: "ASUS",
+        Model: "Pro WS X570-ACE",
+        Slug: "asus-pro-ws-x570-ace",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CPU 0", Label: "", Position: "1" },
+            { Name: "DIMM B1", Label: "", Position: "2" },
+            { Name: "DIMM B2", Label: "", Position: "3" },
+            { Name: "DIMM A1", Label: "", Position: "4" },
+            { Name: "DIMM A2", Label: "", Position: "5" },
+            { Name: "PCIe 1", Label: "", Position: "6" },
+            { Name: "PCIe 2", Label: "", Position: "7" },
+            { Name: "PCIe 3", Label: "", Position: "8" },
+            { Name: "PCIe 4", Label: "", Position: "9" },
+            { Name: "M.2 1", Label: "", Position: "10" },
+            { Name: "M.2 2", Label: "", Position: "11" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RS300-E11-RS4": {
         Manufacturer: "ASUS",
         Model: "RS300-E11-RS4",
@@ -43,6 +91,46 @@ var DeviceTypesMapasus = map[string]*DeviceData{
             { Name: "ASMB10-iKVM", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Network 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "RS521A-E12-RS12U": {
+        Manufacturer: "ASUS",
+        Model: "RS521A-E12-RS12U",
+        Slug: "asus-rs521a-e12-rs12u",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
 }

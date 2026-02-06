@@ -42,4 +42,43 @@ var DeviceTypesMapgl_inet = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "GL-BE3600": {
+        Manufacturer: "GL-iNet",
+        Model: "GL-BE3600",
+        Slug: "gl-inet-gl-be3600",
+        UHeight: 0,
+        PartNumber: "GL-BE3600",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 295,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External Power Adapter", Label: "", Type: "usb-c", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "WAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
 }

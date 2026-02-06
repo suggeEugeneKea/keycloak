@@ -2,6 +2,42 @@
 package devices
 
 var DeviceTypesMapgeneric = map[string]*DeviceData{
+    "0u-fan-panel": {
+        Manufacturer: "Generic",
+        Model: "0u-fan-panel",
+        Slug: "generic-0u-fan-panel",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "bottom-to-top",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 50, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "12-port Copper Patch Panel Full Depth": {
         Manufacturer: "Generic",
         Model: "12-port Copper Patch Panel Full Depth",
@@ -120,6 +156,109 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "16-port Copper Modular Patch Panel Half Depth": {
+        Manufacturer: "Generic",
+        Model: "16-port Copper Modular Patch Panel Half Depth",
+        Slug: "generic-16-port-copper-modular-patch-panel-half-depth",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Port 1", Label: "", Type: "8p8c", RearPort: "Port 1", RearPortPosition: 0 },
+            { Name: "Port 2", Label: "", Type: "8p8c", RearPort: "Port 2", RearPortPosition: 0 },
+            { Name: "Port 3", Label: "", Type: "8p8c", RearPort: "Port 3", RearPortPosition: 0 },
+            { Name: "Port 4", Label: "", Type: "8p8c", RearPort: "Port 4", RearPortPosition: 0 },
+            { Name: "Port 5", Label: "", Type: "8p8c", RearPort: "Port 5", RearPortPosition: 0 },
+            { Name: "Port 6", Label: "", Type: "8p8c", RearPort: "Port 6", RearPortPosition: 0 },
+            { Name: "Port 7", Label: "", Type: "8p8c", RearPort: "Port 7", RearPortPosition: 0 },
+            { Name: "Port 8", Label: "", Type: "8p8c", RearPort: "Port 8", RearPortPosition: 0 },
+            { Name: "Port 9", Label: "", Type: "8p8c", RearPort: "Port 9", RearPortPosition: 0 },
+            { Name: "Port 10", Label: "", Type: "8p8c", RearPort: "Port 10", RearPortPosition: 0 },
+            { Name: "Port 11", Label: "", Type: "8p8c", RearPort: "Port 11", RearPortPosition: 0 },
+            { Name: "Port 12", Label: "", Type: "8p8c", RearPort: "Port 12", RearPortPosition: 0 },
+            { Name: "Port 13", Label: "", Type: "8p8c", RearPort: "Port 13", RearPortPosition: 0 },
+            { Name: "Port 14", Label: "", Type: "8p8c", RearPort: "Port 14", RearPortPosition: 0 },
+            { Name: "Port 15", Label: "", Type: "8p8c", RearPort: "Port 15", RearPortPosition: 0 },
+            { Name: "Port 16", Label: "", Type: "8p8c", RearPort: "Port 16", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Port 1", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 2", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 3", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 4", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 5", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 6", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 7", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 8", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 9", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 10", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 11", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 12", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 13", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 14", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 15", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Port 16", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "1u-fan-panel": {
+        Manufacturer: "Generic",
+        Model: "1u-fan-panel",
+        Slug: "generic-1u-fan-panel",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "bottom-to-top",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 50, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "24-port Copper Patch Panel": {
         Manufacturer: "Generic",
         Model: "24-port Copper Patch Panel",
@@ -214,7 +353,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -276,6 +415,89 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
             { Name: "Port 22", Label: "", Type: "8p8c", Positions: 0, Poe: false },
             { Name: "Port 23", Label: "", Type: "8p8c", Positions: 0, Poe: false },
             { Name: "Port 24", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "24-port Copper Phone Patch Panel Half Depth": {
+        Manufacturer: "Generic",
+        Model: "24-port Copper Phone Patch Panel Half Depth",
+        Slug: "generic-24-port-copper-phone-patch-panel-half-depth",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Port 1", Label: "", Type: "6p4c", RearPort: "Port 1", RearPortPosition: 0 },
+            { Name: "Port 2", Label: "", Type: "6p4c", RearPort: "Port 2", RearPortPosition: 0 },
+            { Name: "Port 3", Label: "", Type: "6p4c", RearPort: "Port 3", RearPortPosition: 0 },
+            { Name: "Port 4", Label: "", Type: "6p4c", RearPort: "Port 4", RearPortPosition: 0 },
+            { Name: "Port 5", Label: "", Type: "6p4c", RearPort: "Port 5", RearPortPosition: 0 },
+            { Name: "Port 6", Label: "", Type: "6p4c", RearPort: "Port 6", RearPortPosition: 0 },
+            { Name: "Port 7", Label: "", Type: "6p4c", RearPort: "Port 7", RearPortPosition: 0 },
+            { Name: "Port 8", Label: "", Type: "6p4c", RearPort: "Port 8", RearPortPosition: 0 },
+            { Name: "Port 9", Label: "", Type: "6p4c", RearPort: "Port 9", RearPortPosition: 0 },
+            { Name: "Port 10", Label: "", Type: "6p4c", RearPort: "Port 10", RearPortPosition: 0 },
+            { Name: "Port 11", Label: "", Type: "6p4c", RearPort: "Port 11", RearPortPosition: 0 },
+            { Name: "Port 12", Label: "", Type: "6p4c", RearPort: "Port 12", RearPortPosition: 0 },
+            { Name: "Port 13", Label: "", Type: "6p4c", RearPort: "Port 13", RearPortPosition: 0 },
+            { Name: "Port 14", Label: "", Type: "6p4c", RearPort: "Port 14", RearPortPosition: 0 },
+            { Name: "Port 15", Label: "", Type: "6p4c", RearPort: "Port 15", RearPortPosition: 0 },
+            { Name: "Port 16", Label: "", Type: "6p4c", RearPort: "Port 16", RearPortPosition: 0 },
+            { Name: "Port 17", Label: "", Type: "6p4c", RearPort: "Port 17", RearPortPosition: 0 },
+            { Name: "Port 18", Label: "", Type: "6p4c", RearPort: "Port 18", RearPortPosition: 0 },
+            { Name: "Port 19", Label: "", Type: "6p4c", RearPort: "Port 19", RearPortPosition: 0 },
+            { Name: "Port 20", Label: "", Type: "6p4c", RearPort: "Port 20", RearPortPosition: 0 },
+            { Name: "Port 21", Label: "", Type: "6p4c", RearPort: "Port 21", RearPortPosition: 0 },
+            { Name: "Port 22", Label: "", Type: "6p4c", RearPort: "Port 22", RearPortPosition: 0 },
+            { Name: "Port 23", Label: "", Type: "6p4c", RearPort: "Port 23", RearPortPosition: 0 },
+            { Name: "Port 24", Label: "", Type: "6p4c", RearPort: "Port 24", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Port 1", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 2", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 3", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 4", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 5", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 6", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 7", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 8", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 9", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 10", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 11", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 12", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 13", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 14", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 15", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 16", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 17", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 18", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 19", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 20", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 21", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 22", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 23", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 24", Label: "", Type: "6p4c", Positions: 0, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -428,7 +650,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -548,6 +770,184 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "50-port Copper Phone Patch Panel Half Depth": {
+        Manufacturer: "Generic",
+        Model: "50-port Copper Phone Patch Panel Half Depth",
+        Slug: "generic-50-port-copper-phone-patch-panel-half-depth",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Port 1", Label: "", Type: "6p4c", RearPort: "Port 1", RearPortPosition: 0 },
+            { Name: "Port 2", Label: "", Type: "6p4c", RearPort: "Port 2", RearPortPosition: 0 },
+            { Name: "Port 3", Label: "", Type: "6p4c", RearPort: "Port 3", RearPortPosition: 0 },
+            { Name: "Port 4", Label: "", Type: "6p4c", RearPort: "Port 4", RearPortPosition: 0 },
+            { Name: "Port 5", Label: "", Type: "6p4c", RearPort: "Port 5", RearPortPosition: 0 },
+            { Name: "Port 6", Label: "", Type: "6p4c", RearPort: "Port 6", RearPortPosition: 0 },
+            { Name: "Port 7", Label: "", Type: "6p4c", RearPort: "Port 7", RearPortPosition: 0 },
+            { Name: "Port 8", Label: "", Type: "6p4c", RearPort: "Port 8", RearPortPosition: 0 },
+            { Name: "Port 9", Label: "", Type: "6p4c", RearPort: "Port 9", RearPortPosition: 0 },
+            { Name: "Port 10", Label: "", Type: "6p4c", RearPort: "Port 10", RearPortPosition: 0 },
+            { Name: "Port 11", Label: "", Type: "6p4c", RearPort: "Port 11", RearPortPosition: 0 },
+            { Name: "Port 12", Label: "", Type: "6p4c", RearPort: "Port 12", RearPortPosition: 0 },
+            { Name: "Port 13", Label: "", Type: "6p4c", RearPort: "Port 13", RearPortPosition: 0 },
+            { Name: "Port 14", Label: "", Type: "6p4c", RearPort: "Port 14", RearPortPosition: 0 },
+            { Name: "Port 15", Label: "", Type: "6p4c", RearPort: "Port 15", RearPortPosition: 0 },
+            { Name: "Port 16", Label: "", Type: "6p4c", RearPort: "Port 16", RearPortPosition: 0 },
+            { Name: "Port 17", Label: "", Type: "6p4c", RearPort: "Port 17", RearPortPosition: 0 },
+            { Name: "Port 18", Label: "", Type: "6p4c", RearPort: "Port 18", RearPortPosition: 0 },
+            { Name: "Port 19", Label: "", Type: "6p4c", RearPort: "Port 19", RearPortPosition: 0 },
+            { Name: "Port 20", Label: "", Type: "6p4c", RearPort: "Port 20", RearPortPosition: 0 },
+            { Name: "Port 21", Label: "", Type: "6p4c", RearPort: "Port 21", RearPortPosition: 0 },
+            { Name: "Port 22", Label: "", Type: "6p4c", RearPort: "Port 22", RearPortPosition: 0 },
+            { Name: "Port 23", Label: "", Type: "6p4c", RearPort: "Port 23", RearPortPosition: 0 },
+            { Name: "Port 24", Label: "", Type: "6p4c", RearPort: "Port 24", RearPortPosition: 0 },
+            { Name: "Port 25", Label: "", Type: "6p4c", RearPort: "Port 25", RearPortPosition: 0 },
+            { Name: "Port 26", Label: "", Type: "6p4c", RearPort: "Port 26", RearPortPosition: 0 },
+            { Name: "Port 27", Label: "", Type: "6p4c", RearPort: "Port 27", RearPortPosition: 0 },
+            { Name: "Port 28", Label: "", Type: "6p4c", RearPort: "Port 28", RearPortPosition: 0 },
+            { Name: "Port 29", Label: "", Type: "6p4c", RearPort: "Port 29", RearPortPosition: 0 },
+            { Name: "Port 30", Label: "", Type: "6p4c", RearPort: "Port 30", RearPortPosition: 0 },
+            { Name: "Port 31", Label: "", Type: "6p4c", RearPort: "Port 31", RearPortPosition: 0 },
+            { Name: "Port 32", Label: "", Type: "6p4c", RearPort: "Port 32", RearPortPosition: 0 },
+            { Name: "Port 33", Label: "", Type: "6p4c", RearPort: "Port 33", RearPortPosition: 0 },
+            { Name: "Port 34", Label: "", Type: "6p4c", RearPort: "Port 34", RearPortPosition: 0 },
+            { Name: "Port 35", Label: "", Type: "6p4c", RearPort: "Port 35", RearPortPosition: 0 },
+            { Name: "Port 36", Label: "", Type: "6p4c", RearPort: "Port 36", RearPortPosition: 0 },
+            { Name: "Port 37", Label: "", Type: "6p4c", RearPort: "Port 37", RearPortPosition: 0 },
+            { Name: "Port 38", Label: "", Type: "6p4c", RearPort: "Port 38", RearPortPosition: 0 },
+            { Name: "Port 39", Label: "", Type: "6p4c", RearPort: "Port 39", RearPortPosition: 0 },
+            { Name: "Port 40", Label: "", Type: "6p4c", RearPort: "Port 40", RearPortPosition: 0 },
+            { Name: "Port 41", Label: "", Type: "6p4c", RearPort: "Port 41", RearPortPosition: 0 },
+            { Name: "Port 42", Label: "", Type: "6p4c", RearPort: "Port 42", RearPortPosition: 0 },
+            { Name: "Port 43", Label: "", Type: "6p4c", RearPort: "Port 43", RearPortPosition: 0 },
+            { Name: "Port 44", Label: "", Type: "6p4c", RearPort: "Port 44", RearPortPosition: 0 },
+            { Name: "Port 45", Label: "", Type: "6p4c", RearPort: "Port 45", RearPortPosition: 0 },
+            { Name: "Port 46", Label: "", Type: "6p4c", RearPort: "Port 46", RearPortPosition: 0 },
+            { Name: "Port 47", Label: "", Type: "6p4c", RearPort: "Port 47", RearPortPosition: 0 },
+            { Name: "Port 48", Label: "", Type: "6p4c", RearPort: "Port 48", RearPortPosition: 0 },
+            { Name: "Port 49", Label: "", Type: "6p4c", RearPort: "Port 49", RearPortPosition: 0 },
+            { Name: "Port 50", Label: "", Type: "6p4c", RearPort: "Port 50", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Port 1", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 2", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 3", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 4", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 5", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 6", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 7", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 8", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 9", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 10", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 11", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 12", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 13", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 14", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 15", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 16", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 17", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 18", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 19", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 20", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 21", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 22", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 23", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 24", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 25", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 26", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 27", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 28", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 29", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 30", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 31", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 32", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 33", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 34", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 35", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 36", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 37", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 38", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 39", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 40", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 41", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 42", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 43", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 44", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 45", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 46", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 47", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 48", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 49", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+            { Name: "Port 50", Label: "", Type: "6p4c", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "7port-1u-pdu": {
+        Manufacturer: "Generic",
+        Model: "7port-1u-pdu",
+        Slug: "generic-7port-1u-pdu",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Blanking Panel 1U": {
         Manufacturer: "Generic",
         Model: "Blanking Panel 1U",
@@ -559,7 +959,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -594,7 +994,42 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Blanking Panel 4U": {
+        Manufacturer: "Generic",
+        Model: "Blanking Panel 4U",
+        Slug: "generic-blanking-panel-4u",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1711,7 +2146,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1749,7 +2184,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1766,6 +2201,50 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         },
         RearPorts: []RearPort{
             { Name: "LAN", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Power Strip 8 Outlets Type N": {
+        Manufacturer: "Generic",
+        Model: "Power Strip 8 Outlets Type N",
+        Slug: "generic-power-strip-8-outlets-type-n",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
         },
@@ -2287,6 +2766,65 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "ST-12-port Fiber Patch Panel": {
+        Manufacturer: "Generic",
+        Model: "ST-12-port Fiber Patch Panel",
+        Slug: "generic-st-12-port-fiber-patch-panel",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "FP_1", Label: "", Type: "st", RearPort: "RP_1", RearPortPosition: 0 },
+            { Name: "FP_2", Label: "", Type: "st", RearPort: "RP_2", RearPortPosition: 0 },
+            { Name: "FP_3", Label: "", Type: "st", RearPort: "RP_3", RearPortPosition: 0 },
+            { Name: "FP_4", Label: "", Type: "st", RearPort: "RP_4", RearPortPosition: 0 },
+            { Name: "FP_5", Label: "", Type: "st", RearPort: "RP_5", RearPortPosition: 0 },
+            { Name: "FP_6", Label: "", Type: "st", RearPort: "RP_6", RearPortPosition: 0 },
+            { Name: "FP_7", Label: "", Type: "st", RearPort: "RP_7", RearPortPosition: 0 },
+            { Name: "FP_8", Label: "", Type: "st", RearPort: "RP_8", RearPortPosition: 0 },
+            { Name: "FP_9", Label: "", Type: "st", RearPort: "RP_9", RearPortPosition: 0 },
+            { Name: "FP_10", Label: "", Type: "st", RearPort: "RP_10", RearPortPosition: 0 },
+            { Name: "FP_11", Label: "", Type: "st", RearPort: "RP_11", RearPortPosition: 0 },
+            { Name: "FP_12", Label: "", Type: "st", RearPort: "RP_12", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "RP_1", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_2", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_3", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_4", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_5", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_6", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_7", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_8", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_9", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_10", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_11", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_12", Label: "", Type: "st", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ST-16-port Fiber Patch Panel Rear Splice": {
         Manufacturer: "Generic",
         Model: "ST-16-port Fiber Patch Panel Rear Splice",
@@ -2448,7 +2986,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2940,7 +3478,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -2959,6 +3497,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -2975,7 +3515,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -2994,6 +3534,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3010,7 +3552,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3029,6 +3571,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

@@ -2,6 +2,163 @@
 package devices
 
 var DeviceTypesMaprittal = map[string]*DeviceData{
+    "DK 7030000": {
+        Manufacturer: "Rittal",
+        Model: "DK 7030000",
+        Slug: "rittal-dk-7030000",
+        UHeight: 0,
+        PartNumber: "4028177659322",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 0.64,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "init0", Type: "usb-mini-b", Label: "", Poe: false },
+            { Name: "master", Type: "usb-a", Label: "", Poe: false },
+            { Name: "serial", Type: "rj-12", Label: "", Poe: false },
+            { Name: "can1", Type: "rj-45", Label: "CAN 1", Poe: false },
+            { Name: "can2", Type: "rj-45", Label: "CAN 2", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "DK 7030040": {
+        Manufacturer: "Rittal",
+        Model: "DK 7030040",
+        Slug: "rittal-dk-7030040",
+        UHeight: 0,
+        PartNumber: "4028177659360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 0.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "can1", Type: "rj-45", Label: "CAN 1", Poe: false },
+            { Name: "can2", Type: "rj-45", Label: "CAN 2", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "DK 7030050": {
+        Manufacturer: "Rittal",
+        Model: "DK 7030050",
+        Slug: "rittal-dk-7030050",
+        UHeight: 0,
+        PartNumber: "4028177659377",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "child",
+        Weight: 0.59,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "can1", Type: "rj-45", Label: "CAN 1", Poe: false },
+            { Name: "can2", Type: "rj-45", Label: "CAN 2", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power", Label: "", Type: "iec-60320-c14", MaximumDraw: 2300, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "outlet1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "outlet2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "DK 7030088": {
+        Manufacturer: "Rittal",
+        Model: "DK 7030088",
+        Slug: "rittal-dk-7030088",
+        UHeight: 1,
+        PartNumber: "4028177709423",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "CMC III SU 1", Label: "" },
+            { Name: "CMC III SU 2", Label: "" },
+            { Name: "CMC III SU 3", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "DK 7240-210": {
         Manufacturer: "Rittal",
         Model: "DK 7240-210",

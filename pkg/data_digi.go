@@ -2,6 +2,60 @@
 package devices
 
 var DeviceTypesMapdigi = map[string]*DeviceData{
+    "AnywhereUSB 14": {
+        Manufacturer: "Digi",
+        Model: "AnywhereUSB 14",
+        Slug: "digi-anywhereusb-14",
+        UHeight: 1,
+        PartNumber: "AW-USB-14-W",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "USB_1", Type: "usb-a", Label: "" },
+            { Name: "USB_2", Type: "usb-a", Label: "" },
+            { Name: "USB_3", Type: "usb-a", Label: "" },
+            { Name: "USB_4", Type: "usb-a", Label: "" },
+            { Name: "USB_5", Type: "usb-a", Label: "" },
+            { Name: "USB_6", Type: "usb-a", Label: "" },
+            { Name: "USB_7", Type: "usb-a", Label: "" },
+            { Name: "USB_8", Type: "usb-a", Label: "" },
+            { Name: "USB_9", Type: "usb-a", Label: "" },
+            { Name: "USB_10", Type: "usb-a", Label: "" },
+            { Name: "USB_11", Type: "usb-a", Label: "" },
+            { Name: "USB_12", Type: "usb-a", Label: "" },
+            { Name: "USB_13", Type: "usb-a", Label: "" },
+            { Name: "USB_14", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 160, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 160, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ETH2", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AnywhereUSB 24 Plus": {
         Manufacturer: "Digi",
         Model: "AnywhereUSB 24 Plus",

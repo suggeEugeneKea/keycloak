@@ -458,6 +458,62 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "ACS 6016": {
+        Manufacturer: "Avocent",
+        Model: "ACS 6016",
+        Slug: "avocent-acs6016",
+        UHeight: 1,
+        PartNumber: "ACS6016",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "ttyS1", Type: "rj-45", Label: "" },
+            { Name: "ttyS2", Type: "rj-45", Label: "" },
+            { Name: "ttyS3", Type: "rj-45", Label: "" },
+            { Name: "ttyS4", Type: "rj-45", Label: "" },
+            { Name: "ttyS5", Type: "rj-45", Label: "" },
+            { Name: "ttyS6", Type: "rj-45", Label: "" },
+            { Name: "ttyS7", Type: "rj-45", Label: "" },
+            { Name: "ttyS8", Type: "rj-45", Label: "" },
+            { Name: "ttyS9", Type: "rj-45", Label: "" },
+            { Name: "ttyS10", Type: "rj-45", Label: "" },
+            { Name: "ttyS11", Type: "rj-45", Label: "" },
+            { Name: "ttyS12", Type: "rj-45", Label: "" },
+            { Name: "ttyS13", Type: "rj-45", Label: "" },
+            { Name: "ttyS14", Type: "rj-45", Label: "" },
+            { Name: "ttyS15", Type: "rj-45", Label: "" },
+            { Name: "ttyS16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "ps1", Label: "", Type: "iec-60320-c14", MaximumDraw: 35, AllocatedDraw: 23 },
+            { Name: "ps2", Label: "", Type: "iec-60320-c14", MaximumDraw: 35, AllocatedDraw: 23 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ACS 8008 Single-AC": {
         Manufacturer: "Avocent",
         Model: "ACS 8008 Single-AC",
@@ -922,7 +978,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "Keyboard", Type: "other", Label: "" },
@@ -998,7 +1054,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "USB", Type: "usb-a", Label: "" },
@@ -1035,7 +1091,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "SUN", Type: "other", Label: "" },
@@ -1072,7 +1128,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "KVM", Type: "rj-45", Label: "", Poe: true },
+            { Name: "KVM", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "con0", Type: "rj-45", Label: "" },
@@ -1110,7 +1166,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "KVM", Type: "rj-45", Label: "", Poe: true },
+            { Name: "KVM", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "usb0", Type: "usb-a", Label: "" },

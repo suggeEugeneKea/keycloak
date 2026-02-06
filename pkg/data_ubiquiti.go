@@ -47,11 +47,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "UACC-Rack-Panel-Patch-Blank-24",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 650,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -106,11 +106,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "UF-OLT",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -155,7 +155,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "UAP-AC-HD",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -232,7 +232,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "UAP-AC-LR",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -308,7 +308,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "UAP-AC-M-PRO",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -347,7 +347,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "UAP-AC-PRO",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -613,11 +613,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "uck-g2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 150,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -650,11 +650,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "uck-g2-plus",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 582,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -674,6 +674,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "CloudKey Rack Mount": {
+        Manufacturer: "Ubiquiti",
+        Model: "CloudKey Rack Mount",
+        Slug: "ubiquiti-ckg2-rm",
+        UHeight: 1,
+        PartNumber: "CKG2-RM",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Cloud Key", Label: "2nd Gen Cloud Key" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -851,11 +888,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 215,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -893,11 +930,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 500,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -939,11 +976,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 500,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -985,11 +1022,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1093,11 +1130,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "EP-R6",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 605,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1126,7 +1163,6 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "switch0", Label: "", Type: "bridge", MgmtOnly: false },
         },
     },
     "EdgePoint Router 8-Port": {
@@ -1136,11 +1172,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "EP-R8",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1183,11 +1219,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-10X",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 600,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1230,11 +1266,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-12",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 700,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1280,11 +1316,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-12P",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 700,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1330,11 +1366,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-4",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 795,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1371,11 +1407,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-6P",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 730,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1414,11 +1450,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ER-8",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1506,11 +1542,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ERLite-3",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 345,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1546,11 +1582,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ERPoe-5",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 360,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1588,11 +1624,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ERPro-8",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1633,11 +1669,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-16-150W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1688,11 +1724,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-16-XG",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1741,11 +1777,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-24-250W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1804,11 +1840,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-24-500W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1867,11 +1903,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-24-LITE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1930,11 +1966,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-48-500W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2019,11 +2055,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-48-750W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2108,11 +2144,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ES-48-LITE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.65,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2190,6 +2226,53 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "interface 0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "EdgeSwitch 8 150W": {
+        Manufacturer: "Ubiquiti",
+        Model: "EdgeSwitch 8 150W",
+        Slug: "ubiquiti-es-8-150w",
+        UHeight: 0,
+        PartNumber: "ES-8-150W",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1720,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 150 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Enterprise Campus Aggregation": {
         Manufacturer: "Ubiquiti",
         Model: "Enterprise Campus Aggregation",
@@ -2201,7 +2284,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 9.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2281,6 +2364,73 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "QSFP28 Port 54", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "Enterprise Campus Switch 24-Port PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "Enterprise Campus Switch 24-Port PoE",
+        Slug: "ubiquiti-enterprise-campus-switch-24-port-poe",
+        UHeight: 1,
+        PartNumber: "ECS-24-PoE",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 9.46,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "left" },
+            { Name: "PSU 2", Label: "", Position: "right" },
+            { Name: "Fan Module 1", Label: "", Position: "front-left" },
+            { Name: "Fan Module 2", Label: "", Position: "front-center-left" },
+            { Name: "Fan Module 3", Label: "", Position: "front-center-right" },
+            { Name: "Fan Module 4", Label: "", Position: "front-right" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "2.5G Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2.5G Port 8", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "10G Port 9", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 10", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 11", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 12", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 13", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 14", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 15", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 16", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 17", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 18", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 19", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 20", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 21", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 22", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 23", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10G Port 24", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "SFP28 Port 25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 Port 26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "Enterprise Fortress Gateway": {
         Manufacturer: "Ubiquiti",
         Model: "Enterprise Fortress Gateway",
@@ -2292,7 +2442,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2455,7 +2605,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 90,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2470,7 +2620,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "PoE out", Label: "", Type: "8p8c", RearPort: "PoE in", RearPortPosition: 1 },
         },
         RearPorts: []RearPort{
-            { Name: "PoE in", Label: "PoE IN", Type: "8p8c", Positions: 1, Poe: true },
+            { Name: "PoE in", Label: "PoE IN", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -2493,6 +2643,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 420,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "LiteAP GPS": {
+        Manufacturer: "Ubiquiti",
+        Model: "LiteAP GPS",
+        Slug: "ubiquiti-liteap-gps",
+        UHeight: 0,
+        PartNumber: "LAP-GPS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 752,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2640,7 +2827,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 530,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3223,7 +3410,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3395,6 +3582,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "Rocket 5AC Lite": {
+        Manufacturer: "Ubiquiti",
+        Model: "Rocket 5AC Lite",
+        Slug: "ubiquiti-r5ac-lite",
+        UHeight: 0,
+        PartNumber: "R5AC-Lite",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
     "Rocket M2": {
@@ -3590,11 +3814,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "ETH-SP-G2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 80,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3609,7 +3833,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "1", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
         },
         RearPorts: []RearPort{
-            { Name: "1", Label: "", Type: "8p8c", Positions: 1, Poe: true },
+            { Name: "1", Label: "", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -4096,6 +4320,45 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "WLAN 4", Label: "6 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
+    "U7 Pro Outdoor": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Pro Outdoor",
+        Slug: "ubiquiti-u7-pro-outdoor",
+        UHeight: 0,
+        PartNumber: "U7-Pro-Outdoor",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Wlan 0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wlan 1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wlan 2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "U7 Pro XG": {
         Manufacturer: "Ubiquiti",
         Model: "U7 Pro XG",
@@ -4270,7 +4533,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "Wave-LR",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -4348,11 +4611,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.65,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4394,11 +4657,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 366,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4495,6 +4758,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Network Port 3", Label: "Network Redundancy Port 3", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "USW-Pro-8-PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "USW-Pro-8-PoE",
+        Slug: "ubiquiti-usw-pro-8-poe",
+        UHeight: 0,
+        PartNumber: "USW-Pro-8-PoE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43; 9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi AP-PRO": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi AP-PRO",
@@ -4540,11 +4849,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "UAS-XG",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4570,6 +4879,49 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "IPMI LAN", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "UniFi Cloud Gateway Fiber": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Cloud Gateway Fiber",
+        Slug: "ubiquiti-unifi-cloud-gateway-fiber",
+        UHeight: 0,
+        PartNumber: "UCG-Fiber",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 675,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN4 (PoE)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "WAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "WAN2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "UniFi Cloud Gateway Max": {
@@ -4661,11 +5013,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "uc-ck",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 110,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4702,7 +5054,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4737,7 +5089,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         Model: "UniFi Dream Machine Pro",
         Slug: "ubiquiti-unifi-dream-machine-pro",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "UDM-PRO",
         IsFullDepth: false,
         Airflow: "front-to-rear",
         FrontImage: true,
@@ -5108,7 +5460,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 210, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5228,11 +5580,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USG-PRO-4",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5314,11 +5666,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-16-150W",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.89,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5423,11 +5775,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-16-XG",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.71,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5437,7 +5789,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 56, AllocatedDraw: 0 },
-            { Name: "48/24VDC", Label: "", Type: "iec-60320-c20", MaximumDraw: 56, AllocatedDraw: 0 },
+            { Name: "48/24VDC", Label: "", Type: "dc-terminal", MaximumDraw: 56, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5477,11 +5829,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-24",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5540,11 +5892,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-24",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5602,11 +5954,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-24-250W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5665,11 +6017,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-24-500W",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5728,11 +6080,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-24-POE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5916,11 +6268,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-48",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.65,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6005,11 +6357,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-48",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6093,11 +6445,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-48-500W",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6182,11 +6534,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-48-750W",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6271,11 +6623,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-48-POE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6537,11 +6889,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "US-8",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 432,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6549,7 +6901,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 12, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -6581,11 +6933,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "US-8-60W",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 432,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6593,7 +6945,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 60, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -6625,7 +6977,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-Aggregation",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
@@ -6637,7 +6989,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 36, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -6854,6 +7206,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Port 5 (PoE&#43;)", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "UniFi Switch Flex 2.5G 8": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Flex 2.5G 8",
+        Slug: "ubiquiti-usw-flex-2-5g-8",
+        UHeight: 0,
+        PartNumber: "USW-Flex-2-5G-8",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 395,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "5VDC IN", Label: "", Type: "usb-c", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 9 (PoE&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Switch Flex 2.5G 8 PoE": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Switch Flex 2.5G 8 PoE",
@@ -7028,11 +7426,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-Lite-16-PoE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7040,7 +7438,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 60, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 60, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -7080,11 +7478,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "USW-Lite-8-PoE",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 295,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7092,7 +7490,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 52, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 52, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -7490,6 +7888,50 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Switch Ultra": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Ultra",
+        Slug: "ubiquiti-unifi-switch-ultra",
+        UHeight: 0,
+        PartNumber: "USW-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 320,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 210, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8 (PoE IN)", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "UniFi Switch XG 6PoE": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Switch XG 6PoE",
@@ -7497,11 +7939,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-XG-6POE",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7511,8 +7953,8 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "54VDC IN", Label: "", Type: "iec-60320-c20", MaximumDraw: 210, AllocatedDraw: 0 },
-            { Name: "54VDC (external)", Label: "", Type: "iec-60320-c20", MaximumDraw: 210, AllocatedDraw: 0 },
+            { Name: "54VDC IN", Label: "", Type: "dc-terminal", MaximumDraw: 210, AllocatedDraw: 0 },
+            { Name: "54VDC (external)", Label: "", Type: "dc-terminal", MaximumDraw: 210, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -7650,7 +8092,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "UVC-G5-Dome-Ultra",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -7691,6 +8133,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G5 Turret Ultra": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G5 Turret Ultra",
+        Slug: "ubiquiti-unifi-uvc-g5-turret-ultra",
+        UHeight: 0,
+        PartNumber: "UVC-G5-Turret-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 175,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7825,6 +8303,93 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "Unifi Switch Pro XG 8 PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi Switch Pro XG 8 PoE",
+        Slug: "ubiquiti-unifi-switch-pro-xg-8-poe",
+        UHeight: 1,
+        PartNumber: "USW-Pro-XG-8-PoE",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Input", Label: "", Type: "dc-terminal", MaximumDraw: 220, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 2 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 3 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 4 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 5 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 6 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 7 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 8 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Unifi WAN Switch RJ45": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi WAN Switch RJ45",
+        Slug: "ubiquiti-unifi-wan-switch-rj45",
+        UHeight: 1,
+        PartNumber: "USW-WAN-RJ45",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Input2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "airCube-AC": {
         Manufacturer: "Ubiquiti",
         Model: "airCube-AC",
@@ -7832,11 +8397,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "aircube-ac",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 280,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7874,11 +8439,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "aircube-isp",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 280,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7915,11 +8480,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "AF-5XHD",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.35,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7953,11 +8518,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "AF-60",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -7991,11 +8556,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "AF60-HD",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -8029,11 +8594,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "AF60-LR",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

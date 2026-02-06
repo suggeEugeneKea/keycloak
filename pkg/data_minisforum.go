@@ -21,7 +21,7 @@ var DeviceTypesMapminisforum = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 180, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

@@ -41,4 +41,43 @@ var DeviceTypesMapgoogle = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "WiFi AC-1304": {
+        Manufacturer: "Google",
+        Model: "WiFi AC-1304",
+        Slug: "google-wifi-ac-1304",
+        UHeight: 0,
+        PartNumber: "AC-1304",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.33,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "DC&#43;5V/3A", Type: "usb-c", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan", Label: "dual-band-radio", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
 }

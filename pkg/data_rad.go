@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMaprad = map[string]*DeviceData{
+    "ETX-203AM": {
+        Manufacturer: "RAD",
+        Model: "ETX-203AM",
+        Slug: "rad-etx-203am",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power", Label: "", Type: "iec-60320-c14", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Network Module", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "User3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "User4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "User5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "User6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MNT-ETH", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ETX-2i-10G": {
         Manufacturer: "RAD",
         Model: "ETX-2i-10G",

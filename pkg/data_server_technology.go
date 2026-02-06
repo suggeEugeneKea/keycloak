@@ -196,7 +196,7 @@ var DeviceTypesMapserver_technology = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "link", Type: "rj-12", Label: "LINK", Poe: true },
+            { Name: "link", Type: "rj-12", Label: "LINK", Poe: false },
             { Name: "th1", Type: "rj-11", Label: "T/H1", Poe: false },
             { Name: "th2", Type: "rj-11", Label: "T/H2", Poe: false },
         },
@@ -259,7 +259,7 @@ var DeviceTypesMapserver_technology = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "link", Type: "rj-12", Label: "LINK", Poe: true },
+            { Name: "link", Type: "rj-12", Label: "LINK", Poe: false },
             { Name: "th1", Type: "rj-11", Label: "T/H1", Poe: false },
             { Name: "th2", Type: "rj-11", Label: "T/H2", Poe: false },
         },

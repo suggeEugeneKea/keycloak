@@ -2,6 +2,51 @@
 package devices
 
 var DeviceTypesMapaudiocodes = map[string]*DeviceData{
+    "Mediant 2600 SBC": {
+        Manufacturer: "AudioCodes",
+        Model: "Mediant 2600 SBC",
+        Slug: "audiocodes-mediant-2600-sbc",
+        UHeight: 1,
+        PartNumber: "Mediant 2600 SBC",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-A", Label: "", Position: "A" },
+            { Name: "PS-B", Label: "", Position: "B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE_1_1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE_1_8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Mediant 800B ESBC": {
         Manufacturer: "AudioCodes",
         Model: "Mediant 800B ESBC",

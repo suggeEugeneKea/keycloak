@@ -567,4 +567,43 @@ var DeviceTypesMapruckus = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "ZoneDirector 3000": {
+        Manufacturer: "Ruckus",
+        Model: "ZoneDirector 3000",
+        Slug: "ruckus-zonedirector-3000",
+        UHeight: 1,
+        PartNumber: "909-0XXX-ZD00",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 6.37,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

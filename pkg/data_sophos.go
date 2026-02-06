@@ -280,8 +280,8 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC In 1", Label: "", Type: "other", MaximumDraw: 54, AllocatedDraw: 26 },
-            { Name: "DC In 2", Label: "", Type: "other", MaximumDraw: 54, AllocatedDraw: 26 },
+            { Name: "DC In 1", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 26 },
+            { Name: "DC In 2", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 26 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -328,8 +328,8 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC In 1", Label: "", Type: "other", MaximumDraw: 28, AllocatedDraw: 22 },
-            { Name: "DC In 2", Label: "", Type: "other", MaximumDraw: 28, AllocatedDraw: 22 },
+            { Name: "DC In 1", Label: "", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 22 },
+            { Name: "DC In 2", Label: "", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 22 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -400,6 +400,56 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
             { Name: "Port7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "XGS 118": {
+        Manufacturer: "Sophos",
+        Model: "XGS 118",
+        Slug: "sophos-xgs-118",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "COM USB", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC In 1", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 28 },
+            { Name: "DC In 2", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 28 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port8", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port9", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "PortF1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "XGS 126": {

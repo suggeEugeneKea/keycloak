@@ -155,7 +155,7 @@ var DeviceTypesMapriverbed = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "other", Label: "", Poe: false },
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
             { Name: "USB0", Type: "usb-a", Label: "", Poe: false },
             { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
         },

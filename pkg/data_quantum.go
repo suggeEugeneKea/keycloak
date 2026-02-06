@@ -80,6 +80,46 @@ var DeviceTypesMapquantum = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Scalar i3": {
+        Manufacturer: "Quantum",
+        Model: "Scalar i3",
+        Slug: "quantum-scalar-i3",
+        UHeight: 3,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GB1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GB2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Xcellis Workflow Director Gen2 12G": {
         Manufacturer: "Quantum",
         Model: "Xcellis Workflow Director Gen2 12G",

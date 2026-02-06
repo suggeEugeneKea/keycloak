@@ -23,7 +23,7 @@ var DeviceTypesMapschneider_electric = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "power", Label: "Power", Type: "other", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "power", Label: "Power", Type: "other", MaximumDraw: 10, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

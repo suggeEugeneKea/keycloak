@@ -131,6 +131,95 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "gi1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "MES2300B-48": {
+        Manufacturer: "Eltex",
+        Model: "MES2300B-48",
+        Slug: "eltex-mes2300b-48",
+        UHeight: 1,
+        PartNumber: "MES2300B-48",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console01", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu#01", Label: "", Type: "iec-60320-c14", MaximumDraw: 55, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gi1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/41", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/42", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/43", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/44", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gi1/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "te1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "te1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "te1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "te1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "MES2308P": {
         Manufacturer: "Eltex",
         Model: "MES2308P",
@@ -1446,6 +1535,135 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "E1-1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E1-2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "E1-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "WEP-2L": {
+        Manufacturer: "Eltex",
+        Model: "WEP-2L",
+        Slug: "eltex-wep-2l",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "WEP-30L": {
+        Manufacturer: "Eltex",
+        Model: "WEP-30L",
+        Slug: "eltex-wep-30l",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
+    "WLC-3200": {
+        Manufacturer: "Eltex",
+        Model: "WLC-3200",
+        Slug: "eltex-wlc-3200",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "Power Supply 1", Position: "1" },
+            { Name: "PS2", Label: "Power Supply 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
     "WLC-HW-50": {

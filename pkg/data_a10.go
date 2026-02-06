@@ -9,7 +9,7 @@ var DeviceTypesMapa10 = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "TH4440",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -22,8 +22,6 @@ var DeviceTypesMapa10 = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 445, AllocatedDraw: 0 },
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 445, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -32,6 +30,8 @@ var DeviceTypesMapa10 = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -90,8 +90,6 @@ var DeviceTypesMapa10 = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS0", Label: "", Type: "iec-60320-c14", MaximumDraw: 680, AllocatedDraw: 0 },
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 680, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -100,6 +98,8 @@ var DeviceTypesMapa10 = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },

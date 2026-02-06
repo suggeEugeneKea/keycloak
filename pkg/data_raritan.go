@@ -2,6 +2,66 @@
 package devices
 
 var DeviceTypesMapraritan = map[string]*DeviceData{
+    "DKX3-116": {
+        Manufacturer: "Raritan",
+        Model: "DKX3-116",
+        Slug: "raritan-dkx3-116",
+        UHeight: 1,
+        PartNumber: "DKX3-116",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "DVI-D", Type: "other", Label: "", Poe: false },
+            { Name: "MODEM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Dominion_KX3_Port1", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port2", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port3", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port4", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port5", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port6", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port7", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port8", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port9", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port10", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port11", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port12", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port13", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port14", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port15", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PowerIn1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PowerIn2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DSX2-16": {
         Manufacturer: "Raritan",
         Model: "DSX2-16",
@@ -1012,6 +1072,81 @@ var DeviceTypesMapraritan = map[string]*DeviceData{
             { Name: "Eth2", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "PX3-5730-V2": {
+        Manufacturer: "Raritan",
+        Model: "PX3-5730-V2",
+        Slug: "raritan-px3-5730-v2",
+        UHeight: 0,
+        PartNumber: "PX3-5730-V2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Inlet I1", Label: "", Type: "iec-60309-3p-n-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 13", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 14", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 15", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 16", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 17", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 18", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 19", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 20", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 21", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 22", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 23", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 24", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 25", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 26", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 27", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 28", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 29", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 30", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 31", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 32", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 33", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 34", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 35", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 36", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet I1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Eth2", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "PX3-5870V": {
         Manufacturer: "Raritan",
         Model: "PX3-5870V",
@@ -1127,6 +1262,48 @@ var DeviceTypesMapraritan = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Eth2", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "T1700G2-LED": {
+        Manufacturer: "Raritan",
+        Model: "T1700G2-LED",
+        Slug: "raritan-t1700g2-led",
+        UHeight: 1,
+        PartNumber: "T1700G2-LED",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "DP", Type: "other", Label: "" },
+            { Name: "DVI-I", Type: "other", Label: "" },
+            { Name: "HDMI", Type: "other", Label: "" },
+            { Name: "USB1", Type: "usb-a", Label: "" },
+            { Name: "USB2", Type: "usb-a", Label: "" },
+            { Name: "USB3", Type: "usb-b", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PowerIn1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
 }

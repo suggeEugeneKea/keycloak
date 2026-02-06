@@ -915,6 +915,74 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/24", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "M4250-26G4XF-PoE&#43; (GSM4230P)": {
+        Manufacturer: "Netgear",
+        Model: "M4250-26G4XF-PoE&#43; (GSM4230P)",
+        Slug: "netgear-m4250-26g4xf-poe-plus",
+        UHeight: 1,
+        PartNumber: "M4250-26G4XF-PoE&#43;",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "oob-management", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 556, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/29", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/30", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "M4300-12X12F": {
         Manufacturer: "Netgear",
         Model: "M4300-12X12F",
@@ -934,6 +1002,7 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -942,14 +1011,36 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "unit-1", Label: "", Position: "1" },
-            { Name: "unit-2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/0/13", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/14", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/15", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/16", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/17", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/18", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/19", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/20", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/21", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/22", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/23", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "1/0/24", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "MS510TXM": {
