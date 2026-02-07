@@ -163,6 +163,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Nozomi Networks": DeviceTypesMapnozomi_networks,
     "Nvidia": DeviceTypesMapnvidia,
     "ONLINE USV-Systeme": DeviceTypesMaponline_usv_systeme,
+    "OPNsense": DeviceTypesMapopnsense,
     "Olencom": DeviceTypesMapolencom,
     "Opengear": DeviceTypesMapopengear,
     "Orange": DeviceTypesMaporange,
@@ -271,4 +272,5 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Zonit": DeviceTypesMapzonit,
     "Zyxel": DeviceTypesMapzyxel,
     "ghipsystems": DeviceTypesMapghipsystems,
+    "i-PRO": DeviceTypesMapi_pro,
 }
