@@ -12179,6 +12179,99 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Catalyst 2940-8TF-S": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 2940-8TF-S",
+        Slug: "cisco-ws-c2940-8tf-s",
+        UHeight: 1,
+        PartNumber: "WS-C2940-8TF-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "POWER", Label: "", Type: "iec-60320-c14", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-fx", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "Catalyst 2940-8TT-S": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 2940-8TT-S",
+        Slug: "cisco-ws-c2940-8tt-s",
+        UHeight: 1,
+        PartNumber: "WS-C2940-8TT-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "POWER", Label: "", Type: "iec-60320-c14", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Catalyst 2950T-48": {
         Manufacturer: "Cisco",
         Model: "Catalyst 2950T-48",
