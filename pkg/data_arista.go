@@ -42,6 +42,46 @@ var DeviceTypesMaparista = map[string]*DeviceData{
             { Name: "Radio", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "AP-C360": {
+        Manufacturer: "Arista",
+        Model: "AP-C360",
+        Slug: "arista-ap-c360",
+        UHeight: 0,
+        PartNumber: "AP-C360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 39, AllocatedDraw: 39 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Radio", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "AP-C460": {
         Manufacturer: "Arista",
         Model: "AP-C460",

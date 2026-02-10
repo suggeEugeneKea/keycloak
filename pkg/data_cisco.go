@@ -52546,7 +52546,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 12.4,
+        Weight: 28,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -54770,6 +54770,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "Redundant Power System 2300": {
+        Manufacturer: "Cisco",
+        Model: "Redundant Power System 2300",
+        Slug: "cisco-rps2300",
+        UHeight: 1,
+        PartNumber: "RPS2300",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "RPS-OUT-1", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS-OUT-2", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS-OUT-3", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS-OUT-4", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS-OUT-5", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "RPS-OUT-6", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU Bay 1", Label: "", Position: "1" },
+            { Name: "PSU Bay 2", Label: "", Position: "2" },
+            { Name: "Fan Module", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SF100-16": {
