@@ -6464,6 +6464,62 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "FortiWeb 3000E": {
+        Manufacturer: "Fortinet",
+        Model: "FortiWeb 3000E",
+        Slug: "fortinet-fwb-3000e",
+        UHeight: 2,
+        PartNumber: "FWB-3000E",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "port1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SP-RACKTRAY-02": {
         Manufacturer: "Fortinet",
         Model: "SP-RACKTRAY-02",

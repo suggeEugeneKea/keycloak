@@ -22601,15 +22601,14 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 10,
         PartNumber: "C6807-XL",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "right-to-left",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 62,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -22626,6 +22625,13 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "Slot 5", Label: "", Position: "5" },
+            { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Slot 7", Label: "", Position: "7" },
         },
 			  DeviceBays: []DeviceBay{
         },
