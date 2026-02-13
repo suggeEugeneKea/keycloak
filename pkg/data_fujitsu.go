@@ -128,6 +128,54 @@ var DeviceTypesMapfujitsu = map[string]*DeviceData{
             { Name: "iRMC-S5", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PRIMERGY RX300 S7": {
+        Manufacturer: "Fujitsu",
+        Model: "PRIMERGY RX300 S7",
+        Slug: "fujitsu-primergy-rx300-s7",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial 1", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iRMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PRIMERGY TX100 S1": {
         Manufacturer: "Fujitsu",
         Model: "PRIMERGY TX100 S1",
@@ -400,6 +448,55 @@ var DeviceTypesMapfujitsu = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "TenGig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "TenGig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "Primergy RX300 S6": {
+        Manufacturer: "Fujitsu",
+        Model: "Primergy RX300 S6",
+        Slug: "fujitsu-primergy-rx300-s6",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial 1", Type: "de-9", Label: "", Poe: false },
+            { Name: "Serial 2", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe 1", Label: "", Position: "PCIe 1" },
+            { Name: "PCIe 2", Label: "", Position: "PCIe 2" },
+            { Name: "PCIe 3", Label: "", Position: "PCIe 3" },
+            { Name: "PCIe 4", Label: "", Position: "PCIe 4" },
+            { Name: "PCIe 5", Label: "", Position: "PCIe 5" },
+            { Name: "PCIe 6", Label: "", Position: "PCIe 6" },
+            { Name: "PCIe 7", Label: "", Position: "PCIe 7" },
+            { Name: "PSU Slot 1", Label: "", Position: "PSU Slot 1" },
+            { Name: "PSU Slot 2", Label: "", Position: "PSU Slot 2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iRMC", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
 }

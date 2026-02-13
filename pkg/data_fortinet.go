@@ -3930,6 +3930,92 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 50G SFP": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 50G SFP",
+        Slug: "fortinet-fg-50g-sfp",
+        UHeight: 1,
+        PartNumber: "FG-50G-SFP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FortiGate 50G SFP POE": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 50G SFP POE",
+        Slug: "fortinet-fg-50g-sfp-poe",
+        UHeight: 1,
+        PartNumber: "FG-50G-SFP-POE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 76, AllocatedDraw: 75 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "FortiGate 51E": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 51E",
@@ -4609,6 +4695,54 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "B", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "dmz", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FortiGate 70G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 70G",
+        Slug: "fortinet-fg-70g",
+        UHeight: 1,
+        PartNumber: "FG-70G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "internal1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "B", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
