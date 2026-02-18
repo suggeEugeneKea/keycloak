@@ -2,6 +2,83 @@
 package devices
 
 var DeviceTypesMapmellanox = map[string]*DeviceData{
+    "QM8790": {
+        Manufacturer: "Mellanox",
+        Model: "QM8790",
+        Slug: "mellanox-qm8790",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu0", Label: "", Position: "0" },
+            { Name: "psu1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "swp1", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp2", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp3", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp4", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp5", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp6", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp7", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp8", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp9", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp10", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp11", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp12", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp13", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp14", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp15", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp16", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp17", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp18", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp19", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp20", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp21", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp22", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp23", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp24", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp25", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp26", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp27", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp28", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp29", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp30", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp31", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp32", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp33", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp34", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp35", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp36", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp37", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp38", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp39", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "swp40", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+        },
+    },
     "SB7800": {
         Manufacturer: "Mellanox",
         Model: "SB7800",

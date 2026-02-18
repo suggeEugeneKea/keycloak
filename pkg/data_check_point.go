@@ -207,6 +207,99 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "qsfp32", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "SG1120": {
+        Manufacturer: "Check Point",
+        Model: "SG1120",
+        Slug: "check-point-sg1120",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1120",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU-External", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 17 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DMZ", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG1430": {
+        Manufacturer: "Check Point",
+        Model: "SG1430",
+        Slug: "check-point-sg1430",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1430-NGTP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "ttyS1", Type: "usb-micro-b", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU-External", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 25 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DMZ", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG1470": {
         Manufacturer: "Check Point",
         Model: "SG1470",
@@ -319,6 +412,49 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "eth14", Label: "14", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth15", Label: "15", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG1530": {
+        Manufacturer: "Check Point",
+        Model: "SG1530",
+        Slug: "check-point-sg1530",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1530",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 18 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "SG1535": {
@@ -444,14 +580,14 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
@@ -540,14 +676,14 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },

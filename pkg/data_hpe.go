@@ -18623,6 +18623,48 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "MSA 2050 SAN Controller": {
+        Manufacturer: "HPE",
+        Model: "MSA 2050 SAN Controller",
+        Slug: "hpe-msa-2050-san-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Service", Type: "usb-mini-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SAS12g_Expansion", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Net1", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net2", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net3", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net4", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+        },
+    },
     "MSA 2050 SAS Controller": {
         Manufacturer: "HPE",
         Model: "MSA 2050 SAS Controller",
@@ -18662,6 +18704,48 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "SAS12g-2", Label: "", Type: "other", MgmtOnly: false },
             { Name: "SAS12g-3", Label: "", Type: "other", MgmtOnly: false },
             { Name: "SAS12g-4", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "MSA 2060 SAN Controller": {
+        Manufacturer: "HPE",
+        Model: "MSA 2060 SAN Controller",
+        Slug: "hpe-msa-2060-san-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Service", Type: "usb-mini-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SAS12g_Expansion", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Net1", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net2", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net3", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "Net4", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
         },
     },
     "MSA 3600 LFF Disk Enclosure": {

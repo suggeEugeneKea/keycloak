@@ -1802,6 +1802,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU 1", Label: "", Position: "1" },
             { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -6469,6 +6471,57 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Ethernet 1/1/33", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Ethernet 1/1/34", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "mgmt1/1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerVault MD1220": {
+        Manufacturer: "Dell",
+        Model: "PowerVault MD1220",
+        Slug: "dell-powervault-md1220",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 8.84,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "Disk 1", Label: "", Position: "1" },
+            { Name: "Disk 2", Label: "", Position: "2" },
+            { Name: "Disk 3", Label: "", Position: "3" },
+            { Name: "Disk 4", Label: "", Position: "4" },
+            { Name: "Disk 5", Label: "", Position: "5" },
+            { Name: "Disk 6", Label: "", Position: "6" },
+            { Name: "Disk 7", Label: "", Position: "7" },
+            { Name: "Disk 8", Label: "", Position: "8" },
+            { Name: "Disk 9", Label: "", Position: "9" },
+            { Name: "Disk 10", Label: "", Position: "10" },
+            { Name: "Disk 11", Label: "", Position: "11" },
+            { Name: "Disk 12", Label: "", Position: "12" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller 1", Label: "" },
+            { Name: "Controller 2", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "PowerVault MD3200": {

@@ -2298,7 +2298,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.27,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5725,6 +5725,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -7109,7 +7110,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 54.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
