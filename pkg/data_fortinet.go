@@ -3158,6 +3158,49 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 40F-3G4G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 40F-3G4G",
+        Slug: "fortinet-fg-40f-3g4g",
+        UHeight: 1,
+        PartNumber: "FG-40F-3G4G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wwan", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FortiGate 500D": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 500D",

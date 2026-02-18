@@ -3282,6 +3282,55 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "S5735-L8T4X-A1": {
+        Manufacturer: "Huawei",
+        Model: "S5735-L8T4X-A1",
+        Slug: "huawei-s5735-l8t4x-a1",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.44,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR", Label: "", Type: "iec-60320-c14", MaximumDraw: 27, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "S5735-S48P4XE-V2": {
         Manufacturer: "Huawei",
         Model: "S5735-S48P4XE-V2",

@@ -1529,26 +1529,19 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 19.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial", Type: "de-9", Label: "", Poe: false },
-            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
-            { Name: "Front USB1", Type: "usb-a", Label: "" },
-            { Name: "Front USB2", Type: "usb-a", Label: "" },
-            { Name: "Rear USB1", Type: "usb-a", Label: "" },
-            { Name: "Rear USB2", Type: "usb-a", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1557,6 +1550,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1575,11 +1570,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 26.02,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1588,8 +1583,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1598,6 +1591,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1618,11 +1613,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 12,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1631,8 +1626,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1641,6 +1634,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1663,7 +1658,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 13,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1680,8 +1675,49 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerEdge R360": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R360",
+        Slug: "dell-poweredge-r360",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1700,11 +1736,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 15.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1713,8 +1749,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1723,6 +1757,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1741,11 +1777,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 15.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1754,8 +1790,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1764,6 +1798,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1782,11 +1818,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 19.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1795,8 +1831,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1805,6 +1839,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
             { Name: "Riser PCIe slot 1", Label: "1", Position: "PCIe-1" },
             { Name: "Riser PCIe slot 2", Label: "2", Position: "PCIe-2" },
         },
@@ -1825,11 +1861,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 19.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1838,8 +1874,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1848,6 +1882,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1868,11 +1904,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 17.64,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1881,8 +1917,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1891,6 +1925,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1911,11 +1947,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "parent",
-        Weight: 0,
+        SubdeviceRole: "",
+        Weight: 18.62,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1924,8 +1960,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1934,6 +1968,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2034,11 +2070,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "parent",
-        Weight: 0,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 28.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2047,8 +2083,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2057,6 +2091,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
             { Name: "PCIe slot 1", Label: "1", Position: "PCIe-1" },
             { Name: "PCIe slot 2", Label: "2", Position: "PCIe-2" },
             { Name: "PCIe slot 3", Label: "3", Position: "PCIe-3" },
@@ -2082,11 +2118,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 29.68,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2095,8 +2131,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2105,6 +2139,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSI 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2207,11 +2243,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 18.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2220,8 +2256,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2230,6 +2264,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2293,11 +2329,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 18.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2314,8 +2350,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
             { Name: "Network Daughter Card slot 1", Label: "", Position: "NDC-1" },
             { Name: "Riser PCIe-Gen3 1", Label: "", Position: "PCIe-Gen3-1" },
             { Name: "Riser PCIe-Gen3 2", Label: "", Position: "PCIe-Gen3-2" },
@@ -2724,11 +2760,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 29.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2737,8 +2773,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2747,16 +2781,15 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "Network Daughter Card slot 1", Label: "", Position: "NDC-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -2810,11 +2843,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 31.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2823,8 +2856,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2833,6 +2864,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2919,8 +2952,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
             { Name: "NUMA 0 - NDC slot 1", Label: "", Position: "NDC-1" },
             { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
             { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
@@ -3032,11 +3065,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 27.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3053,8 +3086,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
             { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
             { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
             { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
@@ -3210,11 +3243,11 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 25.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3231,8 +3264,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
             { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
             { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
             { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
