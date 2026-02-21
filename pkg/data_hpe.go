@@ -15060,7 +15060,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "JG932A",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -15073,7 +15073,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 26, AllocatedDraw: 0 },
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 26, AllocatedDraw: 19 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -15118,6 +15118,142 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Ten-GigabitEthernet1/0/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "FlexNetwork 5130-24G-4SFP&#43;-1-slot HI": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork 5130-24G-4SFP&#43;-1-slot HI",
+        Slug: "hpe-flexnetwork-5130-24g-4sfpp-1-slot-hi",
+        UHeight: 1,
+        PartNumber: "JH323A",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "port expansion module", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "M-GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork 5130-24G-PoE&#43;-4SFP&#43;-1-slot HI": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork 5130-24G-PoE&#43;-4SFP&#43;-1-slot HI",
+        Slug: "hpe-flexnetwork-5130-24g-poep-4sfpp-1-slot-hi",
+        UHeight: 1,
+        PartNumber: "JH325A",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "port expansion module", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FlexNetwork 5130-24G-PoEP-4SFP&#43; EI": {
         Manufacturer: "HPE",
         Model: "FlexNetwork 5130-24G-PoEP-4SFP&#43; EI",
@@ -15125,7 +15261,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "JG936A",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -15138,7 +15274,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 460, AllocatedDraw: 0 },
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 460, AllocatedDraw: 30 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -15190,7 +15326,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "JG934A",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -15203,7 +15339,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 45, AllocatedDraw: 0 },
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 45, AllocatedDraw: 38 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -15364,18 +15500,18 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Ten-GigabitEthernet1/0/52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
-    "FlexNetwork 5130-48G-POE&#43;-4SFP&#43;-1-slot HI": {
+    "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43; EI": {
         Manufacturer: "HPE",
-        Model: "FlexNetwork 5130-48G-POE&#43;-4SFP&#43;-1-slot HI",
-        Slug: "hpe-flexnetwork-5130-48g-poep-4sfpp-1-slot-hi",
+        Model: "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43; EI",
+        Slug: "hpe-flexnetwork-5130-48g-poep-4sfpp-ei",
         UHeight: 1,
-        PartNumber: "JH326A",
+        PartNumber: "JG937A",
         IsFullDepth: false,
-        Airflow: "front-to-rear",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 12.5,
+        Weight: 8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -15384,6 +15520,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 490, AllocatedDraw: 47 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -15392,16 +15529,12 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PS1", Label: "", Position: "1" },
-            { Name: "PS2", Label: "", Position: "2" },
-            { Name: "port expansion module", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
@@ -15456,18 +15589,18 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Ten-GigabitEthernet1/0/52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
-    "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43; EI": {
+    "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43;-1-slot HI": {
         Manufacturer: "HPE",
-        Model: "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43; EI",
-        Slug: "hpe-flexnetwork-5130-48g-poep-4sfpp-ei",
+        Model: "FlexNetwork 5130-48G-PoE&#43;-4SFP&#43;-1-slot HI",
+        Slug: "hpe-flexnetwork-5130-48g-poep-4sfpp-1-slot-hi",
         UHeight: 1,
-        PartNumber: "JG937A",
+        PartNumber: "JH326A",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 12.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -15476,7 +15609,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 490, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -15485,12 +15617,16 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "port expansion module", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
