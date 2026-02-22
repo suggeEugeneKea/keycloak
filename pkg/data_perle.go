@@ -2,6 +2,61 @@
 package devices
 
 var DeviceTypesMapperle = map[string]*DeviceData{
+    "IOLAN SCG16": {
+        Manufacturer: "Perle",
+        Model: "IOLAN SCG16",
+        Slug: "perle-iolan-scg16",
+        UHeight: 1,
+        PartNumber: "04032652",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.06,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "tty1", Type: "rj-45", Label: "RS232-1" },
+            { Name: "tty2", Type: "rj-45", Label: "RS232-2" },
+            { Name: "tty3", Type: "rj-45", Label: "RS232-3" },
+            { Name: "tty4", Type: "rj-45", Label: "RS232-4" },
+            { Name: "tty5", Type: "rj-45", Label: "RS232-5" },
+            { Name: "tty6", Type: "rj-45", Label: "RS232-6" },
+            { Name: "tty7", Type: "rj-45", Label: "RS232-7" },
+            { Name: "tty8", Type: "rj-45", Label: "RS232-8" },
+            { Name: "tty9", Type: "rj-45", Label: "RS232-9" },
+            { Name: "tty10", Type: "rj-45", Label: "RS232-10" },
+            { Name: "tty11", Type: "rj-45", Label: "RS232-11" },
+            { Name: "tty12", Type: "rj-45", Label: "RS232-12" },
+            { Name: "tty13", Type: "rj-45", Label: "RS232-13" },
+            { Name: "tty14", Type: "rj-45", Label: "RS232-14" },
+            { Name: "tty15", Type: "rj-45", Label: "RS232-15" },
+            { Name: "tty16", Type: "rj-45", Label: "RS232-16" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "IOLAN SCG18 R": {
         Manufacturer: "Perle",
         Model: "IOLAN SCG18 R",

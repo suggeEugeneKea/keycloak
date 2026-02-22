@@ -1575,6 +1575,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS822&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS822&#43;",
+        Slug: "synology-rs822-plus",
+        UHeight: 1,
+        PartNumber: "RS822&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 48, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "RX1217": {
         Manufacturer: "Synology",
         Model: "RX1217",
