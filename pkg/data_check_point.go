@@ -845,4 +845,47 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SandBlast TE2000X": {
+        Manufacturer: "Check Point",
+        Model: "SandBlast TE2000X",
+        Slug: "check-point-cpap-sbte2000x",
+        UHeight: 2,
+        PartNumber: "CPAP-SBTE2000X",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.05,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Line card 1", Label: "", Position: "1" },
+            { Name: "Line card 2", Label: "", Position: "2" },
+            { Name: "Line card 3", Label: "", Position: "3" },
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SYNC", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

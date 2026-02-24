@@ -126,6 +126,49 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "Ethernet4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "FortiExtender 101F-EA": {
+        Manufacturer: "Fortinet",
+        Model: "FortiExtender 101F-EA",
+        Slug: "fortinet-fex-101f-ea",
+        UHeight: 0,
+        PartNumber: "FEX-101F-EA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.83,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LTE", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "FortiExtender 40D": {
         Manufacturer: "Fortinet",
         Model: "FortiExtender 40D",
