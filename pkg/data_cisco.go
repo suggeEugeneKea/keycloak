@@ -7688,6 +7688,159 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Console J16", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "CSF1230-ASA-K9": {
+        Manufacturer: "Cisco",
+        Model: "CSF1230-ASA-K9",
+        Slug: "cisco-csf1230-asa-k9",
+        UHeight: 1,
+        PartNumber: "CSF1230-ASA-K9",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 4.24,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "CSF1240-ASA-K9": {
+        Manufacturer: "Cisco",
+        Model: "CSF1240-ASA-K9",
+        Slug: "cisco-csf1240-asa-k9",
+        UHeight: 1,
+        PartNumber: "CSF1240-ASA-K9",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 4.24,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "CSF1250-ASA-K9": {
+        Manufacturer: "Cisco",
+        Model: "CSF1250-ASA-K9",
+        Slug: "cisco-csf1250-asa-k9",
+        UHeight: 1,
+        PartNumber: "CSF1250-ASA-K9",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 4.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "CTI-2210-VCR": {
         Manufacturer: "Cisco",
         Model: "CTI-2210-VCR",

@@ -5678,10 +5678,10 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
