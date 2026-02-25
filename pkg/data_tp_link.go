@@ -89,6 +89,47 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "Archer MR505": {
+        Manufacturer: "TP-Link",
+        Model: "Archer MR505",
+        Slug: "tp-link-archer-mr505",
+        UHeight: 0,
+        PartNumber: "archer-mr505",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 400,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "Power", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN/LAN1", Label: "WAN/LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "EAP245": {
         Manufacturer: "TP-Link",
         Model: "EAP245",
