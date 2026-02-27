@@ -198,4 +198,63 @@ var DeviceTypesMapbachmann = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "BlueNet BN7500 BM0019988": {
+        Manufacturer: "Bachmann",
+        Model: "BlueNet BN7500 BM0019988",
+        Slug: "bachmann-bluenet-bn7500-bm0019988",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "gpio", Type: "rj-12", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60309-p-n-e-6h", MaximumDraw: 7400, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 13", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 14", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 15", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 16", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 17", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 18", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 19", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 20", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
 }
