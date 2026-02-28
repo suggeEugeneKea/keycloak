@@ -132,6 +132,46 @@ var DeviceTypesMapavm = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "FRITZ!Box 6860 5G": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 6860 5G",
+        Slug: "avm-fritzbox-6860-5g",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "dect", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mobile", Label: "", Type: "5g", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "FRITZ!Box 6890 LTE": {
         Manufacturer: "AVM",
         Model: "FRITZ!Box 6890 LTE",

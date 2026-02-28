@@ -4491,6 +4491,42 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
         },
     },
+    "wAP LR8G kit": {
+        Manufacturer: "MikroTik",
+        Model: "wAP LR8G kit",
+        Slug: "mikrotik-rbwapr-2nd-and-r11e-lr8g",
+        UHeight: 0,
+        PartNumber: "RBwAPR-2nD&amp;R11e-LR8G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "RJ-45 PoE PD", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "wAP R ac": {
         Manufacturer: "MikroTik",
         Model: "wAP R ac",

@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapminisforum = map[string]*DeviceData{
+    "GK41": {
+        Manufacturer: "Minisforum",
+        Model: "GK41",
+        Slug: "minisforum-gk41",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "bottom-to-top",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "MS-01": {
         Manufacturer: "Minisforum",
         Model: "MS-01",
