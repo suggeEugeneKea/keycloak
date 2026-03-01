@@ -4511,6 +4511,55 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerProtect DP4400": {
+        Manufacturer: "Dell",
+        Model: "PowerProtect DP4400",
+        Slug: "dell-powerprotect-dp4400",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 33,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "10GbE 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerScale A300": {
         Manufacturer: "Dell",
         Model: "PowerScale A300",
