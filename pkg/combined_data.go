@@ -95,6 +95,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Keysight": DeviceTypesMapkeysight,
     "LANCOM": DeviceTypesMaplancom,
     "Lantronix": DeviceTypesMaplantronix,
+    "Legrand": DeviceTypesMaplegrand,
     "Lenovo": DeviceTypesMaplenovo,
     "Leviton": DeviceTypesMapleviton,
     "LiteOn": DeviceTypesMapliteon,
