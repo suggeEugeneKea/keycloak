@@ -2,6 +2,96 @@
 package devices
 
 var DeviceTypesMapfujitsu = map[string]*DeviceData{
+    "PRIMERGY RX200 S8": {
+        Manufacturer: "Fujitsu",
+        Model: "PRIMERGY RX200 S8",
+        Slug: "fujitsu-primergy-rx200-s8",
+        UHeight: 1,
+        PartNumber: "S26361-K1455-V101",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "Slot1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "Slot2" },
+            { Name: "PCIe Slot 3", Label: "", Position: "Slot3" },
+            { Name: "PCIe Slot 4", Label: "", Position: "Slot4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iRMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PRIMERGY RX2530 M4": {
+        Manufacturer: "Fujitsu",
+        Model: "PRIMERGY RX2530 M4",
+        Slug: "fujitsu-primergy-rx2530-m4",
+        UHeight: 1,
+        PartNumber: "S26361-K1592-V101",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "Slot1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "Slot2" },
+            { Name: "PCIe Slot 3", Label: "", Position: "Slot3" },
+            { Name: "PCIe Slot 4", Label: "", Position: "Slot4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iRMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PRIMERGY RX2530 M6": {
         Manufacturer: "Fujitsu",
         Model: "PRIMERGY RX2530 M6",

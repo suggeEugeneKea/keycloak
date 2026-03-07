@@ -279,6 +279,44 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "OptiPlex 3070 Micro": {
+        Manufacturer: "Dell",
+        Model: "OptiPlex 3070 Micro",
+        Slug: "dell-optiplex-3070-micro",
+        UHeight: 0,
+        PartNumber: "D10U003",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "NIC", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerConnect 3548p": {
         Manufacturer: "Dell",
         Model: "PowerConnect 3548p",
@@ -7171,8 +7209,9 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "CPU", Type: "rj-45", Label: "", Poe: false },
-            { Name: "BMC", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console (Micro-USB)", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Console CPU (Serial)", Type: "de-9", Label: "", Poe: false },
+            { Name: "Console BMC (Serial)", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -7187,18 +7226,22 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Power 1", Label: "", Position: "PSU1" },
             { Name: "Power 2", Label: "", Position: "PSU2" },
+            { Name: "Expansion Slot 1", Label: "", Position: "Slot1" },
+            { Name: "Expansion Slot 2", Label: "", Position: "Slot2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "10GbE 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "10GbE 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1GE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1GE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1GE 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1GE 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10GE 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GE 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management (CPU)", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Management (BMC)", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "VxRail E560": {
