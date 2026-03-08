@@ -2,6 +2,88 @@
 package devices
 
 var DeviceTypesMapcisco = map[string]*DeviceData{
+    "1720": {
+        Manufacturer: "Cisco",
+        Model: "1720",
+        Slug: "cisco-1720",
+        UHeight: 2,
+        PartNumber: "CISCO1720",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External-PSU", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "WIC0", Label: "", Position: "0" },
+            { Name: "WIC1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "1721": {
+        Manufacturer: "Cisco",
+        Model: "1721",
+        Slug: "cisco-1721",
+        UHeight: 2,
+        PartNumber: "CISCO1721",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External-PSU", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "WIC0", Label: "", Position: "0" },
+            { Name: "WIC1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "1751-V": {
         Manufacturer: "Cisco",
         Model: "1751-V",
@@ -60716,6 +60798,73 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GigabitEthernet0/18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "WS-C2960L-24PS-LL": {
+        Manufacturer: "Cisco",
+        Model: "WS-C2960L-24PS-LL",
+        Slug: "cisco-ws-c2960l-24ps-ll",
+        UHeight: 1,
+        PartNumber: "WS-C2960L-24PS-LL",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb0", Type: "usb-mini-b", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 120, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "WS-C2960L-24TS-LL": {

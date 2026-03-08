@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapdahua = map[string]*DeviceData{
+    "DH-CS4006-4ET2GT-36": {
+        Manufacturer: "Dahua",
+        Model: "DH-CS4006-4ET2GT-36",
+        Slug: "dahua-dh-cs4006-4et2gt-36",
+        UHeight: 0,
+        PartNumber: "DH-CS4006-4ET2GT-36",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "DC IN", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 3 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "IPC-HDBW2431R-ZS-S2": {
         Manufacturer: "Dahua",
         Model: "IPC-HDBW2431R-ZS-S2",

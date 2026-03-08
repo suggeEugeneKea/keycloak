@@ -3598,47 +3598,6 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
-    "RB750Gr3": {
-        Manufacturer: "MikroTik",
-        Model: "RB750Gr3",
-        Slug: "mikrotik-rb750gr3",
-        UHeight: 0,
-        PartNumber: "RB750Gr3",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0.13,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power1", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
     "RB750r2": {
         Manufacturer: "MikroTik",
         Model: "RB750r2",
@@ -3720,48 +3679,6 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "RB760iGS": {
-        Manufacturer: "MikroTik",
-        Model: "RB760iGS",
-        Slug: "mikrotik-rb760igs",
-        UHeight: 0,
-        PartNumber: "RB760iGS",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 139,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 6 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "RB951G-2HnD": {
@@ -4410,6 +4327,51 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "hAP ax S": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ax S",
+        Slug: "mikrotik-hap-ax-s",
+        UHeight: 0,
+        PartNumber: "E62iUGS-2axD5axT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 820,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 34, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "2.5G", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "hAP lite": {
         Manufacturer: "MikroTik",
         Model: "hAP lite",
@@ -4489,6 +4451,93 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Ether3", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "Ether4", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
+        },
+    },
+    "hEX": {
+        Manufacturer: "MikroTik",
+        Model: "hEX",
+        Slug: "mikrotik-hex",
+        UHeight: 0,
+        PartNumber: "RB750Gr3",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 129,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 5 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD/microSDHC/microSDXC", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "hEX S": {
+        Manufacturer: "MikroTik",
+        Model: "hEX S",
+        Slug: "mikrotik-hex-s",
+        UHeight: 0,
+        PartNumber: "RB760iGS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 350,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD/microSDHC/microSDXC", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "SFP", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "wAP LR8G kit": {
