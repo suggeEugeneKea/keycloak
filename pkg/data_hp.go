@@ -263,4 +263,41 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "t630 Thin Client": {
+        Manufacturer: "HP",
+        Model: "t630 Thin Client",
+        Slug: "hp-t630-thin-client",
+        UHeight: 0,
+        PartNumber: "3KX20UT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "NIC1", Label: "Ethernet", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }
