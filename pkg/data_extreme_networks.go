@@ -3456,6 +3456,51 @@ var DeviceTypesMapextreme_networks = map[string]*DeviceData{
             { Name: "1/32", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "AP4020-WW": {
+        Manufacturer: "Extreme Networks",
+        Model: "AP4020-WW",
+        Slug: "extreme-networks-ap4020-ww",
+        UHeight: 1,
+        PartNumber: "AP4020-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 21 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH0/POE", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "ETH1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "radio 0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio 1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio 2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "sensor", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "ble0", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "iot0", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
     "BR-MLXE-16-MR2-AC": {
         Manufacturer: "Extreme Networks",
         Model: "BR-MLXE-16-MR2-AC",
