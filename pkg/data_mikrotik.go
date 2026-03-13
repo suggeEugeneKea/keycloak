@@ -2809,7 +2809,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "child",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3506,6 +3506,45 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "RB5009/L009 rackmount kit K-79": {
+        Manufacturer: "MikroTik",
+        Model: "RB5009/L009 rackmount kit K-79",
+        Slug: "mikrotik-k-79",
+        UHeight: 1,
+        PartNumber: "K-79",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Router A", Label: "" },
+            { Name: "Router B", Label: "" },
+            { Name: "Router C", Label: "" },
+            { Name: "Router D", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "RB5009UG&#43;S&#43;IN": {
         Manufacturer: "MikroTik",
         Model: "RB5009UG&#43;S&#43;IN",
@@ -3516,7 +3555,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "child",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3562,7 +3601,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "child",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,

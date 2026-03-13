@@ -35262,6 +35262,49 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Data 5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FMC1700": {
+        Manufacturer: "Cisco",
+        Model: "FMC1700",
+        Slug: "cisco-fmc1700",
+        UHeight: 1,
+        PartNumber: "FMC1700",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "IOIOI", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CIMC", Label: "M", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth0", Label: "1", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "eth1", Label: "2", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "eth2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FPR1010-NGFW-K9": {
         Manufacturer: "Cisco",
         Model: "FPR1010-NGFW-K9",
@@ -35832,6 +35875,62 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Ethernet1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Ethernet1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Ethernet1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: true },
+        },
+    },
+    "FPR3140-NGFW-K9": {
+        Manufacturer: "Cisco",
+        Model: "FPR3140-NGFW-K9",
+        Slug: "cisco-fpr3140-ngfw-k9",
+        UHeight: 1,
+        PartNumber: "FPR3140-NGFW-K9",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "0" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "Expansion module", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/13", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/14", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/15", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/16", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "Management1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: true },
         },
     },
