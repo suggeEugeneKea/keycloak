@@ -231,6 +231,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Solid Optics": DeviceTypesMapsolid_optics,
     "Sonar": DeviceTypesMapsonar,
     "SonicWall": DeviceTypesMapsonicwall,
+    "Sonnet": DeviceTypesMapsonnet,
     "Sophos": DeviceTypesMapsophos,
     "Sprinter": DeviceTypesMapsprinter,
     "Stormshield": DeviceTypesMapstormshield,
