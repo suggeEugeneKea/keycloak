@@ -388,6 +388,57 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "LAN-igb3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "MBD-X8DTS-F": {
+        Manufacturer: "Supermicro",
+        Model: "MBD-X8DTS-F",
+        Slug: "supermicro-mbd-x8dts-f",
+        UHeight: 0,
+        PartNumber: "MBD-X8DTS-F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CPU 1", Label: "", Position: "Rear" },
+            { Name: "CPU 2", Label: "", Position: "Front" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "P1 DIMM 1A", Label: "", Position: "1" },
+            { Name: "P1 DIMM 2A", Label: "", Position: "2" },
+            { Name: "P1 DIMM 3A", Label: "", Position: "3" },
+            { Name: "P2 DIMM 1A", Label: "", Position: "4" },
+            { Name: "P2 DIMM 2A", Label: "", Position: "5" },
+            { Name: "P2 DIMM 3A", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1 (MGMT)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "int-10g-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "int-10g-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "MicroCloud A&#43; Server AS 3015MR-H8TNR": {
         Manufacturer: "Supermicro",
         Model: "MicroCloud A&#43; Server AS 3015MR-H8TNR",
@@ -998,6 +1049,61 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Te3", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "Te4", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SYS-6036ST-6LR": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-6036ST-6LR",
+        Slug: "supermicro-sys-6036st-6lr",
+        UHeight: 3,
+        PartNumber: "SYS-6036ST-6LR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 22,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "HDD Bay 1", Label: "", Position: "1" },
+            { Name: "HDD Bay 2", Label: "", Position: "2" },
+            { Name: "HDD Bay 3", Label: "", Position: "3" },
+            { Name: "HDD Bay 4", Label: "", Position: "4" },
+            { Name: "HDD Bay 5", Label: "", Position: "5" },
+            { Name: "HDD Bay 6", Label: "", Position: "6" },
+            { Name: "HDD Bay 7", Label: "", Position: "7" },
+            { Name: "HDD Bay 8", Label: "", Position: "8" },
+            { Name: "HDD Bay 9", Label: "", Position: "9" },
+            { Name: "HDD Bay 10", Label: "", Position: "10" },
+            { Name: "HDD Bay 11", Label: "", Position: "11" },
+            { Name: "HDD Bay 12", Label: "", Position: "12" },
+            { Name: "HDD Bay 13", Label: "", Position: "13" },
+            { Name: "HDD Bay 14", Label: "", Position: "14" },
+            { Name: "HDD Bay 15", Label: "", Position: "15" },
+            { Name: "HDD Bay 16", Label: "", Position: "16" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1 (Rear Left)", Label: "" },
+            { Name: "Node 2 (Rear Right)", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Storage SuperServer SSG-610P-ACR12N4H": {

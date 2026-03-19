@@ -44213,6 +44213,52 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Meraki MS130-8P": {
+        Manufacturer: "Cisco",
+        Model: "Meraki MS130-8P",
+        Slug: "cisco-meraki-ms130-8p",
+        UHeight: 1,
+        PartNumber: "MS130-8P-HW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.88,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Slot 1", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "SFP2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Meraki MS150-24MP-4X": {
         Manufacturer: "Cisco",
         Model: "Meraki MS150-24MP-4X",
