@@ -49184,6 +49184,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "CIMC", Label: "o]", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "UCS C245 M8SX": {
+        Manufacturer: "Cisco",
+        Model: "UCS C245 M8SX",
+        Slug: "cisco-ucsc-c245-m8sx",
+        UHeight: 2,
+        PartNumber: "UCSC-C245-M8SX",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "IOIOI", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 01", Label: "", Position: "1" },
+            { Name: "PSU 02", Label: "", Position: "2" },
+            { Name: "mRAID", Label: "", Position: "mRAID" },
+            { Name: "mLOM", Label: "", Position: "mLOM" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe slot 4", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe slot 5", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe slot 6", Label: "", Position: "PCIe-6" },
+            { Name: "PCIe slot 7", Label: "", Position: "PCIe-7" },
+            { Name: "PCIe slot 8", Label: "", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CIMC", Label: "o]", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "UCS C460 M4": {
         Manufacturer: "Cisco",
         Model: "UCS C460 M4",

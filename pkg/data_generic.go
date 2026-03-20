@@ -2819,6 +2819,47 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "rack-workstation-4u-1psu": {
+        Manufacturer: "Generic",
+        Model: "rack-workstation-4u-1psu",
+        Slug: "generic-rack-workstation-4u-1psu",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 300 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "shelf-1he": {
         Manufacturer: "Generic",
         Model: "shelf-1he",
