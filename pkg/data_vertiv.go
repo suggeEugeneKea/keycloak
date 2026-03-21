@@ -454,12 +454,12 @@ var DeviceTypesMapvertiv = map[string]*DeviceData{
             { Name: "Network Option (IntelliSlot Port)", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "Geist rPDU GI10022L": {
+    "MG01D4W1-36PT63-3PS6B2A10-S": {
         Manufacturer: "Vertiv",
-        Model: "Geist rPDU GI10022L",
-        Slug: "vertiv-geist-rpdu-gi10022l",
+        Model: "MG01D4W1-36PT63-3PS6B2A10-S",
+        Slug: "vertiv-mg01d4w1-36pt63-3ps6b2a10-s",
         UHeight: 0,
-        PartNumber: "MG01D4W1-36PT63-3PS6B2A10-S",
+        PartNumber: "GI10022L",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -573,6 +573,548 @@ var DeviceTypesMapvertiv = map[string]*DeviceData{
         PowerPorts: []PowerPort{
         },
         PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP0N3100": {
+        Manufacturer: "Vertiv",
+        Model: "VP0N3100",
+        Slug: "vertiv-vp0n3100",
+        UHeight: 1,
+        PartNumber: "MN00X1R1-16MCQ9-3TL14A0A10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l14-30p", MaximumDraw: 5700, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Front circuit 1 outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front circuit 1 outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front circuit 2 outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Front circuit 2 outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 1 outlet 6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear circuit 2 outlet 6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP4N32A0": {
+        Manufacturer: "Vertiv",
+        Model: "VP4N32A0",
+        Slug: "vertiv-vp4n32a0",
+        UHeight: 2,
+        PartNumber: "MN05M2R1-16IB48-3TL6A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l6-30p", MaximumDraw: 4900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Circuit 1 outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IMD", Label: "", Position: "0/IMD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP5N11A0": {
+        Manufacturer: "Vertiv",
+        Model: "VP5N11A0",
+        Slug: "vertiv-vp5n11a0",
+        UHeight: 1,
+        PartNumber: "MNS5M1R5-06S153-1ST5A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-5-15p", MaximumDraw: 1400, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP5N21A1": {
+        Manufacturer: "Vertiv",
+        Model: "VP5N21A1",
+        Slug: "vertiv-vp5n21a1",
+        UHeight: 1,
+        PartNumber: "MNS5M1R5-12S203-2TL5A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l5-20p", MaximumDraw: 1900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "11", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP5N31A0": {
+        Manufacturer: "Vertiv",
+        Model: "VP5N31A0",
+        Slug: "vertiv-vp5n31a0",
+        UHeight: 1,
+        PartNumber: "MNS5M1R6-12S203-3TL5A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.44,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l5-30p", MaximumDraw: 2800, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "11", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP5N31A1": {
+        Manufacturer: "Vertiv",
+        Model: "VP5N31A1",
+        Slug: "vertiv-vp5n31a1",
+        UHeight: 1,
+        PartNumber: "MNS5M1R6-12CF18-3TL6A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l6-30p", MaximumDraw: 4900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "11", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IMD", Label: "", Position: "0/IMD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP7N31A1": {
+        Manufacturer: "Vertiv",
+        Model: "VP7N31A1",
+        Slug: "vertiv-vp7n31a1",
+        UHeight: 1,
+        PartNumber: "MNU5M1R6-12CF18-3TL6A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l6-30p", MaximumDraw: 4900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Circuit 1 outlet 1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IMD", Label: "", Position: "0/IMD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP7N32A0": {
+        Manufacturer: "Vertiv",
+        Model: "VP7N32A0",
+        Slug: "vertiv-vp7n32a0",
+        UHeight: 2,
+        PartNumber: "MNU5MDR6-24CF18-3TL6A0H10-S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l6-30p", MaximumDraw: 4900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "11", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "12", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "13", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "14", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "15", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "16", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "17", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "18", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "19", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "20", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "21", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "22", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "23", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "24", Type: "eaton-c39", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IMD", Label: "", Position: "0/IMD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP9562": {
+        Manufacturer: "Vertiv",
+        Model: "VP9562",
+        Slug: "vertiv-vp9562",
+        UHeight: 1,
+        PartNumber: "BRN100-10",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-5-15p", MaximumDraw: 1400, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "nema-5-15r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP9563": {
+        Manufacturer: "Vertiv",
+        Model: "VP9563",
+        Slug: "vertiv-vp9563",
+        UHeight: 1,
+        PartNumber: "BRN100-1025",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-5-20p", MaximumDraw: 1900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "5", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "6", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "7", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "8", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "9", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "10", Type: "nema-5-20r", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "VP9571A": {
+        Manufacturer: "Vertiv",
+        Model: "VP9571A",
+        Slug: "vertiv-vp9571a",
+        UHeight: 1,
+        PartNumber: "XPR120-103C13TL6",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "nema-l6-30p", MaximumDraw: 4900, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Circuit 1 outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 1 outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Circuit 2 outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },

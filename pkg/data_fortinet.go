@@ -5802,6 +5802,53 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "FortiGate Rugged 70G 5G Dual": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate Rugged 70G 5G Dual",
+        Slug: "fortinet-fgr-70g-5g-dual",
+        UHeight: 3,
+        PartNumber: "FGR-70G-5G-DUAL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "COM2", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC1", Label: "", Type: "dc-terminal", MaximumDraw: 27, AllocatedDraw: 25 },
+            { Name: "DC2", Label: "", Type: "dc-terminal", MaximumDraw: 27, AllocatedDraw: 25 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "FortiGate-600D": {
         Manufacturer: "Fortinet",
         Model: "FortiGate-600D",

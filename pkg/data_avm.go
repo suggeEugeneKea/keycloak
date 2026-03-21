@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMapavm = map[string]*DeviceData{
+    "FRITZ!Box 4060": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 4060",
+        Slug: "avm-fritzbox-4060",
+        UHeight: 0,
+        PartNumber: "20002931",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "WAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DECT", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "WiFi 5GHz-1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 5GHz-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "FRITZ!Box 5530 Fiber": {
         Manufacturer: "AVM",
         Model: "FRITZ!Box 5530 Fiber",
@@ -130,6 +174,52 @@ var DeviceTypesMapavm = map[string]*DeviceData{
             { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN4", Label: "LAN 4", Type: "1000base-t", MgmtOnly: false },
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FRITZ!Box 6690 Cable": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Box 6690 Cable",
+        Slug: "avm-fritzbox-6690-cable",
+        UHeight: 0,
+        PartNumber: "20002965",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Cable (DOCSIS 3.1)", Type: "docsis", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN 4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "FON1", Label: "FON 1", Type: "other", MgmtOnly: false },
+            { Name: "FON2", Label: "FON 2", Type: "other", MgmtOnly: false },
+            { Name: "DECT", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "WiFi 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "FRITZ!Box 6860 5G": {
