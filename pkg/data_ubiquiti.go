@@ -923,11 +923,11 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "EP-S16",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -935,7 +935,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -4433,6 +4433,44 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "port.11", Label: "Port 11 - SFP&#43; LAN", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Gateway Lite": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Gateway Lite",
+        Slug: "ubiquiti-unifi-gateway-lite",
+        UHeight: 0,
+        PartNumber: "UXG-Lite",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 320,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "usb-c", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "UniFi Gateway Pro": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Gateway Pro",
@@ -6886,6 +6924,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Unifi G3 Flex": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G3 Flex",
+        Slug: "ubiquiti-unifi-uvc-g3-flex",
+        UHeight: 0,
+        PartNumber: "UVC-G3-Flex",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "Unifi G5 Dome Ultra": {
         Manufacturer: "Ubiquiti",
         Model: "Unifi G5 Dome Ultra",
@@ -6898,6 +6972,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 175,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G5 Flex": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G5 Flex",
+        Slug: "ubiquiti-unifi-uvc-g5-flex",
+        UHeight: 0,
+        PartNumber: "UVC-G5-Flex",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 170,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

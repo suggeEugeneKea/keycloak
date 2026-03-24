@@ -6,7 +6,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS118",
         Slug: "synology-ds118",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS118",
         IsFullDepth: false,
         Airflow: "",
@@ -39,11 +39,49 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS1512&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS1512&#43;",
+        Slug: "synology-ds1512-plus",
+        UHeight: 0,
+        PartNumber: "DS1512&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 51, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS1522&#43;": {
         Manufacturer: "Synology",
         Model: "DS1522&#43;",
         Slug: "synology-ds1522-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS1522&#43;",
         IsFullDepth: false,
         Airflow: "",
@@ -83,7 +121,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS1618&#43;",
         Slug: "synology-ds1618-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS1618&#43;",
         IsFullDepth: false,
         Airflow: "",
@@ -119,11 +157,89 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS1812&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS1812&#43;",
+        Slug: "synology-ds1812-plus",
+        UHeight: 0,
+        PartNumber: "DS1812&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 72, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DS1815&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS1815&#43;",
+        Slug: "synology-ds1815-plus",
+        UHeight: 0,
+        PartNumber: "DS1815&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.29,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS1817&#43;": {
         Manufacturer: "Synology",
         Model: "DS1817&#43;",
         Slug: "synology-ds1817-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS1817&#43;",
         IsFullDepth: false,
         Airflow: "",
@@ -203,7 +319,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS218",
         Slug: "synology-ds218",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS218",
         IsFullDepth: false,
         Airflow: "front-to-rear",
@@ -277,7 +393,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS220&#43;",
         Slug: "synology-ds220-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS220&#43;",
         IsFullDepth: false,
         Airflow: "",
@@ -315,7 +431,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS2419&#43;",
         Slug: "synology-ds2419-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS2419&#43;",
         IsFullDepth: false,
         Airflow: "passive",
@@ -355,7 +471,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS418",
         Slug: "synology-ds418",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS418",
         IsFullDepth: false,
         Airflow: "",
@@ -393,7 +509,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Manufacturer: "Synology",
         Model: "DS420&#43;",
         Slug: "synology-ds420-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS420&#43;",
         IsFullDepth: false,
         Airflow: "",
@@ -427,11 +543,49 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS916&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS916&#43;",
+        Slug: "synology-ds916-plus",
+        UHeight: 0,
+        PartNumber: "DS916&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.04,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS920&#43;": {
         Manufacturer: "Synology",
         Model: "DS920&#43;",
         Slug: "synology-ds920-plus",
-        UHeight: 4,
+        UHeight: 0,
         PartNumber: "DS920&#43;",
         IsFullDepth: false,
         Airflow: "",

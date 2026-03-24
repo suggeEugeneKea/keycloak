@@ -240,6 +240,54 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG1575": {
+        Manufacturer: "Check Point",
+        Model: "SG1575",
+        Slug: "check-point-sg1575",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1575",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG1590": {
         Manufacturer: "Check Point",
         Model: "SG1590",

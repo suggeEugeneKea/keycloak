@@ -45,6 +45,48 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "ER605-V2": {
+        Manufacturer: "TP-Link",
+        Model: "ER605-V2",
+        Slug: "tp-link-er605-v2",
+        UHeight: 0,
+        PartNumber: "TL-R605",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN/LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN/LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ER707-M2": {
         Manufacturer: "TP-Link",
         Model: "ER707-M2",
@@ -1098,6 +1140,54 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG3210": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG3210",
+        Slug: "tp-link-tl-sg3210",
+        UHeight: 1,
+        PartNumber: "TL-SG3210",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitEthernet 1/0/1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/9", Label: "9", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/10", Label: "10", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "TL-SG3424": {
         Manufacturer: "TP-Link",
         Model: "TL-SG3424",
@@ -1358,6 +1448,72 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TL-SG3428X": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG3428X",
+        Slug: "tp-link-tl-sg3428x",
+        UHeight: 1,
+        PartNumber: "TL-SG3428X",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitEthernet 1/0/1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/17", Label: "17", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/18", Label: "18", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/19", Label: "19", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/20", Label: "20", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/21", Label: "21", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/22", Label: "22", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/23", Label: "23", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitEthernet 1/0/24", Label: "24", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/25", Label: "25", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/26", Label: "26", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/27", Label: "27", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/28", Label: "28", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "TL-SG3428XMP": {

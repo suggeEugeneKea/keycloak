@@ -2472,6 +2472,41 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Sliding Shelf Drawer 1U": {
+        Manufacturer: "Generic",
+        Model: "Sliding Shelf Drawer 1U",
+        Slug: "generic-sliding-shelf-drawer-1u",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Storage Drawer 2U": {
         Manufacturer: "Generic",
         Model: "Storage Drawer 2U",
@@ -2809,6 +2844,41 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
             { Name: "Port 4", Label: "", Type: "8p8c", Positions: 1, Poe: false },
             { Name: "Port 5", Label: "", Type: "8p8c", Positions: 1, Poe: false },
             { Name: "Port 6", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "din-rail-3u": {
+        Manufacturer: "Generic",
+        Model: "din-rail-3u",
+        Slug: "generic-din-rail-3u",
+        UHeight: 3,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
         },
