@@ -1608,6 +1608,97 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
             { Name: "loopback", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "PA-410R": {
+        Manufacturer: "Palo Alto",
+        Model: "PA-410R",
+        Slug: "palo-alto-pa-410r",
+        UHeight: 0,
+        PartNumber: "PA-410R",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 29, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 29, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "PA-410R-5G": {
+        Manufacturer: "Palo Alto",
+        Model: "PA-410R-5G",
+        Slug: "palo-alto-pa-410r-5g",
+        UHeight: 0,
+        PartNumber: "PA-410R-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 29, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 29, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "cellular1/1", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "PA-415": {
         Manufacturer: "Palo Alto",
         Model: "PA-415",
@@ -1857,6 +1948,103 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
             { Name: "loopback", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "PA-450R": {
+        Manufacturer: "Palo Alto",
+        Model: "PA-450R",
+        Slug: "palo-alto-pa-450r",
+        UHeight: 0,
+        PartNumber: "PA-450R",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 9.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "PA-450R-5G": {
+        Manufacturer: "Palo Alto",
+        Model: "PA-450R-5G",
+        Slug: "palo-alto-pa-450r-5g",
+        UHeight: 0,
+        PartNumber: "PA-450R-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb-console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "cellular1/1", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "PA-455": {
         Manufacturer: "Palo Alto",
         Model: "PA-455",
@@ -1954,6 +2142,57 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
             { Name: "ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "cellular1/1", Label: "", Type: "5g", MgmtOnly: false },
             { Name: "loopback", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
+    "PA-455R-5G": {
+        Manufacturer: "Palo Alto",
+        Model: "PA-455R-5G",
+        Slug: "palo-alto-pa-455r-5g",
+        UHeight: 0,
+        PartNumber: "PA-455R-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 37,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb-console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 185, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 185, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "cellular1/1", Label: "", Type: "5g", MgmtOnly: false },
         },
     },
     "PA-460": {

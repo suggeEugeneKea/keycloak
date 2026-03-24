@@ -2,6 +2,112 @@
 package devices
 
 var DeviceTypesMapphoenix_contact = map[string]*DeviceData{
+    "FL SWITCH 2214-2SFX": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 2214-2SFX",
+        Slug: "phoenix-contact-fl-switch-2214-2sfx",
+        UHeight: 0,
+        PartNumber: "1044030",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.04,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "US1", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+            { Name: "US2", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "xf1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf15", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+            { Name: "xf16", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FL SWITCH 2214-2SFX PN": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 2214-2SFX PN",
+        Slug: "phoenix-contact-fl-switch-2214-2sfx-pn",
+        UHeight: 0,
+        PartNumber: "1044030",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.04,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "US1", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+            { Name: "US2", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "xf1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "xf15", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+            { Name: "xf16", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+        },
+    },
     "FL SWITCH 2308": {
         Manufacturer: "Phoenix Contact",
         Model: "FL SWITCH 2308",
@@ -46,6 +152,191 @@ var DeviceTypesMapphoenix_contact = map[string]*DeviceData{
             { Name: "ETH-8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FL SWITCH 2314-2SFP": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 2314-2SFP",
+        Slug: "phoenix-contact-fl-switch-2314-2sfp",
+        UHeight: 0,
+        PartNumber: "1006191",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.04,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "US1", Label: "", Type: "dc-terminal", MaximumDraw: 16, AllocatedDraw: 0 },
+            { Name: "US2", Label: "", Type: "dc-terminal", MaximumDraw: 16, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "xf1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf15", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "xf16", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FL SWITCH 5924-4GC": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 5924-4GC",
+        Slug: "phoenix-contact-fl-switch-5924-4gc",
+        UHeight: 1,
+        PartNumber: "1525945",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "xf1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf28", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FL SWITCH 5924-4SFP&#43;": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH 5924-4SFP&#43;",
+        Slug: "phoenix-contact-fl-switch-5924-4sfpp",
+        UHeight: 1,
+        PartNumber: "1525939",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "xf1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xf25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xf26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xf27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "xf28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FL SWITCH 7004-4GC-EIP": {
         Manufacturer: "Phoenix Contact",
         Model: "FL SWITCH 7004-4GC-EIP",
@@ -88,6 +379,132 @@ var DeviceTypesMapphoenix_contact = map[string]*DeviceData{
             { Name: "ETH-6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "ETH-7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "ETH-8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FL SWITCH EP7428R-L3F1": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH EP7428R-L3F1",
+        Slug: "phoenix-contact-fl-switch-ep7428r-l3f1",
+        UHeight: 1,
+        PartNumber: "1144353",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FL SWITCH EP7428R-L3F1P": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH EP7428R-L3F1P",
+        Slug: "phoenix-contact-fl-switch-ep7428r-l3f1p",
+        UHeight: 1,
+        PartNumber: "1539668",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FL SWITCH EP7528R-L3F1": {
+        Manufacturer: "Phoenix Contact",
+        Model: "FL SWITCH EP7528R-L3F1",
+        Slug: "phoenix-contact-fl-switch-ep7528r-l3f1",
+        UHeight: 1,
+        PartNumber: "1539667",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "TC EXTENDER 6004": {

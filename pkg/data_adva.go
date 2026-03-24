@@ -86,6 +86,48 @@ var DeviceTypesMapadva = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "FSP 150-GE102Pro": {
+        Manufacturer: "ADVA",
+        Model: "FSP 150-GE102Pro",
+        Slug: "adva-fsp-150-ge102pro",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 15 },
+            { Name: "PSU-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "2", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3-rj45", Label: "3", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "3-sfp", Label: "3", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT LAN", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "FSP 150-XG120Pro SH": {
         Manufacturer: "ADVA",
         Model: "FSP 150-XG120Pro SH",
