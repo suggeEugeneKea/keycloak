@@ -300,4 +300,41 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "NIC1", Label: "Ethernet", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "t640 Thin Client": {
+        Manufacturer: "HP",
+        Model: "t640 Thin Client",
+        Slug: "hp-t640-thin-client",
+        UHeight: 0,
+        PartNumber: "12H46EA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 980,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "NIC1", Label: "Ethernet", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }
