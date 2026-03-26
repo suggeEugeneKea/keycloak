@@ -48,6 +48,56 @@ var DeviceTypesMapruggedcom = map[string]*DeviceData{
             { Name: "9", Label: "", Type: "100base-fx", MgmtOnly: false },
         },
     },
+    "Rugged Switch RSG2488": {
+        Manufacturer: "RuggedCOM",
+        Model: "Rugged Switch RSG2488",
+        Slug: "ruggedcom-rugged-switch-rsg2488",
+        UHeight: 1,
+        PartNumber: "RSG2488",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Input 1", Label: "", Type: "dc-terminal", MaximumDraw: 600, AllocatedDraw: 0 },
+            { Name: "DC Input 2", Label: "", Type: "dc-terminal", MaximumDraw: 600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "Slot01", Position: "1" },
+            { Name: "2", Label: "Slot02", Position: "2" },
+            { Name: "3", Label: "Slot03", Position: "3" },
+            { Name: "4", Label: "Slot04", Position: "4" },
+            { Name: "5", Label: "Slot05", Position: "5" },
+            { Name: "6", Label: "Slot06", Position: "6" },
+            { Name: "7", Label: "Slot07", Position: "7" },
+            { Name: "8", Label: "Slot08", Position: "8" },
+            { Name: "PSU1", Label: "PSU1", Position: "PSU1" },
+            { Name: "PSU2", Label: "PSU2", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "MGMT", Type: "100base-tx", MgmtOnly: true },
+            { Name: "SVI1", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
     "Rugged Switch RST2228P": {
         Manufacturer: "RuggedCOM",
         Model: "Rugged Switch RST2228P",

@@ -25391,6 +25391,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProLiant DL20 Gen9": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL20 Gen9",
+        Slug: "hpe-proliant-dl20-gen9",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "NIC1/iLO", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "NIC2", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProLiant DL320e Gen8": {
         Manufacturer: "HPE",
         Model: "ProLiant DL320e Gen8",

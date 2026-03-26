@@ -4579,6 +4579,61 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "netPower 16P": {
+        Manufacturer: "MikroTik",
+        Model: "netPower 16P",
+        Slug: "mikrotik-crs318-16p-2s-plus-out",
+        UHeight: 2,
+        PartNumber: "CRS318-16P-2S&#43;OUT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu1", Label: "DC1", Type: "dc-terminal", MaximumDraw: 316, AllocatedDraw: 0 },
+            { Name: "psu2", Label: "DC2", Type: "dc-terminal", MaximumDraw: 316, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "wAP LR8G kit": {
         Manufacturer: "MikroTik",
         Model: "wAP LR8G kit",
