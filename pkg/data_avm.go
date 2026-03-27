@@ -861,6 +861,86 @@ var DeviceTypesMapavm = map[string]*DeviceData{
             { Name: "WiFi 2.4GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "FRITZ!Repeater 3000 AX": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Repeater 3000 AX",
+        Slug: "avm-fritzrepeater-3000ax",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 180,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi 2.4 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FRITZ!Repeater 6000": {
+        Manufacturer: "AVM",
+        Model: "FRITZ!Repeater 6000",
+        Slug: "avm-fritzrepeater-6000",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 520,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi 2.4 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "FRITZ!WLAN Repeater DVB-C": {
         Manufacturer: "AVM",
         Model: "FRITZ!WLAN Repeater DVB-C",
