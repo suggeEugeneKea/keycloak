@@ -3752,6 +3752,53 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge R760xs": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R760xs",
+        Slug: "dell-poweredge-r760xs",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
+            { Name: "NUMA 0 - PCIe slot 1 - LP", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - LP", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+            { Name: "NUMA 0/1 - PCIe slot 4 - LP", Label: "4", Position: "PCIe-4" },
+            { Name: "NUMA 1 - PCIe slot 5 - LP", Label: "5", Position: "PCIe-5" },
+            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC9 1", Label: "iDRAC", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerEdge R7615": {
         Manufacturer: "Dell",
         Model: "PowerEdge R7615",

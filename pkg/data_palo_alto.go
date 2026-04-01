@@ -628,7 +628,7 @@ var DeviceTypesMappalo_alto = map[string]*DeviceData{
         Slug: "palo-alto-pa-1410",
         UHeight: 1,
         PartNumber: "PA-1410",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,

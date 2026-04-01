@@ -2539,4 +2539,51 @@ var DeviceTypesMapfs = map[string]*DeviceData{
             { Name: "FortyGigabitEthernet1/0/26", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
+    "S8550-6Q2C": {
+        Manufacturer: "FS",
+        Model: "S8550-6Q2C",
+        Slug: "fs-s8550-6q2c",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth-0-1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-3", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-4", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-5", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-6", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "eth-0-7", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "eth-0-8", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "mgmt-if", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
 }

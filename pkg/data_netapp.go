@@ -42,6 +42,87 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "AFF C30 Chassis": {
+        Manufacturer: "NetApp",
+        Model: "AFF C30 Chassis",
+        Slug: "netapp-aff-c30-chassis",
+        UHeight: 2,
+        PartNumber: "AFF-C30A-100-C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 25.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "A" },
+            { Name: "Controller B", Label: "B" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AFF-C30 Controller": {
+        Manufacturer: "NetApp",
+        Model: "AFF-C30 Controller",
+        Slug: "netapp-aff-c30-001",
+        UHeight: 0,
+        PartNumber: "AFF-C30-001",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "IOIOI", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+            { Name: "IOIOI", Label: "", Type: "usb-c", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOExpansion 1", Label: "", Position: "1" },
+            { Name: "IOExpansion 2", Label: "", Position: "2" },
+            { Name: "IOExpansion 3", Label: "", Position: "3" },
+            { Name: "IOExpansion 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "AFF-C60 Chassis": {
         Manufacturer: "NetApp",
         Model: "AFF-C60 Chassis",
