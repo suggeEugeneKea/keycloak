@@ -1641,6 +1641,107 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "SuperServer SYS-221H-TNR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SYS-221H-TNR",
+        Slug: "supermicro-sys-221h-tnr",
+        UHeight: 2,
+        PartNumber: "SYS-221H-TNR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+            { Name: "AIOM 1", Label: "", Position: "AIOM1" },
+            { Name: "AIOM 2", Label: "", Position: "AIOM2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer SYS-421GE-TNRT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SYS-421GE-TNRT",
+        Slug: "supermicro-sys-421ge-tnrt",
+        UHeight: 4,
+        PartNumber: "SYS-421GE-TNRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 29.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+            { Name: "PSU 3", Label: "", Position: "PSU3" },
+            { Name: "PSU 4", Label: "", Position: "PSU4" },
+            { Name: "AIOM", Label: "", Position: "AIOM1" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+            { Name: "PCI-E 8", Label: "", Position: "8" },
+            { Name: "PCI-E 9", Label: "", Position: "9" },
+            { Name: "PCI-E 10", Label: "", Position: "10" },
+            { Name: "PCI-E 11", Label: "", Position: "11" },
+            { Name: "PCI-E 12", Label: "", Position: "12" },
+            { Name: "PCI-E 13", Label: "", Position: "13" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "SuperServer SYS-E300-9D": {
         Manufacturer: "Supermicro",
         Model: "SuperServer SYS-E300-9D",
