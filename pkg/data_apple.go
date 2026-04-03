@@ -346,6 +346,44 @@ var DeviceTypesMapapple = map[string]*DeviceData{
             { Name: "wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "Mac mini (M1 2020)": {
+        Manufacturer: "Apple",
+        Model: "Mac mini (M1 2020)",
+        Slug: "apple-mac-mini-m1-2020",
+        UHeight: 0,
+        PartNumber: "A2348",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c8", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wireless", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "MacPro6,1": {
         Manufacturer: "Apple",
         Model: "MacPro6,1",

@@ -3369,6 +3369,54 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "S5700-10P-LI-AC": {
+        Manufacturer: "Huawei",
+        Model: "S5700-10P-LI-AC",
+        Slug: "huawei-s5700-10p-li-ac",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "USB", Type: "usb-mini-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "S5700-28P-LI-AC": {
         Manufacturer: "Huawei",
         Model: "S5700-28P-LI-AC",
@@ -5358,6 +5406,61 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "10GigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "10GigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "10GigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "S6720-16X-LI-16S-AC": {
+        Manufacturer: "Huawei",
+        Model: "S6720-16X-LI-16S-AC",
+        Slug: "huawei-s6720-16x-li-16s-ac",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 68, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MEth0/0/1", Label: "ETH", Type: "100base-tx", MgmtOnly: true },
+            { Name: "XGigabitEthernet0/0/1", Label: "1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/5", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/6", Label: "6", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/7", Label: "7", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/8", Label: "8", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/9", Label: "9", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/10", Label: "10", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/11", Label: "11", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/12", Label: "12", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/13", Label: "13", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/14", Label: "14", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/15", Label: "15", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/16", Label: "16", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S6720-30C-EI-24S-AC": {
