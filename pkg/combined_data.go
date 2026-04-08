@@ -136,6 +136,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Raritan": DeviceTypesMapraritan,
     "Raspberry Pi": DeviceTypesMapraspberry_pi,
     "Reichle &amp; De-Massari": DeviceTypesMapreichle__de_massari,
+    "Ribbon Communications": DeviceTypesMapribbon_communications,
     "Riello": DeviceTypesMapriello,
     "Rittal": DeviceTypesMaprittal,
     "Riverbed": DeviceTypesMapriverbed,
