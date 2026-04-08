@@ -12021,6 +12021,66 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PTX10008": {
+        Manufacturer: "Juniper",
+        Model: "PTX10008",
+        Slug: "juniper-ptx10008",
+        UHeight: 13,
+        PartNumber: "JNP10008",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 113,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "FPC 0", Label: "Line Card", Position: "0" },
+            { Name: "FPC 1", Label: "Line Card", Position: "1" },
+            { Name: "FPC 2", Label: "Line Card", Position: "2" },
+            { Name: "FPC 3", Label: "Line Card", Position: "3" },
+            { Name: "FPC 4", Label: "Line Card", Position: "4" },
+            { Name: "FPC 5", Label: "Line Card", Position: "5" },
+            { Name: "FPC 6", Label: "Line Card", Position: "6" },
+            { Name: "FPC 7", Label: "Line Card", Position: "7" },
+            { Name: "RE 0", Label: "Routing Engine", Position: "RE0" },
+            { Name: "RE 1", Label: "Routing Engine", Position: "RE1" },
+            { Name: "CB 0", Label: "SIB", Position: "CB0" },
+            { Name: "CB 1", Label: "SIB", Position: "CB1" },
+            { Name: "CB 2", Label: "SIB", Position: "CB2" },
+            { Name: "CB 3", Label: "SIB", Position: "CB3" },
+            { Name: "CB 4", Label: "SIB", Position: "CB4" },
+            { Name: "CB 5", Label: "SIB", Position: "CB5" },
+            { Name: "Fan Tray 0", Label: "Fan Tray Controller", Position: "FAN0" },
+            { Name: "Fan Tray 1", Label: "Fan Tray Controller", Position: "FAN1" },
+            { Name: "PEM 0", Label: "Power Supply", Position: "PEM0" },
+            { Name: "PEM 1", Label: "Power Supply", Position: "PEM1" },
+            { Name: "PEM 2", Label: "Power Supply", Position: "PEM2" },
+            { Name: "PEM 3", Label: "Power Supply", Position: "PEM3" },
+            { Name: "PEM 4", Label: "Power Supply", Position: "PEM4" },
+            { Name: "PEM 5", Label: "Power Supply", Position: "PEM5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "QFX10002-36Q": {
         Manufacturer: "Juniper",
         Model: "QFX10002-36Q",

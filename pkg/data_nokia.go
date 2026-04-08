@@ -2651,4 +2651,57 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
             { Name: "2/1/c36", Label: "", Type: "800gbase-x-qsfpdd", MgmtOnly: false },
         },
     },
+    "7750-SR-7s": {
+        Manufacturer: "Nokia",
+        Model: "7750-SR-7s",
+        Slug: "nokia-7750-sr-7s",
+        UHeight: 12,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 45.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Card 1", Label: "IOM/XCM", Position: "1" },
+            { Name: "Card 2", Label: "IOM/XCM", Position: "2" },
+            { Name: "Card 3", Label: "IOM/XCM", Position: "3" },
+            { Name: "Card 4", Label: "IOM/XCM", Position: "4" },
+            { Name: "Card 5", Label: "IOM/XCM", Position: "5" },
+            { Name: "Card 6", Label: "IOM/XCM", Position: "6" },
+            { Name: "Card 7", Label: "IOM/XCM", Position: "7" },
+            { Name: "CMA", Label: "CMA Carrier", Position: "CMA" },
+            { Name: "SFM 1", Label: "SFM", Position: "SFM1" },
+            { Name: "SFM 2", Label: "SFM", Position: "SFM2" },
+            { Name: "SFM 3", Label: "SFM", Position: "SFM3" },
+            { Name: "SFM 4", Label: "SFM", Position: "SFM4" },
+            { Name: "PM 1", Label: "Power Module", Position: "PM1" },
+            { Name: "PM 2", Label: "Power Module", Position: "PM2" },
+            { Name: "PM 3", Label: "Power Module", Position: "PM3" },
+            { Name: "PM 4", Label: "Power Module", Position: "PM4" },
+            { Name: "FAN 1", Label: "Fan Module", Position: "FAN1" },
+            { Name: "FAN 2", Label: "Fan Module", Position: "FAN2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }

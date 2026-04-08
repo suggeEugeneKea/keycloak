@@ -4604,6 +4604,54 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge-R770": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge-R770",
+        Slug: "dell-poweredge-r770",
+        UHeight: 2,
+        PartNumber: "PowerEdge R770",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Front USB Console", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
+            { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+            { Name: "NUMA 0 - PCIe slot 4 - FH", Label: "4", Position: "PCIe-4" },
+            { Name: "NUMA 1 - PCIe slot 5 - FH", Label: "5", Position: "PCIe-5" },
+            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
+            { Name: "NUMA 1 - PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
+            { Name: "NUMA 1 - PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerProtect DP4400": {
         Manufacturer: "Dell",
         Model: "PowerProtect DP4400",
