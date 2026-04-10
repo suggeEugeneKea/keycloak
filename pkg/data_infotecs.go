@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapinfotecs = map[string]*DeviceData{
+    "ViPNet Coordinator HW1000 Q7": {
+        Manufacturer: "Infotecs",
+        Model: "ViPNet Coordinator HW1000 Q7",
+        Slug: "infotecs-vipnet-coordinator-hw1000c-q7",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ethernet 0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ViPNet Coordinator HW1000C": {
         Manufacturer: "Infotecs",
         Model: "ViPNet Coordinator HW1000C",

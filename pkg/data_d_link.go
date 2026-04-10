@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapd_link = map[string]*DeviceData{
+    "DES-1005C": {
+        Manufacturer: "D-Link",
+        Model: "DES-1005C",
+        Slug: "d-link-des-1005c",
+        UHeight: 1,
+        PartNumber: "DES-1005C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 1, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1005P": {
         Manufacturer: "D-Link",
         Model: "DES-1005P",
@@ -441,6 +483,70 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "DGS-1026MP": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1026MP",
+        Slug: "d-link-dgs-1026mp",
+        UHeight: 1,
+        PartNumber: "DGS-1026MP",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 445, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 25f", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Port 26f", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "DGS-108": {

@@ -451,6 +451,53 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "port1.0.52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "GS950/8": {
+        Manufacturer: "Allied Telesis",
+        Model: "GS950/8",
+        Slug: "allied-telesis-gs950-8",
+        UHeight: 1,
+        PartNumber: "AT-GS950/8",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1.0.1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1.0.7sfp", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port1.0.8sfp", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "GS970M/10": {
         Manufacturer: "Allied Telesis",
         Model: "GS970M/10",

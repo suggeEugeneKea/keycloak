@@ -2,6 +2,57 @@
 package devices
 
 var DeviceTypesMapqtech = map[string]*DeviceData{
+    "QSRV-260802": {
+        Manufacturer: "QTECH",
+        Model: "QSRV-260802",
+        Slug: "qtech-qsrv-260802",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "tertiary riser", Position: "PCIe9" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ETH1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "QSW-3470-28TX-AC": {
         Manufacturer: "QTECH",
         Model: "QSW-3470-28TX-AC",
