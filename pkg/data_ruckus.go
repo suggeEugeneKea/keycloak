@@ -447,6 +447,86 @@ var DeviceTypesMapruckus = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "R510": {
+        Manufacturer: "Ruckus",
+        Model: "R510",
+        Slug: "ruckus-r510",
+        UHeight: 0,
+        PartNumber: "901-R510-XX00",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "PoE", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "R550": {
+        Manufacturer: "Ruckus",
+        Model: "R550",
+        Slug: "ruckus-r550",
+        UHeight: 0,
+        PartNumber: "901-R550-XX00",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "PoE", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "R650": {
         Manufacturer: "Ruckus",
         Model: "R650",
@@ -564,6 +644,83 @@ var DeviceTypesMapruckus = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Port 1", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 2", Label: "10G Eth PoE", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "T710": {
+        Manufacturer: "Ruckus",
+        Model: "T710",
+        Slug: "ruckus-t710",
+        UHeight: 0,
+        PartNumber: "901-T710-XX01",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "PoE", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "T750": {
+        Manufacturer: "Ruckus",
+        Model: "T750",
+        Slug: "ruckus-t750",
+        UHeight: 0,
+        PartNumber: "901-T750-XX01",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.84,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "1G Eth", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "2.5G Eth PoE", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },

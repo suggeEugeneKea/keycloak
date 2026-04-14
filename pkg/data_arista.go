@@ -23755,6 +23755,64 @@ var DeviceTypesMaparista = map[string]*DeviceData{
             { Name: "Fabric20", Label: "", Type: "800gbase-x-osfp", MgmtOnly: false },
         },
     },
+    "DCS-7804R3": {
+        Manufacturer: "Arista",
+        Model: "DCS-7804R3",
+        Slug: "arista-dcs-7804r3",
+        UHeight: 10,
+        PartNumber: "DCS-7804R3",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 209,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Linecard Slot 3", Label: "", Position: "3" },
+            { Name: "Linecard Slot 4", Label: "", Position: "4" },
+            { Name: "Linecard Slot 5", Label: "", Position: "5" },
+            { Name: "Linecard Slot 6", Label: "", Position: "6" },
+            { Name: "Supervisor Slot 1", Label: "", Position: "1" },
+            { Name: "Supervisor Slot 2", Label: "", Position: "2" },
+            { Name: "Fabric Module Slot 1", Label: "", Position: "1" },
+            { Name: "Fabric Module Slot 2", Label: "", Position: "2" },
+            { Name: "Fabric Module Slot 3", Label: "", Position: "3" },
+            { Name: "Fabric Module Slot 4", Label: "", Position: "4" },
+            { Name: "Fabric Module Slot 5", Label: "", Position: "5" },
+            { Name: "Fabric Module Slot 6", Label: "", Position: "6" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "PSU3", Label: "", Position: "3" },
+            { Name: "PSU4", Label: "", Position: "4" },
+            { Name: "PSU5", Label: "", Position: "5" },
+            { Name: "PSU6", Label: "", Position: "6" },
+            { Name: "PSU7", Label: "", Position: "7" },
+            { Name: "PSU8", Label: "", Position: "8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management2/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DCS-7804R4": {
         Manufacturer: "Arista",
         Model: "DCS-7804R4",

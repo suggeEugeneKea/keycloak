@@ -6424,6 +6424,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SRTL2K2RM1UINC": {
+        Manufacturer: "APC",
+        Model: "SRTL2K2RM1UINC",
+        Slug: "apc-srtl2k2rm1uinc",
+        UHeight: 1,
+        PartNumber: "SRTL2K2RM1UINC",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c20", MaximumDraw: 2200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "C13-1", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-2", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-3", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-1", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-2", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "SUA1500RMI2U": {
         Manufacturer: "APC",
         Model: "SUA1500RMI2U",

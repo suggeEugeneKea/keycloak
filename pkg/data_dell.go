@@ -317,6 +317,43 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "NIC", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "OptiPlex SFF 7010": {
+        Manufacturer: "Dell",
+        Model: "OptiPlex SFF 7010",
+        Slug: "dell-optiplex-sff-7010",
+        UHeight: 2,
+        PartNumber: "4PS9N04",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 260, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerConnect 3548p": {
         Manufacturer: "Dell",
         Model: "PowerConnect 3548p",
