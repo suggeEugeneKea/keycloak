@@ -28940,6 +28940,49 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/8", Label: "", Type: "10gbase-x-x2", MgmtOnly: false },
         },
     },
+    "Catalyst C8200-1N-4T": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst C8200-1N-4T",
+        Slug: "cisco-c8200-1n-4t",
+        UHeight: 1,
+        PartNumber: "C8200-1N-4T",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 4.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "NIM 1", Label: "", Position: "1" },
+            { Name: "PIM 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Catalyst C9200CX-12P-2X2G": {
         Manufacturer: "Cisco",
         Model: "Catalyst C9200CX-12P-2X2G",
@@ -31362,10 +31405,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "C1111-8P",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.98,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31375,7 +31418,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 19, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -32872,17 +32915,65 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.58,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
             { Name: "usb", Type: "usb-micro-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ISR 1121X-8P": {
+        Manufacturer: "Cisco",
+        Model: "ISR 1121X-8P",
+        Slug: "cisco-isr-1121x-8p",
+        UHeight: 1,
+        PartNumber: "C1121X-8P",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

@@ -98,6 +98,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Lantronix": DeviceTypesMaplantronix,
     "Legrand": DeviceTypesMaplegrand,
     "Lenovo": DeviceTypesMaplenovo,
+    "LevelOne": DeviceTypesMaplevelone,
     "Leviton": DeviceTypesMapleviton,
     "LiteOn": DeviceTypesMapliteon,
     "Meinberg": DeviceTypesMapmeinberg,
