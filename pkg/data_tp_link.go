@@ -404,6 +404,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "WAN/LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ER706W-4G": {
+        Manufacturer: "TP-Link",
+        Model: "ER706W-4G",
+        Slug: "tp-link-er706w-4g",
+        UHeight: 0,
+        PartNumber: "er706w-4g",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 960,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "lte2", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "wan/lan1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan/lan6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "ER707-M2": {
         Manufacturer: "TP-Link",
         Model: "ER707-M2",
