@@ -1571,11 +1571,11 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "Slot 4", Label: "", Position: "4" },
             { Name: "Slot 5", Label: "", Position: "5" },
             { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Fan 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN06" },
         },
         Interfaces: []Interface{
         },
@@ -1623,11 +1623,11 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "Slot 10", Label: "", Position: "10" },
             { Name: "Slot 11", Label: "", Position: "11" },
             { Name: "Slot 12", Label: "", Position: "12" },
+            { Name: "Fan 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN12" },
         },
         Interfaces: []Interface{
         },
@@ -1670,12 +1670,12 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "Slot 6", Label: "", Position: "6" },
             { Name: "Slot 7", Label: "", Position: "7" },
             { Name: "Slot 8", Label: "", Position: "8" },
+            { Name: "Fan A", Label: "", Position: "A" },
+            { Name: "Fan B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module A", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-FAN08" },
-            { Name: "Fan-Module B", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-FAN08" },
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -3691,11 +3691,11 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
+            { Name: "Fan A", Label: "", Position: "A" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-FAN10" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "1000base-t", MgmtOnly: false },
@@ -3758,11 +3758,11 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
+            { Name: "Fan A", Label: "", Position: "A" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-FAN10" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "1000base-t", MgmtOnly: false },
@@ -4708,12 +4708,12 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
             { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Fan A", Label: "", Position: "A" },
+            { Name: "Fan B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module A", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
-            { Name: "Fan-Module B", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -4778,12 +4778,12 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
             { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Fan A", Label: "", Position: "A" },
+            { Name: "Fan B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module A", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
-            { Name: "Fan-Module B", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "10gbase-t", MgmtOnly: false },
@@ -4847,12 +4847,12 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
+            { Name: "Fan A", Label: "", Position: "A" },
+            { Name: "Fan B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module A", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
-            { Name: "Fan-Module B", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -4940,12 +4940,12 @@ var DeviceTypesMapallied_telesis = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU A", Label: "", Position: "A" },
             { Name: "PSU B", Label: "", Position: "B" },
+            { Name: "Fan A", Label: "", Position: "A" },
+            { Name: "Fan B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Fan-Module A", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
-            { Name: "Fan-Module B", Label: "", Manufacturer: "Allied Telesis", PartID: "AT-SBxFAN05" },
         },
         Interfaces: []Interface{
             { Name: "port1.0.1", Label: "", Type: "10gbase-t", MgmtOnly: false },

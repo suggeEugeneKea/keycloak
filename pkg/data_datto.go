@@ -112,10 +112,6 @@ var DeviceTypesMapdatto = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Dipole1", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole2", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole3", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole4", Label: "", Manufacturer: "Datto", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
@@ -447,11 +443,6 @@ var DeviceTypesMapdatto = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Dipole1", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole2", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole3", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole4", Label: "", Manufacturer: "Datto", PartID: "" },
-            { Name: "Dipole5", Label: "", Manufacturer: "Datto", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "Port 1", Label: "WAN1", Type: "1000base-t", MgmtOnly: false },

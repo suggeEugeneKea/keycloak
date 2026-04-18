@@ -57,9 +57,6 @@ var DeviceTypesMaptesting = map[string]*DeviceData{
             { Name: "Device Bay 3", Label: "" },
         },
         InventoryItems: []InventoryItem{
-            { Name: "Inventory Item 1", Label: "", Manufacturer: "", PartID: "" },
-            { Name: "Inventory Item 2", Label: "", Manufacturer: "", PartID: "" },
-            { Name: "Inventory Item 3", Label: "", Manufacturer: "", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "Interface 1", Label: "", Type: "1000base-t", MgmtOnly: true },

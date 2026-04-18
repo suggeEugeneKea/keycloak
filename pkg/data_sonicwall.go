@@ -81,7 +81,6 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -141,7 +140,6 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -201,7 +199,6 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -267,7 +264,6 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -338,13 +334,12 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -407,13 +402,12 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -480,13 +474,12 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -551,13 +544,12 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -626,14 +618,13 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
+            { Name: "Fan 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 3", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -704,14 +695,13 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
+            { Name: "Fan 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 3", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
@@ -782,16 +772,12 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
             { Name: "Expansion Module", Label: "", Position: "1" },
+            { Name: "Fan 1", Label: "", Position: "1" },
+            { Name: "Fan 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "Storage-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Storage-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Storage-Module 3", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Storage-Module 4", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 1", Label: "", Manufacturer: "SonicWall", PartID: "" },
-            { Name: "Fan-Module 2", Label: "", Manufacturer: "SonicWall", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },

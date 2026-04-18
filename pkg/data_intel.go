@@ -39,7 +39,6 @@ var DeviceTypesMapintel = map[string]*DeviceData{
             { Name: "Node 4", Label: "Compute Node 4" },
         },
         InventoryItems: []InventoryItem{
-            { Name: "FHW12X35HS12G", Label: "12Gb SAS backplane", Manufacturer: "Intel", PartID: "FHW12X35HS12G" },
         },
         Interfaces: []Interface{
         },
@@ -81,7 +80,6 @@ var DeviceTypesMapintel = map[string]*DeviceData{
             { Name: "Node 4", Label: "Compute Node 4" },
         },
         InventoryItems: []InventoryItem{
-            { Name: "FHW12X35HS12G", Label: "12Gb SAS backplane", Manufacturer: "Intel", PartID: "FHW12X35HS12G" },
         },
         Interfaces: []Interface{
         },
@@ -119,7 +117,6 @@ var DeviceTypesMapintel = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
-            { Name: "S2600TPR", Label: "Intel Server Board S2600TPR", Manufacturer: "Intel", PartID: "" },
         },
         Interfaces: []Interface{
             { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
