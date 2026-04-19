@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapfujitsu = map[string]*DeviceData{
+    "CELSIUS W580": {
+        Manufacturer: "Fujitsu",
+        Model: "CELSIUS W580",
+        Slug: "fujitsu-celsius-w580",
+        UHeight: 0,
+        PartNumber: "S26361-K1446-V515",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 280, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PRIMERGY RX200 S8": {
         Manufacturer: "Fujitsu",
         Model: "PRIMERGY RX200 S8",
