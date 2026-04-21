@@ -48,6 +48,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Ciena": DeviceTypesMapciena,
     "Cisco": DeviceTypesMapcisco,
     "Citrix": DeviceTypesMapcitrix,
+    "Cohesity": DeviceTypesMapcohesity,
     "Colable": DeviceTypesMapcolable,
     "Commscope": DeviceTypesMapcommscope,
     "Complete Connect": DeviceTypesMapcomplete_connect,

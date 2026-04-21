@@ -2845,6 +2845,86 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "NetMetal 5SHP": {
+        Manufacturer: "MikroTik",
+        Model: "NetMetal 5SHP",
+        Slug: "mikrotik-netmetal-5shp",
+        UHeight: 0,
+        PartNumber: "RB921UAGS-5SHPacD-NM",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 865,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "PowerBox Pro": {
+        Manufacturer: "MikroTik",
+        Model: "PowerBox Pro",
+        Slug: "mikrotik-powerbox-pro-rb960pgs-pb",
+        UHeight: 0,
+        PartNumber: "RB960PGS-PB",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power1", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 10 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RB1100AHx2": {
         Manufacturer: "MikroTik",
         Model: "RB1100AHx2",
@@ -4031,6 +4111,80 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp28-4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "SSF-8644 1", Label: "", Type: "other", MgmtOnly: false },
             { Name: "SSF-8644 2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "SXTsq 5 ac": {
+        Manufacturer: "MikroTik",
+        Model: "SXTsq 5 ac",
+        Slug: "mikrotik-sxtsq-5-ac",
+        UHeight: 0,
+        PartNumber: "RBSXTsqG-5acD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 295,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "cAP RBcAP2nD": {
+        Manufacturer: "MikroTik",
+        Model: "cAP RBcAP2nD",
+        Slug: "mikrotik-cap-rbcap2nd",
+        UHeight: 0,
+        PartNumber: "RBcAP2nD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 240,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "cAP XL ac": {

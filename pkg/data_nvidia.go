@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapnvidia = map[string]*DeviceData{
+    "DGX Spark": {
+        Manufacturer: "Nvidia",
+        Model: "DGX Spark",
+        Slug: "nvidia-dgx-spark",
+        UHeight: 0,
+        PartNumber: "940-54242-0000-000",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "usb-c", MaximumDraw: 240, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "cx7-port1", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+            { Name: "cx7-port2", Label: "", Type: "200gbase-x-qsfp56", MgmtOnly: false },
+        },
+    },
     "Jetson Xavier NX Developer Kit": {
         Manufacturer: "Nvidia",
         Model: "Jetson Xavier NX Developer Kit",

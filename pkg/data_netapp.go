@@ -706,4 +706,47 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
             { Name: "b-e0b", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "StorageGRID SG5812": {
+        Manufacturer: "NetApp",
+        Model: "StorageGRID SG5812",
+        Slug: "netapp-sg5812",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 29.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e1a", Label: "Port 1 (10/25GbE Client)", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e1b", Label: "Port 2 (10/25GbE Grid)", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e1c", Label: "Port 3 (10/25GbE Client)", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e1d", Label: "Port 4 (10/25GbE Grid)", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "mgmt-1", Label: "Management 1 (1GbE)", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt-2", Label: "Management 2 (1GbE)", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
 }
