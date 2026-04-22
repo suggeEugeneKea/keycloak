@@ -21,8 +21,6 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31,6 +29,8 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -61,8 +61,6 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -71,6 +69,8 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -107,8 +107,6 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 80 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -117,6 +115,8 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -214,6 +214,386 @@ var DeviceTypesMaprohde__schwarz = map[string]*DeviceData{
             { Name: "A1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "X1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 1x100G": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 1x100G",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-1x100g",
+        UHeight: 1,
+        PartNumber: "5414.8110K02",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 1x100G NFD": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 1x100G NFD",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-1x100g-nfd",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 2x100G": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 2x100G",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-2x100g",
+        UHeight: 1,
+        PartNumber: "5414.8110K02",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 2x100G NFD": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 2x100G NFD",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-2x100g-nfd",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 4x1/10G": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 4x1/10G",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-4x1-10g",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 4x1/10G NFD": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 4x1/10G NFD",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-4x1-10g-nfd",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 8x1/10G": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 8x1/10G",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-8x1-10g",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+        },
+    },
+    "SITLine ETH-XL 8x1/10G NFD": {
+        Manufacturer: "Rohde &amp; Schwarz",
+        Model: "SITLine ETH-XL 8x1/10G NFD",
+        Slug: "rohde-and-schwarz-sitline-eth-xl-8x1-10g-nfd",
+        UHeight: 1,
+        PartNumber: "5414.8110K22",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "A1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "A8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Aux", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Console", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Management", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
         },
     },
     "SITLine ETH40G": {

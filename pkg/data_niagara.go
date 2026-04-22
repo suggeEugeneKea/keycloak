@@ -95,4 +95,64 @@ var DeviceTypesMapniagara = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Network TAP Passive Fiber Optics 3225-PTC-2": {
+        Manufacturer: "Niagara",
+        Model: "Network TAP Passive Fiber Optics 3225-PTC-2",
+        Slug: "niagara-tap-3225-ptc-2",
+        UHeight: 1,
+        PartNumber: "3225-PTC-2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "Slot 5", Label: "", Position: "5" },
+            { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Slot 7", Label: "", Position: "7" },
+            { Name: "Slot 8", Label: "", Position: "8" },
+            { Name: "Slot 9", Label: "", Position: "9" },
+            { Name: "Slot 10", Label: "", Position: "10" },
+            { Name: "Slot 11", Label: "", Position: "11" },
+            { Name: "Slot 12", Label: "", Position: "12" },
+            { Name: "Slot 13", Label: "", Position: "13" },
+            { Name: "Slot 14", Label: "", Position: "14" },
+            { Name: "Slot 15", Label: "", Position: "15" },
+            { Name: "Slot 16", Label: "", Position: "16" },
+            { Name: "Slot 17", Label: "", Position: "17" },
+            { Name: "Slot 18", Label: "", Position: "18" },
+            { Name: "Slot 19", Label: "", Position: "19" },
+            { Name: "Slot 20", Label: "", Position: "20" },
+            { Name: "Slot 21", Label: "", Position: "21" },
+            { Name: "Slot 22", Label: "", Position: "22" },
+            { Name: "Slot 23", Label: "", Position: "23" },
+            { Name: "Slot 24", Label: "", Position: "24" },
+            { Name: "Slot 25", Label: "", Position: "25" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }
