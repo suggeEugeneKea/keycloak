@@ -3887,4 +3887,45 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
         },
     },
+    "wAP R ac": {
+        Manufacturer: "MikroTik",
+        Model: "wAP R ac",
+        Slug: "mikrotik-wap-r-ac",
+        UHeight: 1,
+        PartNumber: "RBwAPGR-5HacD2HnD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "ETH1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
 }
