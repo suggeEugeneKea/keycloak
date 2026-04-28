@@ -23565,8 +23565,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module Bay A", Label: "", Position: "A" },
             { Name: "Module Bay B", Label: "", Position: "B" },
-            { Name: "Module Bay C", Label: "", Position: "C" },
-            { Name: "Module Bay D", Label: "", Position: "D" },
         },
 			  DeviceBays: []DeviceBay{
         },

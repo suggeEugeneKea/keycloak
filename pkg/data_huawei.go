@@ -2418,6 +2418,49 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "HG8245Hv5": {
+        Manufacturer: "Huawei",
+        Model: "HG8245Hv5",
+        Slug: "huawei-hg8245hv5",
+        UHeight: 0,
+        PartNumber: "HG8245Hv5",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "TEL", Type: "rj-11", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 18, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "PON", Label: "", Type: "gpon", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wlan", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "Huawei S6730-S24X6Q": {
         Manufacturer: "Huawei",
         Model: "Huawei S6730-S24X6Q",

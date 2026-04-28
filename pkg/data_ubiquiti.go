@@ -8608,6 +8608,117 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "Unifi G4 Dome": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G4 Dome",
+        Slug: "ubiquiti-unifi-uvc-g4-dome",
+        UHeight: 0,
+        PartNumber: "UVC-G4-DOME",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 370,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Unifi G4 Doorbell": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G4 Doorbell",
+        Slug: "ubiquiti-unifi-uvc-g4-doorbell",
+        UHeight: 0,
+        PartNumber: "UVC-G4-DoorBell",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "hardwired", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wlan", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Unifi G4 Instant": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G4 Instant",
+        Slug: "ubiquiti-unifi-uvc-g4-ins",
+        UHeight: 0,
+        PartNumber: "UVC-G4-INS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 125,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "usb-c", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wlan", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Unifi G5 Dome Ultra": {
         Manufacturer: "Ubiquiti",
         Model: "Unifi G5 Dome Ultra",

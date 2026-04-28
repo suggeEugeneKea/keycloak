@@ -245,6 +245,47 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "FortiAP 241K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 241K",
+        Slug: "fortinet-fap-241k",
+        UHeight: 0,
+        PartNumber: "FAP-241K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan-1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "lan-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "FortiAP C24JE": {
         Manufacturer: "Fortinet",
         Model: "FortiAP C24JE",
