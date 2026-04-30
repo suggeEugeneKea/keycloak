@@ -1653,6 +1653,47 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TS-h765eU-8G": {
+        Manufacturer: "QNAP",
+        Model: "TS-h765eU-8G",
+        Slug: "qnap-ts-h765eu-8g",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "E1.S 1", Label: "", Position: "1" },
+            { Name: "E1.S 2", Label: "", Position: "2" },
+            { Name: "E1.S 3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "LAN1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN2", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "TVS-EC1580MU-SAS-RP": {
         Manufacturer: "QNAP",
         Model: "TVS-EC1580MU-SAS-RP",
