@@ -8045,6 +8045,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "CSF220-ASA-K9": {
+        Manufacturer: "Cisco",
+        Model: "CSF220-ASA-K9",
+        Slug: "cisco-csf220-asa-k9",
+        UHeight: 1,
+        PartNumber: "CSF220-ASA-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 1.17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "CTI-2210-VCR": {
         Manufacturer: "Cisco",
         Model: "CTI-2210-VCR",
