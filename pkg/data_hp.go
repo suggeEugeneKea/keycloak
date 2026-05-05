@@ -13,7 +13,7 @@ var DeviceTypesMaphp = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 2.31,
+        Weight: 1.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -21,7 +21,7 @@ var DeviceTypesMaphp = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
