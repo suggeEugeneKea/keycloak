@@ -4171,6 +4171,45 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "SSF-8644 2", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "SXT LTE kit": {
+        Manufacturer: "MikroTik",
+        Model: "SXT LTE kit",
+        Slug: "mikrotik-sxt-lte-kit",
+        UHeight: 0,
+        PartNumber: "RBSXTR&amp;R11e-LTE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "miniPCIe", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "SXTsq 5 ac": {
         Manufacturer: "MikroTik",
         Model: "SXTsq 5 ac",
@@ -4451,6 +4490,50 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "hAP ac lite": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ac lite",
+        Slug: "mikrotik-hap-ac-lite",
+        UHeight: 0,
+        PartNumber: "RB952Ui-5ac2nD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "hAP ac lite TC": {
         Manufacturer: "MikroTik",
         Model: "hAP ac lite TC",
@@ -4539,6 +4622,50 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "hAP ac3 LTE6 kit": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ac3 LTE6 kit",
+        Slug: "mikrotik-hap-ac3-lte6-kit",
+        UHeight: 0,
+        PartNumber: "RBD53GR-5HacD2HnD&amp;R11e-LTE6",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "hAP ax S": {
         Manufacturer: "MikroTik",
         Model: "hAP ax S",
@@ -4582,6 +4709,48 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "hAP ax lite LTE6": {
+        Manufacturer: "MikroTik",
+        Model: "hAP ax lite LTE6",
+        Slug: "mikrotik-hap-ax-lite-lte6",
+        UHeight: 0,
+        PartNumber: "L41G-2axD&amp;FG621-EA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C", Label: "", Type: "usb-c", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "hAP lite": {
@@ -4925,6 +5094,46 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "RJ-45 PoE PD", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "wAP LTE kit": {
+        Manufacturer: "MikroTik",
+        Model: "wAP LTE kit",
+        Slug: "mikrotik-wap-lte-kit",
+        UHeight: 0,
+        PartNumber: "RBwAPR-2nD&amp;R11e-LTE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "miniPCIe", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "wAP R ac": {

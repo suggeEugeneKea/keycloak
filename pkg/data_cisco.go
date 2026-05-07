@@ -47782,6 +47782,91 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Port 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Meraki Z4": {
+        Manufacturer: "Cisco",
+        Model: "Meraki Z4",
+        Slug: "cisco-meraki-z4",
+        UHeight: 0,
+        PartNumber: "Z4-HW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Internet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "Meraki Z4C": {
+        Manufacturer: "Cisco",
+        Model: "Meraki Z4C",
+        Slug: "cisco-meraki-z4c",
+        UHeight: 0,
+        PartNumber: "Z4C-HW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Internet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Cellular", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "N2K-C2232PP-10GE": {
         Manufacturer: "Cisco",
         Model: "N2K-C2232PP-10GE",
