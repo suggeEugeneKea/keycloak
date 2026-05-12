@@ -7005,6 +7005,62 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "1/1/52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Aruba 6200F-12G-POE4-2G-2SFP&#43;-139W": {
+        Manufacturer: "HPE",
+        Model: "Aruba 6200F-12G-POE4-2G-2SFP&#43;-139W",
+        Slug: "hpe-aruba-6200f-12g-poe4-2g-2sfpp-139w",
+        UHeight: 1,
+        PartNumber: "R8Q72A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "rj45-console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb-c", Type: "usb-c", Label: "", Poe: false },
+            { Name: "usb-ble", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "ps1", Label: "", Type: "iec-60320-c14", MaximumDraw: 170, AllocatedDraw: 170 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1/1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Aruba 6200F-24G-4SFP&#43;": {
         Manufacturer: "HPE",
         Model: "Aruba 6200F-24G-4SFP&#43;",

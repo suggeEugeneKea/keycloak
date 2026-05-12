@@ -30,6 +30,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Bachmann": DeviceTypesMapbachmann,
     "Barracuda": DeviceTypesMapbarracuda,
     "Bastion": DeviceTypesMapbastion,
+    "Belden": DeviceTypesMapbelden,
     "BiZone": DeviceTypesMapbizone,
     "Blackmagicdesign": DeviceTypesMapblackmagicdesign,
     "Bonch": DeviceTypesMapbonch,
