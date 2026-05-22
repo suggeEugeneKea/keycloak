@@ -3128,6 +3128,52 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperServer 5019P-MT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5019P-MT",
+        Slug: "supermicro-sys-5019p-mt",
+        UHeight: 1,
+        PartNumber: "SYS-5019P-MT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HDD Bay 1", Label: "", Position: "1" },
+            { Name: "HDD Bay 2", Label: "", Position: "2" },
+            { Name: "HDD Bay 3", Label: "", Position: "3" },
+            { Name: "HDD Bay 4", Label: "", Position: "4" },
+            { Name: "PCI-E 1", Label: "", Position: "PCIe-1" },
+            { Name: "M.2 1", Label: "", Position: "M.2-1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 5019P-MTR": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 5019P-MTR",

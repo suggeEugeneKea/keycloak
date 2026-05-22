@@ -329,6 +329,49 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "FortiAnalyzer 3100G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAnalyzer 3100G",
+        Slug: "fortinet-faz-3100g",
+        UHeight: 3,
+        PartNumber: "FAZ-3100G",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 31.57,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Ethernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "FortiAnalyzer 3700G": {
         Manufacturer: "Fortinet",
         Model: "FortiAnalyzer 3700G",

@@ -628,4 +628,60 @@ var DeviceTypesMapkeysight = map[string]*DeviceData{
             { Name: "12", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "XGS12-HSL": {
+        Manufacturer: "Keysight",
+        Model: "XGS12-HSL",
+        Slug: "keysight-xgs12-hsl",
+        UHeight: 11,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 44.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Processor Module", Label: "", Position: "0" },
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "Slot 5", Label: "", Position: "5" },
+            { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Slot 7", Label: "", Position: "7" },
+            { Name: "Slot 8", Label: "", Position: "8" },
+            { Name: "Slot 9", Label: "", Position: "9" },
+            { Name: "Slot 10", Label: "", Position: "10" },
+            { Name: "Slot 11", Label: "", Position: "11" },
+            { Name: "Slot 12", Label: "", Position: "12" },
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+            { Name: "PSU 3", Label: "", Position: "PSU3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "SYNC IN", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SYNC OUT 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SYNC OUT 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SYNC OUT 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SYNC OUT 4", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
 }
