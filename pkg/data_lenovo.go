@@ -484,82 +484,6 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "ThinkSystem 10Gb 2-port SFP&#43; LOM": {
-        Manufacturer: "Lenovo",
-        Model: "ThinkSystem 10Gb 2-port SFP&#43; LOM",
-        Slug: "lenovo-thinksystem-10gb-2-port-sfpp-lom",
-        UHeight: 0,
-        PartNumber: "7ZT7A00546",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "child",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "1", Label: "1", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "2", Label: "2", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "ThinkSystem 10Gb 4-port SFP&#43; LOM": {
-        Manufacturer: "Lenovo",
-        Model: "ThinkSystem 10Gb 4-port SFP&#43; LOM",
-        Slug: "lenovo-thinksystem-10gb-4-port-sfpp-lom",
-        UHeight: 0,
-        PartNumber: "7ZT7A00547",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "child",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "1", Label: "1", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "2", Label: "2", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "3", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "4", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
     "ThinkSystem SR250 V2": {
         Manufacturer: "Lenovo",
         Model: "ThinkSystem SR250 V2",
@@ -729,13 +653,13 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         Model: "ThinkSystem SR630",
         Slug: "lenovo-thinksystem-sr630",
         UHeight: 1,
-        PartNumber: "7X02",
+        PartNumber: "7X0x",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 11.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -743,8 +667,6 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -753,6 +675,98 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "LOM slot 1", Label: "", Position: "LOM1" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ThinkSystem SR630 V2": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR630 V2",
+        Slug: "lenovo-thinksystem-sr630-v2",
+        UHeight: 1,
+        PartNumber: "7Z7x",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 20.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP slot 1", Label: "", Position: "OCP1" },
+            { Name: "Riser 1 - PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "Riser 1 - PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "Riser 2 - PCIe slot 3", Label: "", Position: "PCIe3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ThinkSystem SR630 V3": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR630 V3",
+        Slug: "lenovo-thinksystem-sr630-v3",
+        UHeight: 1,
+        PartNumber: "7D7x",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 20.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP slot 1", Label: "", Position: "OCP1" },
+            { Name: "Riser 1 - PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "Riser 1 - PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "Riser 2 - PCIe slot 3", Label: "", Position: "PCIe3" },
+            { Name: "Riser 3 - PCIe slot 4", Label: "", Position: "PCIe4" },
+            { Name: "Riser 4 - PCIe slot 5", Label: "", Position: "PCIe5" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -847,13 +861,13 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         Model: "ThinkSystem SR650",
         Slug: "lenovo-thinksystem-sr650",
         UHeight: 2,
-        PartNumber: "7X06",
+        PartNumber: "7X0x",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 19,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -861,8 +875,6 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -871,6 +883,15 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "LOM slot 1", Label: "", Position: "LOM1" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe slot 4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe slot 5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe slot 6", Label: "", Position: "PCIe6" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -907,17 +928,114 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "", Position: "PSU-2" },
-            { Name: "OCP slot 1", Label: "", Position: "OCP-1" },
-            { Name: "Riser 1 - PCIe slot 1", Label: "1 PCIe", Position: "PCIe-1" },
-            { Name: "Riser 1 - PCIe slot 2", Label: "2 PCIe", Position: "PCIe-2" },
-            { Name: "Riser 1 - PCIe slot 3", Label: "3 PCIe", Position: "PCIe-3" },
-            { Name: "Riser 2 - PCIe slot 4", Label: "4 PCIe", Position: "PCIe-4" },
-            { Name: "Riser 2 - PCIe slot 5", Label: "5 PCIe", Position: "PCIe-5" },
-            { Name: "Riser 2 - PCIe slot 6", Label: "6 PCIe", Position: "PCIe-6" },
-            { Name: "Riser 3 - PCIe slot 7", Label: "7 PCIe", Position: "PCIe-7" },
-            { Name: "Riser 3 - PCIe slot 8", Label: "8 PCIe", Position: "PCIe-8" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP slot 1", Label: "", Position: "OCP1" },
+            { Name: "Riser 1 - PCIe slot 1", Label: "1 PCIe", Position: "PCIe1" },
+            { Name: "Riser 1 - PCIe slot 2", Label: "2 PCIe", Position: "PCIe2" },
+            { Name: "Riser 1 - PCIe slot 3", Label: "3 PCIe", Position: "PCIe3" },
+            { Name: "Riser 2 - PCIe slot 4", Label: "4 PCIe", Position: "PCIe4" },
+            { Name: "Riser 2 - PCIe slot 5", Label: "5 PCIe", Position: "PCIe5" },
+            { Name: "Riser 2 - PCIe slot 6", Label: "6 PCIe", Position: "PCIe6" },
+            { Name: "Riser 3 - PCIe slot 7", Label: "7 PCIe", Position: "PCIe7" },
+            { Name: "Riser 3 - PCIe slot 8", Label: "8 PCIe", Position: "PCIe8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ThinkSystem SR650 V3": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR650 V3",
+        Slug: "lenovo-thinksystem-sr650-v3",
+        UHeight: 2,
+        PartNumber: "7D7x",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 38.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP slot 1", Label: "", Position: "OCP1" },
+            { Name: "Riser 1 - PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "Riser 1 - PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "Riser 1 - PCIe slot 3", Label: "", Position: "PCIe3" },
+            { Name: "Riser 2 - PCIe slot 4", Label: "", Position: "PCIe4" },
+            { Name: "Riser 2 - PCIe slot 5", Label: "", Position: "PCIe5" },
+            { Name: "Riser 2 - PCIe slot 6", Label: "", Position: "PCIe6" },
+            { Name: "Riser 3 - PCIe slot 7", Label: "", Position: "PCIe7" },
+            { Name: "Riser 3 - PCIe slot 8", Label: "", Position: "PCIe8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ThinkSystem SR650 V4": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR650 V4",
+        Slug: "lenovo-thinksystem-sr650-v4",
+        UHeight: 2,
+        PartNumber: "7DGx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 38.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP slot 1", Label: "", Position: "OCP1" },
+            { Name: "OCP slot 2", Label: "", Position: "OCP2" },
+            { Name: "Riser 1 - PCIe slot 1", Label: "", Position: "PCIe1" },
+            { Name: "Riser 1 - PCIe slot 2", Label: "", Position: "PCIe2" },
+            { Name: "Riser 2 - PCIe slot 3", Label: "", Position: "PCIe3" },
+            { Name: "Riser 2 - PCIe slot 4", Label: "", Position: "PCIe4" },
+            { Name: "Riser 2 - PCIe slot 5", Label: "", Position: "PCIe5" },
+            { Name: "Riser 3 - PCIe slot 6", Label: "", Position: "PCIe6" },
+            { Name: "Riser 3 - PCIe slot 7", Label: "", Position: "PCIe7" },
+            { Name: "Riser 3 - PCIe slot 8", Label: "", Position: "PCIe8" },
+            { Name: "Riser 4 - PCIe slot 9", Label: "", Position: "PCIe9" },
+            { Name: "Riser 4 - PCIe slot 10", Label: "", Position: "PCIe10" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1120,6 +1238,60 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "Riser 1 - PCIe slot 16", Label: "16 PCIe", Position: "PCIe-12" },
             { Name: "Riser 2 - PCIe slot 20", Label: "20 PCIe", Position: "PCIe-13" },
             { Name: "Riser 2 - PCIe slot 21", Label: "21 PCIe", Position: "PCIe-14" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ThinkSystem SR680a V3": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR680a V3",
+        Slug: "lenovo-thinksystem-sr680a-v3",
+        UHeight: 8,
+        PartNumber: "7DHE",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 102.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+            { Name: "PSU 3", Label: "", Position: "PSU3" },
+            { Name: "PSU 4", Label: "", Position: "PSU4" },
+            { Name: "PSU 5", Label: "", Position: "PSU5" },
+            { Name: "PSU 6", Label: "", Position: "PSU6" },
+            { Name: "PSU 7", Label: "", Position: "PSU7" },
+            { Name: "PSU 8", Label: "", Position: "PSU8" },
+            { Name: "PCIe1", Label: "", Position: "Slot1" },
+            { Name: "PCIe2", Label: "", Position: "Slot2" },
+            { Name: "PCIe3", Label: "", Position: "Slot3" },
+            { Name: "PCIe4", Label: "", Position: "Slot4" },
+            { Name: "PCIe5", Label: "", Position: "Slot5" },
+            { Name: "PCIe6", Label: "", Position: "Slot6" },
+            { Name: "PCIe7", Label: "", Position: "Slot7" },
+            { Name: "PCIe8", Label: "", Position: "Slot8" },
+            { Name: "PCIe9", Label: "", Position: "Slot9" },
+            { Name: "PCIe10", Label: "", Position: "Slot10" },
         },
 			  DeviceBays: []DeviceBay{
         },

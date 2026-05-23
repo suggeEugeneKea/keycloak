@@ -612,6 +612,158 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG2016P": {
+        Manufacturer: "TP-Link",
+        Model: "SG2016P",
+        Slug: "tp-link-sg2016p",
+        UHeight: 0,
+        PartNumber: "SG2016P v1.20",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 147, AllocatedDraw: 10 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2210P": {
+        Manufacturer: "TP-Link",
+        Model: "SG2210P",
+        Slug: "tp-link-sg2210p",
+        UHeight: 0,
+        PartNumber: "SG2210P v5.20",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 78, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 9", Label: "SFP 1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet 10", Label: "SFP 2", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "SG2218P": {
+        Manufacturer: "TP-Link",
+        Model: "SG2218P",
+        Slug: "tp-link-sg2218p",
+        UHeight: 1,
+        PartNumber: "SG2218P v2.0",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 182, AllocatedDraw: 20 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 17", Label: "SFP 1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet 18", Label: "SFP 2", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "SG2428P": {
         Manufacturer: "TP-Link",
         Model: "SG2428P",
