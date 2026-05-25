@@ -4715,6 +4715,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
         },
 			  DeviceBays: []DeviceBay{
         },

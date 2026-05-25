@@ -829,6 +829,55 @@ var DeviceTypesMapfs = map[string]*DeviceData{
             { Name: "1/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "MFMC-12DP": {
+        Manufacturer: "FS",
+        Model: "MFMC-12DP",
+        Slug: "fs-mfmc-12dp",
+        UHeight: 1,
+        PartNumber: "35348",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7", Label: "", Position: "7" },
+            { Name: "8", Label: "", Position: "8" },
+            { Name: "9", Label: "", Position: "9" },
+            { Name: "10", Label: "", Position: "10" },
+            { Name: "11", Label: "", Position: "11" },
+            { Name: "12", Label: "", Position: "12" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "N5860-48SC": {
         Manufacturer: "FS",
         Model: "N5860-48SC",

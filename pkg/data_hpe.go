@@ -17438,6 +17438,51 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "OfficeConnect 1920S-8G": {
+        Manufacturer: "HPE",
+        Model: "OfficeConnect 1920S-8G",
+        Slug: "hpe-officeconnect-1920s-8g",
+        UHeight: 1,
+        PartNumber: "JL380A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProCurve 1700-24": {
         Manufacturer: "HPE",
         Model: "ProCurve 1700-24",

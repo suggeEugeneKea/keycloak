@@ -5377,6 +5377,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Vlan1", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "CBS350-8P-2G": {
+        Manufacturer: "Cisco",
+        Model: "CBS350-8P-2G",
+        Slug: "cisco-cbs350-8p-2g",
+        UHeight: 1,
+        PartNumber: "CBS350-8P-2G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.59,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External PS", Label: "", Type: "iec-60320-c14", MaximumDraw: 83, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "CBS350-8P-E-2G": {
         Manufacturer: "Cisco",
         Model: "CBS350-8P-E-2G",

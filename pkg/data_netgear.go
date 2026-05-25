@@ -784,6 +784,52 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ProSafe GS510TPP": {
+        Manufacturer: "Netgear",
+        Model: "ProSafe GS510TPP",
+        Slug: "netgear-prosafe-gs510tpp",
+        UHeight: 1,
+        PartNumber: "GS510TPP",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.83,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 190, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "ProSafe GS752TP": {
         Manufacturer: "Netgear",
         Model: "ProSafe GS752TP",
