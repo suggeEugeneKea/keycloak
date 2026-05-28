@@ -207,6 +207,49 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "qsfp32", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "Quantum LightSpeed QLS250": {
+        Manufacturer: "Check Point",
+        Model: "Quantum LightSpeed QLS250",
+        Slug: "check-point-quantum-lightspeed-qls250",
+        UHeight: 1,
+        PartNumber: "CPAP-QSLS250-B-SNBT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "Interface Card 1", Label: "", Position: "1" },
+            { Name: "Interface Card 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt", Label: "MGMT", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "Sync", Label: "SYNC", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SG1120": {
         Manufacturer: "Check Point",
         Model: "SG1120",
@@ -541,6 +584,51 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG15600": {
+        Manufacturer: "Check Point",
+        Model: "SG15600",
+        Slug: "check-point-sg15600",
+        UHeight: 2,
+        PartNumber: "CPAP-SG15600-SNBT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "Interface Card 1", Label: "", Position: "1" },
+            { Name: "Interface Card 2", Label: "", Position: "2" },
+            { Name: "Interface Card 3", Label: "", Position: "3" },
+            { Name: "Interface Card 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt", Label: "MGMT", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Sync", Label: "SYNC", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SG1570": {
@@ -2781,6 +2869,46 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SYNC", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Smart-1 6000-XL": {
+        Manufacturer: "Check Point",
+        Model: "Smart-1 6000-XL",
+        Slug: "check-point-smart-1-6000-xl",
+        UHeight: 2,
+        PartNumber: "CPAP-SMART1-6000-XL",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 28.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt", Label: "MGMT", Type: "1000base-t", MgmtOnly: true },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
         },
     },
 }
