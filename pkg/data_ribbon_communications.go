@@ -2,6 +2,47 @@
 package devices
 
 var DeviceTypesMapribbon_communications = map[string]*DeviceData{
+    "EdgeMarc 304": {
+        Manufacturer: "Ribbon Communications",
+        Model: "EdgeMarc 304",
+        Slug: "ribbon-communications-edgemarc-304",
+        UHeight: 1,
+        PartNumber: "EdgeMarc 304",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SBC 1000": {
         Manufacturer: "Ribbon Communications",
         Model: "SBC 1000",
