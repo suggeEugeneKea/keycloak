@@ -23483,6 +23483,67 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "50", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProCurve 2724": {
+        Manufacturer: "HPE",
+        Model: "ProCurve 2724",
+        Slug: "hpe-procurve-2724",
+        UHeight: 1,
+        PartNumber: "J4897A",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProCurve 2810-24G": {
         Manufacturer: "HPE",
         Model: "ProCurve 2810-24G",

@@ -3607,7 +3607,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "RB4011iGS&#43;RM",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
