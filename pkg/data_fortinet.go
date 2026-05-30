@@ -164,6 +164,90 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "FortiAP 221K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 221K",
+        Slug: "fortinet-fap-221k",
+        UHeight: 0,
+        PartNumber: "FAP-221K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 18, AllocatedDraw: 18 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "FortiAP 222KL": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 222KL",
+        Slug: "fortinet-fap-222kl",
+        UHeight: 0,
+        PartNumber: "FAP-222KL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "lan2-pse", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "radio-5", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "FortiAP 231F": {
         Manufacturer: "Fortinet",
         Model: "FortiAP 231F",
@@ -203,6 +287,91 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "radio-3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "FortiAP 231G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 231G",
+        Slug: "fortinet-fap-231g",
+        UHeight: 0,
+        PartNumber: "FAP-231G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FortiAP 231K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 231K",
+        Slug: "fortinet-fap-231k",
+        UHeight: 0,
+        PartNumber: "FAP-231K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.01,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 36 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
     "FortiAP 233G": {
@@ -245,6 +414,141 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "FortiAP 234G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 234G",
+        Slug: "fortinet-fap-234g",
+        UHeight: 0,
+        PartNumber: "FAP-234G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FortiAP 23JF": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 23JF",
+        Slug: "fortinet-fap-23jf",
+        UHeight: 0,
+        PartNumber: "FAP-23JF",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 43, AllocatedDraw: 43 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan-poe-in", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3-pse", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "pt-in", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "pt-out", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "FortiAP 23JK": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 23JK",
+        Slug: "fortinet-fap-23jk",
+        UHeight: 0,
+        PartNumber: "FAP-23JK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 65 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan-poe-in", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3-pse-out", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "pt-in", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "FortiAP 241K": {
         Manufacturer: "Fortinet",
         Model: "FortiAP 241K",
@@ -284,6 +588,390 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "radio-4", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "FortiAP 243K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 243K",
+        Slug: "fortinet-fap-243k",
+        UHeight: 0,
+        PartNumber: "FAP-243K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 36 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "FortiAP 244K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 244K",
+        Slug: "fortinet-fap-244k",
+        UHeight: 0,
+        PartNumber: "FAP-244K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "sfp-uplink", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "FortiAP 431F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 431F",
+        Slug: "fortinet-fap-431f",
+        UHeight: 0,
+        PartNumber: "FAP-431F",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "FortiAP 431G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 431G",
+        Slug: "fortinet-fap-431g",
+        UHeight: 0,
+        PartNumber: "FAP-431G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 48 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FortiAP 432G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 432G",
+        Slug: "fortinet-fap-432g",
+        UHeight: 0,
+        PartNumber: "FAP-432G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "lan2-pse", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FortiAP 433G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 433G",
+        Slug: "fortinet-fap-433g",
+        UHeight: 0,
+        PartNumber: "FAP-433G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 48 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "FortiAP 441K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 441K",
+        Slug: "fortinet-fap-441k",
+        UHeight: 0,
+        PartNumber: "FAP-441K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 48 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "FortiAP 443K": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 443K",
+        Slug: "fortinet-fap-443k",
+        UHeight: 0,
+        PartNumber: "FAP-443K",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 48 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "FortiAP 831F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAP 831F",
+        Slug: "fortinet-fap-831f",
+        UHeight: 0,
+        PartNumber: "FAP-831F",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.02,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 36 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan1-poe", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "lan2-poe", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "radio-1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "radio-3", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "radio-4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
     "FortiAP C24JE": {
