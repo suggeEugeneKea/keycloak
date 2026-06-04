@@ -1542,6 +1542,123 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PowerEdge M620": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M620",
+        Slug: "dell-poweredge-m620",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge M630": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M630",
+        Slug: "dell-poweredge-m630",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge M640": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M640",
+        Slug: "dell-poweredge-m640",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
     "PowerEdge MX7000": {
         Manufacturer: "Dell",
         Model: "PowerEdge MX7000",
@@ -4683,6 +4800,52 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "TenGig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "TenGig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "PowerEdge VRTX": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge VRTX",
+        Slug: "dell-poweredge-vrtx",
+        UHeight: 5,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Rear Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-3", Label: "3", Position: "PSU-3" },
+            { Name: "PSU-4", Label: "4", Position: "PSU-4" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Slot 1", Label: "" },
+            { Name: "Slot 2", Label: "" },
+            { Name: "Slot 3", Label: "" },
+            { Name: "Slot 4", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CMC-1", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "CMC-2", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "PowerEdge XR7620": {

@@ -11650,6 +11650,98 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Aruba 9004": {
+        Manufacturer: "HPE",
+        Model: "Aruba 9004",
+        Slug: "hpe-aruba-9004",
+        UHeight: 1,
+        PartNumber: "R1B21A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console USB", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet 0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba 9012": {
+        Manufacturer: "HPE",
+        Model: "Aruba 9012",
+        Slug: "hpe-aruba-9012",
+        UHeight: 1,
+        PartNumber: "R1B32A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console USB", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 160, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet 0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Aruba AP-205": {
         Manufacturer: "HPE",
         Model: "Aruba AP-205",

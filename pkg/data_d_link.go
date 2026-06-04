@@ -2061,6 +2061,63 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/52F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "DGS-1510-20": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1510-20",
+        Slug: "d-link-dgs-1510-20",
+        UHeight: 1,
+        PartNumber: "DGS-1510-20",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1240,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 21, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Port 18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Port 19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Port 20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "DGS-1510-52X": {
         Manufacturer: "D-Link",
         Model: "DGS-1510-52X",

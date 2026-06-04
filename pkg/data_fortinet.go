@@ -1103,6 +1103,50 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "Ethernet4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "FortiAnalyzer 810G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAnalyzer 810G",
+        Slug: "fortinet-faz-810g",
+        UHeight: 1,
+        PartNumber: "FAZ-810G",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FortiExtender 101F-EA": {
         Manufacturer: "Fortinet",
         Model: "FortiExtender 101F-EA",
