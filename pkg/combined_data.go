@@ -259,6 +259,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Thales": DeviceTypesMapthales,
     "Thomas-Krenn": DeviceTypesMapthomas_krenn,
     "TrendNet": DeviceTypesMaptrendnet,
+    "Triton": DeviceTypesMaptriton,
     "UGREEN": DeviceTypesMapugreen,
     "Ubiquiti": DeviceTypesMapubiquiti,
     "UfiSpace": DeviceTypesMapufispace,

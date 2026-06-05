@@ -879,4 +879,336 @@ var DeviceTypesMapf5 = map[string]*DeviceData{
             { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "BIG-IP rSeries r10000 (Gen 1)": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r10000 (Gen 1)",
+        Slug: "f5-big-ip-rseries-r10000-gen-1",
+        UHeight: 1,
+        PartNumber: "200-0413-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "10.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "11.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "12.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "13.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "14.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "15.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "16.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "17.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "18.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "19.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "20.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "9.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "BIG-IP rSeries r10000 (Gen 2)": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r10000 (Gen 2)",
+        Slug: "f5-big-ip-rseries-r10000-gen-2",
+        UHeight: 1,
+        PartNumber: "203-0463-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "10.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "11.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "12.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "13.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "14.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "15.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "16.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "17.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "18.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "19.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "20.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "9.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "BIG-IP rSeries r12000S": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r12000S",
+        Slug: "f5-big-ip-rseries-r12000s",
+        UHeight: 1,
+        PartNumber: "200-0413-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "10.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "11.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "12.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "13.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "14.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "15.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "16.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "17.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "18.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "19.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "20.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "9.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "BIG-IP rSeries r2000": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r2000",
+        Slug: "f5-big-ip-rseries-r2000",
+        UHeight: 1,
+        PartNumber: "203-0416-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "BIG-IP rSeries r4000": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r4000",
+        Slug: "f5-big-ip-rseries-r4000",
+        UHeight: 1,
+        PartNumber: "203-0417-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "BIG-IP rSeries r5000": {
+        Manufacturer: "F5",
+        Model: "BIG-IP rSeries r5000",
+        Slug: "f5-big-ip-rseries-r5000",
+        UHeight: 1,
+        PartNumber: "200-0411-xx",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 24.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "", Position: "1" },
+            { Name: "psu2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "10.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "2.0", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "3.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "4.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "5.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "6.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "7.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "8.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "9.0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Failover", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
 }

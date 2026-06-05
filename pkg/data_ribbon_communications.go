@@ -126,4 +126,57 @@ var DeviceTypesMapribbon_communications = map[string]*DeviceData{
             { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SBC 5400": {
+        Manufacturer: "Ribbon",
+        Model: "SBC 5400",
+        Slug: "ribbon-communications-sbc-5400",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Craft DB9", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "DSP-Slot-1", Label: "", Position: "DSP1" },
+            { Name: "DSP-Slot-2", Label: "", Position: "DSP2" },
+            { Name: "DSP-Slot-3", Label: "", Position: "DSP3" },
+            { Name: "DSP-Slot-4", Label: "", Position: "DSP4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Mgmt3", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "HA0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "HA1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Field Service", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Media0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Media1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Media2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Media3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
 }

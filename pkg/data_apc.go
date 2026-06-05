@@ -1534,6 +1534,55 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "AP7752": {
+        Manufacturer: "APC",
+        Model: "AP7752",
+        Slug: "apc-ap7752",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-11", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source A", Label: "", Type: "nema-l5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Source B", Label: "", Type: "nema-l5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Source A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-20r", Label: "", PowerPort: "Source A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-20r", Label: "", PowerPort: "Source A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-20r", Label: "", PowerPort: "Source B", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-20r", Label: "", PowerPort: "Source B", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-20r", Label: "", PowerPort: "Source B", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-20r", Label: "", PowerPort: "Source B", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-20r", Label: "", PowerPort: "Source B", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "AP7811B": {
         Manufacturer: "APC",
         Model: "AP7811B",
@@ -2226,6 +2275,60 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "AP7902": {
+        Manufacturer: "APC",
+        Model: "AP7902",
+        Slug: "apc-ap7902",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input Cord", Label: "", Type: "nema-l5-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 13", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 14", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 15", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 16", Type: "nema-5-20r", Label: "", PowerPort: "Input Cord", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "AP7911": {
