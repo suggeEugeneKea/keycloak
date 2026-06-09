@@ -192,6 +192,44 @@ var DeviceTypesMapapple = map[string]*DeviceData{
             { Name: "wireless", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "Mac Mini 2024 M4": {
+        Manufacturer: "Apple",
+        Model: "Mac Mini 2024 M4",
+        Slug: "apple-mac-mini-2024-m4",
+        UHeight: 0,
+        PartNumber: "A3238",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 670,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c8", MaximumDraw: 155, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "Mac Studio 2025 M4 Max": {
         Manufacturer: "Apple",
         Model: "Mac Studio 2025 M4 Max",

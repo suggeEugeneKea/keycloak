@@ -86,6 +86,141 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "DES-1008A": {
+        Manufacturer: "D-Link",
+        Model: "DES-1008A",
+        Slug: "d-link-des-1008a",
+        UHeight: 1,
+        PartNumber: "DES-1008A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 124,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 2, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "DES-1008C": {
+        Manufacturer: "D-Link",
+        Model: "DES-1008C",
+        Slug: "d-link-des-1008c",
+        UHeight: 1,
+        PartNumber: "DES-1008C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 90,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 2, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "DES-1008D": {
+        Manufacturer: "D-Link",
+        Model: "DES-1008D",
+        Slug: "d-link-des-1008d",
+        UHeight: 1,
+        PartNumber: "DES-1008D",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 412,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1210-08P": {
         Manufacturer: "D-Link",
         Model: "DES-1210-08P",

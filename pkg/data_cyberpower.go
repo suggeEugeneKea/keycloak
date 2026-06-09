@@ -523,6 +523,104 @@ var DeviceTypesMapcyberpower = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PDU24004": {
+        Manufacturer: "CyberPower",
+        Model: "PDU24004",
+        Slug: "cyberpower-pdu24004",
+        UHeight: 1,
+        PartNumber: "PDU24004",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Inlet A", Label: "", Type: "iec-60320-c14", MaximumDraw: 2300, AllocatedDraw: 0 },
+            { Name: "Inlet B", Label: "", Type: "iec-60320-c14", MaximumDraw: 2300, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "PDU44005": {
+        Manufacturer: "CyberPower",
+        Model: "PDU44005",
+        Slug: "cyberpower-pdu44005",
+        UHeight: 1,
+        PartNumber: "PDU44005",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Inlet A", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Inlet B", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 9", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 10", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet A", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "PDU81005": {
         Manufacturer: "CyberPower",
         Model: "PDU81005",

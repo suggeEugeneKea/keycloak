@@ -120,6 +120,44 @@ var DeviceTypesMapquantum = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperLoader 3": {
+        Manufacturer: "Quantum",
+        Model: "SuperLoader 3",
+        Slug: "quantum-superloader-3",
+        UHeight: 2,
+        PartNumber: "L700",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "SAS-Drive", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "Xcellis Workflow Director Gen2 12G": {
         Manufacturer: "Quantum",
         Model: "Xcellis Workflow Director Gen2 12G",

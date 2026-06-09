@@ -12846,6 +12846,44 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "Aruba AP22": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP22",
+        Slug: "hpe-aruba-ap22",
+        UHeight: 0,
+        PartNumber: "R4W02A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Aruba EC-10104": {
         Manufacturer: "HPE",
         Model: "Aruba EC-10104",

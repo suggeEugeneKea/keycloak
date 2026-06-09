@@ -255,6 +255,52 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "AS-2126HS-TN": {
+        Manufacturer: "Supermicro",
+        Model: "AS-2126HS-TN",
+        Slug: "supermicro-as-2126hs-tn",
+        UHeight: 2,
+        PartNumber: "AS-2126HS-TN",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU1" },
+            { Name: "PSU 2", Label: "", Position: "PSU2" },
+            { Name: "AIOM 1", Label: "", Position: "AIOM1" },
+            { Name: "SLOT1", Label: "", Position: "SLOT1" },
+            { Name: "SLOT3", Label: "", Position: "SLOT3" },
+            { Name: "SLOT5", Label: "", Position: "SLOT5" },
+            { Name: "SLOT7", Label: "", Position: "SLOT7" },
+            { Name: "SLOT8", Label: "", Position: "SLOT8" },
+            { Name: "M.2 1", Label: "", Position: "M.2-1" },
+            { Name: "M.2 2", Label: "", Position: "M.2-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "AS-4125GS-TNRT": {
         Manufacturer: "Supermicro",
         Model: "AS-4125GS-TNRT",
