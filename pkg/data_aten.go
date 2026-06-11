@@ -117,4 +117,48 @@ var DeviceTypesMapaten = map[string]*DeviceData{
             { Name: "Lan 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "CL1308": {
+        Manufacturer: "Aten",
+        Model: "CL1308",
+        Slug: "aten-cl1308",
+        UHeight: 1,
+        PartNumber: "CL1308",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.59,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "KVM 1", Type: "other", Label: "" },
+            { Name: "KVM 2", Type: "other", Label: "" },
+            { Name: "KVM 3", Type: "other", Label: "" },
+            { Name: "KVM 4", Type: "other", Label: "" },
+            { Name: "KVM 5", Type: "other", Label: "" },
+            { Name: "KVM 6", Type: "other", Label: "" },
+            { Name: "KVM 7", Type: "other", Label: "" },
+            { Name: "KVM 8", Type: "other", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }

@@ -91,9 +91,9 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "AS-1114S-WN10RT",
         IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
@@ -252,6 +252,88 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "AS-1124US-TNRP": {
+        Manufacturer: "Supermicro",
+        Model: "AS-1124US-TNRP",
+        Slug: "supermicro-as-1124us-tnrp",
+        UHeight: 1,
+        PartNumber: "AS-1124US-TNRP",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 21.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "10GbE 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "AS-2115HS-TNR": {
+        Manufacturer: "Supermicro",
+        Model: "AS-2115HS-TNR",
+        Slug: "supermicro-as-2115hs-tnr",
+        UHeight: 2,
+        PartNumber: "AS-2115HS-TNR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 32.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -1094,8 +1176,8 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         PartNumber: "SYS-1028R-WC1RT",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 11.6,
         WeightUnit: "",
@@ -1125,6 +1207,90 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SYS-1028R-WTR": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-1028R-WTR",
+        Slug: "supermicro-sys-1028r-wtr",
+        UHeight: 1,
+        PartNumber: "SYS-1028R-WTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 11.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SYS-1028R-WTRT": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-1028R-WTRT",
+        Slug: "supermicro-sys-1028r-wtrt",
+        UHeight: 1,
+        PartNumber: "SYS-1028R-WTRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 11.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -2809,25 +2975,28 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "SuperServer 1028R-WTR": {
+    "SuperServer 1027R-WRF": {
         Manufacturer: "Supermicro",
-        Model: "SuperServer 1028R-WTR",
-        Slug: "supermicro-superserver-1028r-wtr",
+        Model: "SuperServer 1027R-WRF",
+        Slug: "supermicro-sys-1027r-wrf",
         UHeight: 1,
-        PartNumber: "SYS-1028R-WTR",
+        PartNumber: "SYS-1027R-WRF",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
-        Weight: 11.6,
+        Weight: 15,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 700, AllocatedDraw: 0 },
+            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 700, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2836,61 +3005,15 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
-            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
-        },
-    },
-    "SuperServer 1028R-WTRT": {
-        Manufacturer: "Supermicro",
-        Model: "SuperServer 1028R-WTRT",
-        Slug: "supermicro-superserver-1028r-wtrt",
-        UHeight: 1,
-        PartNumber: "SYS-1028R-WTRT",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 11.6,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
-            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "SuperServer 1029U-TR4T": {
@@ -4321,6 +4444,54 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SuperStorage 6049P-E1CR36L": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6049P-E1CR36L",
+        Slug: "supermicro-ssg-6049p-e1cr36l",
+        UHeight: 4,
+        PartNumber: "SSG-6049P-E1CR36L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 29.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "10GbE 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "10GbE 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "Supermicro SSE-X3348TR": {
