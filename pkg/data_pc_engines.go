@@ -60,6 +60,8 @@ var DeviceTypesMappc_engines = map[string]*DeviceData{
             { Name: "ttyS0", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "USB 1", Type: "usb-a", Label: "" },
+            { Name: "USB 2", Type: "usb-a", Label: "" },
         },
         PowerPorts: []PowerPort{
             { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 6 },
@@ -100,6 +102,8 @@ var DeviceTypesMappc_engines = map[string]*DeviceData{
             { Name: "ttyS0", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "USB 1", Type: "usb-a", Label: "" },
+            { Name: "USB 2", Type: "usb-a", Label: "" },
         },
         PowerPorts: []PowerPort{
             { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 6 },

@@ -206,6 +206,10 @@ var DeviceTypesMapraspberry_pi = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
+            { Name: "USB-1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-3", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-4", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },

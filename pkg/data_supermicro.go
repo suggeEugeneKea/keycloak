@@ -95,7 +95,7 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 17.69,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -104,8 +104,6 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -114,6 +112,11 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -121,8 +124,8 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "AS-1115CS-TNR": {
@@ -2964,6 +2967,9 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU 1", Label: "", Position: "PSU-1" },
             { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
         },
 			  DeviceBays: []DeviceBay{
         },

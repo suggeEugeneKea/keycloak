@@ -523,6 +523,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "TS-259 Pro&#43;": {
+        Manufacturer: "QNAP",
+        Model: "TS-259 Pro&#43;",
+        Slug: "qnap-ts-259-pro-plus",
+        UHeight: 0,
+        PartNumber: "TS-259-Pro&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.92,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-412": {
         Manufacturer: "QNAP",
         Model: "TS-412",
@@ -1315,6 +1353,83 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth3", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TS-859 Pro&#43;": {
+        Manufacturer: "QNAP",
+        Model: "TS-859 Pro&#43;",
+        Slug: "qnap-ts-859-pro-plus",
+        UHeight: 0,
+        PartNumber: "TS-859-Pro&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 60, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TS-859U-RP&#43;": {
+        Manufacturer: "QNAP",
+        Model: "TS-859U-RP&#43;",
+        Slug: "qnap-ts-859u-rp-plus",
+        UHeight: 2,
+        PartNumber: "TS-859U-RP&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-873": {
         Manufacturer: "QNAP",
         Model: "TS-873",
@@ -1471,10 +1586,10 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Adapter 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Adapter 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Adapter 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Adapter 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "TS-883XU-RP": {
