@@ -3209,6 +3209,48 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperServer 5018D-MHR7N4P": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5018D-MHR7N4P",
+        Slug: "supermicro-superserver-5018d-mhr7n4p",
+        UHeight: 1,
+        PartNumber: "SYS-5018D-MHR7N4P",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.97,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 5018D-MTF": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 5018D-MTF",
@@ -3247,6 +3289,50 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperServer 5018R-WR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 5018R-WR",
+        Slug: "supermicro-superserver-5018r-wr",
+        UHeight: 1,
+        PartNumber: "SYS-5018R-WR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "SuperServer 5019D-FN8TP": {

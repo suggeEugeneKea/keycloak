@@ -14882,6 +14882,84 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "D2600 Disk Enclosure": {
+        Manufacturer: "HPE",
+        Model: "D2600 Disk Enclosure",
+        Slug: "hpe-d2600-disk-enclosure",
+        UHeight: 2,
+        PartNumber: "AJ940A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "I/O Module A", Label: "", Position: "A" },
+            { Name: "I/O Module B", Label: "", Position: "B" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "D2700 Disk Enclosure": {
+        Manufacturer: "HPE",
+        Model: "D2700 Disk Enclosure",
+        Slug: "hpe-d2700-disk-enclosure",
+        UHeight: 2,
+        PartNumber: "AJ941A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "I/O Module A", Label: "", Position: "A" },
+            { Name: "I/O Module B", Label: "", Position: "B" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "D2D-4300": {
         Manufacturer: "HPE",
         Model: "D2D-4300",
@@ -14928,6 +15006,84 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "D3600 Disk Enclosure": {
+        Manufacturer: "HPE",
+        Model: "D3600 Disk Enclosure",
+        Slug: "hpe-d3600-disk-enclosure",
+        UHeight: 2,
+        PartNumber: "QW968A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "I/O Module A", Label: "", Position: "A" },
+            { Name: "I/O Module B", Label: "", Position: "B" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "D3700 Disk Enclosure": {
+        Manufacturer: "HPE",
+        Model: "D3700 Disk Enclosure",
+        Slug: "hpe-d3700-disk-enclosure",
+        UHeight: 2,
+        PartNumber: "QW967A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "I/O Module A", Label: "", Position: "A" },
+            { Name: "I/O Module B", Label: "", Position: "B" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "FlexFabric 5700-32XGT-8XG-2QSFP&#43;": {
@@ -18088,6 +18244,510 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "FlexNetwork HSR6602-G Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork HSR6602-G Router",
+        Slug: "hpe-flexnetwork-hsr6602-g-router",
+        UHeight: 2,
+        PartNumber: "JG353A",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "Service Module Slot", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "M-GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork HSR6602-XG Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork HSR6602-XG Router",
+        Slug: "hpe-flexnetwork-hsr6602-xg-router",
+        UHeight: 2,
+        PartNumber: "JG354A",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "Service Module Slot", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "M-GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3016 AC Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3016 AC Router",
+        Slug: "hpe-flexnetwork-msr3016-ac-router",
+        UHeight: 1,
+        PartNumber: "R8V32A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3024 AC Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3024 AC Router",
+        Slug: "hpe-flexnetwork-msr3024-ac-router",
+        UHeight: 1,
+        PartNumber: "JG406A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
+            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3026 Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3026 Router",
+        Slug: "hpe-flexnetwork-msr3026-router",
+        UHeight: 1,
+        PartNumber: "R9J03A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3044 Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3044 Router",
+        Slug: "hpe-flexnetwork-msr3044-router",
+        UHeight: 2,
+        PartNumber: "JG405A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
+            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
+            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
+            { Name: "VPM slot 1", Label: "", Position: "VPM-" },
+            { Name: "VPM slot 2", Label: "", Position: "VPM-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3046 Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3046 Router",
+        Slug: "hpe-flexnetwork-msr3046-router",
+        UHeight: 2,
+        PartNumber: "R9J04A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
+            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3048 Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3048 Router",
+        Slug: "hpe-flexnetwork-msr3048-router",
+        UHeight: 2,
+        PartNumber: "R9J05A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
+            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/22", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/23", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/24", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ten-GigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Twenty-FiveGigabitEthernet1/0/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Twenty-FiveGigabitEthernet1/0/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Twenty-FiveGigabitEthernet1/0/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Twenty-FiveGigabitEthernet1/0/29", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
+    "FlexNetwork MSR3064 Router": {
+        Manufacturer: "HPE",
+        Model: "FlexNetwork MSR3064 Router",
+        Slug: "hpe-flexnetwork-msr3064-router",
+        UHeight: 3,
+        PartNumber: "JG404A",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "PS-A" },
+            { Name: "PS-2", Label: "", Position: "PS-B" },
+            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
+            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
+            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
+            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
+            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
+            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
+            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
+            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
+            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
+            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
+            { Name: "HMIM slot 5", Label: "", Position: "HMIM-5" },
+            { Name: "HMIM slot 6", Label: "", Position: "HMIM-6" },
+            { Name: "DHMIM slot 1", Label: "", Position: "DHMIM-1" },
+            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
+            { Name: "VPM slot 2", Label: "", Position: "VPM-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "HP 3100-16 v2 EI": {
         Manufacturer: "HPE",
         Model: "HP 3100-16 v2 EI",
@@ -19001,549 +19661,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
-        },
-    },
-    "HPE D2700 Disk Enclosure": {
-        Manufacturer: "HPE",
-        Model: "HPE D2700 Disk Enclosure",
-        Slug: "hpe-d2700-disk-enclosure",
-        UHeight: 2,
-        PartNumber: "AJ941A",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 13.2,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 340, AllocatedDraw: 0 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 340, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "Ctrl A", Label: "", Position: "A" },
-            { Name: "Ctrl B", Label: "", Position: "B" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-        },
-    },
-    "HPE FlexNetwork HSR6602-G Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork HSR6602-G Router",
-        Slug: "hpe-flexnetwork-hsr6602-g-router",
-        UHeight: 2,
-        PartNumber: "JG353A",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 12.1,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "Service Module Slot", Label: "", Position: "1" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "M-GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork HSR6602-XG Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork HSR6602-XG Router",
-        Slug: "hpe-flexnetwork-hsr6602-xg-router",
-        UHeight: 2,
-        PartNumber: "JG354A",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 12.1,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "Service Module Slot", Label: "", Position: "1" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "M-GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3016 AC Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3016 AC Router",
-        Slug: "hpe-flexnetwork-msr3016-ac-router",
-        UHeight: 1,
-        PartNumber: "R8V32A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 4.7,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3024 AC Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3024 AC Router",
-        Slug: "hpe-flexnetwork-msr3024-ac-router",
-        UHeight: 1,
-        PartNumber: "JG406A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 9.7,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
-            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3026 Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3026 Router",
-        Slug: "hpe-flexnetwork-msr3026-router",
-        UHeight: 1,
-        PartNumber: "R9J03A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 6.7,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3044 Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3044 Router",
-        Slug: "hpe-flexnetwork-msr3044-router",
-        UHeight: 2,
-        PartNumber: "JG405A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 12.45,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
-            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
-            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
-            { Name: "VPM slot 1", Label: "", Position: "VPM-" },
-            { Name: "VPM slot 2", Label: "", Position: "VPM-2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3046 Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3046 Router",
-        Slug: "hpe-flexnetwork-msr3046-router",
-        UHeight: 2,
-        PartNumber: "R9J04A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 11.2,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
-            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3048 Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3048 Router",
-        Slug: "hpe-flexnetwork-msr3048-router",
-        UHeight: 2,
-        PartNumber: "R9J05A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 11.8,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
-            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/21", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/22", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/23", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/24", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Ten-GigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Twenty-FiveGigabitEthernet1/0/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "Twenty-FiveGigabitEthernet1/0/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "Twenty-FiveGigabitEthernet1/0/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-            { Name: "Twenty-FiveGigabitEthernet1/0/29", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
-        },
-    },
-    "HPE FlexNetwork MSR3064 Router": {
-        Manufacturer: "HPE",
-        Model: "HPE FlexNetwork MSR3064 Router",
-        Slug: "hpe-flexnetwork-msr3064-router",
-        UHeight: 3,
-        PartNumber: "JG404A",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 16.55,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PS-1", Label: "", Position: "PS-A" },
-            { Name: "PS-2", Label: "", Position: "PS-B" },
-            { Name: "SIC slot 1", Label: "", Position: "SIC-1" },
-            { Name: "SIC slot 2", Label: "", Position: "SIC-2" },
-            { Name: "SIC slot 3", Label: "", Position: "SIC-3" },
-            { Name: "SIC slot 4", Label: "", Position: "SIC-4" },
-            { Name: "DSIC slot 1", Label: "", Position: "DSIC-1" },
-            { Name: "DSIC slot 2", Label: "", Position: "DSIC-2" },
-            { Name: "HMIM slot 1", Label: "", Position: "HMIM-1" },
-            { Name: "HMIM slot 2", Label: "", Position: "HMIM-2" },
-            { Name: "HMIM slot 3", Label: "", Position: "HMIM-3" },
-            { Name: "HMIM slot 4", Label: "", Position: "HMIM-4" },
-            { Name: "HMIM slot 5", Label: "", Position: "HMIM-5" },
-            { Name: "HMIM slot 6", Label: "", Position: "HMIM-6" },
-            { Name: "DHMIM slot 1", Label: "", Position: "DHMIM-1" },
-            { Name: "VPM slot 1", Label: "", Position: "VPM-1" },
-            { Name: "VPM slot 2", Label: "", Position: "VPM-2" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "HPE MSA 2040 LFF Chassis AC": {

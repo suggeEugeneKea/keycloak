@@ -38,10 +38,10 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port16", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "A1-A4", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "A5-A8", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "B1-B4", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "B5-B8", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
+            { Name: "A1-A4", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A5-A8", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B1-B4", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B5-B8", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "A1-A4", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -112,10 +112,10 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port16", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PRIMARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "SECONDARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "PRIMARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "SECONDARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
+            { Name: "PRIMARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "SECONDARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PRIMARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "SECONDARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -187,10 +187,10 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port16", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PRIMARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "SECONDARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "PRIMARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "SECONDARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
+            { Name: "PRIMARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "SECONDARY1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PRIMARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "SECONDARY2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -261,10 +261,10 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port16", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "A1-A4", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "A5-A8", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "B1-B4", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
-            { Name: "B5-B8", Label: "", Type: "iec-60320-c20", MaximumDraw: 14, AllocatedDraw: 7 },
+            { Name: "A1-A4", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A5-A8", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B1-B4", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B5-B8", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "A1-A4", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -326,8 +326,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -381,8 +381,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -438,8 +438,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -493,8 +493,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -549,8 +549,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -605,8 +605,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -661,8 +661,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -716,8 +716,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -773,8 +773,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -828,8 +828,8 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "PS1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -884,8 +884,65 @@ var DeviceTypesMapwti = map[string]*DeviceData{
             { Name: "port8", Type: "rj-45", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 10, AllocatedDraw: 5 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A3", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A4", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A5", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A6", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A7", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet_A8", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "CPM-800-2-ECAM": {
+        Manufacturer: "WTI",
+        Model: "CPM-800-2-ECAM",
+        Slug: "wti-cpm-800-2-ecam",
+        UHeight: 1,
+        PartNumber: "CPM-800-2-ECAM",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-mini-b", Label: "", Poe: false },
+            { Name: "Modem", Type: "rj-11", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "port1", Type: "rj-45", Label: "" },
+            { Name: "port2", Type: "rj-45", Label: "" },
+            { Name: "port3", Type: "rj-45", Label: "" },
+            { Name: "port4", Type: "rj-45", Label: "" },
+            { Name: "port5", Type: "rj-45", Label: "" },
+            { Name: "port6", Type: "rj-45", Label: "" },
+            { Name: "port7", Type: "rj-45", Label: "" },
+            { Name: "port8", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "Outlet_A1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },

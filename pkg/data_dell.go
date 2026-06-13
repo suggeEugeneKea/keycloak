@@ -7299,6 +7299,94 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PowerVault MD1400": {
+        Manufacturer: "Dell",
+        Model: "PowerVault MD1400",
+        Slug: "dell-md1400",
+        UHeight: 2,
+        PartNumber: "MD1400",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 28.59,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "EMM0 USB", Type: "usb-mini-b", Label: "", Poe: false },
+            { Name: "EMM1 USB", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "1", Position: "1" },
+            { Name: "PSU 2", Label: "2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "EMM0 SAS Port 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM0 SAS Port 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM0 SAS Port 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM0 SAS Port 4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM1 SAS Port 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM1 SAS Port 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM1 SAS Port 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM1 SAS Port 4", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "PowerVault MD2412": {
+        Manufacturer: "Dell",
+        Model: "PowerVault MD2412",
+        Slug: "dell-md2412",
+        UHeight: 2,
+        PartNumber: "MD2412",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 25.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU A", Label: "A", Position: "A" },
+            { Name: "PSU B", Label: "B", Position: "B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "EMM1 SAS Port 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM1 SAS Port 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM2 SAS Port 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EMM2 SAS Port 2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "PowerVault MD3200": {
         Manufacturer: "Dell",
         Model: "PowerVault MD3200",

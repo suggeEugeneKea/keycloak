@@ -49,6 +49,51 @@ var DeviceTypesMapthomas_krenn = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "RA1112-ASEPN (V2.0)": {
+        Manufacturer: "Thomas-Krenn",
+        Model: "RA1112-ASEPN (V2.0)",
+        Slug: "thomas-krenn-ra1112-asepn-v2-0",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "", Position: "PSU-2" },
+            { Name: "OCP3", Label: "", Position: "OCP3-0" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RI1208-SMXS (V1.0)": {
         Manufacturer: "Thomas-Krenn",
         Model: "RI1208-SMXS (V1.0)",
@@ -78,7 +123,7 @@ var DeviceTypesMapthomas_krenn = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "1" },
             { Name: "PSU2", Label: "", Position: "2" },
-            { Name: "SLOT1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe SLOT1", Label: "", Position: "PCIe1" },
             { Name: "PCIe SLOT2", Label: "", Position: "PCIe2" },
             { Name: "PCIe SLOT3", Label: "", Position: "PCIe3" },
             { Name: "PCIe SLOT4", Label: "", Position: "PCIe4" },
