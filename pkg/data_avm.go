@@ -779,7 +779,8 @@ var DeviceTypesMapavm = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "LAN", Label: "LAN", Type: "1000base-t", MgmtOnly: false },
-            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "WiFi 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WiFi 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "FRITZ!Repeater 1750E": {
