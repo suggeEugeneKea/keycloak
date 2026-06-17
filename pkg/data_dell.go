@@ -1485,6 +1485,168 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "PowerEdge FC430": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge FC430",
+        Slug: "dell-poweredge-fc430",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 3.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge FC630": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge FC630",
+        Slug: "dell-poweredge-fc630",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 7.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge FC640": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge FC640",
+        Slug: "dell-poweredge-fc640",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 7.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge FX2": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge FX2",
+        Slug: "dell-poweredge-fx2",
+        UHeight: 2,
+        PartNumber: "PowerEdge FX2",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 21.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CMC-Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "Power Supply Slot 1", Position: "1" },
+            { Name: "PSU2", Label: "Power Supply Slot 2", Position: "2" },
+            { Name: "Sled1", Label: "Sled Slot 1", Position: "1" },
+            { Name: "Sled2", Label: "Sled Slot 2", Position: "2" },
+            { Name: "Sled3", Label: "Sled Slot 3", Position: "3" },
+            { Name: "Sled4", Label: "Sled Slot 4", Position: "4" },
+            { Name: "IOM1", Label: "I/O Module Slot 1", Position: "A1" },
+            { Name: "IOM2", Label: "I/O Module Slot 2", Position: "A2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CMC-1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "CMC-2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge M1000e": {
         Manufacturer: "Dell",
         Model: "PowerEdge M1000e",
@@ -6465,7 +6627,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.74,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -6474,7 +6636,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -6483,6 +6644,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "1", Position: "1" },
+            { Name: "PSU 2", Label: "2", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

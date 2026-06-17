@@ -96,4 +96,57 @@ var DeviceTypesMapmoxa = map[string]*DeviceData{
             { Name: "G3-rj45", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "NPort 5610-16": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5610-16",
+        Slug: "moxa-nport-5610-16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2490,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial 1", Type: "rj-45", Label: "" },
+            { Name: "Serial 2", Type: "rj-45", Label: "" },
+            { Name: "Serial 3", Type: "rj-45", Label: "" },
+            { Name: "Serial 4", Type: "rj-45", Label: "" },
+            { Name: "Serial 5", Type: "rj-45", Label: "" },
+            { Name: "Serial 6", Type: "rj-45", Label: "" },
+            { Name: "Serial 7", Type: "rj-45", Label: "" },
+            { Name: "Serial 8", Type: "rj-45", Label: "" },
+            { Name: "Serial 9", Type: "rj-45", Label: "" },
+            { Name: "Serial 10", Type: "rj-45", Label: "" },
+            { Name: "Serial 11", Type: "rj-45", Label: "" },
+            { Name: "Serial 12", Type: "rj-45", Label: "" },
+            { Name: "Serial 13", Type: "rj-45", Label: "" },
+            { Name: "Serial 14", Type: "rj-45", Label: "" },
+            { Name: "Serial 15", Type: "rj-45", Label: "" },
+            { Name: "Serial 16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }

@@ -2942,6 +2942,50 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "OmniTIK 5": {
+        Manufacturer: "MikroTik",
+        Model: "OmniTIK 5",
+        Slug: "mikrotik-omnitik-5",
+        UHeight: 0,
+        PartNumber: "RBOmniTikU-5HnD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1180,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 9 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether3", Label: "3", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether4", Label: "4", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether5", Label: "5", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11a", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "PowerBox Pro": {
         Manufacturer: "MikroTik",
         Model: "PowerBox Pro",
@@ -4208,6 +4252,43 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "ether2", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "SXT Lite5": {
+        Manufacturer: "MikroTik",
+        Model: "SXT Lite5",
+        Slug: "mikrotik-sxt-lite5",
+        UHeight: 0,
+        PartNumber: "RBSXT5nDr2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 265,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "SXTsq 5 ac": {

@@ -2,6 +2,52 @@
 package devices
 
 var DeviceTypesMapaudiocodes = map[string]*DeviceData{
+    "Mediant 1000": {
+        Manufacturer: "AudioCodes",
+        Model: "Mediant 1000",
+        Slug: "audiocodes-mediant-1000",
+        UHeight: 1,
+        PartNumber: "M1KB",
+        IsFullDepth: true,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "Power Supply Slot 1", Position: "PSU1" },
+            { Name: "PSU2", Label: "Power Supply Slot 2", Position: "PSU2" },
+            { Name: "Slot 1", Label: "Voice Module Bay 1", Position: "Slot1" },
+            { Name: "Slot 2", Label: "Voice Module Bay 2", Position: "Slot2" },
+            { Name: "Slot 3", Label: "Voice Module Bay 3", Position: "Slot3" },
+            { Name: "Slot 4", Label: "Voice Module Bay 4", Position: "Slot4" },
+            { Name: "Slot 5", Label: "Voice Module Bay 5", Position: "Slot5" },
+            { Name: "Slot 6", Label: "Voice Module Bay 6", Position: "Slot6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Mediant 2600 SBC": {
         Manufacturer: "AudioCodes",
         Model: "Mediant 2600 SBC",

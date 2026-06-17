@@ -475,6 +475,48 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS214play": {
+        Manufacturer: "Synology",
+        Model: "DS214play",
+        Slug: "synology-ds214play",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.27,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+            { Name: "SD Slot", Type: "other", Label: "", Poe: false },
+            { Name: "eSATA", Type: "other", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS218": {
         Manufacturer: "Synology",
         Model: "DS218",
@@ -738,6 +780,48 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DS713plus": {
+        Manufacturer: "Synology",
+        Model: "DS713plus",
+        Slug: "synology-ds713plus",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+            { Name: "eSATA", Type: "other", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DS916&#43;": {
