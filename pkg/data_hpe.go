@@ -20542,7 +20542,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SAS12g-1", Label: "", Type: "other", MgmtOnly: false },
             { Name: "SAS12g-2", Label: "", Type: "other", MgmtOnly: false },
             { Name: "SAS12g-3", Label: "", Type: "other", MgmtOnly: false },
@@ -27179,6 +27179,49 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL365 Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL365 Gen10",
+        Slug: "hpe-proliant-dl365-gen10",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP3_1", Label: "", Position: "OCP3_1" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL365 Gen11": {
         Manufacturer: "HPE",
         Model: "ProLiant DL365 Gen11",
@@ -27282,7 +27325,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -27660,6 +27703,56 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL385 Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL385 Gen10",
+        Slug: "hpe-proliant-dl385-gen10",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 23.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP3", Label: "", Position: "OCP3" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "HDDBox1", Label: "", Position: "box1" },
+            { Name: "HDDBox2", Label: "", Position: "box2" },
+            { Name: "HDDBox3", Label: "", Position: "box3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL385 Gen10 Plus v2": {
         Manufacturer: "HPE",
         Model: "ProLiant DL385 Gen10 Plus v2",
@@ -27898,6 +27991,59 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "PCIe14", Label: "secondary riser", Position: "PCIe14" },
             { Name: "PCIe15", Label: "tertiary riser", Position: "PCIe15" },
             { Name: "PCIe16", Label: "tertiary riser", Position: "PCIe16" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant DL580 Gen7": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL580 Gen7",
+        Slug: "hpe-proliant-dl580-gen7",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 52.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU3", Label: "", Position: "PSU3" },
+            { Name: "PSU4", Label: "", Position: "PSU4" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "", Position: "PCIe9" },
+            { Name: "PCIe10", Label: "", Position: "PCIe10" },
+            { Name: "PCIe11", Label: "", Position: "PCIe11" },
         },
 			  DeviceBays: []DeviceBay{
         },

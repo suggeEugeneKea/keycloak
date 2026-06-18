@@ -1611,7 +1611,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Airflow: "",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 21.5,
         WeightUnit: "",
         IsPowered: false,
@@ -1631,14 +1631,14 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "Power Supply Slot 1", Position: "1" },
             { Name: "PSU2", Label: "Power Supply Slot 2", Position: "2" },
-            { Name: "Sled1", Label: "Sled Slot 1", Position: "1" },
-            { Name: "Sled2", Label: "Sled Slot 2", Position: "2" },
-            { Name: "Sled3", Label: "Sled Slot 3", Position: "3" },
-            { Name: "Sled4", Label: "Sled Slot 4", Position: "4" },
             { Name: "IOM1", Label: "I/O Module Slot 1", Position: "A1" },
             { Name: "IOM2", Label: "I/O Module Slot 2", Position: "A2" },
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "Sled 1", Label: "" },
+            { Name: "Sled 2", Label: "" },
+            { Name: "Sled 3", Label: "" },
+            { Name: "Sled 4", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

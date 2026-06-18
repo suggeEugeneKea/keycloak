@@ -2,14 +2,342 @@
 package devices
 
 var DeviceTypesMapghipsystems = map[string]*DeviceData{
-    "GS5104-1471-EC": {
+    "GS5104-1271-0": {
         Manufacturer: "ghipsystems",
-        Model: "GS5104-1471-EC",
-        Slug: "ghipsystems-gs5104-1471-ec",
+        Model: "GS5104-1271-0",
+        Slug: "ghipsystems-gs5104-1271-0",
         UHeight: 1,
-        PartNumber: "GS5104-1471-EC",
+        PartNumber: "GS5104-1271-0",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1271-C": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1271-C",
+        Slug: "ghipsystems-gs5104-1271-c",
+        UHeight: 1,
+        PartNumber: "GS5104-1271-C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1271-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1271-E",
+        Slug: "ghipsystems-gs5104-1271-e",
+        UHeight: 1,
+        PartNumber: "GS5104-1271-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1271-EC": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1271-EC",
+        Slug: "ghipsystems-gs5104-1271-ec",
+        UHeight: 1,
+        PartNumber: "GS5104-1271-EC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1351-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1351-0",
+        Slug: "ghipsystems-gs5104-1351-0",
+        UHeight: 1,
+        PartNumber: "GS5104-1351-0",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1351-C": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1351-C",
+        Slug: "ghipsystems-gs5104-1351-c",
+        UHeight: 1,
+        PartNumber: "GS5104-1351-C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1351-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1351-E",
+        Slug: "ghipsystems-gs5104-1351-e",
+        UHeight: 1,
+        PartNumber: "GS5104-1351-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1351-EC": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1351-EC",
+        Slug: "ghipsystems-gs5104-1351-ec",
+        UHeight: 1,
+        PartNumber: "GS5104-1351-EC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1471-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1471-0",
+        Slug: "ghipsystems-gs5104-1471-0",
+        UHeight: 1,
+        PartNumber: "GS5104-1471-0",
+        IsFullDepth: false,
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -32,6 +360,566 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1471-C": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1471-C",
+        Slug: "ghipsystems-gs5104-1471-c",
+        UHeight: 1,
+        PartNumber: "GS5104-1471-C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1471-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1471-E",
+        Slug: "ghipsystems-gs5104-1471-e",
+        UHeight: 1,
+        PartNumber: "GS5104-1471-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1471-EC": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1471-EC",
+        Slug: "ghipsystems-gs5104-1471-ec",
+        UHeight: 1,
+        PartNumber: "GS5104-1471-EC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1471-EW": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1471-EW",
+        Slug: "ghipsystems-gs5104-1471-ew",
+        UHeight: 1,
+        PartNumber: "GS5104-1471-EW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1551-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1551-0",
+        Slug: "ghipsystems-gs5104-1551-0",
+        UHeight: 1,
+        PartNumber: "GS5104-1551-0",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1551-C": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1551-C",
+        Slug: "ghipsystems-gs5104-1551-c",
+        UHeight: 1,
+        PartNumber: "GS5104-1551-C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1551-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1551-E",
+        Slug: "ghipsystems-gs5104-1551-e",
+        UHeight: 1,
+        PartNumber: "GS5104-1551-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5104-1551-EC": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5104-1551-EC",
+        Slug: "ghipsystems-gs5104-1551-ec",
+        UHeight: 1,
+        PartNumber: "GS5104-1551-EC",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5108-1271-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5108-1271-0",
+        Slug: "ghipsystems-gs5108-1271-0",
+        UHeight: 1,
+        PartNumber: "GS5108-1271-0",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 8, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5108-1271-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5108-1271-E",
+        Slug: "ghipsystems-gs5108-1271-e",
+        UHeight: 1,
+        PartNumber: "GS5108-1271-E",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 9, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5108-1471-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5108-1471-0",
+        Slug: "ghipsystems-gs5108-1471-0",
+        UHeight: 1,
+        PartNumber: "GS5108-1471-0",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 8, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5108-1471-E": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5108-1471-E",
+        Slug: "ghipsystems-gs5108-1471-e",
+        UHeight: 1,
+        PartNumber: "GS5108-1471-E",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 9, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "GS5116-1271-0": {
+        Manufacturer: "ghipsystems",
+        Model: "GS5116-1271-0",
+        Slug: "ghipsystems-gs5116-1271-0",
+        UHeight: 1,
+        PartNumber: "GS5116-1271-0",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 10 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 11 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 12 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 13 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 14 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 15 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 16 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Network", Label: "", Type: "lc", Positions: 16, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },

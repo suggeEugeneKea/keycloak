@@ -1343,11 +1343,11 @@ var DeviceTypesMapraritan = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "PX3TS-5184CR",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 12.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1365,7 +1365,55 @@ var DeviceTypesMapraritan = map[string]*DeviceData{
             { Name: "Outlet3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet5", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Outlet6", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet6", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet7", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet8", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Eth2", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "PX3TS-5191CR": {
+        Manufacturer: "Raritan",
+        Model: "PX3TS-5191CR",
+        Slug: "raritan-px3ts-5191cr",
+        UHeight: 1,
+        PartNumber: "PX3TS-5191CR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Inlet1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Inlet2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet1", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet2", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet5", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet6", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet7", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet8", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
         },

@@ -133,6 +133,45 @@ var DeviceTypesMapteltonika = map[string]*DeviceData{
             { Name: "gnss_0", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "TRB140": {
+        Manufacturer: "Teltonika",
+        Model: "TRB140",
+        Slug: "teltonika-trb140",
+        UHeight: 0,
+        PartNumber: "TRB140003000",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 136,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb0", Type: "usb-micro-b", Label: "Micro-USB Config Port", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "4-pin DC (9-30 VDC)", Type: "molex-micro-fit-2x2", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mob1s1a1", Label: "Mobile (LTE Cat 4)", Type: "lte", MgmtOnly: false },
+        },
+    },
     "TRB500": {
         Manufacturer: "Teltonika",
         Model: "TRB500",

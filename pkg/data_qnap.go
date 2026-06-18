@@ -210,6 +210,43 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth0", Label: "LAN", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-219&#43;": {
+        Manufacturer: "QNAP",
+        Model: "TS-219&#43;",
+        Slug: "qnap-ts-219-plus",
+        UHeight: 0,
+        PartNumber: "TS-219&#43;",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 19, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-231": {
         Manufacturer: "QNAP",
         Model: "TS-231",

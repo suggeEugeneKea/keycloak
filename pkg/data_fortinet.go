@@ -6479,6 +6479,55 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 91G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 91G",
+        Slug: "fortinet-fg-91g",
+        UHeight: 1,
+        PartNumber: "FG-91G",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.31,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "DC&#43;12V", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 22 },
+            { Name: "PSU2", Label: "DC&#43;12V", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 22 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "internal1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "a", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "b", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FortiGate Module 7620F": {
         Manufacturer: "Fortinet",
         Model: "FortiGate Module 7620F",
