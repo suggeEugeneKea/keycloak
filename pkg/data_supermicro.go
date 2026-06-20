@@ -657,8 +657,8 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         PartNumber: "AS-3015MR-H8TNR",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "parent",
         Weight: 28.21,
         WeightUnit: "",
@@ -694,6 +694,48 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "IPMI 1", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "IPMI 2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Motherboard C9X299-PG300": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard C9X299-PG300",
+        Slug: "supermicro-mbd-c9x299-pg300",
+        UHeight: 0,
+        PartNumber: "MBD-C9X299-PG300",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ten-Gig-E", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "Motherboard H12DST-B": {

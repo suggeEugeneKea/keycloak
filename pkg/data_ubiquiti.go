@@ -1662,6 +1662,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "EdgeRouter Rack Mount Kit": {
+        Manufacturer: "Ubiquiti",
+        Model: "EdgeRouter Rack Mount Kit",
+        Slug: "ubiquiti-er-rmkit",
+        UHeight: 1,
+        PartNumber: "ER-RMKIT",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "ER slot", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "EdgeSwitch 16 150W": {
         Manufacturer: "Ubiquiti",
         Model: "EdgeSwitch 16 150W",
