@@ -2,6 +2,47 @@
 package devices
 
 var DeviceTypesMapopengear = map[string]*DeviceData{
+    "ACM5003-M-F-E": {
+        Manufacturer: "Opengear",
+        Model: "ACM5003-M-F-E",
+        Slug: "opengear-acm5003-m-f-e",
+        UHeight: 1,
+        PartNumber: "ACM5003-M-F-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 340,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Modem", Type: "rj-11", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Port 1", Type: "rj-45", Label: "" },
+            { Name: "Port 2", Type: "rj-45", Label: "" },
+            { Name: "Port 3", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "net1_copper", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ACM7008-2-L": {
         Manufacturer: "Opengear",
         Model: "ACM7008-2-L",
@@ -60,14 +101,15 @@ var DeviceTypesMapopengear = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ACM7008-2-M",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
+            { Name: "Modem", Type: "rj-11", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "Port 1", Type: "rj-45", Label: "" },
@@ -78,9 +120,13 @@ var DeviceTypesMapopengear = map[string]*DeviceData{
             { Name: "Port 6", Type: "rj-45", Label: "" },
             { Name: "Port 7", Type: "rj-45", Label: "" },
             { Name: "Port 8", Type: "rj-45", Label: "" },
+            { Name: "port9", Type: "usb-a", Label: "" },
+            { Name: "port10", Type: "usb-a", Label: "" },
+            { Name: "port11", Type: "usb-a", Label: "" },
+            { Name: "port12", Type: "usb-a", Label: "" },
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 12, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -96,8 +142,8 @@ var DeviceTypesMapopengear = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "net1_copper", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "net1_sfp", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "net2_copper", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "net1_sfp", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "net2_sfp", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
