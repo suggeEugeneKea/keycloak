@@ -11560,52 +11560,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "Aruba ec-l-h": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-h",
-        Slug: "hpe-aruba-ec-l-h",
-        UHeight: 1,
-        PartNumber: "201754",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
     "Aruba ec-l-nm": {
         Manufacturer: "HPE",
         Model: "Aruba ec-l-nm",
