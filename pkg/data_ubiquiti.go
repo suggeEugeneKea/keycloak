@@ -2815,6 +2815,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "LiteBeam M5": {
+        Manufacturer: "Ubiquiti",
+        Model: "LiteBeam M5",
+        Slug: "ubiquiti-litebeam-m5",
+        UHeight: 0,
+        PartNumber: "LBE-M5-23",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 750,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "NanoBeam 2AC-13": {
         Manufacturer: "Ubiquiti",
         Model: "NanoBeam 2AC-13",

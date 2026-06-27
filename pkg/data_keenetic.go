@@ -2,6 +2,89 @@
 package devices
 
 var DeviceTypesMapkeenetic = map[string]*DeviceData{
+    "4G": {
+        Manufacturer: "Keenetic",
+        Model: "4G",
+        Slug: "keenetic-4g",
+        UHeight: 0,
+        PartNumber: "KN-1210",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 138,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "Start": {
+        Manufacturer: "Keenetic",
+        Model: "Start",
+        Slug: "keenetic-start",
+        UHeight: 0,
+        PartNumber: "KN-1111",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 132,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 9 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "Starter": {
         Manufacturer: "Keenetic",
         Model: "Starter",

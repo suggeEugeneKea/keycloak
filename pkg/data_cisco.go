@@ -23301,11 +23301,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C3750G-24TS-S",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

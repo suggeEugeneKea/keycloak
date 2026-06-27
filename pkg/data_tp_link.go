@@ -1250,6 +1250,48 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "LAN4", Label: "LAN4/WAN", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "TD-W8961ND": {
+        Manufacturer: "TP-Link",
+        Model: "TD-W8961ND",
+        Slug: "tp-link-td-w8961nd",
+        UHeight: 0,
+        PartNumber: "TD-W8961ND",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 354,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ADSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "TL-SE2109PB": {
         Manufacturer: "TP-Link",
         Model: "TL-SE2109PB",
@@ -2673,6 +2715,44 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "ten-gigabitEthernet 1/0/14", Label: "14", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "ten-gigabitEthernet 1/0/15", Label: "15", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "ten-gigabitEthernet 1/0/16", Label: "16", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TL-WA801N": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WA801N",
+        Slug: "tp-link-tl-wa801n",
+        UHeight: 0,
+        PartNumber: "TL-WA801N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 560,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "TL-WDR3600 v1": {

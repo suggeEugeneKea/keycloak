@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMappowerman = map[string]*DeviceData{
+    "Online-3000": {
+        Manufacturer: "Powerman",
+        Model: "Online-3000",
+        Slug: "powerman-online-3000",
+        UHeight: 8,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "RS232", Type: "de-9", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c20", MaximumDraw: 3600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Socket1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Socket2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Socket3", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Hardwire", Type: "iec-60320-c13", Label: "", PowerPort: "hardwired", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IntelligentSlot", Label: "", Position: "Rear" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Online-3000-RT": {
         Manufacturer: "Powerman",
         Model: "Online-3000-RT",

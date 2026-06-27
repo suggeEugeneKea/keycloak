@@ -2,6 +2,44 @@
 package devices
 
 var DeviceTypesMapd_link = map[string]*DeviceData{
+    "DAP-1360": {
+        Manufacturer: "D-Link",
+        Model: "DAP-1360",
+        Slug: "d-link-dap-1360",
+        UHeight: 0,
+        PartNumber: "DAP-1360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 248,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "DES-1005C": {
         Manufacturer: "D-Link",
         Model: "DES-1005C",
@@ -2687,6 +2725,136 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Ethernet1/0/54", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "DIR-320": {
+        Manufacturer: "D-Link",
+        Model: "DIR-320",
+        Slug: "d-link-dir-320",
+        UHeight: 0,
+        PartNumber: "DIR-320",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 220,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "DIR-615": {
+        Manufacturer: "D-Link",
+        Model: "DIR-615",
+        Slug: "d-link-dir-615",
+        UHeight: 0,
+        PartNumber: "DIR-615",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 215,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 5 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "DIR-815": {
+        Manufacturer: "D-Link",
+        Model: "DIR-815",
+        Slug: "d-link-dir-815",
+        UHeight: 0,
+        PartNumber: "DIR-815",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 289,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "DIS-100G-10S": {
         Manufacturer: "D-Link",
         Model: "DIS-100G-10S",
@@ -2769,6 +2937,49 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "DSL-2640U": {
+        Manufacturer: "D-Link",
+        Model: "DSL-2640U",
+        Slug: "d-link-dsl-2640u",
+        UHeight: 0,
+        PartNumber: "DSL-2640U",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 150,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "Internet", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "DSL", Label: "", Type: "xdsl", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "DWS-3160-24TC": {

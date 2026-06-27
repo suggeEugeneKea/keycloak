@@ -1427,6 +1427,49 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "CRS304-4XG-IN": {
+        Manufacturer: "MikroTik",
+        Model: "CRS304-4XG-IN",
+        Slug: "mikrotik-crs304-4xg-in",
+        UHeight: 0,
+        PartNumber: "CRS304-4XG",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.61,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack 1", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+            { Name: "DC jack 2", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+            { Name: "DC 2 pin terminal", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "ether5", Label: "MGMT/BOOT", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "CRS305-1G-4S&#43;IN": {
         Manufacturer: "MikroTik",
         Model: "CRS305-1G-4S&#43;IN",
@@ -3472,11 +3515,11 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 680,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

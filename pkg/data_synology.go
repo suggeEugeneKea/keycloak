@@ -824,6 +824,48 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS716plus": {
+        Manufacturer: "Synology",
+        Model: "DS716plus",
+        Slug: "synology-ds716plus",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+            { Name: "eSATA", Type: "other", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS916&#43;": {
         Manufacturer: "Synology",
         Model: "DS916&#43;",
