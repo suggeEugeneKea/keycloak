@@ -828,6 +828,62 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "SG3218XP-M2 V1": {
+        Manufacturer: "TP-Link",
+        Model: "SG3218XP-M2 V1",
+        Slug: "tp-link-sg3218xp-m2-v1",
+        UHeight: 1,
+        PartNumber: "0132600339",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "two-gigabitEthernet 1/0/1", Label: "1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/2", Label: "2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/3", Label: "3", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/4", Label: "4", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/5", Label: "5", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/6", Label: "6", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/7", Label: "7", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/8", Label: "8", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/9", Label: "9", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/10", Label: "10", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/11", Label: "11", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/12", Label: "12", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/13", Label: "13", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/14", Label: "14", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/15", Label: "15", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/16", Label: "16", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/17", Label: "17", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/18", Label: "18", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "T1500g-10MPS": {
         Manufacturer: "TP-Link",
         Model: "T1500g-10MPS",
