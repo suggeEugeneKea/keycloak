@@ -2461,6 +2461,44 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "wlan", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "HG8310M": {
+        Manufacturer: "Huawei",
+        Model: "HG8310M",
+        Slug: "huawei-hg8310m",
+        UHeight: 0,
+        PartNumber: "HG8310M",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC 12V", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 3 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Optical", Label: "", Type: "gpon", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Huawei S6730-S24X6Q": {
         Manufacturer: "Huawei",
         Model: "Huawei S6730-S24X6Q",
@@ -3180,6 +3218,60 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "OptiXstar B650G-8E8P3W": {
+        Manufacturer: "Huawei",
+        Model: "OptiXstar B650G-8E8P3W",
+        Slug: "huawei-optixstar-b650g-8e8p3w",
+        UHeight: 1,
+        PartNumber: "B650G-8E8P3W",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+            { Name: "TEL1", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL2", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL3", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL4", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL5", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL6", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL7", Type: "rj-11", Label: "", Poe: false },
+            { Name: "TEL8", Type: "rj-11", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC 12V", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "PON", Label: "", Type: "gpon", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "OptiXtrans DC908": {

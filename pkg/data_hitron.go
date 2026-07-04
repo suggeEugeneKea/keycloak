@@ -41,4 +41,42 @@ var DeviceTypesMaphitron = map[string]*DeviceData{
             { Name: "MoCA 2.5", Label: "", Type: "moca", MgmtOnly: false },
         },
     },
+    "HT-EM5": {
+        Manufacturer: "Hitron",
+        Model: "HT-EM5",
+        Slug: "hitron-ht-em5",
+        UHeight: 0,
+        PartNumber: "860009155343",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 110,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V DC", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Coax", Label: "", Type: "moca", MgmtOnly: false },
+        },
+    },
 }

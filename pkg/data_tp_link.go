@@ -362,6 +362,44 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "EAP720": {
+        Manufacturer: "TP-Link",
+        Model: "EAP720",
+        Slug: "tp-link-eap720",
+        UHeight: 0,
+        PartNumber: "0153601474",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.41,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 18, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Wireless BE", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "ER605-V2": {
         Manufacturer: "TP-Link",
         Model: "ER605-V2",
@@ -2003,6 +2041,50 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "GE-18", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GE-19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GE-20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "TL-SG2008P": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG2008P",
+        Slug: "tp-link-tl-sg2008p",
+        UHeight: 1,
+        PartNumber: "TL-SG2008P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 82, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "TL-SG2210MP": {

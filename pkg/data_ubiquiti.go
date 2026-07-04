@@ -4717,6 +4717,100 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Bluetooth Interface", Label: "Bluetooth 4.1", Type: "other", MgmtOnly: false },
         },
     },
+    "UPS 2U (EU)": {
+        Manufacturer: "Ubiquiti",
+        Model: "UPS 2U (EU)",
+        Slug: "ubiquiti-ups-2u-eu",
+        UHeight: 2,
+        PartNumber: "UPS-2U-EU",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 13.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Input", Label: "AC In (IEC C14)", Type: "iec-60320-c14", MaximumDraw: 1500, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Battery Backup/Surge 1", Type: "iec-60320-c13", Label: "Battery Backup/Surge (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 2", Type: "iec-60320-c13", Label: "Battery Backup/Surge (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 3", Type: "iec-60320-c13", Label: "Battery Backup/Surge (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 4", Type: "iec-60320-c13", Label: "Battery Backup/Surge (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 1", Type: "iec-60320-c13", Label: "Surge Only (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 2", Type: "iec-60320-c13", Label: "Surge Only (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 3", Type: "iec-60320-c13", Label: "Surge Only (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 4", Type: "iec-60320-c13", Label: "Surge Only (IEC C13)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "MGMT 100/10 MbE", Type: "100base-tx", MgmtOnly: true },
+            { Name: "Surge In/Out 1", Label: "GbE Surge In/Out 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Surge In/Out 2", Label: "GbE Surge In/Out 2", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "UPS 2U (US)": {
+        Manufacturer: "Ubiquiti",
+        Model: "UPS 2U (US)",
+        Slug: "ubiquiti-ups-2u-us",
+        UHeight: 2,
+        PartNumber: "UPS-2U-US",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 14,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Input", Label: "AC In (NEMA 5-15P)", Type: "nema-5-15p", MaximumDraw: 1440, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Battery Backup/Surge 1", Type: "nema-5-15r", Label: "Battery Backup/Surge (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 2", Type: "nema-5-15r", Label: "Battery Backup/Surge (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 3", Type: "nema-5-15r", Label: "Battery Backup/Surge (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Battery Backup/Surge 4", Type: "nema-5-15r", Label: "Battery Backup/Surge (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 1", Type: "nema-5-15r", Label: "Surge Only (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 2", Type: "nema-5-15r", Label: "Surge Only (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 3", Type: "nema-5-15r", Label: "Surge Only (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Surge Only 4", Type: "nema-5-15r", Label: "Surge Only (NEMA 5-15R)", PowerPort: "AC Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "MGMT 100/10 MbE", Type: "100base-tx", MgmtOnly: true },
+            { Name: "Surge In/Out 1", Label: "GbE Surge In/Out 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Surge In/Out 2", Label: "GbE Surge In/Out 2", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "US-8-150W": {
         Manufacturer: "Ubiquiti",
         Model: "US-8-150W",
