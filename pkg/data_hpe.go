@@ -10938,6 +10938,1202 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "Aruba EC-10104": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-10104",
+        Slug: "hpe-aruba-ec-10104",
+        UHeight: 1,
+        PartNumber: "201857",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+            { Name: "USB console", Type: "usb-micro-b", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 48, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-10106": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-10106",
+        Slug: "hpe-aruba-ec-10106",
+        UHeight: 1,
+        PartNumber: "3510325",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+            { Name: "USB console", Type: "usb-c", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 165, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0 (top)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1 (bottom)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2-RJ45", Label: "lan2 (combo)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2-SFP", Label: "lan2 (combo)", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0 (top)", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1 (bottom)", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan2-RJ45", Label: "wan2 (combo)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2-SFP", Label: "wan2 (combo)", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0 (top)", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1 (bottom)", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-10108": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-10108",
+        Slug: "hpe-aruba-ec-10108",
+        UHeight: 1,
+        PartNumber: "3510326",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+            { Name: "USB console", Type: "usb-c", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 165, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0 (top)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1 (bottom)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2-RJ45", Label: "lan2 (combo)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2-SFP", Label: "lan2 (combo)", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0 (top)", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1 (bottom)", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan2-RJ45", Label: "wan2 (combo)", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2-SFP", Label: "wan2 (combo)", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0 (top)", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1 (bottom)", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-L": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L",
+        Slug: "hpe-aruba-ec-l",
+        UHeight: 1,
+        PartNumber: "200883",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-L-B": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-B",
+        Slug: "hpe-aruba-ec-l-b",
+        UHeight: 1,
+        PartNumber: "201270",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-L-B-NM": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-B-NM",
+        Slug: "hpe-aruba-ec-l-b-nm",
+        UHeight: 1,
+        PartNumber: "201272",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-L-H": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-H",
+        Slug: "hpe-aruba-ec-l-h",
+        UHeight: 1,
+        PartNumber: "201754",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "PS1", Position: "1" },
+            { Name: "PS2", Label: "PS2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan1", Label: "tlan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan1", Label: "twan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan2", Label: "tlan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan2", Label: "twan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-L-NM": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-NM",
+        Slug: "hpe-aruba-ec-l-nm",
+        UHeight: 1,
+        PartNumber: "200887",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-L-P": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-P",
+        Slug: "hpe-aruba-ec-l-p",
+        UHeight: 1,
+        PartNumber: "201305",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-L-P-NM": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-L-P-NM",
+        Slug: "hpe-aruba-ec-l-p-nm",
+        UHeight: 1,
+        PartNumber: "201307",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 37,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M",
+        Slug: "hpe-aruba-ec-m",
+        UHeight: 1,
+        PartNumber: "200890",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-M-B": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-B",
+        Slug: "hpe-aruba-ec-m-b",
+        UHeight: 1,
+        PartNumber: "200969",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M-B gen2": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-B gen2",
+        Slug: "hpe-aruba-ec-m-b-gen2",
+        UHeight: 1,
+        PartNumber: "201553",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M-H AC": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-H AC",
+        Slug: "hpe-aruba-ec-m-h-ac",
+        UHeight: 1,
+        PartNumber: "201762",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 18.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan1", Label: "tlan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan1", Label: "twan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "lan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "lan3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan3", Label: "wan3", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M-P": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-P",
+        Slug: "hpe-aruba-ec-m-p",
+        UHeight: 1,
+        PartNumber: "201274",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M-P gen2": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-P gen2",
+        Slug: "hpe-aruba-ec-m-p-gen2",
+        UHeight: 1,
+        PartNumber: "201552",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-M-P-FIPS": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-M-P-FIPS",
+        Slug: "hpe-aruba-ec-m-p-fips",
+        UHeight: 1,
+        PartNumber: "201634",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-S": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-S",
+        Slug: "hpe-aruba-ec-s",
+        UHeight: 1,
+        PartNumber: "200877",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "Power", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Fiber Module", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "lan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-S-P AC": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-S-P AC",
+        Slug: "hpe-aruba-ec-s-p-ac",
+        UHeight: 1,
+        PartNumber: "201687",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 18.14,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan1", Label: "tlan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan1", Label: "twan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "lan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "lan3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan3", Label: "wan3", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-S-P DC": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-S-P DC",
+        Slug: "hpe-aruba-ec-s-p-dc",
+        UHeight: 1,
+        PartNumber: "201743",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 18.14,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan1", Label: "tlan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan1", Label: "twan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "lan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "lan3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan3", Label: "wan3", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-US": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-US",
+        Slug: "hpe-aruba-ec-us",
+        UHeight: 1,
+        PartNumber: "201106",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Aruba EC-XL-H": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-XL-H",
+        Slug: "hpe-aruba-ec-xl-h",
+        UHeight: 1,
+        PartNumber: "201756",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 33.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "PS1", Position: "1" },
+            { Name: "PS2", Label: "PS2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan0", Label: "twan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan1", Label: "tlan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan1", Label: "twan1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "tlan2", Label: "tlan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "twan2", Label: "twan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-XS": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-XS",
+        Slug: "hpe-aruba-ec-xs",
+        UHeight: 1,
+        PartNumber: "200889",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-XS gen2": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-XS gen2",
+        Slug: "hpe-aruba-ec-xs-gen2",
+        UHeight: 1,
+        PartNumber: "201571",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 34, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-XS gen3": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-XS gen3",
+        Slug: "hpe-aruba-ec-xs-gen3",
+        UHeight: 1,
+        PartNumber: "201694",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 34, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Aruba EC-XS-FIPS": {
+        Manufacturer: "HPE",
+        Model: "Aruba EC-XS-FIPS",
+        Slug: "hpe-aruba-ec-xs-fips",
+        UHeight: 1,
+        PartNumber: "201447",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Aruba IAP-205": {
         Manufacturer: "HPE",
         Model: "Aruba IAP-205",
@@ -11379,991 +12575,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "gigabitethernet 0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "gigabitethernet 0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-10104": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-10104",
-        Slug: "hpe-aruba-ec-10104",
-        UHeight: 1,
-        PartNumber: "R9D72A",
-        IsFullDepth: false,
-        Airflow: "right-to-left",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 2.52,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l",
-        Slug: "hpe-aruba-ec-l",
-        UHeight: 1,
-        PartNumber: "200883",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l-b": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-b",
-        Slug: "hpe-aruba-ec-l-b",
-        UHeight: 1,
-        PartNumber: "201270",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l-b-nm": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-b-nm",
-        Slug: "hpe-aruba-ec-l-b-nm",
-        UHeight: 1,
-        PartNumber: "201272",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l-nm": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-nm",
-        Slug: "hpe-aruba-ec-l-nm",
-        UHeight: 1,
-        PartNumber: "200887",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l-p": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-p",
-        Slug: "hpe-aruba-ec-l-p",
-        UHeight: 1,
-        PartNumber: "201305",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-l-p-nm": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-l-p-nm",
-        Slug: "hpe-aruba-ec-l-p-nm",
-        UHeight: 1,
-        PartNumber: "201307",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 440, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m",
-        Slug: "hpe-aruba-ec-m",
-        UHeight: 1,
-        PartNumber: "200890",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-b": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-b",
-        Slug: "hpe-aruba-ec-m-b",
-        UHeight: 1,
-        PartNumber: "200969",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-b-gen2": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-b-gen2",
-        Slug: "hpe-aruba-ec-m-b-gen2",
-        UHeight: 1,
-        PartNumber: "201553",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-h-ac": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-h-ac",
-        Slug: "hpe-aruba-ec-m-h-ac",
-        UHeight: 1,
-        PartNumber: "201762",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-p": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-p",
-        Slug: "hpe-aruba-ec-m-p",
-        UHeight: 1,
-        PartNumber: "201274",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-p-fips": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-p-fips",
-        Slug: "hpe-aruba-ec-m-p-fips",
-        UHeight: 1,
-        PartNumber: "201634",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-m-p-gen2": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-m-p-gen2",
-        Slug: "hpe-aruba-ec-m-p-gen2",
-        UHeight: 1,
-        PartNumber: "201552",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "de-9", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-            { Name: "power1", Label: "power1", Type: "iec-60320-c14", MaximumDraw: 162, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "tlan0", Label: "tlan0", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "twan0", Label: "twan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-s": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-s",
-        Slug: "hpe-aruba-ec-s",
-        UHeight: 1,
-        PartNumber: "200877",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan2", Label: "lan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-s-p-ac": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-s-p-ac",
-        Slug: "hpe-aruba-ec-s-p-ac",
-        UHeight: 1,
-        PartNumber: "201687",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan2", Label: "lan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-s-p-dc": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-s-p-dc",
-        Slug: "hpe-aruba-ec-s-p-dc",
-        UHeight: 1,
-        PartNumber: "201743",
-        IsFullDepth: false,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan2", Label: "lan2", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "wan2", Label: "wan2", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-us": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-us",
-        Slug: "hpe-aruba-ec-us",
-        UHeight: 1,
-        PartNumber: "201106",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-v": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-v",
-        Slug: "hpe-aruba-ec-v",
-        UHeight: 1,
-        PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "virtual", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "virtual", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "virtual", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "virtual", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "virtual", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "virtual", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-xs": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-xs",
-        Slug: "hpe-aruba-ec-xs",
-        UHeight: 1,
-        PartNumber: "200889",
-        IsFullDepth: false,
-        Airflow: "right-to-left",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-xs-fips": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-xs-fips",
-        Slug: "hpe-aruba-ec-xs-fips",
-        UHeight: 1,
-        PartNumber: "201447",
-        IsFullDepth: false,
-        Airflow: "right-to-left",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Aruba ec-xs-gen2": {
-        Manufacturer: "HPE",
-        Model: "Aruba ec-xs-gen2",
-        Slug: "hpe-aruba-ec-xs-gen2",
-        UHeight: 1,
-        PartNumber: "201571",
-        IsFullDepth: false,
-        Airflow: "right-to-left",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "console", Type: "rj-45", Label: "console", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "power0", Label: "power0", Type: "dc-terminal", MaximumDraw: 23, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "lan0", Label: "lan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "lan1", Label: "lan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan0", Label: "wan0", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wan1", Label: "wan1", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt0", Label: "mgmt0", Type: "1000base-t", MgmtOnly: true },
-            { Name: "mgmt1", Label: "mgmt1", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "BladeSystem c7000": {
