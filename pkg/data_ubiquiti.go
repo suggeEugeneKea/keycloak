@@ -4546,7 +4546,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Port 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "eth0", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "WLAN 0", Label: "2.4 GHz", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "WLAN 1", Label: "5 GHz", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "WLAN 2", Label: "6 GHz (WiFi 6E)", Type: "ieee802.11ax", MgmtOnly: false },
