@@ -572,6 +572,49 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wan/lan5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "EX920": {
+        Manufacturer: "TP-Link",
+        Model: "EX920",
+        Slug: "tp-link-ex920",
+        UHeight: 0,
+        PartNumber: "EX920",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 6GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "OC200": {
         Manufacturer: "TP-Link",
         Model: "OC200",

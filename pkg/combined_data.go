@@ -270,6 +270,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "UGREEN": DeviceTypesMapugreen,
     "Ubiquiti": DeviceTypesMapubiquiti,
     "UfiSpace": DeviceTypesMapufispace,
+    "Unipi Technology": DeviceTypesMapunipi_technology,
     "Uptime Industries": DeviceTypesMapuptime_industries,
     "V-Solution": DeviceTypesMapv_solution,
     "Vertiv": DeviceTypesMapvertiv,
