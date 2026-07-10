@@ -17743,7 +17743,7 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         PartNumber: "DCS-7280CR3A-48D6-R",
         IsFullDepth: true,
         Airflow: "rear-to-front",
-        FrontImage: true,
+        FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 22,

@@ -8184,6 +8184,56 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "CW9800M": {
+        Manufacturer: "Cisco",
+        Model: "CW9800M",
+        Slug: "cisco-cw9800m",
+        UHeight: 1,
+        PartNumber: "CW9800M",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB CON", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power Supply Module 1", Label: "PS1", Position: "1" },
+            { Name: "Power Supply Module 2", Label: "PS2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "RP (RJ-45)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "RP (SFP)", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/1/0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/1/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "USB 0", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "USB 1", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "Catalyst 1000-16FP-2G-L": {
         Manufacturer: "Cisco",
         Model: "Catalyst 1000-16FP-2G-L",
@@ -28706,7 +28756,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200-48P": {
@@ -28979,7 +29029,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200CX-8T-E-2G": {
@@ -29097,7 +29147,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-24P-4G-E": {
@@ -29239,7 +29289,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-24PXG-2Y": {
@@ -29447,7 +29497,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-24T-4X": {
@@ -29517,7 +29567,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-48P-4G": {
@@ -29611,7 +29661,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-48P-4G-E": {
@@ -29799,7 +29849,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-48PL-4G": {
@@ -29893,7 +29943,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-48PL-4X": {
@@ -30267,7 +30317,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 9200L-48T-4X": {
@@ -30361,7 +30411,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "StackPort1/1", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
             { Name: "StackPort1/2", Label: "", Type: "cisco-stackwise", MgmtOnly: false },
-            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Catalyst 921-4PLTEGB": {
