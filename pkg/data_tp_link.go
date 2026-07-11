@@ -173,6 +173,84 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "Archer MR550": {
+        Manufacturer: "TP-Link",
+        Model: "Archer MR550",
+        Slug: "tp-link-archer-mr550",
+        UHeight: 0,
+        PartNumber: "MR550",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.27,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Archer MR600": {
+        Manufacturer: "TP-Link",
+        Model: "Archer MR600",
+        Slug: "tp-link-archer-mr600",
+        UHeight: 0,
+        PartNumber: "MR600",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.94,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "CPE210 v1.1": {
         Manufacturer: "TP-Link",
         Model: "CPE210 v1.1",
@@ -285,6 +363,42 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "EAP225-Outdoor": {
+        Manufacturer: "TP-Link",
+        Model: "EAP225-Outdoor",
+        Slug: "tp-link-eap225-outdoor",
+        UHeight: 0,
+        PartNumber: "EAP225-Outdoor",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "EAP245": {
         Manufacturer: "TP-Link",
         Model: "EAP245",
@@ -323,6 +437,117 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Wireless AC", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "Wireless N", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "EAP610": {
+        Manufacturer: "TP-Link",
+        Model: "EAP610",
+        Slug: "tp-link-eap610",
+        UHeight: 0,
+        PartNumber: "EAP610",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP613": {
+        Manufacturer: "TP-Link",
+        Model: "EAP613",
+        Slug: "tp-link-eap613",
+        UHeight: 0,
+        PartNumber: "EAP613",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 12500, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP653": {
+        Manufacturer: "TP-Link",
+        Model: "EAP653",
+        Slug: "tp-link-eap653",
+        UHeight: 0,
+        PartNumber: "EAP653",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "EAP683-LR": {
@@ -613,6 +838,44 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "WLAN 2.4GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "WLAN 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "WLAN 6GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "MC220L": {
+        Manufacturer: "TP-Link",
+        Model: "MC220L",
+        Slug: "tp-link-mc220l",
+        UHeight: 0,
+        PartNumber: "MC220L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 2, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "OC200": {
@@ -965,6 +1228,116 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "ten-gigabitEthernet 1/0/18", Label: "18", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "T1500-28PCT (TL-SL2428P)": {
+        Manufacturer: "TP-Link",
+        Model: "T1500-28PCT (TL-SL2428P)",
+        Slug: "tp-link-t1500-28pct-tl-sl2428p",
+        UHeight: 1,
+        PartNumber: "TL-SL2428P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "combo25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "combo26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "T1500G-10PS (TL-SG2210P)": {
+        Manufacturer: "TP-Link",
+        Model: "T1500G-10PS (TL-SG2210P)",
+        Slug: "tp-link-t1500g-10ps-tl-sg2210p",
+        UHeight: 1,
+        PartNumber: "TL-SG2210P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "T1500g-10MPS": {
         Manufacturer: "TP-Link",
         Model: "T1500g-10MPS",
@@ -1074,6 +1447,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "T2500G-10MPS": {
+        Manufacturer: "TP-Link",
+        Model: "T2500G-10MPS",
+        Slug: "tp-link-t2500g-10mps",
+        UHeight: 1,
+        PartNumber: "T2500G-10MPS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 116, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "T2500G-10TS": {

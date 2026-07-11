@@ -2,6 +2,85 @@
 package devices
 
 var DeviceTypesMapadtran = map[string]*DeviceData{
+    "411": {
+        Manufacturer: "Adtran",
+        Model: "411",
+        Slug: "adtran-411",
+        UHeight: 0,
+        PartNumber: "1287787F1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V DC", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "G-PON", Label: "", Type: "gpon", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "424": {
+        Manufacturer: "Adtran",
+        Model: "424",
+        Slug: "adtran-424",
+        UHeight: 0,
+        PartNumber: "1287835F1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.82,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V DC", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "G-PON", Label: "", Type: "gpon", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "MX2800": {
         Manufacturer: "Adtran",
         Model: "MX2800",
@@ -86,6 +165,45 @@ var DeviceTypesMapadtran = map[string]*DeviceData{
             { Name: "GIG 0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GIG 0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "T4", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "SDX 622v": {
+        Manufacturer: "Adtran",
+        Model: "SDX 622v",
+        Slug: "adtran-sdx-622v",
+        UHeight: 0,
+        PartNumber: "1287843F1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V DC", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XGS-PON", Label: "", Type: "xgs-pon", MgmtOnly: false },
+            { Name: "10GE", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "GE", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Total Access 5000 23-Inch Chassis": {

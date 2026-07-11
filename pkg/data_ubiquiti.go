@@ -9426,4 +9426,40 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "ath0", Label: "Wireless", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "airGrid M5 HP": {
+        Manufacturer: "Ubiquiti",
+        Model: "airGrid M5 HP",
+        Slug: "ubiquiti-airgrid-m5-hp-ag-hp-5g23",
+        UHeight: 0,
+        PartNumber: "AG-HP-5G23",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }

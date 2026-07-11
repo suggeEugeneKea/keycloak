@@ -637,6 +637,51 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "Cellular Interface (LTE)", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "1900EF": {
+        Manufacturer: "LANCOM",
+        Model: "1900EF",
+        Slug: "lancom-1900ef",
+        UHeight: 1,
+        PartNumber: "62105",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 18, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN 1 (SFP)", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "WAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "1926VAG": {
         Manufacturer: "LANCOM",
         Model: "1926VAG",
@@ -3969,6 +4014,53 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "ETH-7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ISG-5000": {
+        Manufacturer: "LANCOM",
+        Model: "ISG-5000",
+        Slug: "lancom-isg-5000",
+        UHeight: 1,
+        PartNumber: "61079",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "com", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ETH-8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "ISG-8000": {
         Manufacturer: "LANCOM",
         Model: "ISG-8000",
@@ -4263,6 +4355,47 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "WLAN-2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "LN-860": {
+        Manufacturer: "LANCOM",
+        Model: "LN-860",
+        Slug: "lancom-ln-860",
+        UHeight: 0,
+        PartNumber: "61773",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "com", Type: "mini-din-8", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "WLAN-2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "LW-600": {
         Manufacturer: "LANCOM",
         Model: "LW-600",
@@ -4341,6 +4474,46 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "LX-6400": {
+        Manufacturer: "LANCOM",
+        Model: "LX-6400",
+        Slug: "lancom-lx-6400",
+        UHeight: 0,
+        PartNumber: "61821",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "DC 12 V", Type: "dc-terminal", MaximumDraw: 22, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "ETH1 (PoE)", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "LX-6402": {
         Manufacturer: "LANCOM",
         Model: "LX-6402",
@@ -4379,6 +4552,47 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "eth2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "LX-6500": {
+        Manufacturer: "LANCOM",
+        Model: "LX-6500",
+        Slug: "lancom-lx-6500",
+        UHeight: 0,
+        PartNumber: "61861",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "DC 12 V", Type: "dc-terminal", MaximumDraw: 33, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "ETH1 (PoE)", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "ETH2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "LX-6500E": {
@@ -4501,6 +4715,85 @@ var DeviceTypesMaplancom = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
             { Name: "wlan3", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "OAP-1700B": {
+        Manufacturer: "LANCOM",
+        Model: "OAP-1700B",
+        Slug: "lancom-oap-1700b",
+        UHeight: 1,
+        PartNumber: "61820",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ETH-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WLAN-1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "WLAN-2", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "OX-6402": {
+        Manufacturer: "LANCOM",
+        Model: "OX-6402",
+        Slug: "lancom-ox-6402",
+        UHeight: 0,
+        PartNumber: "61866",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "ETH1 (PoE)", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "ETH2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "Rack Mount": {

@@ -41,6 +41,47 @@ var DeviceTypesMapgl_inet = map[string]*DeviceData{
             { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "GL-AX1800": {
+        Manufacturer: "GL-iNet",
+        Model: "GL-AX1800",
+        Slug: "gl-inet-gl-ax1800",
+        UHeight: 0,
+        PartNumber: "GL-AX1800",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "GL-AXT1800": {
         Manufacturer: "GL-iNet",
         Model: "GL-AXT1800",
@@ -118,6 +159,45 @@ var DeviceTypesMapgl_inet = map[string]*DeviceData{
             { Name: "Port 1", Label: "LAN", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "Port 2", Label: "WAN", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
+    "GL-MT300N-V2": {
+        Manufacturer: "GL.iNet",
+        Model: "GL-MT300N-V2",
+        Slug: "gl-inet-gl-mt300n-v2",
+        UHeight: 0,
+        PartNumber: "GL-MT300N-V2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB Power", Label: "", Type: "usb-micro-b", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
 }

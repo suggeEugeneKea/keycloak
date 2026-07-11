@@ -88,6 +88,44 @@ var DeviceTypesMapriello = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Master MPS MCM 10": {
+        Manufacturer: "Riello",
+        Model: "Master MPS MCM 10",
+        Slug: "riello-master-mps-mcm-10",
+        UHeight: 21,
+        PartNumber: "SR015M-BS-20",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 115,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "hardwired", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "SDH 1500": {
         Manufacturer: "Riello",
         Model: "SDH 1500",

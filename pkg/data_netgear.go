@@ -729,6 +729,52 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
             { Name: "GigabitEthernet/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "GS510TLP": {
+        Manufacturer: "NETGEAR",
+        Model: "GS510TLP",
+        Slug: "netgear-gs510tlp",
+        UHeight: 1,
+        PartNumber: "GS510TLP-100EUS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 101, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "GS716T": {
         Manufacturer: "Netgear",
         Model: "GS716T",
