@@ -5184,6 +5184,92 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "netPower Lite 8P": {
+        Manufacturer: "MikroTik",
+        Model: "netPower Lite 8P",
+        Slug: "mikrotik-netpower-lite-8p",
+        UHeight: 0,
+        PartNumber: "CSS610-8P-2S&#43;OUT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC1", Label: "", Type: "dc-terminal", MaximumDraw: 208, AllocatedDraw: 0 },
+            { Name: "DC2", Label: "", Type: "dc-terminal", MaximumDraw: 208, AllocatedDraw: 0 },
+            { Name: "Battery", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43;1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43;2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "wAP 60G": {
+        Manufacturer: "MikroTik",
+        Model: "wAP 60G",
+        Slug: "mikrotik-wap-60g",
+        UHeight: 0,
+        PartNumber: "RBwAPG-60ad",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan60-1", Label: "", Type: "ieee802.11ad", MgmtOnly: false },
+        },
+    },
     "wAP LR8G kit": {
         Manufacturer: "MikroTik",
         Model: "wAP LR8G kit",
