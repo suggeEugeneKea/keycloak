@@ -2117,6 +2117,120 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SYS-6028TP-CHASSIS": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-6028TP-CHASSIS",
+        Slug: "supermicro-sys-6028tp-chassis",
+        UHeight: 2,
+        PartNumber: "CSE-827HQ&#43;-R2K04B",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 40.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "HDD bay A1", Label: "", Position: "1" },
+            { Name: "HDD bay A2", Label: "", Position: "2" },
+            { Name: "HDD bay A3", Label: "", Position: "3" },
+            { Name: "HDD bay B1", Label: "", Position: "4" },
+            { Name: "HDD bay B2", Label: "", Position: "5" },
+            { Name: "HDD bay B3", Label: "", Position: "6" },
+            { Name: "HDD bay C1", Label: "", Position: "7" },
+            { Name: "HDD bay C2", Label: "", Position: "8" },
+            { Name: "HDD bay C3", Label: "", Position: "9" },
+            { Name: "HDD bay D1", Label: "", Position: "10" },
+            { Name: "HDD bay D2", Label: "", Position: "11" },
+            { Name: "HDD bay D3", Label: "", Position: "12" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node A", Label: "" },
+            { Name: "Node B", Label: "" },
+            { Name: "Node C", Label: "" },
+            { Name: "Node D", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SYS-6028TP-HTR": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-6028TP-HTR",
+        Slug: "supermicro-sys-6028tp-htr",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "RS-232", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CPU 1", Label: "", Position: "CPU 1" },
+            { Name: "CPU 2", Label: "", Position: "CPU 2" },
+            { Name: "DIMM A1", Label: "", Position: "DIMM A1" },
+            { Name: "DIMM B1", Label: "", Position: "DIMM B1" },
+            { Name: "DIMM C1", Label: "", Position: "DIMM C1" },
+            { Name: "DIMM D1", Label: "", Position: "DIMM D1" },
+            { Name: "DIMM A2", Label: "", Position: "DIMM A2" },
+            { Name: "DIMM B2", Label: "", Position: "DIMM B2" },
+            { Name: "DIMM C2", Label: "", Position: "DIMM C2" },
+            { Name: "DIMM D2", Label: "", Position: "DIMM D2" },
+            { Name: "DIMM E1", Label: "", Position: "DIMM E1" },
+            { Name: "DIMM F1", Label: "", Position: "DIMM F1" },
+            { Name: "DIMM G1", Label: "", Position: "DIMM G1" },
+            { Name: "DIMM H1", Label: "", Position: "DIMM H1" },
+            { Name: "DIMM E2", Label: "", Position: "DIMM E2" },
+            { Name: "DIMM F2", Label: "", Position: "DIMM F2" },
+            { Name: "DIMM G2", Label: "", Position: "DIMM G2" },
+            { Name: "DIMM H2", Label: "", Position: "DIMM H2" },
+            { Name: "Slot 1", Label: "", Position: "Slot 1" },
+            { Name: "Slot 2", Label: "", Position: "Slot 2" },
+            { Name: "SXB1", Label: "", Position: "SXB1" },
+            { Name: "SXB2", Label: "", Position: "SXB2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SYS-6028TR-CHASSIS": {
         Manufacturer: "Supermicro",
         Model: "SYS-6028TR-CHASSIS",

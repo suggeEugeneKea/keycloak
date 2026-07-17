@@ -1216,6 +1216,56 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
             { Name: "xe4", Label: "xe4", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "S5310X-8TX-2AC": {
+        Manufacturer: "SNR",
+        Model: "S5310X-8TX-2AC",
+        Slug: "snr-s5310x-8tx-2ac",
+        UHeight: 1,
+        PartNumber: "SNR-S5310X-8TX-2AC",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/0/1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/7", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/8", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Ethernet1/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "SNR-FB-ORG-3": {
         Manufacturer: "SNR",
         Model: "SNR-FB-ORG-3",

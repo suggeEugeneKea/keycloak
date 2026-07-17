@@ -3750,6 +3750,45 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "ATA-186": {
+        Manufacturer: "Cisco",
+        Model: "ATA-186",
+        Slug: "cisco-ata-186",
+        UHeight: 0,
+        PartNumber: "ATA-186",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 425,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 5V 2A", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Phone1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Phone2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "Aironet 1242AG-A": {
         Manufacturer: "Cisco",
         Model: "Aironet 1242AG-A",
@@ -13864,11 +13903,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C2960-48TC-L",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -13877,7 +13916,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 55, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 45, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

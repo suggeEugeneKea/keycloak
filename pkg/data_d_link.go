@@ -438,6 +438,55 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "slot0/26F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "DES-3200-10": {
+        Manufacturer: "D-Link",
+        Model: "DES-3200-10",
+        Slug: "d-link-des-3200-10",
+        UHeight: 1,
+        PartNumber: "DES-3200-10",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "DES-3200-28/ME": {
         Manufacturer: "D-Link",
         Model: "DES-3200-28/ME",
@@ -656,6 +705,173 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "DES-3526": {
+        Manufacturer: "D-Link",
+        Model: "DES-3526",
+        Slug: "d-link-des-3526",
+        UHeight: 1,
+        PartNumber: "DES-3526",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 23, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "slot0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "slot0/26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "slot0/25F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "slot0/26F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DFL-860E": {
+        Manufacturer: "D-Link",
+        Model: "DFL-860E",
+        Slug: "d-link-dfl-860e",
+        UHeight: 1,
+        PartNumber: "DFL-860E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.62,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "usb2", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 23, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DGS-1016C": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1016C",
+        Slug: "d-link-dgs-1016c",
+        UHeight: 1,
+        PartNumber: "DGS-1016C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1060,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DGS-1026MP": {
