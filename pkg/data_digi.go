@@ -2,6 +2,60 @@
 package devices
 
 var DeviceTypesMapdigi = map[string]*DeviceData{
+    "CM-16": {
+        Manufacturer: "Digi",
+        Model: "CM-16",
+        Slug: "digi-cm-16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial_1", Type: "rj-45", Label: "" },
+            { Name: "Serial_2", Type: "rj-45", Label: "" },
+            { Name: "Serial_3", Type: "rj-45", Label: "" },
+            { Name: "Serial_4", Type: "rj-45", Label: "" },
+            { Name: "Serial_5", Type: "rj-45", Label: "" },
+            { Name: "Serial_6", Type: "rj-45", Label: "" },
+            { Name: "Serial_7", Type: "rj-45", Label: "" },
+            { Name: "Serial_8", Type: "rj-45", Label: "" },
+            { Name: "Serial_9", Type: "rj-45", Label: "" },
+            { Name: "Serial_10", Type: "rj-45", Label: "" },
+            { Name: "Serial_11", Type: "rj-45", Label: "" },
+            { Name: "Serial_12", Type: "rj-45", Label: "" },
+            { Name: "Serial_13", Type: "rj-45", Label: "" },
+            { Name: "Serial_14", Type: "rj-45", Label: "" },
+            { Name: "Serial_15", Type: "rj-45", Label: "" },
+            { Name: "Serial_16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 40, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "Digi CM 32": {
         Manufacturer: "Digi",
         Model: "Digi CM 32",
