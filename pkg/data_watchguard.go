@@ -47,6 +47,54 @@ var DeviceTypesMapwatchguard = map[string]*DeviceData{
             { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Firebox M570": {
+        Manufacturer: "WatchGuard",
+        Model: "Firebox M570",
+        Slug: "watchguard-firebox-m570",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB0", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 220, AllocatedDraw: 220 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Firebox T25": {
         Manufacturer: "WatchGuard",
         Model: "Firebox T25",
