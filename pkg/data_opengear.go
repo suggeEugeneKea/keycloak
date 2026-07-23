@@ -43,6 +43,100 @@ var DeviceTypesMapopengear = map[string]*DeviceData{
             { Name: "net1_copper", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ACM7004-2-L": {
+        Manufacturer: "Opengear",
+        Model: "ACM7004-2-L",
+        Slug: "opengear-acm7004-2-l",
+        UHeight: 1,
+        PartNumber: "ACM7004-2-L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "port1", Type: "rj-45", Label: "" },
+            { Name: "port2", Type: "rj-45", Label: "" },
+            { Name: "port3", Type: "rj-45", Label: "" },
+            { Name: "port4", Type: "rj-45", Label: "" },
+            { Name: "port5", Type: "usb-a", Label: "" },
+            { Name: "port6", Type: "usb-a", Label: "" },
+            { Name: "port7", Type: "usb-a", Label: "" },
+            { Name: "port8", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "cellmodem", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "ACM7004-2-LMP": {
+        Manufacturer: "Opengear",
+        Model: "ACM7004-2-LMP",
+        Slug: "opengear-acm7004-2-lmp",
+        UHeight: 1,
+        PartNumber: "ACM7004-2-LMP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "port1", Type: "rj-45", Label: "" },
+            { Name: "port2", Type: "rj-45", Label: "" },
+            { Name: "port3", Type: "rj-45", Label: "" },
+            { Name: "port4", Type: "rj-45", Label: "" },
+            { Name: "port5", Type: "usb-a", Label: "" },
+            { Name: "port6", Type: "usb-a", Label: "" },
+            { Name: "port7", Type: "usb-a", Label: "" },
+            { Name: "port8", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "cellmodem", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "ACM7008-2-L": {
         Manufacturer: "Opengear",
         Model: "ACM7008-2-L",

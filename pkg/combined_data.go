@@ -194,7 +194,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Overland-Tandberg": DeviceTypesMapoverland_tandberg,
     "PC Engines": DeviceTypesMappc_engines,
     "PLANET": DeviceTypesMapplanet,
-    "Palo Alto": DeviceTypesMappalo_alto,
+    "Palo Alto Networks": DeviceTypesMappalo_alto_networks,
     "Panduit": DeviceTypesMappanduit,
     "Parks": DeviceTypesMapparks,
     "Patton": DeviceTypesMappatton,

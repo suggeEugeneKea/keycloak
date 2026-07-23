@@ -475,6 +475,47 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS213": {
+        Manufacturer: "Synology",
+        Model: "DS213",
+        Slug: "synology-ds213",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DS214play": {
         Manufacturer: "Synology",
         Model: "DS214play",
