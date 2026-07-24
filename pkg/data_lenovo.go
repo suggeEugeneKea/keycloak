@@ -484,6 +484,43 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ThinkSystem DG5200": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DG5200",
+        Slug: "lenovo-thinksystem-dg5200",
+        UHeight: 2,
+        PartNumber: "7DHY",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 25.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Controller 1", Label: "", Position: "1" },
+            { Name: "Controller 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ThinkSystem SR250 V2": {
         Manufacturer: "Lenovo",
         Model: "ThinkSystem SR250 V2",
