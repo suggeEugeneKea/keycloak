@@ -42322,7 +42322,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
