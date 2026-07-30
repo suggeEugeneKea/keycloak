@@ -187,6 +187,46 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wifi1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "AC In-Wall": {
+        Manufacturer: "Ubiquiti",
+        Model: "AC In-Wall",
+        Slug: "ubiquiti-uap-ac-iw",
+        UHeight: 0,
+        PartNumber: "UAP-AC-IW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "PoE Out &#43; Data", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "Data", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "2.4 GHz", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "wlan1", Label: "5 GHz", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "AC Lite": {
         Manufacturer: "Ubiquiti",
         Model: "AC Lite",
@@ -5475,6 +5515,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "WLAN 5GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "UniFi Express 7": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Express 7",
+        Slug: "ubiquiti-unifi-express-7",
+        UHeight: 0,
+        PartNumber: "UX7",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 443,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C Power", Label: "", Type: "usb-c", MaximumDraw: 22, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "WLAN 0", Label: "2.4 GHz", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "WLAN 1", Label: "5 GHz", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "WLAN 2", Label: "6 GHz", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "UniFi Gateway Lite": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Gateway Lite",
@@ -8578,6 +8659,75 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP28 52", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "UniFi Switch Pro XG Aggregation": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Pro XG Aggregation",
+        Slug: "ubiquiti-unifi-switch-pro-xg-aggregation",
+        UHeight: 1,
+        PartNumber: "USW-Pro-XG-Aggregation",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Universal AC input", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+            { Name: "USP-RPS DC input", Label: "", Type: "ubiquiti-smartpower", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "SFP28 1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 13", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 14", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 15", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 16", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 17", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 18", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 19", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 20", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 21", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 22", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 23", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 24", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 29", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 30", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 31", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SFP28 32", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "UniFi Switch Ultra": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Switch Ultra",
@@ -8665,6 +8815,44 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "RJ45 4 (PoE)", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "SFP&#43; 5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "SFP&#43; 6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Unifi Building Bridge": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi Building Bridge",
+        Slug: "ubiquiti-ubb",
+        UHeight: 0,
+        PartNumber: "UBB",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "br0", Label: "", Type: "bridge", MgmtOnly: true },
+            { Name: "eth0", Label: "Ethernet", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ath0", Label: "Wireless", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "Unifi G3 Bullet": {
