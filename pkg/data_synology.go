@@ -1021,6 +1021,44 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS925&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS925&#43;",
+        Slug: "synology-ds925-plus",
+        UHeight: 0,
+        PartNumber: "DS925&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 100, AllocatedDraw: 29 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FS6400": {
         Manufacturer: "Synology",
         Model: "FS6400",
@@ -1480,6 +1518,87 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Ethernet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "RS2423&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS2423&#43;",
+        Slug: "synology-rs2423-plus",
+        UHeight: 2,
+        PartNumber: "RS2423&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "RS2423RP&#43;II": {
+        Manufacturer: "Synology",
+        Model: "RS2423RP&#43;II",
+        Slug: "synology-rs2423rp-plus-ii",
+        UHeight: 2,
+        PartNumber: "RS2423RP&#43;II",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "RS3614xs&#43;": {

@@ -3400,6 +3400,49 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge R670": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R670",
+        Slug: "dell-poweredge-r670",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "iDRAC Direct", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "OCP NIC Slot 2 (3.0)", Label: "2", Position: "PCIe-2" },
+            { Name: "OCP NIC Slot 5 (3.0)", Label: "5", Position: "PCIe-5" },
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "1", Position: "PCIe-1" },
+            { Name: "PCIe Slot 4", Label: "4", Position: "PCIe-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge R6715": {
         Manufacturer: "Dell",
         Model: "PowerEdge R6715",

@@ -2733,18 +2733,18 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
-    "Opticom Fiber Drawer (4 Adapters, 1RU)": {
+    "Opticom Fiber Drawer, Black, 1 RU": {
         Manufacturer: "Panduit",
-        Model: "Opticom Fiber Drawer (4 Adapters, 1RU)",
+        Model: "Opticom Fiber Drawer, Black, 1 RU",
         Slug: "panduit-fmd1",
         UHeight: 1,
         PartNumber: "FMD1",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 11,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2760,26 +2760,108 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+            { Name: "03", Label: "", Position: "03" },
+            { Name: "04", Label: "", Position: "04" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "01", Label: "" },
-            { Name: "02", Label: "" },
-            { Name: "03", Label: "" },
-            { Name: "04", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
         },
     },
-    "Opticom Fiber Drawer (8 Adapters, 2RU)": {
+    "Opticom Fiber Drawer, Black, 2 RU": {
         Manufacturer: "Panduit",
-        Model: "Opticom Fiber Drawer (8 Adapters, 2RU)",
+        Model: "Opticom Fiber Drawer, Black, 2 RU",
         Slug: "panduit-fmd2",
         UHeight: 2,
         PartNumber: "FMD2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 12.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+            { Name: "03", Label: "", Position: "03" },
+            { Name: "04", Label: "", Position: "04" },
+            { Name: "05", Label: "", Position: "05" },
+            { Name: "06", Label: "", Position: "06" },
+            { Name: "07", Label: "", Position: "07" },
+            { Name: "08", Label: "", Position: "08" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Fiber Drawer, White, 1 RU": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Fiber Drawer, White, 1 RU",
+        Slug: "panduit-fmd1wh",
+        UHeight: 1,
+        PartNumber: "FMD1WH",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+            { Name: "03", Label: "", Position: "03" },
+            { Name: "04", Label: "", Position: "04" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Fiber Tray, Angled, 1 RU, 4 Port": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Fiber Tray, Angled, 1 RU, 4 Port",
+        Slug: "panduit-fmt1a",
+        UHeight: 1,
+        PartNumber: "FMT1A",
+        IsFullDepth: false,
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
@@ -2799,16 +2881,529 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "01", Label: "" },
-            { Name: "02", Label: "" },
-            { Name: "03", Label: "" },
-            { Name: "04", Label: "" },
-            { Name: "05", Label: "" },
-            { Name: "06", Label: "" },
-            { Name: "07", Label: "" },
-            { Name: "08", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Fiber Tray, Angled, 2 RU, 8 Port": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Fiber Tray, Angled, 2 RU, 8 Port",
+        Slug: "panduit-fmt2a",
+        UHeight: 2,
+        PartNumber: "FMT2A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Fiber Tray, Straight, 1 RU, 4 Port": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Fiber Tray, Straight, 1 RU, 4 Port",
+        Slug: "panduit-fmt1j",
+        UHeight: 1,
+        PartNumber: "FMT1J",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Fiber Tray, Straight, 2 RU, 8 Port": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Fiber Tray, Straight, 2 RU, 8 Port",
+        Slug: "panduit-fmt2j",
+        UHeight: 2,
+        PartNumber: "FMT2J",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 1 RU, 3 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 1 RU, 3 FAP/Cassette Slots",
+        Slug: "panduit-frme1u",
+        UHeight: 1,
+        PartNumber: "FRME1U",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 12.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 1 RU, 4 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 1 RU, 4 FAP/Cassette Slots",
+        Slug: "panduit-fre1ubl",
+        UHeight: 1,
+        PartNumber: "FRE1UBL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 2 RU, 6 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 2 RU, 6 FAP/Cassette Slots",
+        Slug: "panduit-frme2u",
+        UHeight: 2,
+        PartNumber: "FRME2U",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 12.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 2 RU, 8 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 2 RU, 8 FAP/Cassette Slots",
+        Slug: "panduit-fre2ubl",
+        UHeight: 2,
+        PartNumber: "FRE2UBL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 4 RU, 12 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 4 RU, 12 FAP/Cassette Slots",
+        Slug: "panduit-frme4",
+        UHeight: 4,
+        PartNumber: "FRME4",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 6.57,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+            { Name: "J", Label: "", Position: "J" },
+            { Name: "K", Label: "", Position: "K" },
+            { Name: "L", Label: "", Position: "L" },
+            { Name: "M", Label: "", Position: "M" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, Black, 4 RU, 16 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, Black, 4 RU, 16 FAP/Cassette Slots",
+        Slug: "panduit-fre4ubl",
+        UHeight: 4,
+        PartNumber: "FRE4UBL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+            { Name: "J", Label: "", Position: "J" },
+            { Name: "K", Label: "", Position: "K" },
+            { Name: "L", Label: "", Position: "L" },
+            { Name: "M", Label: "", Position: "M" },
+            { Name: "N", Label: "", Position: "N" },
+            { Name: "P", Label: "", Position: "P" },
+            { Name: "R", Label: "", Position: "R" },
+            { Name: "T", Label: "", Position: "T" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, White, 1 RU, 4 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, White, 1 RU, 4 FAP/Cassette Slots",
+        Slug: "panduit-fre1uwh",
+        UHeight: 1,
+        PartNumber: "FRE1UWH",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, White, 2 RU, 8 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, White, 2 RU, 8 FAP/Cassette Slots",
+        Slug: "panduit-fre2uwh",
+        UHeight: 2,
+        PartNumber: "FRE2UWH",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Enclosure, White, 4 RU, 16 FAP/Cassette Slots": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Enclosure, White, 4 RU, 16 FAP/Cassette Slots",
+        Slug: "panduit-fre4uwh",
+        UHeight: 4,
+        PartNumber: "FRE4UWH",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+            { Name: "J", Label: "", Position: "J" },
+            { Name: "K", Label: "", Position: "K" },
+            { Name: "L", Label: "", Position: "L" },
+            { Name: "M", Label: "", Position: "M" },
+            { Name: "N", Label: "", Position: "N" },
+            { Name: "P", Label: "", Position: "P" },
+            { Name: "R", Label: "", Position: "R" },
+            { Name: "T", Label: "", Position: "T" },
+        },
+			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
@@ -2860,11 +3455,11 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "FCE1U",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 17.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2880,12 +3475,12 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "A", Label: "" },
-            { Name: "B", Label: "" },
-            { Name: "C", Label: "" },
-            { Name: "D", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -2940,11 +3535,11 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "FCE2U",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 19.75,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2960,34 +3555,78 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "A", Label: "" },
-            { Name: "B", Label: "" },
-            { Name: "C", Label: "" },
-            { Name: "D", Label: "" },
-            { Name: "E", Label: "" },
-            { Name: "F", Label: "" },
-            { Name: "G", Label: "" },
-            { Name: "H", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
         },
     },
-    "Opticom Rack Mount Fiber Enclosure, 4 RU": {
+    "Opticom Rack Mount Fiber Enclosure, 3 RU": {
         Manufacturer: "Panduit",
-        Model: "Opticom Rack Mount Fiber Enclosure, 4 RU",
-        Slug: "panduit-frme4",
-        UHeight: 4,
-        PartNumber: "FRME4",
+        Model: "Opticom Rack Mount Fiber Enclosure, 3 RU",
+        Slug: "panduit-frme3",
+        UHeight: 3,
+        PartNumber: "FRME3",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 13.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+            { Name: "J", Label: "", Position: "J" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Rack Mount Fiber Enclosure, 4 RU, 16 Ports": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Rack Mount Fiber Enclosure, 4 RU, 16 Ports",
+        Slug: "panduit-fce4u",
+        UHeight: 4,
+        PartNumber: "FCE4U",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 17.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3023,18 +3662,18 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
-    "Opticom Wallmount Fiber Enclosure (2 Adapters)": {
+    "Opticom Wall Mount Fiber Enclosure, Black, 1 FAP/Cassette Slot": {
         Manufacturer: "Panduit",
-        Model: "Opticom Wallmount Fiber Enclosure (2 Adapters)",
-        Slug: "panduit-fwme2",
+        Model: "Opticom Wall Mount Fiber Enclosure, Black, 1 FAP/Cassette Slot",
+        Slug: "panduit-fwme1bl",
         UHeight: 0,
-        PartNumber: "FWME2",
+        PartNumber: "FWME1BL",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 0.62,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3050,10 +3689,46 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "01", Label: "" },
-            { Name: "02", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Opticom Wallmount Fiber Enclosure (2 Adapters)": {
+        Manufacturer: "Panduit",
+        Model: "Opticom Wallmount Fiber Enclosure (2 Adapters)",
+        Slug: "panduit-fwme2",
+        UHeight: 0,
+        PartNumber: "FWME2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 2.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+        },
+			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
@@ -3067,11 +3742,11 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "FWME4",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 4.98,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3087,12 +3762,12 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+            { Name: "03", Label: "", Position: "03" },
+            { Name: "04", Label: "", Position: "04" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "01", Label: "" },
-            { Name: "02", Label: "" },
-            { Name: "03", Label: "" },
-            { Name: "04", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3106,11 +3781,11 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "FWME8",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 7.25,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3126,16 +3801,16 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "01", Label: "", Position: "01" },
+            { Name: "02", Label: "", Position: "02" },
+            { Name: "03", Label: "", Position: "03" },
+            { Name: "04", Label: "", Position: "04" },
+            { Name: "05", Label: "", Position: "05" },
+            { Name: "06", Label: "", Position: "06" },
+            { Name: "07", Label: "", Position: "07" },
+            { Name: "08", Label: "", Position: "08" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "01", Label: "" },
-            { Name: "02", Label: "" },
-            { Name: "03", Label: "" },
-            { Name: "04", Label: "" },
-            { Name: "05", Label: "" },
-            { Name: "06", Label: "" },
-            { Name: "07", Label: "" },
-            { Name: "08", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3223,7 +3898,7 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "FCE1",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
@@ -3243,12 +3918,12 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "A", Label: "" },
-            { Name: "B", Label: "" },
-            { Name: "C", Label: "" },
-            { Name: "D", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3262,7 +3937,7 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "FCE2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
@@ -3282,16 +3957,16 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
         },
 			  DeviceBays: []DeviceBay{
-            { Name: "A", Label: "" },
-            { Name: "B", Label: "" },
-            { Name: "C", Label: "" },
-            { Name: "D", Label: "" },
-            { Name: "E", Label: "" },
-            { Name: "F", Label: "" },
-            { Name: "G", Label: "" },
-            { Name: "H", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

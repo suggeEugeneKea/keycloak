@@ -208,6 +208,56 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
             { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "XG 135w": {
+        Manufacturer: "Sophos",
+        Model: "XG 135w",
+        Slug: "sophos-xg-135w",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-mini-a", Label: "COM", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "DC IN 1", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "DC IN 2", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "1/LAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "2/WAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "3/DMZ", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP", Label: "9", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "XG 650": {
         Manufacturer: "Sophos",
         Model: "XG 650",

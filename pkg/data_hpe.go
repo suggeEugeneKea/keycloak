@@ -11805,6 +11805,50 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "gigabitethernet 0/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Aruba 9240": {
+        Manufacturer: "HPE",
+        Model: "Aruba 9240",
+        Slug: "hpe-aruba-9240",
+        UHeight: 1,
+        PartNumber: "R7H97A",
+        IsFullDepth: false,
+        Airflow: "rear-to-front",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.08,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console USB", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU 2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "gigabitethernet 0/0/0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Aruba AP-205": {
         Manufacturer: "HPE",
         Model: "Aruba AP-205",

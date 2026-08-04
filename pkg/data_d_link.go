@@ -259,6 +259,58 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 8", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "DES-1016D": {
+        Manufacturer: "D-Link",
+        Model: "DES-1016D",
+        Slug: "d-link-des-1016d",
+        UHeight: 1,
+        PartNumber: "DES-1016D",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.85,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1210-08P": {
         Manufacturer: "D-Link",
         Model: "DES-1210-08P",

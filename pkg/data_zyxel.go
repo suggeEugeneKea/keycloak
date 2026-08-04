@@ -1211,6 +1211,52 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "P7", Label: "LAN/DMZ", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "USG FLEX 200H": {
+        Manufacturer: "Zyxel",
+        Model: "USG FLEX 200H",
+        Slug: "zyxel-usg-flex-200h",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 22, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "P1", Label: "P1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "P2", Label: "P2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "P3", Label: "P3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "P4", Label: "P4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "P5", Label: "P5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "P6", Label: "P6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "P7", Label: "P7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "P8", Label: "P8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "USG FLEX 700": {
         Manufacturer: "Zyxel",
         Model: "USG FLEX 700",
