@@ -217,6 +217,49 @@ var DeviceTypesMapinfoblox = map[string]*DeviceData{
             { Name: "MGMT Port", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "TE-1606": {
+        Manufacturer: "Infoblox",
+        Model: "TE-1606",
+        Slug: "infoblox-te-1606",
+        UHeight: 1,
+        PartNumber: "TE-1606",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console Port", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "HA Port", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO/IPMI Port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1 Port", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2 Port", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT Port", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "TE-2220": {
         Manufacturer: "Infoblox",
         Model: "TE-2220",
