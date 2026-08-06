@@ -2,6 +2,52 @@
 package devices
 
 var DeviceTypesMapyeastar = map[string]*DeviceData{
+    "P550": {
+        Manufacturer: "Yeastar",
+        Model: "P550",
+        Slug: "yeastar-p550",
+        UHeight: 1,
+        PartNumber: "YST-P550",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 50, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "TE200": {
         Manufacturer: "Yeastar",
         Model: "TE200",

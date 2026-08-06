@@ -2,18 +2,18 @@
 package devices
 
 var DeviceTypesMapallnet = map[string]*DeviceData{
-    "ALL95100": {
-        Manufacturer: "ALLNET",
-        Model: "ALL95100",
-        Slug: "allnet-all95100",
-        UHeight: 1,
-        PartNumber: "",
+    "ALL2288": {
+        Manufacturer: "Allnet",
+        Model: "ALL2288",
+        Slug: "allnet-all2288",
+        UHeight: 0,
+        PartNumber: "ALL2288",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 1.1,
+        Weight: 180,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -21,7 +21,6 @@ var DeviceTypesMapallnet = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 90, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -36,64 +35,7 @@ var DeviceTypesMapallnet = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth4", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth5", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth6", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth7", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth8", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "ALL95112": {
-        Manufacturer: "ALLNET",
-        Model: "ALL95112",
-        Slug: "allnet-all95112",
-        UHeight: 1,
-        PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 2.3,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 90, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth4", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth5", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth6", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth7", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth8", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth9", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth10", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth11", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth12", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth13", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "eth14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
 }

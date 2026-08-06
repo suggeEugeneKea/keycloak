@@ -13,6 +13,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "AOOSTAR": DeviceTypesMapaoostar,
     "APC": DeviceTypesMapapc,
     "ARRIS": DeviceTypesMaparris,
+    "ASRockRack": DeviceTypesMapasrockrack,
     "ASUS": DeviceTypesMapasus,
     "AVM": DeviceTypesMapavm,
     "AXIS": DeviceTypesMapaxis,

@@ -2,6 +2,47 @@
 package devices
 
 var DeviceTypesMapruijie = map[string]*DeviceData{
+    "RG-ES205GC": {
+        Manufacturer: "Ruijie",
+        Model: "RG-ES205GC",
+        Slug: "ruijie-rg-es205gc",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "Port 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "Port 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "Port 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "Port 4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "Port 5", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RG-NBS3100-24GT4SFP-P": {
         Manufacturer: "Ruijie",
         Model: "RG-NBS3100-24GT4SFP-P",
