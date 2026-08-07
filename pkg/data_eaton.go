@@ -651,6 +651,66 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "Ethernet", Label: "SNMP and HTTP access", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "EBAB05": {
+        Manufacturer: "Eaton",
+        Model: "EBAB05",
+        Slug: "eaton-ebab05",
+        UHeight: 0,
+        PartNumber: "EBAB05",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60309-p-n-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "A1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A7", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A12", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B7", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B12", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "EMA107-10": {
         Manufacturer: "Eaton",
         Model: "EMA107-10",
@@ -667,7 +727,6 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Daisy Chain", Type: "rj-45", Label: "", Poe: false },
             { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
@@ -713,6 +772,8 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
         },
     },
     "EMAB33": {
@@ -795,7 +856,6 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Daisy Chain", Type: "rj-45", Label: "", Poe: false },
             { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
@@ -825,6 +885,8 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
         },
     },
     "EMAT09-10": {
@@ -843,7 +905,6 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Daisy Chain", Type: "rj-45", Label: "", Poe: false },
             { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
@@ -873,6 +934,91 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
+        },
+    },
+    "EMIB08": {
+        Manufacturer: "Eaton",
+        Model: "EMIB08",
+        Slug: "eaton-emib08",
+        UHeight: 0,
+        PartNumber: "EMIB08",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial or EMP", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60309-p-n-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "A1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A7", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A12", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A13", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A14", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A15", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A16", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A17", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A18", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A19", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A20", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "A21", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B7", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B12", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B13", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B14", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B15", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B16", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B17", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B18", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B19", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B20", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B21", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
         },
     },
     "ESWB05": {
@@ -891,7 +1037,6 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial or EMP", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Daisy Chain", Type: "rj-45", Label: "", Poe: false },
             { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
@@ -937,6 +1082,8 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
         },
     },
     "ESWB22": {
@@ -955,7 +1102,6 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Serial or EMP", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Daisy Chain", Type: "rj-45", Label: "", Poe: false },
             { Name: "USB management", Type: "usb-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
@@ -1001,6 +1147,57 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Daisy Chain", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Bridge 0", Label: "", Type: "bridge", MgmtOnly: true },
+        },
+    },
+    "FLEXPDU 12 IEC": {
+        Manufacturer: "Eaton",
+        Model: "FLEXPDU 12 IEC",
+        Slug: "eaton-eflx12i",
+        UHeight: 1,
+        PartNumber: "EFLX12I",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power In", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "P1", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P2", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P3", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P4", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P5", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P6", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P7", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P8", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P9", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P10", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P11", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P12", Type: "iec-60320-c13", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Out", Type: "iec-60320-c19", Label: "", PowerPort: "Power In", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "PDUMH30HVNET": {
@@ -1096,6 +1293,50 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "J4-2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "J4-3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "J4-4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Pulsar STS 16": {
+        Manufacturer: "Eaton",
+        Model: "Pulsar STS 16",
+        Slug: "eaton-sts16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Port 2", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "P1", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P3", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P4", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P5", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P6", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "P7", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },
@@ -1554,6 +1795,96 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "32", Type: "rj-45", Label: "" },
             { Name: "33", Type: "usb-a", Label: "" },
             { Name: "34", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "1", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 20 },
+            { Name: "2", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 20 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0_wan", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "eth1_lan", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "Tripp Lite B096-048": {
+        Manufacturer: "Eaton",
+        Model: "Tripp Lite B096-048",
+        Slug: "eaton-tripp-lite-b096-048",
+        UHeight: 1,
+        PartNumber: "037332181183",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "1", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "1", Type: "rj-45", Label: "" },
+            { Name: "2", Type: "rj-45", Label: "" },
+            { Name: "3", Type: "rj-45", Label: "" },
+            { Name: "4", Type: "rj-45", Label: "" },
+            { Name: "5", Type: "rj-45", Label: "" },
+            { Name: "6", Type: "rj-45", Label: "" },
+            { Name: "7", Type: "rj-45", Label: "" },
+            { Name: "8", Type: "rj-45", Label: "" },
+            { Name: "9", Type: "rj-45", Label: "" },
+            { Name: "10", Type: "rj-45", Label: "" },
+            { Name: "11", Type: "rj-45", Label: "" },
+            { Name: "12", Type: "rj-45", Label: "" },
+            { Name: "13", Type: "rj-45", Label: "" },
+            { Name: "14", Type: "rj-45", Label: "" },
+            { Name: "15", Type: "rj-45", Label: "" },
+            { Name: "16", Type: "rj-45", Label: "" },
+            { Name: "17", Type: "rj-45", Label: "" },
+            { Name: "18", Type: "rj-45", Label: "" },
+            { Name: "19", Type: "rj-45", Label: "" },
+            { Name: "20", Type: "rj-45", Label: "" },
+            { Name: "21", Type: "rj-45", Label: "" },
+            { Name: "22", Type: "rj-45", Label: "" },
+            { Name: "23", Type: "rj-45", Label: "" },
+            { Name: "24", Type: "rj-45", Label: "" },
+            { Name: "25", Type: "rj-45", Label: "" },
+            { Name: "26", Type: "rj-45", Label: "" },
+            { Name: "27", Type: "rj-45", Label: "" },
+            { Name: "28", Type: "rj-45", Label: "" },
+            { Name: "29", Type: "rj-45", Label: "" },
+            { Name: "30", Type: "rj-45", Label: "" },
+            { Name: "31", Type: "rj-45", Label: "" },
+            { Name: "32", Type: "rj-45", Label: "" },
+            { Name: "33", Type: "rj-45", Label: "" },
+            { Name: "34", Type: "rj-45", Label: "" },
+            { Name: "35", Type: "rj-45", Label: "" },
+            { Name: "36", Type: "rj-45", Label: "" },
+            { Name: "37", Type: "rj-45", Label: "" },
+            { Name: "38", Type: "rj-45", Label: "" },
+            { Name: "39", Type: "rj-45", Label: "" },
+            { Name: "40", Type: "rj-45", Label: "" },
+            { Name: "41", Type: "rj-45", Label: "" },
+            { Name: "42", Type: "rj-45", Label: "" },
+            { Name: "43", Type: "rj-45", Label: "" },
+            { Name: "44", Type: "rj-45", Label: "" },
+            { Name: "45", Type: "rj-45", Label: "" },
+            { Name: "46", Type: "rj-45", Label: "" },
+            { Name: "47", Type: "rj-45", Label: "" },
+            { Name: "48", Type: "rj-45", Label: "" },
+            { Name: "49", Type: "usb-a", Label: "" },
+            { Name: "50", Type: "usb-a", Label: "" },
         },
         PowerPorts: []PowerPort{
             { Name: "1", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 20 },
