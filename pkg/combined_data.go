@@ -287,6 +287,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Unipi Technology": DeviceTypesMapunipi_technology,
     "Uptime Industries": DeviceTypesMapuptime_industries,
     "V-Solution": DeviceTypesMapv_solution,
+    "VAST Data": DeviceTypesMapvast_data,
     "Vertiv": DeviceTypesMapvertiv,
     "VideoXLink": DeviceTypesMapvideoxlink,
     "W-T": DeviceTypesMapw_t,

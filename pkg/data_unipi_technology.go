@@ -45,4 +45,47 @@ var DeviceTypesMapunipi_technology = map[string]*DeviceData{
             { Name: "ETH", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Neuron S103 (RPi4)": {
+        Manufacturer: "Unipi technology",
+        Model: "Neuron S103 (RPi4)",
+        Slug: "unipi-technology-neuron-s103-rpi4",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "1-Wire", Type: "other", Label: "", Poe: false },
+            { Name: "RS485", Type: "other", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB4", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }
