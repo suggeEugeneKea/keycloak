@@ -6698,6 +6698,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "SRTL3KRM1UINC": {
+        Manufacturer: "APC",
+        Model: "SRTL3KRM1UINC",
+        Slug: "apc-srtl3krm1uinc",
+        UHeight: 1,
+        PartNumber: "SRTL3KRM1UINC",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c20", MaximumDraw: 2200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "C13-1", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-2", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-3", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-1", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-2", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "SRV72RLBP-9A": {
         Manufacturer: "APC",
         Model: "SRV72RLBP-9A",
@@ -7326,6 +7369,54 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "Smart-UPS SRT 3000VA RM": {
+        Manufacturer: "APC",
+        Model: "Smart-UPS SRT 3000VA RM",
+        Slug: "apc-smart-ups-srt-3000va-rm",
+        UHeight: 2,
+        PartNumber: "SRT3000RMXLI",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Inlet", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "16A Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "16A Outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Inlet", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "Smart-UPS SRT 5000VA 200V": {
