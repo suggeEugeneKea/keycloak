@@ -22724,7 +22724,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Model: "ProCurve 2510G-48",
         Slug: "hpe-procurve-2510g-48",
         UHeight: 1,
-        PartNumber: "J9020A",
+        PartNumber: "J9280A",
         IsFullDepth: false,
         Airflow: "side-to-rear",
         FrontImage: false,

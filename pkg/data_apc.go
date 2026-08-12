@@ -6655,6 +6655,43 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SRT96RMBP": {
+        Manufacturer: "APC",
+        Model: "SRT96RMBP",
+        Slug: "apc-srt96rmbp",
+        UHeight: 2,
+        PartNumber: "SRT96RMBP",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 40.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "XLBP Source", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "XLBP Output", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SRTL2K2RM1UINC": {
         Manufacturer: "APC",
         Model: "SRTL2K2RM1UINC",
@@ -6739,6 +6776,43 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "SRTL50RMBP1U-LI": {
+        Manufacturer: "APC",
+        Model: "SRTL50RMBP1U-LI",
+        Slug: "apc-srtl50rmbp1u-li",
+        UHeight: 1,
+        PartNumber: "SRTL50RMBP1U-LI",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "XLBP Source", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "XLBP Output", Type: "dc-terminal", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SRV72RLBP-9A": {

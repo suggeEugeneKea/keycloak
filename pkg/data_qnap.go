@@ -598,6 +598,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-264": {
+        Manufacturer: "QNAP",
+        Model: "TS-264",
+        Slug: "qnap-ts-264",
+        UHeight: 0,
+        PartNumber: "TS-264",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "TS-412": {
         Manufacturer: "QNAP",
         Model: "TS-412",
@@ -1149,6 +1187,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth2", Label: "3", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth3", Label: "4", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth4", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TS-464": {
+        Manufacturer: "QNAP",
+        Model: "TS-464",
+        Slug: "qnap-ts-464",
+        UHeight: 0,
+        PartNumber: "TS-464",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
     "TS-469 Pro": {
