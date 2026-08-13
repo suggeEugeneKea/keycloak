@@ -1424,6 +1424,44 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth3", Label: "LAN4", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-664": {
+        Manufacturer: "QNAP",
+        Model: "TS-664",
+        Slug: "qnap-ts-664",
+        UHeight: 0,
+        PartNumber: "TS-664",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.48,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "TS-832PXU-RP": {
         Manufacturer: "QNAP",
         Model: "TS-832PXU-RP",

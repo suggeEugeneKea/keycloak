@@ -4353,6 +4353,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Wlan 4", Label: "", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
+    "U7 Long-Range": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Long-Range",
+        Slug: "ubiquiti-u7-long-range",
+        UHeight: 0,
+        PartNumber: "U7-LR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 448,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "U7 Outdoor": {
         Manufacturer: "Ubiquiti",
         Model: "U7 Outdoor",

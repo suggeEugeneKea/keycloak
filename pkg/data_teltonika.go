@@ -210,4 +210,44 @@ var DeviceTypesMapteltonika = map[string]*DeviceData{
             { Name: "mob1s1a1", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
+    "TRB501": {
+        Manufacturer: "Teltonika",
+        Model: "TRB501",
+        Slug: "teltonika-trb501",
+        UHeight: 0,
+        PartNumber: "TRB501100000",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 241,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb0", Type: "usb-micro-b", Label: "Micro-USB Config Port", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "4-pin DC (9-30 VDC)", Type: "molex-micro-fit-2x2", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "mob1s1a1", Label: "Mobile (5G) - SIM", Type: "5g", MgmtOnly: false },
+            { Name: "mob1s2a1e1", Label: "Mobile (5G) - eSIM", Type: "5g", MgmtOnly: false },
+        },
+    },
 }

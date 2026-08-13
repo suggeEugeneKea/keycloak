@@ -12991,6 +12991,42 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Aruba AP27": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP27",
+        Slug: "hpe-aruba-ap27",
+        UHeight: 0,
+        PartNumber: "JW055A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Aruba EC-10104": {
         Manufacturer: "HPE",
         Model: "Aruba EC-10104",
