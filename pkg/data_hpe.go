@@ -12991,6 +12991,43 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Aruba AP25": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP25",
+        Slug: "hpe-aruba-ap25",
+        UHeight: 0,
+        PartNumber: "R9B28A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 775,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "Aruba AP27": {
         Manufacturer: "HPE",
         Model: "Aruba AP27",
@@ -26566,6 +26603,189 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "ProLiant Compute DL320 Gen12": {
+        Manufacturer: "HPE",
+        Model: "ProLiant Compute DL320 Gen12",
+        Slug: "hpe-proliant-compute-dl320-gen12",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "OCPA", Label: "", Position: "OCPA" },
+            { Name: "OCPB", Label: "", Position: "OCPB" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant Compute DL360 Gen12": {
+        Manufacturer: "HPE",
+        Model: "ProLiant Compute DL360 Gen12",
+        Slug: "hpe-proliant-compute-dl360-gen12",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "OCPA", Label: "", Position: "OCPA" },
+            { Name: "OCPB", Label: "", Position: "OCPB" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant Compute DL380 Gen12": {
+        Manufacturer: "HPE",
+        Model: "ProLiant Compute DL380 Gen12",
+        Slug: "hpe-proliant-compute-dl380-gen12",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "", Position: "PCIe8" },
+            { Name: "OCPA", Label: "", Position: "OCPA" },
+            { Name: "OCPB", Label: "", Position: "OCPB" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant Compute ML350 Gen12": {
+        Manufacturer: "HPE",
+        Model: "ProLiant Compute ML350 Gen12",
+        Slug: "hpe-proliant-compute-ml350-gen12",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 23.96,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "", Position: "PCIe9" },
+            { Name: "PCIe10", Label: "", Position: "PCIe10" },
+            { Name: "OCPA", Label: "", Position: "OCPA" },
+            { Name: "OCPB", Label: "", Position: "OCPB" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "ProLiant DL180 Gen6": {

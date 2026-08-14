@@ -513,6 +513,79 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "EAP650": {
+        Manufacturer: "TP-Link",
+        Model: "EAP650",
+        Slug: "tp-link-eap650",
+        UHeight: 0,
+        PartNumber: "EAP650",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PoE", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP650-Outdoor": {
+        Manufacturer: "TP-Link",
+        Model: "EAP650-Outdoor",
+        Slug: "tp-link-eap650-outdoor",
+        UHeight: 0,
+        PartNumber: "EAP650-Outdoor",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "EAP653": {
         Manufacturer: "TP-Link",
         Model: "EAP653",
@@ -548,6 +621,82 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP655-Wall": {
+        Manufacturer: "TP-Link",
+        Model: "EAP655-Wall",
+        Slug: "tp-link-eap655-wall",
+        UHeight: 0,
+        PartNumber: "EAP655-Wall",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Uplink", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP670": {
+        Manufacturer: "TP-Link",
+        Model: "EAP670",
+        Slug: "tp-link-eap670",
+        UHeight: 0,
+        PartNumber: "EAP670",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PoE", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
     "EAP683-LR": {
@@ -662,6 +811,83 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "LAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "EAP725-Wall": {
+        Manufacturer: "TP-Link",
+        Model: "EAP725-Wall",
+        Slug: "tp-link-eap725-wall",
+        UHeight: 0,
+        PartNumber: "EAP725-Wall",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PoE", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Uplink", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Downlink 2.5G", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Downlink 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP772": {
+        Manufacturer: "TP-Link",
+        Model: "EAP772",
+        Slug: "tp-link-eap772",
+        UHeight: 0,
+        PartNumber: "EAP772",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PoE", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "EAP773": {
         Manufacturer: "TP-Link",
         Model: "EAP773",
@@ -697,6 +923,84 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "LAN", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "EAP775-Wall": {
+        Manufacturer: "TP-Link",
+        Model: "EAP775-Wall",
+        Slug: "tp-link-eap775-wall",
+        UHeight: 0,
+        PartNumber: "EAP775-Wall",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Uplink", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Downlink 2.5G", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Downlink 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Downlink 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "EAP783": {
+        Manufacturer: "TP-Link",
+        Model: "EAP783",
+        Slug: "tp-link-eap783",
+        UHeight: 0,
+        PartNumber: "EAP783",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PoE", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "EAP787": {

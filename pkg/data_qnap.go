@@ -794,6 +794,45 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "sfpp0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TS-431X3": {
+        Manufacturer: "QNAP",
+        Model: "TS-431X3",
+        Slug: "qnap-ts-431x3",
+        UHeight: 0,
+        PartNumber: "TS-431X3",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.03,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 10 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "sfpp0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TS-431XeU": {
         Manufacturer: "QNAP",
         Model: "TS-431XeU",
@@ -1581,6 +1620,48 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-863U-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-863U-RP",
+        Slug: "qnap-ts-863u-rp",
+        UHeight: 2,
+        PartNumber: "TS-863U-RP-4G",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.02,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "Power Supply Slot 1", Position: "1" },
+            { Name: "PSU2", Label: "Power Supply Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43;1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TS-873": {
         Manufacturer: "QNAP",
         Model: "TS-873",
@@ -1958,6 +2039,47 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "LAN1", Label: "LAN1", Type: "2.5gbase-t", MgmtOnly: false },
             { Name: "LAN2", Label: "LAN2", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
+    "TVS-871U-RP": {
+        Manufacturer: "QNAP",
+        Model: "TVS-871U-RP",
+        Slug: "qnap-tvs-871u-rp",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "psu1", Label: "PSU 1", Position: "1" },
+            { Name: "psu2", Label: "PSU 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "TVS-EC1580MU-SAS-RP": {

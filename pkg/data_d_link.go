@@ -311,6 +311,66 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "DES-1024A": {
+        Manufacturer: "D-Link",
+        Model: "DES-1024A",
+        Slug: "d-link-des-1024a",
+        UHeight: 1,
+        PartNumber: "DES-1024A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.48,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU_5V1A", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1210-08P": {
         Manufacturer: "D-Link",
         Model: "DES-1210-08P",
@@ -488,6 +548,73 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "slot0/28", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "slot0/25F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "slot0/26F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DES-3028": {
+        Manufacturer: "D-Link",
+        Model: "DES-3028",
+        Slug: "d-link-des-3028",
+        UHeight: 1,
+        PartNumber: "DES-3028",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "25F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "26F", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "DES-3200-10": {
@@ -1907,6 +2034,55 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "Port 10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DGS-1210-12TS-ME": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1210-12TS-ME",
+        Slug: "d-link-dgs-1210-12ts-me",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DGS-1210-16": {

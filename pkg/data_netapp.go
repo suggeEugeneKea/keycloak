@@ -321,6 +321,45 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "DS4246": {
+        Manufacturer: "NetApp",
+        Model: "DS4246",
+        Slug: "netapp-ds4246",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 50,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOM A", Label: "", Position: "IOM A" },
+            { Name: "IOM B", Label: "", Position: "IOM B" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "E2824": {
         Manufacturer: "NetApp",
         Model: "E2824",

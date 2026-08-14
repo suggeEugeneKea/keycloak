@@ -37989,6 +37989,61 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Management 1/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: true },
         },
     },
+    "Firepower 2110": {
+        Manufacturer: "Cisco",
+        Model: "Firepower 2110",
+        Slug: "cisco-firepower-2110",
+        UHeight: 1,
+        PartNumber: "FPR2110-NGFW-K9",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/13", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/14", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/15", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/16", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "IE-2000-16PTC-G-E": {
         Manufacturer: "Cisco",
         Model: "IE-2000-16PTC-G-E",

@@ -5511,6 +5511,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "port.11", Label: "Port 11 - SFP&#43; LAN", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Dream Router 7": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Dream Router 7",
+        Slug: "ubiquiti-unifi-dream-router-7",
+        UHeight: 0,
+        PartNumber: "UDR7",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Supply", Label: "", Type: "iec-60320-c6", MaximumDraw: 26, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port.1", Label: "Port 1 - LAN (PoE)", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "port.2", Label: "Port 2 - LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "port.3", Label: "Port 3 - LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "port.4", Label: "Port 4 - LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "port.5", Label: "Port 5 - WAN", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Express (UX)": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Express (UX)",
