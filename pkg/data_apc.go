@@ -1435,6 +1435,66 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "AP7553": {
+        Manufacturer: "APC",
+        Model: "AP7553",
+        Slug: "apc-ap7553",
+        UHeight: 0,
+        PartNumber: "AP7553",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.57,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60309-2p-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 8", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 13", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 14", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 15", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 16", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 17", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 18", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 19", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 20", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 21", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 22", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 23", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 24", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AP7721": {
         Manufacturer: "APC",
         Model: "AP7721",
@@ -4048,11 +4108,11 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "AP8959EU3",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.73,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

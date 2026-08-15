@@ -210,6 +210,249 @@ var DeviceTypesMapmoxa = map[string]*DeviceData{
             { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "NPort 5210A": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5210A",
+        Slug: "moxa-nport-5210a",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 340,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "de-9", Label: "Port 1" },
+            { Name: "P2", Type: "de-9", Label: "Port 2" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Vin", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 2 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5230A": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5230A",
+        Slug: "moxa-nport-5230a",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 340,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "other", Label: "Port 1" },
+            { Name: "P2", Type: "other", Label: "Port 2" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Vin", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 2 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5250A": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5250A",
+        Slug: "moxa-nport-5250a",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 340,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "de-9", Label: "Port 1" },
+            { Name: "P2", Type: "de-9", Label: "Port 2" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Vin", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 2 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5410": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5410",
+        Slug: "moxa-nport-5410",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "de-9", Label: "Port 1" },
+            { Name: "P2", Type: "de-9", Label: "Port 2" },
+            { Name: "P3", Type: "de-9", Label: "Port 3" },
+            { Name: "P4", Type: "de-9", Label: "Port 4" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Screw power jack", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 5 },
+            { Name: "Terminal Block", Label: "12-48 VDC", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 5 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5430": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5430",
+        Slug: "moxa-nport-5430",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "other", Label: "Port 1" },
+            { Name: "P2", Type: "other", Label: "Port 2" },
+            { Name: "P3", Type: "other", Label: "Port 3" },
+            { Name: "P4", Type: "other", Label: "Port 4" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Screw power jack", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 4 },
+            { Name: "Terminal Block", Label: "12-48 VDC", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 4 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5450": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5450",
+        Slug: "moxa-nport-5450",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "de-9", Label: "Port 1" },
+            { Name: "P2", Type: "de-9", Label: "Port 2" },
+            { Name: "P3", Type: "de-9", Label: "Port 3" },
+            { Name: "P4", Type: "de-9", Label: "Port 4" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Screw power jack", Label: "12-48 VDC", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 5 },
+            { Name: "Terminal Block", Label: "12-48 VDC", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 5 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "LAN", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "NPort 5610-16": {
         Manufacturer: "Moxa",
         Model: "NPort 5610-16",
@@ -227,25 +470,266 @@ var DeviceTypesMapmoxa = map[string]*DeviceData{
         ConsolePorts: []ConsolePort{
         },
         ConsoleServerPorts: []ConsoleServerPort{
-            { Name: "Serial 1", Type: "rj-45", Label: "" },
-            { Name: "Serial 2", Type: "rj-45", Label: "" },
-            { Name: "Serial 3", Type: "rj-45", Label: "" },
-            { Name: "Serial 4", Type: "rj-45", Label: "" },
-            { Name: "Serial 5", Type: "rj-45", Label: "" },
-            { Name: "Serial 6", Type: "rj-45", Label: "" },
-            { Name: "Serial 7", Type: "rj-45", Label: "" },
-            { Name: "Serial 8", Type: "rj-45", Label: "" },
-            { Name: "Serial 9", Type: "rj-45", Label: "" },
-            { Name: "Serial 10", Type: "rj-45", Label: "" },
-            { Name: "Serial 11", Type: "rj-45", Label: "" },
-            { Name: "Serial 12", Type: "rj-45", Label: "" },
-            { Name: "Serial 13", Type: "rj-45", Label: "" },
-            { Name: "Serial 14", Type: "rj-45", Label: "" },
-            { Name: "Serial 15", Type: "rj-45", Label: "" },
-            { Name: "Serial 16", Type: "rj-45", Label: "" },
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+            { Name: "P9", Type: "rj-45", Label: "Port 9" },
+            { Name: "P10", Type: "rj-45", Label: "Port 10" },
+            { Name: "P11", Type: "rj-45", Label: "Port 11" },
+            { Name: "P12", Type: "rj-45", Label: "Port 12" },
+            { Name: "P13", Type: "rj-45", Label: "Port 13" },
+            { Name: "P14", Type: "rj-45", Label: "Port 14" },
+            { Name: "P15", Type: "rj-45", Label: "Port 15" },
+            { Name: "P16", Type: "rj-45", Label: "Port 16" },
         },
         PowerPorts: []PowerPort{
-            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5610-8": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5610-8",
+        Slug: "moxa-nport-5610-8",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2290,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5630-16": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5630-16",
+        Slug: "moxa-nport-5630-16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2560,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+            { Name: "P9", Type: "rj-45", Label: "Port 9" },
+            { Name: "P10", Type: "rj-45", Label: "Port 10" },
+            { Name: "P11", Type: "rj-45", Label: "Port 11" },
+            { Name: "P12", Type: "rj-45", Label: "Port 12" },
+            { Name: "P13", Type: "rj-45", Label: "Port 13" },
+            { Name: "P14", Type: "rj-45", Label: "Port 14" },
+            { Name: "P15", Type: "rj-45", Label: "Port 15" },
+            { Name: "P16", Type: "rj-45", Label: "Port 16" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5630-8": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5630-8",
+        Slug: "moxa-nport-5630-8",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2510,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5650-16": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5650-16",
+        Slug: "moxa-nport-5650-16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2510,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+            { Name: "P9", Type: "rj-45", Label: "Port 9" },
+            { Name: "P10", Type: "rj-45", Label: "Port 10" },
+            { Name: "P11", Type: "rj-45", Label: "Port 11" },
+            { Name: "P12", Type: "rj-45", Label: "Port 12" },
+            { Name: "P13", Type: "rj-45", Label: "Port 13" },
+            { Name: "P14", Type: "rj-45", Label: "Port 14" },
+            { Name: "P15", Type: "rj-45", Label: "Port 15" },
+            { Name: "P16", Type: "rj-45", Label: "Port 16" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "NPort 5650-8": {
+        Manufacturer: "Moxa",
+        Model: "NPort 5650-8",
+        Slug: "moxa-nport-5650-8",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2310,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "P1", Type: "rj-45", Label: "Port 1" },
+            { Name: "P2", Type: "rj-45", Label: "Port 2" },
+            { Name: "P3", Type: "rj-45", Label: "Port 3" },
+            { Name: "P4", Type: "rj-45", Label: "Port 4" },
+            { Name: "P5", Type: "rj-45", Label: "Port 5" },
+            { Name: "P6", Type: "rj-45", Label: "Port 6" },
+            { Name: "P7", Type: "rj-45", Label: "Port 7" },
+            { Name: "P8", Type: "rj-45", Label: "Port 8" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Power Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 16 },
         },
         PowerOutlets: []PowerOutlet{
         },

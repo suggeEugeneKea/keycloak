@@ -1469,6 +1469,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Ethernet 10", Label: "SFP 2", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "SG2210XMP-M2": {
+        Manufacturer: "TP-Link",
+        Model: "SG2210XMP-M2",
+        Slug: "tp-link-sg2210xmp-m2",
+        UHeight: 1,
+        PartNumber: "SG2210XMP-M2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "53.5 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "two-gigabitEthernet 1/0/1", Label: "Tw1/0/1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/2", Label: "Tw1/0/2", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/3", Label: "Tw1/0/3", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/4", Label: "Tw1/0/4", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/5", Label: "Tw1/0/5", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/6", Label: "Tw1/0/6", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/7", Label: "Tw1/0/7", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "two-gigabitEthernet 1/0/8", Label: "Tw1/0/8", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/9", Label: "Te1/0/9", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/10", Label: "Te1/0/10", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "SG2218P": {
         Manufacturer: "TP-Link",
         Model: "SG2218P",
