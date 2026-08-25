@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapcommscope = map[string]*DeviceData{
+    "360G2-1U-MOD-SD": {
+        Manufacturer: "Commscope",
+        Model: "360G2-1U-MOD-SD",
+        Slug: "commscope-360g2-1u-mod-sd",
+        UHeight: 1,
+        PartNumber: "760193771",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.44,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "CPP-UDDM-M-1U-24": {
         Manufacturer: "Commscope",
         Model: "CPP-UDDM-M-1U-24",
