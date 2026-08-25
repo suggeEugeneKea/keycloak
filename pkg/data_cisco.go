@@ -29194,6 +29194,56 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Catalyst C9200CX-8P-2X2G": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst C9200CX-8P-2X2G",
+        Slug: "cisco-c9200cx-8p-2x2g",
+        UHeight: 1,
+        PartNumber: "C9200CX-8P-2X2G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.99,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 315, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/1/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "Catalyst Digital Building 5-slot Rack Mount": {
         Manufacturer: "Cisco",
         Model: "Catalyst Digital Building 5-slot Rack Mount",

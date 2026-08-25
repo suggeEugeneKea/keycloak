@@ -34,6 +34,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Calix": DeviceTypesMapcalix,
     "Canon": DeviceTypesMapcanon,
     "Certa": DeviceTypesMapcerta,
+    "Chatsworth-Products": DeviceTypesMapchatsworth_products,
     "Check Point": DeviceTypesMapcheck_point,
     "Ciena": DeviceTypesMapciena,
     "Cisco": DeviceTypesMapcisco,

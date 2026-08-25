@@ -2,6 +2,56 @@
 package devices
 
 var DeviceTypesMapbizone = map[string]*DeviceData{
+    "sdwan-ce1000n-8t2n-4xs": {
+        Manufacturer: "BiZone",
+        Model: "sdwan-ce1000n-8t2n-4xs",
+        Slug: "bizone-sdwan-ce1000n-8t2n-4xs",
+        UHeight: 1,
+        PartNumber: "sdwan-ce1000n-8t2n-4xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 120 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "sdwan-ce300n-4t2s2xs": {
         Manufacturer: "BiZone",
         Model: "sdwan-ce300n-4t2s2xs",
