@@ -484,6 +484,45 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ThinkSystem DE4000H": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DE4000H",
+        Slug: "lenovo-thinksystem-de4000h",
+        UHeight: 2,
+        PartNumber: "7Y74",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Controller 1", Label: "", Position: "1" },
+            { Name: "Controller 2", Label: "", Position: "2" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ThinkSystem DG5200": {
         Manufacturer: "Lenovo",
         Model: "ThinkSystem DG5200",

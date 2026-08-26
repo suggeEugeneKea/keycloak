@@ -26465,18 +26465,18 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "GigabitEthernet 1/0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
-    "ProLiant BL460c Gen10": {
+    "ProLiant BL460c G6": {
         Manufacturer: "HPE",
-        Model: "ProLiant BL460c Gen10",
-        Slug: "hpe-proliant-bl460c-gen10",
+        Model: "ProLiant BL460c G6",
+        Slug: "hpe-proliant-bl460c-g6",
         UHeight: 0,
-        PartNumber: "863442-B21",
+        PartNumber: "507864-B21",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 8,
+        Weight: 7.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -26492,6 +26492,89 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM 1", Label: "", Type: "10gbase-kr", MgmtOnly: false },
+            { Name: "LOM 2", Label: "", Type: "10gbase-kr", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "ProLiant BL460c G7": {
+        Manufacturer: "HPE",
+        Model: "ProLiant BL460c G7",
+        Slug: "hpe-proliant-bl460c-g7",
+        UHeight: 0,
+        PartNumber: "603718-B21",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 7.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM 1", Label: "", Type: "10gbase-kr", MgmtOnly: false },
+            { Name: "LOM 2", Label: "", Type: "10gbase-kr", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "ProLiant BL460c Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant BL460c Gen10",
+        Slug: "hpe-proliant-bl460c-gen10",
+        UHeight: 0,
+        PartNumber: "863442-B21",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 6.33,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "FlexibleLOM", Label: "", Position: "FLB" },
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26507,11 +26590,11 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "666158-B21",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 8,
+        Weight: 6.33,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -26527,6 +26610,9 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "FlexibleLOM", Label: "", Position: "FLB" },
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26542,11 +26628,11 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "813197-B21",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 8,
+        Weight: 6.33,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -26562,6 +26648,9 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "FlexibleLOM", Label: "", Position: "FLB" },
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

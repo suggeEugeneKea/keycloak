@@ -4316,6 +4316,51 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "SuperServer SYS-112B-FWT": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer SYS-112B-FWT",
+        Slug: "supermicro-sys-112b-fwt",
+        UHeight: 1,
+        PartNumber: "SYS-112B-FWT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 6.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "M.2", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "SuperServer SYS-221H-TNR": {
         Manufacturer: "Supermicro",
         Model: "SuperServer SYS-221H-TNR",

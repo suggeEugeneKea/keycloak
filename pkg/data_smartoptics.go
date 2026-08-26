@@ -30,10 +30,11 @@ var DeviceTypesMapsmartoptics = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU 1", Label: "", Position: "0" },
-            { Name: "PSU 2", Label: "", Position: "1" },
-            { Name: "DCP 1", Label: "", Position: "0" },
-            { Name: "DCP 2", Label: "", Position: "1" },
+            { Name: "psu-1/1", Label: "", Position: "1" },
+            { Name: "psu-1/2", Label: "", Position: "2" },
+            { Name: "fan-1/1", Label: "", Position: "1" },
+            { Name: "slot-1/1", Label: "", Position: "1" },
+            { Name: "slot-1/2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -41,9 +42,10 @@ var DeviceTypesMapsmartoptics = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0 / local", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "if-1/eth1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "if-1/eth2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "if-1/eth3", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "if-1/eth4", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "DCP-M40-PAM4-ER": {
