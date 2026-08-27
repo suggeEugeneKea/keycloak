@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMaptenda = map[string]*DeviceData{
+    "SM108": {
+        Manufacturer: "Tenda",
+        Model: "SM108",
+        Slug: "tenda-sm108",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V1A", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "i23 AC1200": {
         Manufacturer: "Tenda",
         Model: "i23 AC1200",

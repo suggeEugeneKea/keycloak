@@ -76,6 +76,43 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "EliteDesk 800 G6 Mini": {
+        Manufacturer: "HP",
+        Model: "EliteDesk 800 G6 Mini",
+        Slug: "hp-elitedesk-800-g6-mini",
+        UHeight: 1,
+        PartNumber: "hp-elitedesk-800-g6-mini",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "EliteDesk 800 G9 Mini": {
         Manufacturer: "HP",
         Model: "EliteDesk 800 G9 Mini",

@@ -63385,6 +63385,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "WS-C2960L-8PS-LL": {
+        Manufacturer: "Cisco",
+        Model: "WS-C2960L-8PS-LL",
+        Slug: "cisco-ws-c2960l-8ps-ll",
+        UHeight: 1,
+        PartNumber: "WS-C2960L-8PS-LL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb0", Type: "usb-mini-b", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "WS-C2960X-24TS-LL": {
         Manufacturer: "Cisco",
         Model: "WS-C2960X-24TS-LL",
