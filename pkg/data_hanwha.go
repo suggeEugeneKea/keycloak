@@ -302,6 +302,46 @@ var DeviceTypesMaphanwha = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "PNM-9085RQZ1": {
+        Manufacturer: "Hanwha",
+        Model: "PNM-9085RQZ1",
+        Slug: "hanwha-pnm-9085rqz1",
+        UHeight: 0,
+        PartNumber: "PNM-9085RQZ1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD1", Label: "", Position: "microSD1" },
+            { Name: "microSD2", Label: "", Position: "microSD2" },
+            { Name: "microSD3", Label: "", Position: "microSD3" },
+            { Name: "microSD4", Label: "", Position: "microSD4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PNM-9322VQP": {
         Manufacturer: "Hanwha",
         Model: "PNM-9322VQP",
