@@ -42,6 +42,91 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "AFF A90 Chassis": {
+        Manufacturer: "NetApp",
+        Model: "AFF A90 Chassis",
+        Slug: "netapp-aff-a90-chassis",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 53.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "controller-a", Label: "" },
+            { Name: "controller-b", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AFF A90 Controller": {
+        Manufacturer: "NetApp",
+        Model: "AFF A90 Controller",
+        Slug: "netapp-aff-a90-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "PSU Slot 1", Position: "1" },
+            { Name: "PSU 2", Label: "PSU Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0M", Label: "wrench", Type: "1000base-t", MgmtOnly: true },
+            { Name: "bmc", Label: "", Type: "virtual", MgmtOnly: true },
+            { Name: "e1a", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "e1b", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "e7a", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "e7b", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "e6a", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+            { Name: "e6b", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+            { Name: "e11a", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+            { Name: "e11b", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+        },
+    },
     "AFF C30 Chassis": {
         Manufacturer: "NetApp",
         Model: "AFF C30 Chassis",

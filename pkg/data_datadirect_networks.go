@@ -82,4 +82,123 @@ var DeviceTypesMapdatadirect_networks = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SFA400X3 Controller": {
+        Manufacturer: "DataDirect Networks",
+        Model: "SFA400X3 Controller",
+        Slug: "datadirect-networks-sfa400x3-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "bmc", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "halink", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt0", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "mgmt1", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "mlxen0", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+            { Name: "mlxen1", Label: "", Type: "400gbase-x-qsfp112", MgmtOnly: false },
+        },
+    },
+    "SFA400X3E Enclosure": {
+        Manufacturer: "DataDirect Networks",
+        Model: "SFA400X3E Enclosure",
+        Slug: "datadirect-networks-sfa400x3e-enclosure",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "PSU Slot 1", Position: "1" },
+            { Name: "PSU 2", Label: "PSU Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "controller0", Label: "" },
+            { Name: "controller1", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "SFA400X3IE Enclosure": {
+        Manufacturer: "DataDirect Networks",
+        Model: "SFA400X3IE Enclosure",
+        Slug: "datadirect-networks-sfa400x3ie-enclosure",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "PSU Slot 1", Position: "1" },
+            { Name: "PSU 2", Label: "PSU Slot 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "controller0", Label: "" },
+            { Name: "controller1", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }
