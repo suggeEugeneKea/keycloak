@@ -20680,7 +20680,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SAS12g_Expansion", Label: "", Type: "other", MgmtOnly: false },
             { Name: "Net1", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
             { Name: "Net2", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
@@ -20763,7 +20763,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SAS12g_Expansion", Label: "", Type: "other", MgmtOnly: false },
             { Name: "Net1", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
             { Name: "Net2", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
