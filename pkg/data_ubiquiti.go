@@ -2693,7 +2693,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "PoE out", Label: "", Type: "8p8c", RearPort: "PoE in", RearPortPosition: 1 },
+            { Name: "PoE out", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "PoE in", Label: "PoE IN", Type: "8p8c", Positions: 1, Poe: false },
@@ -3943,7 +3943,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
+            { Name: "1", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "1", Label: "", Type: "8p8c", Positions: 1, Poe: false },

@@ -2,6 +2,98 @@
 package devices
 
 var DeviceTypesMapfibrolan = map[string]*DeviceData{
+    "uFalcon MX/A": {
+        Manufacturer: "FibroLAN",
+        Model: "uFalcon MX/A",
+        Slug: "fibrolan-ufalcon-mx-a",
+        UHeight: 1,
+        PartNumber: "7083",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console Port", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet 1/1", Label: "", Type: "2.5gbase-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/2", Label: "", Type: "2.5gbase-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/3", Label: "", Type: "2.5gbase-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/4", Label: "", Type: "2.5gbase-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "uFalcon S": {
+        Manufacturer: "FibroLAN",
+        Model: "uFalcon S",
+        Slug: "fibrolan-ufalcon-s",
+        UHeight: 1,
+        PartNumber: "7066",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console Port", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet 1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet 1/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "uFalcon SL": {
         Manufacturer: "FibroLAN",
         Model: "uFalcon SL",

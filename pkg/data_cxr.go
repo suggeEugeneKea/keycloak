@@ -46,7 +46,7 @@ var DeviceTypesMapcxr = map[string]*DeviceData{
         FrontPorts: []FrontPort{
         },
         RearPorts: []RearPort{
-            { Name: "LAN-FO", Label: "", Type: "sc-upc", Positions: 0, Poe: false },
+            { Name: "LAN-FO", Label: "", Type: "sc-upc", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -86,10 +86,10 @@ var DeviceTypesMapcxr = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "Phone", Label: "", Type: "8p8c", RearPort: "LAN", RearPortPosition: 0 },
+            { Name: "Phone", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
-            { Name: "LAN", Label: "", Type: "sc-upc", Positions: 0, Poe: false },
+            { Name: "LAN", Label: "", Type: "sc-upc", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },

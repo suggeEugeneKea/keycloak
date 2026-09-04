@@ -52,12 +52,12 @@ var DeviceTypesMapzpas = map[string]*DeviceData{
         FrontPorts: []FrontPort{
         },
         RearPorts: []RearPort{
-            { Name: "USB-A 1", Label: "", Type: "usb-a", Positions: 0, Poe: false },
-            { Name: "USB-A 2", Label: "", Type: "usb-a", Positions: 0, Poe: false },
-            { Name: "Power Share", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "EMD Sensor", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "PDU Cascading 1", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "PDU Cascading 2", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "USB-A 1", Label: "", Type: "usb-a", Positions: 1, Poe: false },
+            { Name: "USB-A 2", Label: "", Type: "usb-a", Positions: 1, Poe: false },
+            { Name: "Power Share", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "EMD Sensor", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "PDU Cascading 1", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "PDU Cascading 2", Label: "", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -120,12 +120,12 @@ var DeviceTypesMapzpas = map[string]*DeviceData{
         FrontPorts: []FrontPort{
         },
         RearPorts: []RearPort{
-            { Name: "USB-A 1", Label: "", Type: "usb-a", Positions: 0, Poe: false },
-            { Name: "USB-A 2", Label: "", Type: "usb-a", Positions: 0, Poe: false },
-            { Name: "Power Share", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "EMD Sensor", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "PDU Cascading 1", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "PDU Cascading 2", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "USB-A 1", Label: "", Type: "usb-a", Positions: 1, Poe: false },
+            { Name: "USB-A 2", Label: "", Type: "usb-a", Positions: 1, Poe: false },
+            { Name: "Power Share", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "EMD Sensor", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "PDU Cascading 1", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "PDU Cascading 2", Label: "", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },

@@ -25,8 +25,8 @@ var DeviceTypesMapnetlink = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1", Label: "1", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
-            { Name: "2", Label: "2", Type: "8p8c", RearPort: "2", RearPortPosition: 2 },
+            { Name: "1", Label: "1", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
+            { Name: "2", Label: "2", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "1", Label: "1", Type: "110-punch", Positions: 1, Poe: false },

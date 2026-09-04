@@ -29,7 +29,7 @@ var DeviceTypesMappowerman = map[string]*DeviceData{
             { Name: "Socket1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Socket2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Socket3", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "Hardwire", Type: "iec-60320-c13", Label: "", PowerPort: "hardwired", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Hardwire", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },

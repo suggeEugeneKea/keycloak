@@ -3222,6 +3222,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperServer 1029U-E1CRTP2": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 1029U-E1CRTP2",
+        Slug: "supermicro-sys-1029u-e1crtp2",
+        UHeight: 1,
+        PartNumber: "SYS-1029U-E1CRTP2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 1029U-TR4T": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1029U-TR4T",

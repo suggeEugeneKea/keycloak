@@ -25,10 +25,10 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
@@ -65,11 +65,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -106,11 +106,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -147,12 +147,12 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
@@ -189,10 +189,10 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
@@ -229,11 +229,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -270,11 +270,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -311,12 +311,12 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
@@ -353,10 +353,10 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
@@ -393,11 +393,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -434,11 +434,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -475,12 +475,12 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
@@ -517,12 +517,12 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
@@ -559,10 +559,10 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 4, Poe: false },
@@ -599,11 +599,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -640,11 +640,11 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 5, Poe: false },
@@ -681,12 +681,12 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "Cascading", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Cascading", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 6, Poe: false },
@@ -723,14 +723,14 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 8, Poe: false },
@@ -767,15 +767,15 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 9, Poe: false },
@@ -812,14 +812,14 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 8, Poe: false },
@@ -856,15 +856,15 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
-            { Name: "Extension", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "Extension", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 9, Poe: false },
@@ -901,22 +901,22 @@ var DeviceTypesMapghipsystems = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "1271", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 1 },
-            { Name: "1291", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 2 },
-            { Name: "1311", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 3 },
-            { Name: "1331", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 4 },
-            { Name: "1351", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 5 },
-            { Name: "1371", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 6 },
-            { Name: "1431", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 7 },
-            { Name: "1451", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 8 },
-            { Name: "1471", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 9 },
-            { Name: "1491", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 10 },
-            { Name: "1511", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 11 },
-            { Name: "1531", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 12 },
-            { Name: "1551", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 13 },
-            { Name: "1571", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 14 },
-            { Name: "1591", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 15 },
-            { Name: "1611", Label: "", Type: "lc", RearPort: "Network", RearPortPosition: 16 },
+            { Name: "1271", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1291", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1311", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1331", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1351", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1371", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1431", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1451", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1471", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1491", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1511", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1531", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1551", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1571", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1591", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
+            { Name: "1611", Label: "", Type: "lc", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "Network", Label: "", Type: "lc", Positions: 16, Poe: false },

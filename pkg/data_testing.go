@@ -37,14 +37,14 @@ var DeviceTypesMaptesting = map[string]*DeviceData{
             { Name: "Power Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
-            { Name: "Front Port 1", Label: "", Type: "8p8c", RearPort: "Rear Port 1", RearPortPosition: 0 },
-            { Name: "Front Port 2", Label: "", Type: "8p8c", RearPort: "Rear Port 2", RearPortPosition: 0 },
-            { Name: "Front Port 3", Label: "", Type: "8p8c", RearPort: "Rear Port 3", RearPortPosition: 0 },
+            { Name: "Front Port 1", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
+            { Name: "Front Port 2", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
+            { Name: "Front Port 3", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
-            { Name: "Rear Port 1", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "Rear Port 2", Label: "", Type: "8p8c", Positions: 0, Poe: false },
-            { Name: "Rear Port 3", Label: "", Type: "8p8c", Positions: 0, Poe: false },
+            { Name: "Rear Port 1", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "Rear Port 2", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+            { Name: "Rear Port 3", Label: "", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
             { Name: "Module Bay 1", Label: "", Position: "1" },

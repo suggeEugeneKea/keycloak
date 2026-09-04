@@ -61639,6 +61639,48 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "CIMC", Label: "M", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "UCS-C200-M2": {
+        Manufacturer: "Cisco",
+        Model: "UCS-C200-M2",
+        Slug: "cisco-ucs-c200-m2",
+        UHeight: 1,
+        PartNumber: "UCS-C200M2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.85,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "0" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "PCI-Slot1", Label: "", Position: "0" },
+            { Name: "PCI-Slot2", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "UCS-C220-M4": {
         Manufacturer: "Cisco",
         Model: "UCS-C220-M4",

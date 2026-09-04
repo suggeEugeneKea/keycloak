@@ -3369,10 +3369,10 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
-            { Name: "Ethernet", Label: "", Type: "8p8c", RearPort: "Optic", RearPortPosition: 0 },
+            { Name: "Ethernet", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
-            { Name: "Optic", Label: "", Type: "sc-upc", Positions: 0, Poe: false },
+            { Name: "Optic", Label: "", Type: "sc-upc", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },

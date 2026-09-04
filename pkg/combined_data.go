@@ -74,6 +74,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "D-Link": DeviceTypesMapd_link,
     "DCN": DeviceTypesMapdcn,
     "DEPO": DeviceTypesMapdepo,
+    "DITEK": DeviceTypesMapditek,
     "Dahua": DeviceTypesMapdahua,
     "DataDirect Networks": DeviceTypesMapdatadirect_networks,
     "Datacom": DeviceTypesMapdatacom,
@@ -134,6 +135,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "ITK": DeviceTypesMapitk,
     "IceWhale": DeviceTypesMapicewhale,
     "Ideco": DeviceTypesMapideco,
+    "IndigoVision": DeviceTypesMapindigovision,
     "Inelt": DeviceTypesMapinelt,
     "Infinera": DeviceTypesMapinfinera,
     "Infoblox": DeviceTypesMapinfoblox,
@@ -314,6 +316,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Zastava": DeviceTypesMapzastava,
     "Zonit": DeviceTypesMapzonit,
     "Zyxel": DeviceTypesMapzyxel,
+    "amcrest": DeviceTypesMapamcrest,
     "ghipsystems": DeviceTypesMapghipsystems,
     "i-PRO": DeviceTypesMapi_pro,
 }

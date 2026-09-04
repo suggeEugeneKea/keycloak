@@ -1727,7 +1727,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
             { Name: "Segment2-4", Type: "iec-60320-c13", Label: "Segment2-4", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
-            { Name: "IN RG45 NET SURGE PROTECTION", Label: "", Type: "8p8c", RearPort: "OUT RG45 NET SURGE PROTECTION", RearPortPosition: 0 },
+            { Name: "IN RG45 NET SURGE PROTECTION", Label: "", Type: "8p8c", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
             { Name: "OUT RG45 NET SURGE PROTECTION", Label: "", Type: "8p8c", Positions: 1, Poe: false },

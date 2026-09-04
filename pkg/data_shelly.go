@@ -120,4 +120,46 @@ var DeviceTypesMapshelly = map[string]*DeviceData{
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
+    "Power Strip 4 Gen4": {
+        Manufacturer: "Shelly",
+        Model: "Power Strip 4 Gen4",
+        Slug: "shelly-power-strip-4-gen4",
+        UHeight: 0,
+        PartNumber: "S4PL-00416EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 560,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "input", Label: "", Type: "ita-ef", MaximumDraw: 3680, AllocatedDraw: 3680 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "0", Type: "ita-f", Label: "", PowerPort: "input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "1", Type: "ita-f", Label: "", PowerPort: "input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "ita-f", Label: "", PowerPort: "input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "ita-f", Label: "", PowerPort: "input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
 }
