@@ -228,10 +228,10 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Communication card slot", Label: "", Position: "" },
-            { Name: "Environmental Sensor 1", Label: "", Position: "" },
-            { Name: "Environmental Sensor 2", Label: "", Position: "" },
-            { Name: "Environmental Sensor 3", Label: "", Position: "" },
+            { Name: "Communication card slot", Label: "", Position: "1" },
+            { Name: "Environmental Sensor 1", Label: "", Position: "1" },
+            { Name: "Environmental Sensor 2", Label: "", Position: "2" },
+            { Name: "Environmental Sensor 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1445,7 +1445,7 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Accessory Slot", Label: "", Position: "" },
+            { Name: "Accessory Slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1492,7 +1492,7 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Accessory Slot", Label: "", Position: "" },
+            { Name: "Accessory Slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1643,7 +1643,7 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Accessory Slot", Label: "", Position: "" },
+            { Name: "Accessory Slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1845,7 +1845,7 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Accessory Slot", Label: "", Position: "" },
+            { Name: "Accessory Slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

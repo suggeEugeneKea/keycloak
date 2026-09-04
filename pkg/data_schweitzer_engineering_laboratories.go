@@ -29,16 +29,16 @@ var DeviceTypesMapschweitzer_engineering_laboratories = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Slot A", Label: "", Position: "" },
-            { Name: "Slot B", Label: "", Position: "" },
-            { Name: "Slot C", Label: "", Position: "" },
-            { Name: "Slot D", Label: "", Position: "" },
-            { Name: "Slot E", Label: "", Position: "" },
-            { Name: "Slot F", Label: "", Position: "" },
-            { Name: "Slot G", Label: "", Position: "" },
-            { Name: "Slot H", Label: "", Position: "" },
-            { Name: "Slot I", Label: "", Position: "" },
-            { Name: "Slot J", Label: "", Position: "" },
+            { Name: "Slot A", Label: "", Position: "A" },
+            { Name: "Slot B", Label: "", Position: "B" },
+            { Name: "Slot C", Label: "", Position: "C" },
+            { Name: "Slot D", Label: "", Position: "D" },
+            { Name: "Slot E", Label: "", Position: "E" },
+            { Name: "Slot F", Label: "", Position: "F" },
+            { Name: "Slot G", Label: "", Position: "G" },
+            { Name: "Slot H", Label: "", Position: "H" },
+            { Name: "Slot I", Label: "", Position: "I" },
+            { Name: "Slot J", Label: "", Position: "J" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -74,10 +74,10 @@ var DeviceTypesMapschweitzer_engineering_laboratories = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Slot A", Label: "", Position: "" },
-            { Name: "Slot B", Label: "", Position: "" },
-            { Name: "Slot C", Label: "", Position: "" },
-            { Name: "Slot D", Label: "", Position: "" },
+            { Name: "Slot A", Label: "", Position: "A" },
+            { Name: "Slot B", Label: "", Position: "B" },
+            { Name: "Slot C", Label: "", Position: "C" },
+            { Name: "Slot D", Label: "", Position: "D" },
         },
 			  DeviceBays: []DeviceBay{
         },

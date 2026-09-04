@@ -47,9 +47,9 @@ var DeviceTypesMaptesting = map[string]*DeviceData{
             { Name: "Rear Port 3", Label: "", Type: "8p8c", Positions: 0, Poe: false },
         },
         ModuleBays: []ModuleBay{
-            { Name: "Module Bay 1", Label: "", Position: "" },
-            { Name: "Module Bay 2", Label: "", Position: "" },
-            { Name: "Module Bay 3", Label: "", Position: "" },
+            { Name: "Module Bay 1", Label: "", Position: "1" },
+            { Name: "Module Bay 2", Label: "", Position: "2" },
+            { Name: "Module Bay 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
             { Name: "Device Bay 1", Label: "" },

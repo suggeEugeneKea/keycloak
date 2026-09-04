@@ -117,7 +117,7 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "pci1", Label: "", Position: "" },
+            { Name: "pci1", Label: "", Position: "PCI1" },
         },
 			  DeviceBays: []DeviceBay{
         },

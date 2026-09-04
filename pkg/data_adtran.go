@@ -73,7 +73,7 @@ var DeviceTypesMapadtran = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Slot 1", Label: "", Position: "" },
+            { Name: "Slot 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

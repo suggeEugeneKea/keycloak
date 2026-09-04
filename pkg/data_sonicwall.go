@@ -76,7 +76,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -196,7 +196,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -337,7 +337,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -406,7 +406,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -479,7 +479,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -550,7 +550,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -625,7 +625,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -703,7 +703,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -781,7 +781,7 @@ var DeviceTypesMapsonicwall = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU Slot 1", Label: "", Position: "1" },
             { Name: "PSU Slot 2", Label: "", Position: "2" },
-            { Name: "Expansion Module", Label: "", Position: "" },
+            { Name: "Expansion Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

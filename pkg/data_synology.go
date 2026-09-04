@@ -816,7 +816,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PCIe Expansion", Label: "", Position: "" },
+            { Name: "PCIe Expansion", Label: "", Position: "PCIe1" },
             { Name: "PSU 1", Label: "", Position: "PSU1" },
             { Name: "PSU 2", Label: "", Position: "PSU2" },
         },
@@ -860,7 +860,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PCIe Expansion", Label: "", Position: "" },
+            { Name: "PCIe Expansion", Label: "", Position: "PCIe1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -903,7 +903,7 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PCIe Expansion", Label: "", Position: "" },
+            { Name: "PCIe Expansion", Label: "", Position: "PCIe1" },
         },
 			  DeviceBays: []DeviceBay{
         },

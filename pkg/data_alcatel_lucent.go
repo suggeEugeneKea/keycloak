@@ -673,8 +673,8 @@ var DeviceTypesMapalcatel_lucent = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SLOT-2", Label: "Front", Position: "" },
-            { Name: "SLOT-3", Label: "Rear", Position: "" },
+            { Name: "SLOT-2", Label: "Front", Position: "2" },
+            { Name: "SLOT-3", Label: "Rear", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -737,8 +737,8 @@ var DeviceTypesMapalcatel_lucent = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "SLOT-2", Label: "Front", Position: "" },
-            { Name: "SLOT-3", Label: "Rear", Position: "" },
+            { Name: "SLOT-2", Label: "Front", Position: "2" },
+            { Name: "SLOT-3", Label: "Rear", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },

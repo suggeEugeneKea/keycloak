@@ -3058,7 +3058,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module A", Label: "", Position: "A" },
             { Name: "Module B", Label: "", Position: "B" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "Power Supply", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -3125,7 +3125,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module A", Label: "", Position: "A" },
             { Name: "Module B", Label: "", Position: "B" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "Power Supply", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -3192,7 +3192,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module A", Label: "", Position: "A" },
             { Name: "Module B", Label: "", Position: "B" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "Power Supply", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -3283,7 +3283,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module A", Label: "", Position: "A" },
             { Name: "Module B", Label: "", Position: "B" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "Power Supply", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -3374,7 +3374,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "Module A", Label: "", Position: "A" },
             { Name: "Module B", Label: "", Position: "B" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "Power Supply", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -4105,7 +4105,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Uplink", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4171,7 +4171,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Uplink", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4237,7 +4237,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Uplink", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4327,7 +4327,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Uplink", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4417,7 +4417,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Uplink", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4507,7 +4507,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4573,7 +4573,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },
@@ -4663,7 +4663,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "A" },
-            { Name: "Stacking Module", Label: "", Position: "" },
+            { Name: "Stacking Module", Label: "", Position: "Stack" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
         },

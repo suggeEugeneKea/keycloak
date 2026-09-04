@@ -5568,6 +5568,8 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 397, AllocatedDraw: 380 },
+            { Name: "RPScon", Label: "", Type: "dc-terminal", MaximumDraw: 397, AllocatedDraw: 380 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5576,8 +5578,6 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PS1", Label: "", Position: "" },
-            { Name: "RPScon", Label: "", Position: "" },
         },
 			  DeviceBays: []DeviceBay{
         },

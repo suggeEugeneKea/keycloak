@@ -2842,9 +2842,9 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "A", Label: "", Position: "" },
-            { Name: "B", Label: "", Position: "" },
-            { Name: "C", Label: "", Position: "" },
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2919,12 +2919,12 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "A", Label: "", Position: "" },
-            { Name: "B", Label: "", Position: "" },
-            { Name: "C", Label: "", Position: "" },
-            { Name: "D", Label: "", Position: "" },
-            { Name: "E", Label: "", Position: "" },
-            { Name: "F", Label: "", Position: "" },
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3003,18 +3003,18 @@ var DeviceTypesMappanduit = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "A", Label: "", Position: "" },
-            { Name: "B", Label: "", Position: "" },
-            { Name: "C", Label: "", Position: "" },
-            { Name: "D", Label: "", Position: "" },
-            { Name: "E", Label: "", Position: "" },
-            { Name: "F", Label: "", Position: "" },
-            { Name: "G", Label: "", Position: "" },
-            { Name: "H", Label: "", Position: "" },
-            { Name: "J", Label: "", Position: "" },
-            { Name: "K", Label: "", Position: "" },
-            { Name: "L", Label: "", Position: "" },
-            { Name: "M", Label: "", Position: "" },
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
+            { Name: "C", Label: "", Position: "C" },
+            { Name: "D", Label: "", Position: "D" },
+            { Name: "E", Label: "", Position: "E" },
+            { Name: "F", Label: "", Position: "F" },
+            { Name: "G", Label: "", Position: "G" },
+            { Name: "H", Label: "", Position: "H" },
+            { Name: "J", Label: "", Position: "J" },
+            { Name: "K", Label: "", Position: "K" },
+            { Name: "L", Label: "", Position: "L" },
+            { Name: "M", Label: "", Position: "M" },
         },
 			  DeviceBays: []DeviceBay{
         },

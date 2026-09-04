@@ -1101,8 +1101,8 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Slot 1", Label: "", Position: "" },
-            { Name: "Slot 2", Label: "", Position: "" },
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

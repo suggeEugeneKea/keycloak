@@ -1315,12 +1315,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU.IN.1", Label: "1", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU.IN.2", Label: "2", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU.IN.3", Label: "3", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU.IN.4", Label: "4", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU.IN.5", Label: "5", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU.IN.6", Label: "6", Type: "iec-60320-c22", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1337,12 +1331,12 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "IOM-C2", Label: "", Position: "C2" },
             { Name: "MM-1", Label: "", Position: "MM-1" },
             { Name: "MM-2", Label: "", Position: "MM-2" },
-            { Name: "PSU.Slot.1", Label: "", Position: "" },
-            { Name: "PSU.Slot.2", Label: "", Position: "" },
-            { Name: "PSU.Slot.3", Label: "", Position: "" },
-            { Name: "PSU.Slot.4", Label: "", Position: "" },
-            { Name: "PSU.Slot.5", Label: "", Position: "" },
-            { Name: "PSU.Slot.6", Label: "", Position: "" },
+            { Name: "PSU.Slot.1", Label: "", Position: "1" },
+            { Name: "PSU.Slot.2", Label: "", Position: "2" },
+            { Name: "PSU.Slot.3", Label: "", Position: "3" },
+            { Name: "PSU.Slot.4", Label: "", Position: "4" },
+            { Name: "PSU.Slot.5", Label: "", Position: "5" },
+            { Name: "PSU.Slot.6", Label: "", Position: "6" },
         },
 			  DeviceBays: []DeviceBay{
             { Name: "Sled-1", Label: "" },

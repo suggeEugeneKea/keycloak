@@ -269,8 +269,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PWR1", Label: "", Position: "" },
-            { Name: "PWR2", Label: "", Position: "" },
+            { Name: "PWR1", Label: "", Position: "1" },
+            { Name: "PWR2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -338,8 +338,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PWR1", Label: "", Position: "" },
-            { Name: "PWR2", Label: "", Position: "" },
+            { Name: "PWR1", Label: "", Position: "1" },
+            { Name: "PWR2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -449,8 +449,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -730,8 +730,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
             { Name: "PWR1", Label: "", Position: "PWR1" },
             { Name: "PWR2", Label: "", Position: "PWR2" },
         },
@@ -1105,9 +1105,9 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
-            { Name: "FAN3", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+            { Name: "FAN3", Label: "", Position: "3" },
             { Name: "PWR1", Label: "", Position: "1" },
             { Name: "PWR2", Label: "", Position: "2" },
         },
@@ -1285,8 +1285,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
             { Name: "PWR1", Label: "", Position: "1" },
             { Name: "PWR2", Label: "", Position: "2" },
             { Name: "Slot 1", Label: "", Position: "1" },
@@ -1329,11 +1329,11 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
-            { Name: "PWR1", Label: "", Position: "" },
-            { Name: "PWR2", Label: "", Position: "" },
-            { Name: "RearCardSlot", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+            { Name: "PWR1", Label: "", Position: "1" },
+            { Name: "PWR2", Label: "", Position: "2" },
+            { Name: "RearCardSlot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1709,8 +1709,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU 1", Label: "", Position: "" },
-            { Name: "PSU 2", Label: "", Position: "" },
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1924,7 +1924,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "SFU 1", Label: "", Position: "SFU1" },
             { Name: "SFU 2", Label: "", Position: "SFU2" },
             { Name: "SFU 3", Label: "", Position: "SFU3" },
-            { Name: "SFU 4", Label: "", Position: "" },
+            { Name: "SFU 4", Label: "", Position: "SFU4" },
             { Name: "SFU 5", Label: "", Position: "SFU5" },
             { Name: "SFU 6", Label: "", Position: "SFU6" },
             { Name: "SFU 7", Label: "", Position: "SFU7" },
@@ -1973,7 +1973,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "SFU 1", Label: "", Position: "SFU1" },
             { Name: "SFU 2", Label: "", Position: "SFU2" },
             { Name: "SFU 3", Label: "", Position: "SFU3" },
-            { Name: "SFU 4", Label: "", Position: "" },
+            { Name: "SFU 4", Label: "", Position: "SFU4" },
             { Name: "SFU 5", Label: "", Position: "SFU5" },
             { Name: "SFU 6", Label: "", Position: "SFU6" },
             { Name: "SFU 7", Label: "", Position: "SFU7" },
@@ -2026,7 +2026,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "SFU 1", Label: "", Position: "SFU1" },
             { Name: "SFU 2", Label: "", Position: "SFU2" },
             { Name: "SFU 3", Label: "", Position: "SFU3" },
-            { Name: "SFU 4", Label: "", Position: "" },
+            { Name: "SFU 4", Label: "", Position: "SFU4" },
             { Name: "SFU 5", Label: "", Position: "SFU5" },
             { Name: "SFU 6", Label: "", Position: "SFU6" },
             { Name: "SFU 7", Label: "", Position: "SFU7" },
@@ -2096,18 +2096,18 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "SFU 28", Label: "", Position: "28" },
             { Name: "SFU 29", Label: "", Position: "29" },
             { Name: "SFU 30", Label: "", Position: "30" },
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
-            { Name: "FAN3", Label: "", Position: "" },
-            { Name: "FAN4", Label: "", Position: "" },
-            { Name: "FAN5", Label: "", Position: "" },
-            { Name: "FAN6", Label: "", Position: "" },
-            { Name: "FAN7", Label: "", Position: "" },
-            { Name: "FAN8", Label: "", Position: "" },
-            { Name: "FAN9", Label: "", Position: "" },
-            { Name: "FAN10", Label: "", Position: "" },
-            { Name: "FAN11", Label: "", Position: "" },
-            { Name: "FAN12", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+            { Name: "FAN3", Label: "", Position: "3" },
+            { Name: "FAN4", Label: "", Position: "4" },
+            { Name: "FAN5", Label: "", Position: "5" },
+            { Name: "FAN6", Label: "", Position: "6" },
+            { Name: "FAN7", Label: "", Position: "7" },
+            { Name: "FAN8", Label: "", Position: "8" },
+            { Name: "FAN9", Label: "", Position: "9" },
+            { Name: "FAN10", Label: "", Position: "10" },
+            { Name: "FAN11", Label: "", Position: "11" },
+            { Name: "FAN12", Label: "", Position: "12" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2161,14 +2161,14 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "SFU 16", Label: "", Position: "16" },
             { Name: "SFU 17", Label: "", Position: "17" },
             { Name: "SFU 18", Label: "", Position: "18" },
-            { Name: "FAN1", Label: "", Position: "" },
-            { Name: "FAN2", Label: "", Position: "" },
-            { Name: "FAN3", Label: "", Position: "" },
-            { Name: "FAN4", Label: "", Position: "" },
-            { Name: "FAN5", Label: "", Position: "" },
-            { Name: "PWRA", Label: "", Position: "" },
-            { Name: "PWRB", Label: "", Position: "" },
-            { Name: "PWRC", Label: "", Position: "" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+            { Name: "FAN3", Label: "", Position: "3" },
+            { Name: "FAN4", Label: "", Position: "4" },
+            { Name: "FAN5", Label: "", Position: "5" },
+            { Name: "PWRA", Label: "", Position: "A" },
+            { Name: "PWRB", Label: "", Position: "B" },
+            { Name: "PWRC", Label: "", Position: "C" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3859,8 +3859,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PWR1", Label: "", Position: "" },
-            { Name: "PWR2", Label: "", Position: "" },
+            { Name: "PWR1", Label: "", Position: "1" },
+            { Name: "PWR2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

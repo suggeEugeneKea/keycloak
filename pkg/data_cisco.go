@@ -23166,9 +23166,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU0", Label: "", Position: "0" },
             { Name: "PSU1", Label: "", Position: "1" },
-            { Name: "SM 1", Label: "", Position: "" },
-            { Name: "NIM 1", Label: "", Position: "" },
-            { Name: "PIM 1", Label: "", Position: "" },
+            { Name: "SM 1", Label: "", Position: "SM1" },
+            { Name: "NIM 1", Label: "", Position: "NIM1" },
+            { Name: "PIM 1", Label: "", Position: "PIM1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -23950,8 +23950,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "StackPort1/2", Label: "", Position: "1/2" },
             { Name: "PS-A", Label: "", Position: "PS-A" },
             { Name: "PS-B", Label: "", Position: "PS-B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25384,9 +25384,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25454,9 +25454,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25524,9 +25524,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25593,9 +25593,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25663,9 +25663,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25733,9 +25733,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25803,9 +25803,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25873,9 +25873,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -25967,9 +25967,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26061,9 +26061,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26154,9 +26154,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26248,9 +26248,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26342,9 +26342,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26436,9 +26436,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26529,9 +26529,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26602,9 +26602,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26675,9 +26675,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26748,9 +26748,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26845,9 +26845,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26942,9 +26942,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27039,9 +27039,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27136,9 +27136,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27209,9 +27209,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27307,9 +27307,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27367,9 +27367,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27437,9 +27437,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PS-A", Label: "", Position: "A" },
             { Name: "PS-B", Label: "", Position: "B" },
-            { Name: "FAN 1", Label: "", Position: "" },
-            { Name: "FAN 2", Label: "", Position: "" },
-            { Name: "FAN 3", Label: "", Position: "" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -30076,7 +30076,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Network Module 1", Label: "", Position: "" },
+            { Name: "Network Module 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -30133,7 +30133,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Network Module 1", Label: "", Position: "" },
+            { Name: "Network Module 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -33128,7 +33128,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Cellular", Label: "", Position: "" },
+            { Name: "Cellular", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -33520,10 +33520,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "AIM slot 0", Label: "AIM 0", Position: "" },
-            { Name: "AIM slot 1", Label: "AIM 1", Position: "" },
-            { Name: "Slot 0 SubSlot 4", Label: "PVDM0", Position: "" },
-            { Name: "Slot 0 SubSlot 5", Label: "PVDM1", Position: "" },
+            { Name: "AIM slot 0", Label: "AIM 0", Position: "AIM0" },
+            { Name: "AIM slot 1", Label: "AIM 1", Position: "AIM1" },
+            { Name: "Slot 0 SubSlot 4", Label: "PVDM0", Position: "PVDM0" },
+            { Name: "Slot 0 SubSlot 5", Label: "PVDM1", Position: "PVDM1" },
             { Name: "Slot 0/0", Label: "HWIC0", Position: "0/0" },
             { Name: "Slot 0/1", Label: "HWIC1", Position: "0/1" },
             { Name: "Slot 0/2", Label: "HWIC2", Position: "0/2" },

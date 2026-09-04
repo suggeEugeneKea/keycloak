@@ -164,12 +164,12 @@ var DeviceTypesMapdelta = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "psu-1a", Label: "1A", Position: "" },
-            { Name: "psu-2a", Label: "2A", Position: "" },
-            { Name: "psu-3a", Label: "3A", Position: "" },
-            { Name: "psu-1b", Label: "1B", Position: "" },
-            { Name: "psu-2b", Label: "2B", Position: "" },
-            { Name: "psu-3b", Label: "3B", Position: "" },
+            { Name: "psu-1a", Label: "1A", Position: "1A" },
+            { Name: "psu-2a", Label: "2A", Position: "2A" },
+            { Name: "psu-3a", Label: "3A", Position: "3A" },
+            { Name: "psu-1b", Label: "1B", Position: "1B" },
+            { Name: "psu-2b", Label: "2B", Position: "2B" },
+            { Name: "psu-3b", Label: "3B", Position: "3B" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -211,12 +211,12 @@ var DeviceTypesMapdelta = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "psu-1a", Label: "1A", Position: "" },
-            { Name: "psu-2a", Label: "2A", Position: "" },
-            { Name: "psu-3a", Label: "3A", Position: "" },
-            { Name: "psu-1b", Label: "1B", Position: "" },
-            { Name: "psu-2b", Label: "2B", Position: "" },
-            { Name: "psu-3b", Label: "3B", Position: "" },
+            { Name: "psu-1a", Label: "1A", Position: "1A" },
+            { Name: "psu-2a", Label: "2A", Position: "2A" },
+            { Name: "psu-3a", Label: "3A", Position: "3A" },
+            { Name: "psu-1b", Label: "1B", Position: "1B" },
+            { Name: "psu-2b", Label: "2B", Position: "2B" },
+            { Name: "psu-3b", Label: "3B", Position: "3B" },
         },
 			  DeviceBays: []DeviceBay{
         },

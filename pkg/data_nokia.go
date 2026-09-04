@@ -78,10 +78,10 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "mda-m2-xfp", Label: "", Position: "" },
-            { Name: "Power Supply 1", Label: "", Position: "" },
-            { Name: "Power Supply 2", Label: "", Position: "" },
-            { Name: "Fan Tray 1", Label: "", Position: "" },
+            { Name: "mda-m2-xfp", Label: "", Position: "1" },
+            { Name: "Power Supply 1", Label: "", Position: "1" },
+            { Name: "Power Supply 2", Label: "", Position: "2" },
+            { Name: "Fan Tray 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -146,10 +146,10 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "mda-m2-xfp", Label: "", Position: "" },
-            { Name: "Power Supply 1", Label: "", Position: "" },
-            { Name: "Power Supply 2", Label: "", Position: "" },
-            { Name: "Fan Tray 1", Label: "", Position: "" },
+            { Name: "mda-m2-xfp", Label: "", Position: "1" },
+            { Name: "Power Supply 1", Label: "", Position: "1" },
+            { Name: "Power Supply 2", Label: "", Position: "2" },
+            { Name: "Fan Tray 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -212,9 +212,9 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Power Supply 1", Label: "", Position: "" },
-            { Name: "Power Supply 2", Label: "", Position: "" },
-            { Name: "Fan Tray 1", Label: "", Position: "" },
+            { Name: "Power Supply 1", Label: "", Position: "1" },
+            { Name: "Power Supply 2", Label: "", Position: "2" },
+            { Name: "Fan Tray 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -386,9 +386,9 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Power Supply 1", Label: "", Position: "" },
-            { Name: "Power Supply 2", Label: "", Position: "" },
-            { Name: "Fan Tray 1", Label: "", Position: "" },
+            { Name: "Power Supply 1", Label: "", Position: "1" },
+            { Name: "Power Supply 2", Label: "", Position: "2" },
+            { Name: "Fan Tray 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

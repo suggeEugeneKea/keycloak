@@ -771,7 +771,7 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Line card 1", Label: "", Position: "" },
+            { Name: "Line card 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -822,7 +822,7 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "Line card 1", Label: "", Position: "" },
+            { Name: "Line card 1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

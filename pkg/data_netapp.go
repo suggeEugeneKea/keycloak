@@ -284,8 +284,8 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "A", Label: "", Position: "" },
-            { Name: "B", Label: "", Position: "" },
+            { Name: "A", Label: "", Position: "A" },
+            { Name: "B", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
         },
