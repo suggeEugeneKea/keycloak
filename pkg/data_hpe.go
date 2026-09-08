@@ -20931,6 +20931,176 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "MSR930 JG511A": {
+        Manufacturer: "HPE",
+        Model: "MSR930 JG511A",
+        Slug: "hpe-msr930-jg511a",
+        UHeight: 1,
+        PartNumber: "JG511A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console/AUX", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "MSR930 JG511B": {
+        Manufacturer: "HPE",
+        Model: "MSR930 JG511B",
+        Slug: "hpe-msr930-jg511b",
+        UHeight: 1,
+        PartNumber: "JG511B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console/AUX", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "MSR930 JG513A": {
+        Manufacturer: "HPE",
+        Model: "MSR930 JG513A",
+        Slug: "hpe-msr930-jg513a",
+        UHeight: 1,
+        PartNumber: "JG513A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console/AUX", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Cellular0", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "MSR930 JG665A": {
+        Manufacturer: "HPE",
+        Model: "MSR930 JG665A",
+        Slug: "hpe-msr930-jg665a",
+        UHeight: 1,
+        PartNumber: "JG665A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console/AUX", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Cellular0", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "MSR954 AC Router": {
         Manufacturer: "HPE",
         Model: "MSR954 AC Router",

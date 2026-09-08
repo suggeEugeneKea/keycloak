@@ -5279,6 +5279,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "MGMT", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "C1121-4PLTEP": {
+        Manufacturer: "Cisco",
+        Model: "C1121-4PLTEP",
+        Slug: "cisco-c1121-4pltep",
+        UHeight: 1,
+        PartNumber: "C1121-4PLTEP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Cellular0/2/0", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "C2621XM": {
         Manufacturer: "Cisco",
         Model: "C2621XM",
@@ -30520,6 +30564,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Catalyst 921-4PLTEAU": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 921-4PLTEAU",
+        Slug: "cisco-c921-4plteau",
+        UHeight: 1,
+        PartNumber: "C921-4PLTEAU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 80, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Cellular0", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Catalyst 921-4PLTEGB": {
         Manufacturer: "Cisco",
         Model: "Catalyst 921-4PLTEGB",
@@ -38471,6 +38559,92 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/18", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/19", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IE-3100-4P2S": {
+        Manufacturer: "Cisco",
+        Model: "IE-3100-4P2S",
+        Slug: "cisco-ie-3100-4p2s",
+        UHeight: 0,
+        PartNumber: "IE-3100-4P2S-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR-A", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PWR-B", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "IE-3100-4T2S": {
+        Manufacturer: "Cisco",
+        Model: "IE-3100-4T2S",
+        Slug: "cisco-ie-3100-4t2s",
+        UHeight: 0,
+        PartNumber: "IE-3100-4T2S-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.73,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR-A", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PWR-B", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "IE-3100-8T2C": {

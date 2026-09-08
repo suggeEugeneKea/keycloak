@@ -651,7 +651,7 @@ var DeviceTypesMapreolink = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 446,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

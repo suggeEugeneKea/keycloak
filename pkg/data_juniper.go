@@ -1701,6 +1701,86 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "AP41": {
+        Manufacturer: "Juniper",
+        Model: "AP41",
+        Slug: "juniper-ap41",
+        UHeight: 0,
+        PartNumber: "AP41-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC input", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "AP43": {
+        Manufacturer: "Juniper",
+        Model: "AP43",
+        Slug: "juniper-ap43",
+        UHeight: 0,
+        PartNumber: "AP43-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "AP45": {
         Manufacturer: "Juniper",
         Model: "AP45",
