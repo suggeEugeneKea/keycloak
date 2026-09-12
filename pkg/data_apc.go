@@ -6025,6 +6025,53 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SMT2200RM2U": {
+        Manufacturer: "APC",
+        Model: "SMT2200RM2U",
+        Slug: "apc-smt2200rm2u",
+        UHeight: 2,
+        PartNumber: "SMT2200RM2U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 93.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 1", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 2", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SMT2200RM2UNC": {
         Manufacturer: "APC",
         Model: "SMT2200RM2UNC",

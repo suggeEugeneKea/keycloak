@@ -43,6 +43,50 @@ var DeviceTypesMapruijie = map[string]*DeviceData{
             { Name: "eth5", Label: "Port 5", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RG-ES208GC": {
+        Manufacturer: "Ruijie",
+        Model: "RG-ES208GC",
+        Slug: "ruijie-rg-es208gc",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.49,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "Port 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "Port 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "Port 3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "Port 4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "Port 5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "Port 6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "Port 7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "Port 8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RG-NBS3100-24GT4SFP-P": {
         Manufacturer: "Ruijie",
         Model: "RG-NBS3100-24GT4SFP-P",

@@ -730,11 +730,11 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 4,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 54.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -742,8 +742,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -754,26 +752,61 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "A" },
+            { Name: "Controller B", Label: "B" },
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Controller-A eth0a", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-A eth0b", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-A eth0c", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-A eth0d", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-B eth0a", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-B eth0b", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-B eth0c", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-B eth0d", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Controller-A fc2a", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-A fc2b", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-A fc2c", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-A fc2d", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-B fc2a", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-B fc2b", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-B fc2c", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
-            { Name: "Controller-B fc2d", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+        },
+    },
+    "Alletra 6050 Controller": {
+        Manufacturer: "HPE",
+        Model: "Alletra 6050 Controller",
+        Slug: "hpe-alletra-6050-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP Expansion slot", Label: "", Position: "OCP" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0a", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth0b", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth0c", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth0d", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Alletra 6070": {
@@ -21142,6 +21175,95 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "MSR954 JH299A": {
+        Manufacturer: "HPE",
+        Model: "MSR954 JH299A",
+        Slug: "hpe-msr954-jh299a",
+        UHeight: 1,
+        PartNumber: "JH299A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Cellular0", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "MSR954 JH373A": {
+        Manufacturer: "HPE",
+        Model: "MSR954 JH373A",
+        Slug: "hpe-msr954-jh373a",
+        UHeight: 1,
+        PartNumber: "JH373A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CON/AUX", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Cellular0", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "Cellular1", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "Nimble HF40 Controller": {
