@@ -8151,8 +8151,8 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         PartNumber: "SRT5KRMXLT",
         IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
@@ -8184,7 +8184,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet", Label: "NMC", Type: "100base-tx", MgmtOnly: true },
+            { Name: "Ethernet", Label: "NMC", Type: "1000base-t", MgmtOnly: true },
             { Name: "Universal I/O 1", Label: "RJ-45", Type: "other", MgmtOnly: false },
         },
     },
