@@ -2212,7 +2212,7 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "side-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 3.6,

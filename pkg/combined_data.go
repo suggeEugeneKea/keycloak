@@ -288,6 +288,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "TESmart": DeviceTypesMaptesmart,
     "TFortis": DeviceTypesMaptfortis,
     "TP-Link": DeviceTypesMaptp_link,
+    "TVT Digital": DeviceTypesMaptvt_digital,
     "Technicolor": DeviceTypesMaptechnicolor,
     "Telco Systems": DeviceTypesMaptelco_systems,
     "Telcord": DeviceTypesMaptelcord,
