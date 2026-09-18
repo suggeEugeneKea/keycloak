@@ -126,8 +126,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
-            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "FlexIO", Label: "Flexible NIC", Position: "FlexIO" },
             { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
             { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
             { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
@@ -143,6 +142,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "LOM1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LOM2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LOM3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LOM4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },

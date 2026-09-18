@@ -1383,6 +1383,51 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SYS-1029P-WTRT": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-1029P-WTRT",
+        Slug: "supermicro-sys-1029p-wtrt",
+        UHeight: 1,
+        PartNumber: "SYS-1029P-WTRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SYS-2028TP-CHASSIS": {
         Manufacturer: "Supermicro",
         Model: "SYS-2028TP-CHASSIS",

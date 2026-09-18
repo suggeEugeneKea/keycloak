@@ -122,6 +122,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Good Connections": DeviceTypesMapgood_connections,
     "Google": DeviceTypesMapgoogle,
     "Grandstream": DeviceTypesMapgrandstream,
+    "Grundig": DeviceTypesMapgrundig,
     "Gude": DeviceTypesMapgude,
     "HITACHI": DeviceTypesMaphitachi,
     "HP": DeviceTypesMaphp,
