@@ -102,6 +102,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "ExaGrid": DeviceTypesMapexagrid,
     "Exegate": DeviceTypesMapexegate,
     "Extreme Networks": DeviceTypesMapextreme_networks,
+    "Exxact": DeviceTypesMapexxact,
     "F5": DeviceTypesMapf5,
     "FS": DeviceTypesMapfs,
     "Factor-TS": DeviceTypesMapfactor_ts,
