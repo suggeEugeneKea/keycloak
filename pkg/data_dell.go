@@ -322,6 +322,44 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Latitude 5540": {
+        Manufacturer: "Dell",
+        Model: "Latitude 5540",
+        Slug: "dell-latitude-5540",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "mixed",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.61,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C PD", Label: "", Type: "usb-c", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wi-Fi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "OptiPlex 3070 Micro": {
         Manufacturer: "Dell",
         Model: "OptiPlex 3070 Micro",
