@@ -3361,6 +3361,49 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 4", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "SuperServer 120C-TR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 120C-TR",
+        Slug: "supermicro-superserver-120c-tr",
+        UHeight: 1,
+        PartNumber: "SYS-120C-TR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe 1", Label: "", Position: "1" },
+            { Name: "PCIe 2", Label: "", Position: "2" },
+            { Name: "PCIe 3", Label: "", Position: "3" },
+            { Name: "PCIe 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 2029U-E1CR25M": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 2029U-E1CR25M",

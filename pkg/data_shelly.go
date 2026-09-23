@@ -2,6 +2,88 @@
 package devices
 
 var DeviceTypesMapshelly = map[string]*DeviceData{
+    "1 Gen4": {
+        Manufacturer: "Shelly",
+        Model: "1 Gen4",
+        Slug: "shelly-1-gen4",
+        UHeight: 0,
+        PartNumber: "S4SW-001X16EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "I", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O", Type: "hardwired", Label: "", PowerPort: "I", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
+    "1 Mini Gen4": {
+        Manufacturer: "Shelly",
+        Model: "1 Mini Gen4",
+        Slug: "shelly-1-mini-gen4",
+        UHeight: 0,
+        PartNumber: "S4SW-001X8EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "I", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O", Type: "hardwired", Label: "", PowerPort: "I", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
     "1PM Gen3": {
         Manufacturer: "Shelly",
         Model: "1PM Gen3",
@@ -39,6 +121,46 @@ var DeviceTypesMapshelly = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "1PM Gen4": {
+        Manufacturer: "Shelly",
+        Model: "1PM Gen4",
+        Slug: "shelly-1pm-gen4",
+        UHeight: 0,
+        PartNumber: "S4SW-001P16EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 27,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
         },
     },
     "1PM Mini Gen3": {
@@ -80,6 +202,46 @@ var DeviceTypesMapshelly = map[string]*DeviceData{
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
+    "1PM Mini Gen4": {
+        Manufacturer: "Shelly",
+        Model: "1PM Mini Gen4",
+        Slug: "shelly-1pm-mini-gen4",
+        UHeight: 0,
+        PartNumber: "S4SW-001P8EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
     "2PM Gen3": {
         Manufacturer: "Shelly",
         Model: "2PM Gen3",
@@ -104,6 +266,274 @@ var DeviceTypesMapshelly = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
             { Name: "O1", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "O2", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "2PM Gen4": {
+        Manufacturer: "Shelly",
+        Model: "2PM Gen4",
+        Slug: "shelly-2pm-gen4",
+        UHeight: 0,
+        PartNumber: "S4SW-002P16EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O1", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "O2", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
+    "BLU Button1": {
+        Manufacturer: "Shelly",
+        Model: "BLU Button1",
+        Slug: "shelly-blu-button1",
+        UHeight: 0,
+        PartNumber: "SBBT-002C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "BLU Door/Window": {
+        Manufacturer: "Shelly",
+        Model: "BLU Door/Window",
+        Slug: "shelly-blu-door-window",
+        UHeight: 0,
+        PartNumber: "SBDW-002C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "BLU Gateway Gen3": {
+        Manufacturer: "Shelly",
+        Model: "BLU Gateway Gen3",
+        Slug: "shelly-blu-gateway-gen3",
+        UHeight: 0,
+        PartNumber: "S3GW-1DBT001",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB", Label: "", Type: "usb-a", MaximumDraw: 5, AllocatedDraw: 1 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "BLU TRV": {
+        Manufacturer: "Shelly",
+        Model: "BLU TRV",
+        Slug: "shelly-blu-trv",
+        UHeight: 0,
+        PartNumber: "SBTR-001AEU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 107,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
+    "Flood Gen4": {
+        Manufacturer: "Shelly",
+        Model: "Flood Gen4",
+        Slug: "shelly-flood-gen4",
+        UHeight: 0,
+        PartNumber: "S4SN-0071A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 185,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
+    "Plus RGBW PM": {
+        Manufacturer: "Shelly",
+        Model: "Plus RGBW PM",
+        Slug: "shelly-plus-rgbw-pm",
+        UHeight: 0,
+        PartNumber: "SNDC-0D4P10WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O1", Type: "hardwired", Label: "", PowerPort: "DC", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "O2", Type: "hardwired", Label: "", PowerPort: "DC", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "O3", Type: "hardwired", Label: "", PowerPort: "DC", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "O4", Type: "hardwired", Label: "", PowerPort: "DC", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },
@@ -160,6 +590,164 @@ var DeviceTypesMapshelly = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Presence Gen4": {
+        Manufacturer: "Shelly",
+        Model: "Presence Gen4",
+        Slug: "shelly-presence-gen4",
+        UHeight: 0,
+        PartNumber: "S4SN-0U61X",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 85,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB", Label: "", Type: "usb-c", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
+        },
+    },
+    "Pro 3EM": {
+        Manufacturer: "Shelly",
+        Model: "Pro 3EM",
+        Slug: "shelly-pro-3em",
+        UHeight: 0,
+        PartNumber: "SPEM-003CEBEU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 62,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "A", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "B", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Pro Dimmer 2PM": {
+        Manufacturer: "Shelly",
+        Model: "Pro Dimmer 2PM",
+        Slug: "shelly-pro-dimmer-2pm",
+        UHeight: 0,
+        PartNumber: "SPDM-002PE01EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "L", Label: "", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "O1", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "O2", Type: "hardwired", Label: "", PowerPort: "L", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "WS90": {
+        Manufacturer: "Shelly",
+        Model: "WS90",
+        Slug: "shelly-ws90",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 507,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "ieee802.15.4", MgmtOnly: false },
         },
     },
 }

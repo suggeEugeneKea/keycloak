@@ -12003,6 +12003,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "Aruba AP-225": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-225",
+        Slug: "hpe-aruba-ap-225",
+        UHeight: 0,
+        PartNumber: "AP-225",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 750,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "Aruba AP-303": {
         Manufacturer: "HPE",
         Model: "Aruba AP-303",
@@ -12168,6 +12209,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Aruba AP-325": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-325",
+        Slug: "hpe-aruba-ap-325",
+        UHeight: 0,
+        PartNumber: "AP-325",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 950,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12 Vdc", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "Aruba AP-335": {
@@ -12546,6 +12628,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "E0", Label: "", Type: "5gbase-t", MgmtOnly: false },
             { Name: "E1", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "Aruba AP-565": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-565",
+        Slug: "hpe-aruba-ap-565",
+        UHeight: 0,
+        PartNumber: "AP-565",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.03,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },

@@ -435,6 +435,43 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "OptiPlex SFF 7040": {
+        Manufacturer: "Dell",
+        Model: "OptiPlex SFF 7040",
+        Slug: "dell-optiplex-sff-7040",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 240, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "OptiPlex SFF 7050": {
         Manufacturer: "Dell",
         Model: "OptiPlex SFF 7050",

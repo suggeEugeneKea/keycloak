@@ -87,4 +87,48 @@ var DeviceTypesMapsecunet = map[string]*DeviceData{
             { Name: "sfp1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "SINA-L3-Box-S-800M": {
+        Manufacturer: "Secunet",
+        Model: "SINA-L3-Box-S-800M",
+        Slug: "secunet-sina-l3-box-s-800m",
+        UHeight: 1,
+        PartNumber: "SINA-L3-Box-S-800M",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "sfp1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
 }
