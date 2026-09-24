@@ -2,6 +2,80 @@
 package devices
 
 var DeviceTypesMapallnet = map[string]*DeviceData{
+    "ALL-BM200VDSL2V": {
+        Manufacturer: "ALLNET",
+        Model: "ALL-BM200VDSL2V",
+        Slug: "allnet-all-bm200vdsl2v",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 235,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "12 VDC", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DSL", Label: "RJ-11", Type: "xdsl", MgmtOnly: false },
+            { Name: "LAN", Label: "RJ-45", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "ALL2288": {
+        Manufacturer: "ALLNET",
+        Model: "ALL2288",
+        Slug: "allnet-all2288",
+        UHeight: 0,
+        PartNumber: "ALL2288",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 180,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "ALL95100": {
         Manufacturer: "ALLNET",
         Model: "ALL95100",

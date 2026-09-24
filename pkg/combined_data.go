@@ -23,7 +23,6 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Albis-Elcon": DeviceTypesMapalbis_elcon,
     "Alcatel-Lucent": DeviceTypesMapalcatel_lucent,
     "Allied Telesis": DeviceTypesMapallied_telesis,
-    "Allnet": DeviceTypesMapallnet,
     "Allot": DeviceTypesMapallot,
     "Alpha": DeviceTypesMapalpha,
     "Apple": DeviceTypesMapapple,
