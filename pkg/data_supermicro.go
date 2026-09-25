@@ -1383,6 +1383,51 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SYS-1028U-E1CR4&#43;": {
+        Manufacturer: "Supermicro",
+        Model: "SYS-1028U-E1CR4&#43;",
+        Slug: "supermicro-sys-1028u-e1cr4-plus",
+        UHeight: 1,
+        PartNumber: "SYS-1028U-E1CR4&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x8", Label: "", Position: "PCIe-3" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SYS-1029P-WTRT": {
         Manufacturer: "Supermicro",
         Model: "SYS-1029P-WTRT",
@@ -3267,6 +3312,51 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperServer 1029U-E1CR25M": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 1029U-E1CR25M",
+        Slug: "supermicro-sys-1029u-e1cr25m",
+        UHeight: 1,
+        PartNumber: "SYS-1029U-E1CR25M",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "eth1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "SuperServer 1029U-E1CRTP2": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1029U-E1CRTP2",
@@ -4819,6 +4909,49 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SuperStorage 6029P-E1CR24H": {
+        Manufacturer: "Supermicro",
+        Model: "SuperStorage 6029P-E1CR24H",
+        Slug: "supermicro-superstorage-6029p-e1cr24h",
+        UHeight: 2,
+        PartNumber: "SSG-6029P-E1CR24H",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 23.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x8", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe-3 LP x16", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe-4 FP x16", Label: "", Position: "PCIe-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SuperStorage 6038r-E1CR16H": {
