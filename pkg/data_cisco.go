@@ -1009,6 +1009,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "APIC-L4": {
+        Manufacturer: "Cisco",
+        Model: "APIC-L4",
+        Slug: "cisco-apic-l4",
+        UHeight: 1,
+        PartNumber: "APIC-L4",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe slot 1", Label: "PCIe-1", Position: "1" },
+            { Name: "PCIe slot 2", Label: "PCIe-2", Position: "2" },
+            { Name: "PCIe slot 3", Label: "PCIe-3", Position: "3" },
+            { Name: "PSU1", Label: "Power Supply 1", Position: "1" },
+            { Name: "PSU2", Label: "Power Supply 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mLOM-1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mLOM-2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "APIC-M2": {
         Manufacturer: "Cisco",
         Model: "APIC-M2",
@@ -8337,6 +8381,62 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "CW9800H1": {
+        Manufacturer: "Cisco",
+        Model: "CW9800H1",
+        Slug: "cisco-cw9800h1",
+        UHeight: 1,
+        PartNumber: "CW9800H1",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB CON", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power Supply Module 0", Label: "PEM 0", Position: "0" },
+            { Name: "Power Supply Module 1", Label: "PEM 1", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "RP (RJ-45)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "RP (SFP)", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/1/0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/1/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/1/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TwentyFiveGigE0/2/0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "USB 0", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "USB 1", Label: "", Type: "other", MgmtOnly: false },
         },
     },
     "CW9800M": {
