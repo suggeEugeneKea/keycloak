@@ -408,6 +408,43 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ThinkCentre M720q Tiny": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkCentre M720q Tiny",
+        Slug: "lenovo-thinkcentre-m720q-tiny",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ThinkCentre M75q Gen 5 Tiny": {
         Manufacturer: "Lenovo",
         Model: "ThinkCentre M75q Gen 5 Tiny",

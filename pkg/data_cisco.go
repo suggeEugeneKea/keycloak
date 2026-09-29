@@ -3618,6 +3618,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ASR1002": {
+        Manufacturer: "Cisco",
+        Model: "ASR1002",
+        Slug: "cisco-asr1002",
+        UHeight: 2,
+        PartNumber: "ASR1002",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.14,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Aux0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SPA0", Label: "SPA", Position: "0/1" },
+            { Name: "SPA1", Label: "SPA", Position: "0/2" },
+            { Name: "SPA2", Label: "SPA", Position: "0/3" },
+            { Name: "Slot ESP1", Label: "", Position: "ESP1" },
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ASR1002-HX": {
         Manufacturer: "Cisco",
         Model: "ASR1002-HX",
@@ -3808,6 +3856,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Slot ESP2", Label: "", Position: "ESP2" },
             { Name: "PS1", Label: "", Position: "1" },
             { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ASR1009-X": {
+        Manufacturer: "Cisco",
+        Model: "ASR1009-X",
+        Slug: "cisco-asr1009-x",
+        UHeight: 9,
+        PartNumber: "ASR1009-X",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot RP1", Label: "", Position: "RP1" },
+            { Name: "Slot RP2", Label: "", Position: "RP2" },
+            { Name: "Slot ESP1", Label: "", Position: "ESP1" },
+            { Name: "Slot ESP2", Label: "", Position: "ESP2" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+            { Name: "PS5", Label: "", Position: "5" },
+            { Name: "PS6", Label: "", Position: "6" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26837,6 +26933,46 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Catalyst 4503-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 4503-E",
+        Slug: "cisco-ws-c4503-e",
+        UHeight: 7,
+        PartNumber: "WS-C4503-E",
+        IsFullDepth: true,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.63,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Catalyst 4506": {
         Manufacturer: "Cisco",
         Model: "Catalyst 4506",
@@ -27192,6 +27328,47 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet1/50", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "TenGigabitEthernet1/51", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "TenGigabitEthernet1/52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Catalyst 6504-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 6504-E",
+        Slug: "cisco-ws-c6504-e",
+        UHeight: 5,
+        PartNumber: "WS-C6504-E",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Catalyst 6506-E": {

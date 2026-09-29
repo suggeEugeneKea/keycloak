@@ -53,8 +53,8 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 0,
         WeightUnit: "",
@@ -599,6 +599,50 @@ var DeviceTypesMapnetgear = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "GS308EP": {
+        Manufacturer: "Netgear",
+        Model: "GS308EP",
+        Slug: "netgear-gs308ep",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.49,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS", Label: "", Type: "dc-terminal", MaximumDraw: 75, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

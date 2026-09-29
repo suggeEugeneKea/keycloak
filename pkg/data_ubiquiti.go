@@ -5899,6 +5899,45 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 2 (LAN)", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "UniFi Protect Network Video Recorder G2 Pro": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Protect Network Video Recorder G2 Pro",
+        Slug: "ubiquiti-unifi-unvr-g2-pro",
+        UHeight: 2,
+        PartNumber: "UNVR-G2-Pro",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+            { Name: "USP-RPS connector for PSU failover", Label: "", Type: "ubiquiti-smartpower", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Protect Network Video Recorder Pro": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Protect Network Video Recorder Pro",
@@ -9259,6 +9298,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "Unifi G6 180": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 180",
+        Slug: "ubiquiti-uvc-g6-180",
+        UHeight: 0,
+        PartNumber: "UVC-G6-180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 839,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "Unifi G6 Bullet": {
         Manufacturer: "Ubiquiti",
         Model: "Unifi G6 Bullet",
@@ -9331,6 +9406,78 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "wlan", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Unifi G6 Pro Bullet": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 Pro Bullet",
+        Slug: "ubiquiti-unifi-uvc-g6-pro-bullet",
+        UHeight: 0,
+        PartNumber: "UVC-G6-Pro-Bullet",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 755,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G6 Pro Entry": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G6 Pro Entry",
+        Slug: "ubiquiti-uvc-g6-pro-entry",
+        UHeight: 0,
+        PartNumber: "UVC-G6-Pro-Entry",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Unifi G6 Turret": {
