@@ -2,6 +2,414 @@
 package devices
 
 var DeviceTypesMaparecont_vision = map[string]*DeviceData{
+    "AV02CID-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV02CID-100",
+        Slug: "arecont-vision-av02cid-100",
+        UHeight: 0,
+        PartNumber: "AV02CID-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV02CLB-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV02CLB-100",
+        Slug: "arecont-vision-av02clb-100",
+        UHeight: 0,
+        PartNumber: "AV02CLB-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1230,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV02CLD-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV02CLD-100",
+        Slug: "arecont-vision-av02cld-100",
+        UHeight: 0,
+        PartNumber: "AV02CLD-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV02CMB-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV02CMB-100",
+        Slug: "arecont-vision-av02cmb-100",
+        UHeight: 0,
+        PartNumber: "AV02CMB-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV05CID-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV05CID-100",
+        Slug: "arecont-vision-av05cid-100",
+        UHeight: 0,
+        PartNumber: "AV05CID-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV05CLB-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV05CLB-100",
+        Slug: "arecont-vision-av05clb-100",
+        UHeight: 0,
+        PartNumber: "AV05CLB-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1230,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV05CLD-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV05CLD-100",
+        Slug: "arecont-vision-av05cld-100",
+        UHeight: 0,
+        PartNumber: "AV05CLD-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV05CMB-100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV05CMB-100",
+        Slug: "arecont-vision-av05cmb-100",
+        UHeight: 0,
+        PartNumber: "AV05CMB-100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV08CPD-118": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV08CPD-118",
+        Slug: "arecont-vision-av08cpd-118",
+        UHeight: 0,
+        PartNumber: "AV08CPD-118",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV08ZMD-400": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV08ZMD-400",
+        Slug: "arecont-vision-av08zmd-400",
+        UHeight: 0,
+        PartNumber: "AV08ZMD-400",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV08ZMV-300": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV08ZMV-300",
+        Slug: "arecont-vision-av08zmv-300",
+        UHeight: 0,
+        PartNumber: "AV08ZMV-300",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 280,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV10115v1": {
         Manufacturer: "Arecont Vision",
         Model: "AV10115v1",
@@ -111,6 +519,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV10225PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV10225PMIR",
+        Slug: "arecont-vision-av10225pmir",
+        UHeight: 0,
+        PartNumber: "AV10225PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV10225PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV10225PMTIR",
+        Slug: "arecont-vision-av10225pmtir",
+        UHeight: 0,
+        PartNumber: "AV10225PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV10255": {
         Manufacturer: "Arecont Vision",
         Model: "AV10255",
@@ -130,6 +614,80 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV10655DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV10655DN",
+        Slug: "arecont-vision-av10655dn",
+        UHeight: 0,
+        PartNumber: "AV10655DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 880,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV10856DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV10856DN",
+        Slug: "arecont-vision-av10856dn",
+        UHeight: 0,
+        PartNumber: "AV10856DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -512,6 +1070,78 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV12375RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12375RS",
+        Slug: "arecont-vision-av12375rs",
+        UHeight: 0,
+        PartNumber: "AV12375RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12376RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12376RS",
+        Slug: "arecont-vision-av12376rs",
+        UHeight: 0,
+        PartNumber: "AV12376RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV1245": {
         Manufacturer: "Arecont Vision",
         Model: "AV1245",
@@ -623,6 +1253,114 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV12565DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12565DN",
+        Slug: "arecont-vision-av12565dn",
+        UHeight: 0,
+        PartNumber: "AV12565DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12566DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12566DN",
+        Slug: "arecont-vision-av12566dn",
+        UHeight: 0,
+        PartNumber: "AV12566DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12585DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12585DN",
+        Slug: "arecont-vision-av12585dn",
+        UHeight: 0,
+        PartNumber: "AV12585DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV12585PM": {
         Manufacturer: "Arecont Vision",
         Model: "AV12585PM",
@@ -660,6 +1398,42 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV12586DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12586DN",
+        Slug: "arecont-vision-av12586dn",
+        UHeight: 0,
+        PartNumber: "AV12586DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV12586PM": {
         Manufacturer: "Arecont Vision",
         Model: "AV12586PM",
@@ -680,6 +1454,300 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12975DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12975DN",
+        Slug: "arecont-vision-av12975dn",
+        UHeight: 0,
+        PartNumber: "AV12975DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1270,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12976DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12976DN",
+        Slug: "arecont-vision-av12976dn",
+        UHeight: 0,
+        PartNumber: "AV12976DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1270,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12CPD-236": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12CPD-236",
+        Slug: "arecont-vision-av12cpd-236",
+        UHeight: 0,
+        PartNumber: "AV12CPD-236",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12ZMD-401": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12ZMD-401",
+        Slug: "arecont-vision-av12zmd-401",
+        UHeight: 0,
+        PartNumber: "AV12ZMD-401",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV12ZMV-301": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV12ZMV-301",
+        Slug: "arecont-vision-av12zmv-301",
+        UHeight: 0,
+        PartNumber: "AV12ZMV-301",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 280,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV1300": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV1300",
+        Slug: "arecont-vision-av1300",
+        UHeight: 0,
+        PartNumber: "AV1300",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 243,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV1315": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV1315",
+        Slug: "arecont-vision-av1315",
+        UHeight: 0,
+        PartNumber: "AV1315",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 164,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV1325": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV1325",
+        Slug: "arecont-vision-av1325",
+        UHeight: 0,
+        PartNumber: "AV1325",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -760,6 +1828,80 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV1555DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV1555DNIR",
+        Slug: "arecont-vision-av1555dnir",
+        UHeight: 0,
+        PartNumber: "AV1555DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV16856DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV16856DN",
+        Slug: "arecont-vision-av16856dn",
+        UHeight: 0,
+        PartNumber: "AV16856DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -913,6 +2055,116 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV20375RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20375RS",
+        Slug: "arecont-vision-av20375rs",
+        UHeight: 0,
+        PartNumber: "AV20375RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20476DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20476DN",
+        Slug: "arecont-vision-av20476dn",
+        UHeight: 0,
+        PartNumber: "AV20476DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1700,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20476RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20476RS",
+        Slug: "arecont-vision-av20476rs",
+        UHeight: 0,
+        PartNumber: "AV20476RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV20558PM": {
         Manufacturer: "Arecont Vision",
         Model: "AV20558PM",
@@ -932,6 +2184,189 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20565DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20565DN",
+        Slug: "arecont-vision-av20565dn",
+        UHeight: 0,
+        PartNumber: "AV20565DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20585DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20585DN",
+        Slug: "arecont-vision-av20585dn",
+        UHeight: 0,
+        PartNumber: "AV20585DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20975DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20975DN",
+        Slug: "arecont-vision-av20975dn",
+        UHeight: 0,
+        PartNumber: "AV20975DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1270,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV20CPD-118": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV20CPD-118",
+        Slug: "arecont-vision-av20cpd-118",
+        UHeight: 0,
+        PartNumber: "AV20CPD-118",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2100",
+        Slug: "arecont-vision-av2100",
+        UHeight: 0,
+        PartNumber: "AV2100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 243,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1425,6 +2860,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV2225PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2225PMIR",
+        Slug: "arecont-vision-av2225pmir",
+        UHeight: 0,
+        PartNumber: "AV2225PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2225PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2225PMTIR",
+        Slug: "arecont-vision-av2225pmtir",
+        UHeight: 0,
+        PartNumber: "AV2225PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV2226": {
         Manufacturer: "Arecont Vision",
         Model: "AV2226",
@@ -1453,6 +2964,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2226PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2226PMIR",
+        Slug: "arecont-vision-av2226pmir",
+        UHeight: 0,
+        PartNumber: "AV2226PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2226PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2226PMTIR",
+        Slug: "arecont-vision-av2226pmtir",
+        UHeight: 0,
+        PartNumber: "AV2226PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1719,6 +3306,152 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV2325DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2325DNIR",
+        Slug: "arecont-vision-av2325dnir",
+        UHeight: 0,
+        PartNumber: "AV2325DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 460,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2326DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2326DNIR",
+        Slug: "arecont-vision-av2326dnir",
+        UHeight: 0,
+        PartNumber: "AV2326DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 460,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2355RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2355RS",
+        Slug: "arecont-vision-av2355rs",
+        UHeight: 0,
+        PartNumber: "AV2355RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2356RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2356RS",
+        Slug: "arecont-vision-av2356rs",
+        UHeight: 0,
+        PartNumber: "AV2356RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV2455DN": {
         Manufacturer: "Arecont Vision",
         Model: "AV2455DN",
@@ -1827,6 +3560,42 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV2555DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2555DNIR",
+        Slug: "arecont-vision-av2555dnir",
+        UHeight: 0,
+        PartNumber: "AV2555DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV2556DN": {
         Manufacturer: "Arecont Vision",
         Model: "AV2556DN",
@@ -1846,6 +3615,226 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2556DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2556DNIR",
+        Slug: "arecont-vision-av2556dnir",
+        UHeight: 0,
+        PartNumber: "AV2556DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2805": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2805",
+        Slug: "arecont-vision-av2805",
+        UHeight: 0,
+        PartNumber: "AV2805",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 243,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2815": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2815",
+        Slug: "arecont-vision-av2815",
+        UHeight: 0,
+        PartNumber: "AV2815",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 164,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2825": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2825",
+        Slug: "arecont-vision-av2825",
+        UHeight: 0,
+        PartNumber: "AV2825",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV2856DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV2856DNIR",
+        Slug: "arecont-vision-av2856dnir",
+        UHeight: 0,
+        PartNumber: "AV2856DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3100",
+        Slug: "arecont-vision-av3100",
+        UHeight: 0,
+        PartNumber: "AV3100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 243,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1955,6 +3944,43 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3130": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3130",
+        Slug: "arecont-vision-av3130",
+        UHeight: 0,
+        PartNumber: "AV3130",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 243,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2192,6 +4218,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV3225PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3225PMIR",
+        Slug: "arecont-vision-av3225pmir",
+        UHeight: 0,
+        PartNumber: "AV3225PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3225PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3225PMTIR",
+        Slug: "arecont-vision-av3225pmtir",
+        UHeight: 0,
+        PartNumber: "AV3225PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV3226": {
         Manufacturer: "Arecont Vision",
         Model: "AV3226",
@@ -2219,6 +4321,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3226PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3226PMIR",
+        Slug: "arecont-vision-av3226pmir",
+        UHeight: 0,
+        PartNumber: "AV3226PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3226PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3226PMTIR",
+        Slug: "arecont-vision-av3226pmtir",
+        UHeight: 0,
+        PartNumber: "AV3226PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2482,6 +4660,152 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV3325DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3325DNIR",
+        Slug: "arecont-vision-av3325dnir",
+        UHeight: 0,
+        PartNumber: "AV3325DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 460,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3326DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3326DNIR",
+        Slug: "arecont-vision-av3326dnir",
+        UHeight: 0,
+        PartNumber: "AV3326DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 460,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3355RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3355RS",
+        Slug: "arecont-vision-av3355rs",
+        UHeight: 0,
+        PartNumber: "AV3355RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3356RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3356RS",
+        Slug: "arecont-vision-av3356rs",
+        UHeight: 0,
+        PartNumber: "AV3356RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV3455DN": {
         Manufacturer: "Arecont Vision",
         Model: "AV3455DN",
@@ -2590,12 +4914,84 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV3555DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3555DNIR",
+        Slug: "arecont-vision-av3555dnir",
+        UHeight: 0,
+        PartNumber: "AV3555DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV3556DN": {
         Manufacturer: "Arecont Vision",
         Model: "AV3556DN",
         Slug: "arecont-vision-av3556dn",
         UHeight: 0,
         PartNumber: "AV3556DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV3556DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV3556DNIR",
+        Slug: "arecont-vision-av3556dnir",
+        UHeight: 0,
+        PartNumber: "AV3556DNIR",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -2645,6 +5041,153 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV4655DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV4655DN",
+        Slug: "arecont-vision-av4655dn",
+        UHeight: 0,
+        PartNumber: "AV4655DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 880,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV4656DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV4656DN",
+        Slug: "arecont-vision-av4656dn",
+        UHeight: 0,
+        PartNumber: "AV4656DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 880,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV4856DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV4856DN",
+        Slug: "arecont-vision-av4856dn",
+        UHeight: 0,
+        PartNumber: "AV4856DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV5100": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5100",
+        Slug: "arecont-vision-av5100",
+        UHeight: 0,
+        PartNumber: "AV5100",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2843,6 +5386,82 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV5225PMIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5225PMIR",
+        Slug: "arecont-vision-av5225pmir",
+        UHeight: 0,
+        PartNumber: "AV5225PMIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV5225PMTIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5225PMTIR",
+        Slug: "arecont-vision-av5225pmtir",
+        UHeight: 0,
+        PartNumber: "AV5225PMTIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1760,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV5245": {
         Manufacturer: "Arecont Vision",
         Model: "AV5245",
@@ -2988,6 +5607,43 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV5355RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5355RS",
+        Slug: "arecont-vision-av5355rs",
+        UHeight: 0,
+        PartNumber: "AV5355RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1020,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV5455DN": {
         Manufacturer: "Arecont Vision",
         Model: "AV5455DN",
@@ -3060,6 +5716,42 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV5555DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5555DNIR",
+        Slug: "arecont-vision-av5555dnir",
+        UHeight: 0,
+        PartNumber: "AV5555DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV5585PM": {
         Manufacturer: "Arecont Vision",
         Model: "AV5585PM",
@@ -3080,6 +5772,152 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV5856DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV5856DNIR",
+        Slug: "arecont-vision-av5856dnir",
+        UHeight: 0,
+        PartNumber: "AV5856DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV6655DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV6655DN",
+        Slug: "arecont-vision-av6655dn",
+        UHeight: 0,
+        PartNumber: "AV6655DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 880,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV6656DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV6656DN",
+        Slug: "arecont-vision-av6656dn",
+        UHeight: 0,
+        PartNumber: "AV6656DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 880,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV8180": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV8180",
+        Slug: "arecont-vision-av8180",
+        UHeight: 0,
+        PartNumber: "AV8180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1815,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3133,6 +5971,43 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AV8360": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV8360",
+        Slug: "arecont-vision-av8360",
+        UHeight: 0,
+        PartNumber: "AV8360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1815,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AV8365": {
         Manufacturer: "Arecont Vision",
         Model: "AV8365",
@@ -3160,6 +6035,117 @@ var DeviceTypesMaparecont_vision = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV8476DN": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV8476DN",
+        Slug: "arecont-vision-av8476dn",
+        UHeight: 0,
+        PartNumber: "AV8476DN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1700,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV8476RS": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV8476RS",
+        Slug: "arecont-vision-av8476rs",
+        UHeight: 0,
+        PartNumber: "AV8476RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AV8856DNIR": {
+        Manufacturer: "Arecont Vision",
+        Model: "AV8856DNIR",
+        Slug: "arecont-vision-av8856dnir",
+        UHeight: 0,
+        PartNumber: "AV8856DNIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 430,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },

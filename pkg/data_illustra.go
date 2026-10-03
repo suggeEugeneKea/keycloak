@@ -2,6 +2,80 @@
 package devices
 
 var DeviceTypesMapillustra = map[string]*DeviceData{
+    "ADCi825LT-F311": {
+        Manufacturer: "Illustra",
+        Model: "ADCi825LT-F311",
+        Slug: "illustra-adci825lt-f311",
+        UHeight: 0,
+        PartNumber: "ADCi825LT-F311",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 750,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "ADCi825LT-F312": {
+        Manufacturer: "Illustra",
+        Model: "ADCi825LT-F312",
+        Slug: "illustra-adci825lt-f312",
+        UHeight: 0,
+        PartNumber: "ADCi825LT-F312",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 730,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IES02-B10-BI04": {
         Manufacturer: "Illustra",
         Model: "IES02-B10-BI04",
@@ -145,6 +219,154 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IES02CFACWSY": {
+        Manufacturer: "Illustra",
+        Model: "IES02CFACWSY",
+        Slug: "illustra-ies02cfacwsy",
+        UHeight: 0,
+        PartNumber: "IES02CFACWSY",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 390,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 3, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IES02CFBCWIYB": {
+        Manufacturer: "Illustra",
+        Model: "IES02CFBCWIYB",
+        Slug: "illustra-ies02cfbcwiyb",
+        UHeight: 0,
+        PartNumber: "IES02CFBCWIYB",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IES02D1OCWIYB": {
+        Manufacturer: "Illustra",
+        Model: "IES02D1OCWIYB",
+        Slug: "illustra-ies02d1ocwiyb",
+        UHeight: 0,
+        PartNumber: "IES02D1OCWIYB",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IES02MFBNWIYB": {
+        Manufacturer: "Illustra",
+        Model: "IES02MFBNWIYB",
+        Slug: "illustra-ies02mfbnwiyb",
+        UHeight: 0,
+        PartNumber: "IES02MFBNWIYB",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 380,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -395,6 +617,338 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS02P5ICWTY": {
+        Manufacturer: "Illustra",
+        Model: "IFS02P5ICWTY",
+        Slug: "illustra-ifs02p5icwty",
+        UHeight: 0,
+        PartNumber: "IFS02P5ICWTY",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS02P5OCWTY": {
+        Manufacturer: "Illustra",
+        Model: "IFS02P5OCWTY",
+        Slug: "illustra-ifs02p5ocwty",
+        UHeight: 0,
+        PartNumber: "IFS02P5OCWTY",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS02P6INWIT": {
+        Manufacturer: "Illustra",
+        Model: "IFS02P6INWIT",
+        Slug: "illustra-ifs02p6inwit",
+        UHeight: 0,
+        PartNumber: "IFS02P6INWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS02P6ONWIT": {
+        Manufacturer: "Illustra",
+        Model: "IFS02P6ONWIT",
+        Slug: "illustra-ifs02p6onwit",
+        UHeight: 0,
+        PartNumber: "IFS02P6ONWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS03B1ONWIT": {
+        Manufacturer: "Illustra",
+        Model: "IFS03B1ONWIT",
+        Slug: "illustra-ifs03b1onwit",
+        UHeight: 0,
+        PartNumber: "IFS03B1ONWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS03CFOCWST": {
+        Manufacturer: "Illustra",
+        Model: "IFS03CFOCWST",
+        Slug: "illustra-ifs03cfocwst",
+        UHeight: 0,
+        PartNumber: "IFS03CFOCWST",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS03D1ICWTT": {
+        Manufacturer: "Illustra",
+        Model: "IFS03D1ICWTT",
+        Slug: "illustra-ifs03d1icwtt",
+        UHeight: 0,
+        PartNumber: "IFS03D1ICWTT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 970,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS03D1OCWIT": {
+        Manufacturer: "Illustra",
+        Model: "IFS03D1OCWIT",
+        Slug: "illustra-ifs03d1ocwit",
+        UHeight: 0,
+        PartNumber: "IFS03D1OCWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 970,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS03XNANWTT": {
+        Manufacturer: "Illustra",
+        Model: "IFS03XNANWTT",
+        Slug: "illustra-ifs03xnanwtt",
+        UHeight: 0,
+        PartNumber: "IFS03XNANWTT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -857,6 +1411,155 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IFS08B2ONWITA": {
+        Manufacturer: "Illustra",
+        Model: "IFS08B2ONWITA",
+        Slug: "illustra-ifs08b2onwita",
+        UHeight: 0,
+        PartNumber: "IFS08B2ONWITA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1380,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS08D2ICWTT": {
+        Manufacturer: "Illustra",
+        Model: "IFS08D2ICWTT",
+        Slug: "illustra-ifs08d2icwtt",
+        UHeight: 0,
+        PartNumber: "IFS08D2ICWTT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 970,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS08D2OCWIT": {
+        Manufacturer: "Illustra",
+        Model: "IFS08D2OCWIT",
+        Slug: "illustra-ifs08d2ocwit",
+        UHeight: 0,
+        PartNumber: "IFS08D2OCWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 970,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IFS08XNANWTT": {
+        Manufacturer: "Illustra",
+        Model: "IFS08XNANWTT",
+        Slug: "illustra-ifs08xnanwtt",
+        UHeight: 0,
+        PartNumber: "IFS08XNANWTT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IFS10-M10-OIA4": {
         Manufacturer: "Illustra",
         Model: "IFS10-M10-OIA4",
@@ -1266,6 +1969,43 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPS02-D12-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS02-D12-OI03",
+        Slug: "illustra-ips02-d12-oi03",
+        UHeight: 0,
+        PartNumber: "IPS02-D12-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "IPS02-D12-OI04": {
         Manufacturer: "Illustra",
         Model: "IPS02-D12-OI04",
@@ -1278,6 +2018,43 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 1500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS02-D17-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS02-D17-OI03",
+        Slug: "illustra-ips02-d17-oi03",
+        UHeight: 0,
+        PartNumber: "IPS02-D17-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1412,6 +2189,299 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS02CFOCWST": {
+        Manufacturer: "Illustra",
+        Model: "IPS02CFOCWST",
+        Slug: "illustra-ips02cfocwst",
+        UHeight: 0,
+        PartNumber: "IPS02CFOCWST",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS02D2OCWIT": {
+        Manufacturer: "Illustra",
+        Model: "IPS02D2OCWIT",
+        Slug: "illustra-ips02d2ocwit",
+        UHeight: 0,
+        PartNumber: "IPS02D2OCWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS02P6OCWTT": {
+        Manufacturer: "Illustra",
+        Model: "IPS02P6OCWTT",
+        Slug: "illustra-ips02p6ocwtt",
+        UHeight: 0,
+        PartNumber: "IPS02P6OCWTT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS03-D12-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS03-D12-OI03",
+        Slug: "illustra-ips03-d12-oi03",
+        UHeight: 0,
+        PartNumber: "IPS03-D12-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS03-D17-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS03-D17-OI03",
+        Slug: "illustra-ips03-d17-oi03",
+        UHeight: 0,
+        PartNumber: "IPS03-D17-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS03CFOCWST": {
+        Manufacturer: "Illustra",
+        Model: "IPS03CFOCWST",
+        Slug: "illustra-ips03cfocwst",
+        UHeight: 0,
+        PartNumber: "IPS03CFOCWST",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS03D2OCWIT": {
+        Manufacturer: "Illustra",
+        Model: "IPS03D2OCWIT",
+        Slug: "illustra-ips03d2ocwit",
+        UHeight: 0,
+        PartNumber: "IPS03D2OCWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS03D3OCWIT": {
+        Manufacturer: "Illustra",
+        Model: "IPS03D3OCWIT",
+        Slug: "illustra-ips03d3ocwit",
+        UHeight: 0,
+        PartNumber: "IPS03D3OCWIT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
     "IPS04-B12-OIA4": {
@@ -1753,6 +2823,80 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPS05-D12-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS05-D12-OI03",
+        Slug: "illustra-ips05-d12-oi03",
+        UHeight: 0,
+        PartNumber: "IPS05-D12-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS05-D14-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS05-D14-OI03",
+        Slug: "illustra-ips05-d14-oi03",
+        UHeight: 0,
+        PartNumber: "IPS05-D14-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "IPS05-R10-OIA4": {
         Manufacturer: "Illustra",
         Model: "IPS05-R10-OIA4",
@@ -1782,6 +2926,42 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPS05D2OCWIY": {
+        Manufacturer: "Illustra",
+        Model: "IPS05D2OCWIY",
+        Slug: "illustra-ips05d2ocwiy",
+        UHeight: 0,
+        PartNumber: "IPS05D2OCWIY",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1904,6 +3084,43 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPS08-D13-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS08-D13-OI03",
+        Slug: "illustra-ips08-d13-oi03",
+        UHeight: 0,
+        PartNumber: "IPS08-D13-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "IPS08-D13-OI04": {
         Manufacturer: "Illustra",
         Model: "IPS08-D13-OI04",
@@ -1916,6 +3133,43 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 1500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS08-D14-OI03": {
+        Manufacturer: "Illustra",
+        Model: "IPS08-D14-OI03",
+        Slug: "illustra-ips08-d14-oi03",
+        UHeight: 0,
+        PartNumber: "IPS08-D14-OI03",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1130,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2087,6 +3341,44 @@ var DeviceTypesMapillustra = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IPS12FFOCWIYA": {
+        Manufacturer: "Illustra",
+        Model: "IPS12FFOCWIYA",
+        Slug: "illustra-ips12ffocwiya",
+        UHeight: 0,
+        PartNumber: "IPS12FFOCWIYA",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 330,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
     "IPS20-M12-OIA4": {

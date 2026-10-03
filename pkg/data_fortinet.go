@@ -126,6 +126,116 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "GbESfpDMZInerface2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "FortiADC 2200F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiADC 2200F",
+        Slug: "fortinet-fad-2200f",
+        UHeight: 1,
+        PartNumber: "FAD-2200F",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ha", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FortiADC 420F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiADC 420F",
+        Slug: "fortinet-fad-420f",
+        UHeight: 1,
+        PartNumber: "FAD-420F",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FortiAP 221E": {
         Manufacturer: "Fortinet",
         Model: "FortiAP 221E",
@@ -1145,6 +1255,47 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FortiAuthenticator 300F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAuthenticator 300F",
+        Slug: "fortinet-fac-300f",
+        UHeight: 1,
+        PartNumber: "FAC-300F",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "FortiExtender 101F-EA": {
@@ -7001,6 +7152,98 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "FortiProxy 4000G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiProxy 4000G",
+        Slug: "fortinet-fpx-4000g",
+        UHeight: 2,
+        PartNumber: "FPX-4000G",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FortiProxy 400G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiProxy 400G",
+        Slug: "fortinet-fpx-400g",
+        UHeight: 1,
+        PartNumber: "FPX-400G",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FortiRPS 100": {
         Manufacturer: "Fortinet",
         Model: "FortiRPS 100",
@@ -9803,6 +10046,58 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "FortiWeb 1000E": {
+        Manufacturer: "Fortinet",
+        Model: "FortiWeb 1000E",
+        Slug: "fortinet-fwb-1000e",
+        UHeight: 2,
+        PartNumber: "FWB-1000E",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "FortiWeb 2000E": {
         Manufacturer: "Fortinet",
         Model: "FortiWeb 2000E",
@@ -9906,6 +10201,122 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port14", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port15", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port16", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FortiWeb 4000E": {
+        Manufacturer: "Fortinet",
+        Model: "FortiWeb 4000E",
+        Slug: "fortinet-fwb-4000e",
+        UHeight: 2,
+        PartNumber: "FWB-4000E",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "port1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FortiWeb 4000F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiWeb 4000F",
+        Slug: "fortinet-fwb-4000f",
+        UHeight: 2,
+        PartNumber: "FWB-4000F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 22.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "port1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Fortinet Interface Module": {

@@ -40,12 +40,164 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIBR20FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR20FL28CWS P2",
+        Slug: "matrix-satatya-cibr20fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR20FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIBR20FL36CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIBR20FL36CWP P2",
         Slug: "matrix-satatya-cibr20fl36cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIBR20FL36CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR20FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR20FL36CWS P2",
+        Slug: "matrix-satatya-cibr20fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR20FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR20FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR20FL60CWP P2",
+        Slug: "matrix-satatya-cibr20fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR20FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR20FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR20FL60CWS P2",
+        Slug: "matrix-satatya-cibr20fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR20FL60CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -116,12 +268,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIBR20VL12CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR20VL12CWS P2",
+        Slug: "matrix-satatya-cibr20vl12cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR20VL12CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIBR50FL28CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIBR50FL28CWP P2",
         Slug: "matrix-satatya-cibr50fl28cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIBR50FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR50FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR50FL28CWS P2",
+        Slug: "matrix-satatya-cibr50fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR50FL28CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -192,6 +420,120 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIBR50FL40CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR50FL40CWS P2",
+        Slug: "matrix-satatya-cibr50fl40cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR50FL40CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR50FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR50FL60CWP P2",
+        Slug: "matrix-satatya-cibr50fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR50FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR50FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR50FL60CWS P2",
+        Slug: "matrix-satatya-cibr50fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR50FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIBR50MVL12CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIBR50MVL12CWP P2",
@@ -212,6 +554,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR50VL12CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR50VL12CWS P2",
+        Slug: "matrix-satatya-cibr50vl12cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR50VL12CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -268,12 +648,164 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIBR80FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR80FL28CWS P2",
+        Slug: "matrix-satatya-cibr80fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR80FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIBR80FL36CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIBR80FL36CWP P2",
         Slug: "matrix-satatya-cibr80fl36cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIBR80FL36CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR80FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR80FL36CWS P2",
+        Slug: "matrix-satatya-cibr80fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR80FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR80FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR80FL60CWP P2",
+        Slug: "matrix-satatya-cibr80fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR80FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 840,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIBR80FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIBR80FL60CWS P2",
+        Slug: "matrix-satatya-cibr80fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIBR80FL60CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -382,12 +914,164 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIDR20FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR20FL28CWS P2",
+        Slug: "matrix-satatya-cidr20fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR20FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIDR20FL36CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIDR20FL36CWP P2",
         Slug: "matrix-satatya-cidr20fl36cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIDR20FL36CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR20FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR20FL36CWS P2",
+        Slug: "matrix-satatya-cidr20fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR20FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR20FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR20FL60CWP P2",
+        Slug: "matrix-satatya-cidr20fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR20FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR20FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR20FL60CWS P2",
+        Slug: "matrix-satatya-cidr20fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR20FL60CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -458,12 +1142,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIDR20VL12CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR20VL12CWS P2",
+        Slug: "matrix-satatya-cidr20vl12cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR20VL12CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIDR50FL28CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIDR50FL28CWP P2",
         Slug: "matrix-satatya-cidr50fl28cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIDR50FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR50FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR50FL28CWS P2",
+        Slug: "matrix-satatya-cidr50fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR50FL28CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -534,6 +1294,120 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIDR50FL40CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR50FL40CWS P2",
+        Slug: "matrix-satatya-cidr50fl40cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR50FL40CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR50FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR50FL60CWP P2",
+        Slug: "matrix-satatya-cidr50fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR50FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR50FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR50FL60CWS P2",
+        Slug: "matrix-satatya-cidr50fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR50FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIDR50MVL12CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIDR50MVL12CWP P2",
@@ -572,12 +1446,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIDR50VL12CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR50VL12CWS P2",
+        Slug: "matrix-satatya-cidr50vl12cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR50VL12CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIDR80FL28CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIDR80FL28CWP P2",
         Slug: "matrix-satatya-cidr80fl28cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA CIDR80FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR80FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR80FL28CWS P2",
+        Slug: "matrix-satatya-cidr80fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR80FL28CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -648,6 +1598,120 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA CIDR80FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR80FL36CWS P2",
+        Slug: "matrix-satatya-cidr80fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR80FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR80FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR80FL60CWP P2",
+        Slug: "matrix-satatya-cidr80fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR80FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA CIDR80FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA CIDR80FL60CWS P2",
+        Slug: "matrix-satatya-cidr80fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA CIDR80FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1410,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA CIDR80ML12CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA CIDR80ML12CWP P2",
@@ -668,6 +1732,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIBR20FL28CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR20FL28CWP P2",
+        Slug: "matrix-satatya-mibr20fl28cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR20FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -724,12 +1826,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIBR20FL36CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR20FL36CWP P2",
+        Slug: "matrix-satatya-mibr20fl36cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR20FL36CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIBR20FL36CWS P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIBR20FL36CWS P2",
         Slug: "matrix-satatya-mibr20fl36cws-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIBR20FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIBR20FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR20FL60CWP P2",
+        Slug: "matrix-satatya-mibr20fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR20FL60CWP P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -838,12 +2016,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIBR50FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR50FL28CWS P2",
+        Slug: "matrix-satatya-mibr50fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR50FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIBR50FL40CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIBR50FL40CWP P2",
         Slug: "matrix-satatya-mibr50fl40cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIBR50FL40CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIBR50FL40CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR50FL40CWS P2",
+        Slug: "matrix-satatya-mibr50fl40cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR50FL40CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -914,12 +2168,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIBR50FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR50FL60CWS P2",
+        Slug: "matrix-satatya-mibr50fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR50FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIBR80FL28CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIBR80FL28CWP P2",
         Slug: "matrix-satatya-mibr80fl28cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIBR80FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIBR80FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR80FL28CWS P2",
+        Slug: "matrix-satatya-mibr80fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR80FL28CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -990,6 +2320,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIBR80FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR80FL36CWS P2",
+        Slug: "matrix-satatya-mibr80fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR80FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIBR80FL60CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIBR80FL60CWP P2",
@@ -1010,6 +2378,82 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIBR80FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIBR80FL60CWS P2",
+        Slug: "matrix-satatya-mibr80fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIBR80FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIDR20FL28CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR20FL28CWP P2",
+        Slug: "matrix-satatya-midr20fl28cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR20FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1066,12 +2510,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIDR20FL36CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR20FL36CWP P2",
+        Slug: "matrix-satatya-midr20fl36cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR20FL36CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIDR20FL36CWS P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIDR20FL36CWS P2",
         Slug: "matrix-satatya-midr20fl36cws-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIDR20FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIDR20FL60CWP P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR20FL60CWP P2",
+        Slug: "matrix-satatya-midr20fl60cwp-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR20FL60CWP P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -1180,12 +2700,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIDR50FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR50FL28CWS P2",
+        Slug: "matrix-satatya-midr50fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR50FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIDR50FL40CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIDR50FL40CWP P2",
         Slug: "matrix-satatya-midr50fl40cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIDR50FL40CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIDR50FL40CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR50FL40CWS P2",
+        Slug: "matrix-satatya-midr50fl40cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR50FL40CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -1256,12 +2852,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIDR50FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR50FL60CWS P2",
+        Slug: "matrix-satatya-midr50fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR50FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIDR80FL28CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIDR80FL28CWP P2",
         Slug: "matrix-satatya-midr80fl28cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIDR80FL28CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIDR80FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR80FL28CWS P2",
+        Slug: "matrix-satatya-midr80fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR80FL28CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -1332,12 +3004,88 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MIDR80FL36CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR80FL36CWS P2",
+        Slug: "matrix-satatya-midr80fl36cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR80FL36CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MIDR80FL60CWP P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MIDR80FL60CWP P2",
         Slug: "matrix-satatya-midr80fl60cwp-p2",
         UHeight: 0,
         PartNumber: "SATATYA MIDR80FL60CWP P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 740,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA MIDR80FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MIDR80FL60CWS P2",
+        Slug: "matrix-satatya-midr80fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MIDR80FL60CWS P2",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -1694,6 +3442,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MITR20FL28CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MITR20FL28CWS P2",
+        Slug: "matrix-satatya-mitr20fl28cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MITR20FL28CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 720,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MITR20FL36CWS P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MITR20FL36CWS P2",
@@ -1838,6 +3624,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MITR50FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MITR50FL60CWS P2",
+        Slug: "matrix-satatya-mitr50fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MITR50FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 720,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA MITR80FL28CWS P2": {
         Manufacturer: "Matrix",
         Model: "SATATYA MITR80FL28CWS P2",
@@ -1910,6 +3734,44 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "SATATYA MITR80FL60CWS P2": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA MITR80FL60CWS P2",
+        Slug: "matrix-satatya-mitr80fl60cws-p2",
+        UHeight: 0,
+        PartNumber: "SATATYA MITR80FL60CWS P2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 720,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "SATATYA PTZ2040P": {
         Manufacturer: "Matrix",
         Model: "SATATYA PTZ2040P",
@@ -1968,6 +3830,115 @@ var DeviceTypesMapmatrix = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA PZCR20ML25CWP": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA PZCR20ML25CWP",
+        Slug: "matrix-satatya-pzcr20ml25cwp",
+        UHeight: 0,
+        PartNumber: "SATATYA PZCR20ML25CWP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA PZCR20ML33CWP": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA PZCR20ML33CWP",
+        Slug: "matrix-satatya-pzcr20ml33cwp",
+        UHeight: 0,
+        PartNumber: "SATATYA PZCR20ML33CWP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "SATATYA PZCR50ML42CWP": {
+        Manufacturer: "Matrix",
+        Model: "SATATYA PZCR50ML42CWP",
+        Slug: "matrix-satatya-pzcr50ml42cwp",
+        UHeight: 0,
+        PartNumber: "SATATYA PZCR50ML42CWP",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
         },
         PowerOutlets: []PowerOutlet{
         },

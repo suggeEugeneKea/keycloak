@@ -116,6 +116,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC121-Ei4N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC121-Ei4N",
+        Slug: "kedacom-ipc121-ei4n",
+        UHeight: 0,
+        PartNumber: "IPC121-Ei4N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 900,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC121-Ei7N": {
         Manufacturer: "Kedacom",
         Model: "IPC121-Ei7N",
@@ -1590,6 +1628,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2231-Gi4N-SIR40-Z7022": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2231-Gi4N-SIR40-Z7022",
+        Slug: "kedacom-ipc2231-gi4n-sir40-z7022",
+        UHeight: 0,
+        PartNumber: "IPC2231-Gi4N-SIR40-Z7022",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2231-HN-S": {
         Manufacturer: "Kedacom",
         Model: "IPC2231-HN-S",
@@ -2269,6 +2345,120 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2241-Fi4N-C": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2241-Fi4N-C",
+        Slug: "kedacom-ipc2241-fi4n-c",
+        UHeight: 0,
+        PartNumber: "IPC2241-Fi4N-C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2241-Gi4NW-SIR15": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2241-Gi4NW-SIR15",
+        Slug: "kedacom-ipc2241-gi4nw-sir15",
+        UHeight: 0,
+        PartNumber: "IPC2241-Gi4NW-SIR15",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2241-GiCNW&amp;GiCWG-SIR-L0360": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2241-GiCNW&amp;GiCWG-SIR-L0360",
+        Slug: "kedacom-ipc2241-gicnw-and-gicwg-sir-l0360",
+        UHeight: 0,
+        PartNumber: "IPC2241-GiCNW&amp;GiCWG-SIR-L0360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2250-AN": {
         Manufacturer: "Kedacom",
         Model: "IPC2250-AN",
@@ -2648,6 +2838,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2252-Gi4N-SIR50-Z7022": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2252-Gi4N-SIR50-Z7022",
+        Slug: "kedacom-ipc2252-gi4n-sir50-z7022",
+        UHeight: 0,
+        PartNumber: "IPC2252-Gi4N-SIR50-Z7022",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2252-HN-DIR": {
         Manufacturer: "Kedacom",
         Model: "IPC2252-HN-DIR",
@@ -2988,6 +3216,82 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2255-Gi4N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2255-Gi4N",
+        Slug: "kedacom-ipc2255-gi4n",
+        UHeight: 0,
+        PartNumber: "IPC2255-Gi4N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2255-Gi7N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2255-Gi7N",
+        Slug: "kedacom-ipc2255-gi7n",
+        UHeight: 0,
+        PartNumber: "IPC2255-Gi7N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 36, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2270-FN-S": {
         Manufacturer: "Kedacom",
         Model: "IPC2270-FN-S",
@@ -3137,6 +3441,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2431-Gi4N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2431-Gi4N",
+        Slug: "kedacom-ipc2431-gi4n",
+        UHeight: 0,
+        PartNumber: "IPC2431-Gi4N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "IPC2431-HN-S": {
@@ -3477,6 +3819,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2452-Gi4N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2452-Gi4N",
+        Slug: "kedacom-ipc2452-gi4n",
+        UHeight: 0,
+        PartNumber: "IPC2452-Gi4N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "IPC2452-HN&amp;HNB-PIR50-Z2812": {
@@ -4312,6 +4692,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2833-Fi4cN-SIR50-Z6022-L": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2833-Fi4cN-SIR50-Z6022-L",
+        Slug: "kedacom-ipc2833-fi4cn-sir50-z6022-l",
+        UHeight: 0,
+        PartNumber: "IPC2833-Fi4cN-SIR50-Z6022-L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 710,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2852-FN/FNB-SIR50-L": {
         Manufacturer: "Kedacom",
         Model: "IPC2852-FN/FNB-SIR50-L",
@@ -4464,6 +4882,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC2852-Fi4N-SIR50-Z6022": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2852-Fi4N-SIR50-Z6022",
+        Slug: "kedacom-ipc2852-fi4n-sir50-z6022",
+        UHeight: 0,
+        PartNumber: "IPC2852-Fi4N-SIR50-Z6022",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC2854-Fi7NB-SIR80-Z2818-TU": {
         Manufacturer: "Kedacom",
         Model: "IPC2854-Fi7NB-SIR80-Z2818-TU",
@@ -4537,6 +4993,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC2856-Di7N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC2856-Di7N",
+        Slug: "kedacom-ipc2856-di7n",
+        UHeight: 0,
+        PartNumber: "IPC2856-Di7N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 45, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "IPC2860-HN-PIR15": {
@@ -5483,6 +5977,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC445-i733-N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC445-i733-N",
+        Slug: "kedacom-ipc445-i733-n",
+        UHeight: 0,
+        PartNumber: "IPC445-i733-N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 45, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC447-F245-NR050-TU": {
         Manufacturer: "Kedacom",
         Model: "IPC447-F245-NR050-TU",
@@ -5709,6 +6241,82 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IPC521-F120-G": {
+        Manufacturer: "Kedacom",
+        Model: "IPC521-F120-G",
+        Slug: "kedacom-ipc521-f120-g",
+        UHeight: 0,
+        PartNumber: "IPC521-F120-G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 63, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC521-F233-N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC521-F233-N",
+        Slug: "kedacom-ipc521-f233-n",
+        UHeight: 0,
+        PartNumber: "IPC521-F233-N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IPC521-F233-NL": {
         Manufacturer: "Kedacom",
         Model: "IPC521-F233-NL",
@@ -5729,6 +6337,196 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 70, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC521-H120-N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC521-H120-N",
+        Slug: "kedacom-ipc521-h120-n",
+        UHeight: 0,
+        PartNumber: "IPC521-H120-N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC521-H120-W": {
+        Manufacturer: "Kedacom",
+        Model: "IPC521-H120-W",
+        Slug: "kedacom-ipc521-h120-w",
+        UHeight: 0,
+        PartNumber: "IPC521-H120-W",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC522-F230": {
+        Manufacturer: "Kedacom",
+        Model: "IPC522-F230",
+        Slug: "kedacom-ipc522-f230",
+        UHeight: 0,
+        PartNumber: "IPC522-F230",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC522-G230-5G": {
+        Manufacturer: "Kedacom",
+        Model: "IPC522-G230-5G",
+        Slug: "kedacom-ipc522-g230-5g",
+        UHeight: 0,
+        PartNumber: "IPC522-G230-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3800,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC522-G230-G": {
+        Manufacturer: "Kedacom",
+        Model: "IPC522-G230-G",
+        Slug: "kedacom-ipc522-g230-g",
+        UHeight: 0,
+        PartNumber: "IPC522-G230-G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 25, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5805,6 +6603,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "AC", Label: "", Type: "hardwired", MaximumDraw: 70, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC523-F833-N": {
+        Manufacturer: "Kedacom",
+        Model: "IPC523-F833-N",
+        Slug: "kedacom-ipc523-f833-n",
+        UHeight: 0,
+        PartNumber: "IPC523-F833-N",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 50, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -5957,6 +6793,44 @@ var DeviceTypesMapkedacom = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 120, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "IPC981-T230-NIR": {
+        Manufacturer: "Kedacom",
+        Model: "IPC981-T230-NIR",
+        Slug: "kedacom-ipc981-t230-nir",
+        UHeight: 0,
+        PartNumber: "IPC981-T230-NIR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7000,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

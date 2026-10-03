@@ -2,6 +2,82 @@
 package devices
 
 var DeviceTypesMapavycon = map[string]*DeviceData{
+    "AVC-DB21F23": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-DB21F23",
+        Slug: "avycon-avc-db21f23",
+        UHeight: 0,
+        PartNumber: "AVC-DB21F23",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 141,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-N4M81F360": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-N4M81F360",
+        Slug: "avycon-avc-n4m81f360",
+        UHeight: 0,
+        PartNumber: "AVC-N4M81F360",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3260,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NAB41F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NAB41F28",
@@ -299,6 +375,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NBM81F180": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NBM81F180",
+        Slug: "avycon-avc-nbm81f180",
+        UHeight: 0,
+        PartNumber: "AVC-NBM81F180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 635,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NCB51F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NCB51F28",
@@ -373,6 +487,82 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NCB51M-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NCB51M-IK",
+        Slug: "avycon-avc-ncb51m-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NCB51M-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 829,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NCB51M50-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NCB51M50-IK",
+        Slug: "avycon-avc-ncb51m50-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NCB51M50-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 829,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NCB81F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NCB81F28",
@@ -438,6 +628,82 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NCB81M-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NCB81M-IK",
+        Slug: "avycon-avc-ncb81m-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NCB81M-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 829,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NCB81M50-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NCB81M50-IK",
+        Slug: "avycon-avc-ncb81m50-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NCB81M50-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 829,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -854,6 +1120,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NDB41M-LPR-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NDB41M-LPR-IK",
+        Slug: "avycon-avc-ndb41m-lpr-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NDB41M-LPR-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NDB51F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NDB51F28",
@@ -994,6 +1298,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NDB81M32-LPR-IK": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NDB81M32-LPR-IK",
+        Slug: "avycon-avc-ndb81m32-lpr-ik",
+        UHeight: 0,
+        PartNumber: "AVC-NDB81M32-LPR-IK",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2040,6 +2382,270 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NLD51F28": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NLD51F28",
+        Slug: "avycon-avc-nld51f28",
+        UHeight: 0,
+        PartNumber: "AVC-NLD51F28",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 306,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NLD51M": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NLD51M",
+        Slug: "avycon-avc-nld51m",
+        UHeight: 0,
+        PartNumber: "AVC-NLD51M",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 436,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NLV51F28": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NLV51F28",
+        Slug: "avycon-avc-nlv51f28",
+        UHeight: 0,
+        PartNumber: "AVC-NLV51F28",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 575,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NMS41P3": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NMS41P3",
+        Slug: "avycon-avc-nms41p3",
+        UHeight: 0,
+        PartNumber: "AVC-NMS41P3",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NMS51P20": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NMS51P20",
+        Slug: "avycon-avc-nms51p20",
+        UHeight: 0,
+        PartNumber: "AVC-NMS51P20",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NP51F180": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NP51F180",
+        Slug: "avycon-avc-np51f180",
+        UHeight: 0,
+        PartNumber: "AVC-NP51F180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 635,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NPB51F180": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NPB51F180",
+        Slug: "avycon-avc-npb51f180",
+        UHeight: 0,
+        PartNumber: "AVC-NPB51F180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 388,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NPB51F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NPB51F28",
@@ -2105,6 +2711,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NPB51M50": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NPB51M50",
+        Slug: "avycon-avc-npb51m50",
+        UHeight: 0,
+        PartNumber: "AVC-NPB51M50",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1290,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2447,6 +3091,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NPE51F36": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NPE51F36",
+        Slug: "avycon-avc-npe51f36",
+        UHeight: 0,
+        PartNumber: "AVC-NPE51F36",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 415,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NPE51M": {
         Manufacturer: "AVYCON",
         Model: "AVC-NPE51M",
@@ -2706,6 +3388,80 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NPTZ21X12L": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NPTZ21X12L",
+        Slug: "avycon-avc-nptz21x12l",
+        UHeight: 0,
+        PartNumber: "AVC-NPTZ21X12L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1996,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NPTZ21X23L": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NPTZ21X23L",
+        Slug: "avycon-avc-nptz21x23l",
+        UHeight: 0,
+        PartNumber: "AVC-NPTZ21X23L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1996,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NPV51F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NPV51F28",
@@ -2854,6 +3610,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NSB51M-G": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NSB51M-G",
+        Slug: "avycon-avc-nsb51m-g",
+        UHeight: 0,
+        PartNumber: "AVC-NSB51M-G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 792,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NSB81F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NSB81F28",
@@ -2956,6 +3750,82 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NSD21F28": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NSD21F28",
+        Slug: "avycon-avc-nsd21f28",
+        UHeight: 0,
+        PartNumber: "AVC-NSD21F28",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 306,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NSD21M": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NSD21M",
+        Slug: "avycon-avc-nsd21m",
+        UHeight: 0,
+        PartNumber: "AVC-NSD21M",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 451,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3187,6 +4057,44 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "AVC-NSV21M": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NSV21M",
+        Slug: "avycon-avc-nsv21m",
+        UHeight: 0,
+        PartNumber: "AVC-NSV21M",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 917,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "AVC-NSV81F28": {
         Manufacturer: "AVYCON",
         Model: "AVC-NSV81F28",
@@ -3244,6 +4152,42 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NSVD51F2D": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NSVD51F2D",
+        Slug: "avycon-avc-nsvd51f2d",
+        UHeight: 0,
+        PartNumber: "AVC-NSVD51F2D",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 749,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3503,6 +4447,154 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NTB51M07": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NTB51M07",
+        Slug: "avycon-avc-ntb51m07",
+        UHeight: 0,
+        PartNumber: "AVC-NTB51M07",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NTB51M32": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NTB51M32",
+        Slug: "avycon-avc-ntb51m32",
+        UHeight: 0,
+        PartNumber: "AVC-NTB51M32",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NTE51M07": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NTE51M07",
+        Slug: "avycon-avc-nte51m07",
+        UHeight: 0,
+        PartNumber: "AVC-NTE51M07",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NTE51M32": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NTE51M32",
+        Slug: "avycon-avc-nte51m32",
+        UHeight: 0,
+        PartNumber: "AVC-NTE51M32",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3799,6 +4891,80 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NVP51F180": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NVP51F180",
+        Slug: "avycon-avc-nvp51f180",
+        UHeight: 0,
+        PartNumber: "AVC-NVP51F180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 853,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-NVP81F180": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-NVP81F180",
+        Slug: "avycon-avc-nvp81f180",
+        UHeight: 0,
+        PartNumber: "AVC-NVP81F180",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 853,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -4251,6 +5417,158 @@ var DeviceTypesMapavycon = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-PNN41X04L": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-PNN41X04L",
+        Slug: "avycon-avc-pnn41x04l",
+        UHeight: 0,
+        PartNumber: "AVC-PNN41X04L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1200,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-PNN41X40LW": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-PNN41X40LW",
+        Slug: "avycon-avc-pnn41x40lw",
+        UHeight: 0,
+        PartNumber: "AVC-PNN41X40LW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2900,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-PNN61FLT": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-PNN61FLT",
+        Slug: "avycon-avc-pnn61flt",
+        UHeight: 0,
+        PartNumber: "AVC-PNN61FLT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 431,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "AVC-WDB51F21": {
+        Manufacturer: "AVYCON",
+        Model: "AVC-WDB51F21",
+        Slug: "avycon-avc-wdb51f21",
+        UHeight: 0,
+        PartNumber: "AVC-WDB51F21",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 115,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
         },
 			  DeviceBays: []DeviceBay{
         },
