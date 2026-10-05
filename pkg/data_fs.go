@@ -471,7 +471,6 @@ var DeviceTypesMapfs = map[string]*DeviceData{
 			  DeviceBays: []DeviceBay{
             { Name: "1", Label: "" },
             { Name: "2", Label: "" },
-            { Name: "3", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

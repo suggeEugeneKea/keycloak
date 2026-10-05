@@ -1397,6 +1397,52 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "40GE0/0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
+    "D5V6-512G-NVMe-Ctrl": {
+        Manufacturer: "Huawei",
+        Model: "D5V6-512G-NVMe-Ctrl",
+        Slug: "huawei-d5v6-512g-nvme-ctrl",
+        UHeight: 1,
+        PartNumber: "02355GVC",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOM_0", Label: "", Position: "IOM_0" },
+            { Name: "IOM_1", Label: "", Position: "IOM_1" },
+            { Name: "IOM_2", Label: "", Position: "IOM_2" },
+            { Name: "IOM_3", Label: "", Position: "IOM_3" },
+            { Name: "IOM_4", Label: "", Position: "IOM_4" },
+            { Name: "IOM_5", Label: "", Position: "IOM_5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Net", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Service", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "RDMA_Expand_1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "RDMA_Expand_2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+        },
+    },
     "Dorado 3000 V6": {
         Manufacturer: "Huawei",
         Model: "Dorado 3000 V6",
@@ -1454,6 +1500,45 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "Net P9.B", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "mgmt.B", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "service.B", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Dorado 5000 V6 Enclosure": {
+        Manufacturer: "Huawei",
+        Model: "Dorado 5000 V6 Enclosure",
+        Slug: "huawei-dorado-5000-v6-enclosure",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 50,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "A(up)", Label: "", Position: "A" },
+            { Name: "B(down)", Label: "", Position: "B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Huawei S6730-S24X6Q": {

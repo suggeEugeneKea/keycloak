@@ -21390,6 +21390,41 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "ProLiant BL460c Gen8": {
+        Manufacturer: "HPE",
+        Model: "ProLiant BL460c Gen8",
+        Slug: "hpe-proliant-bl460c-gen8",
+        UHeight: 0,
+        PartNumber: "666158-B21",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ProLiant BL460c Gen9": {
         Manufacturer: "HPE",
         Model: "ProLiant BL460c Gen9",
