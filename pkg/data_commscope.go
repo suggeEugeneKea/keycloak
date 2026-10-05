@@ -49,7 +49,7 @@ var DeviceTypesMapcommscope = map[string]*DeviceData{
         PartNumber: "760237046",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,

@@ -2876,6 +2876,82 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "PoE 24": {
+        Manufacturer: "Ubiquiti",
+        Model: "PoE 24",
+        Slug: "ubiquiti-poe-24",
+        UHeight: 0,
+        PartNumber: "POE-24-24W-G-WH",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Input", Label: "", Type: "iec-60320-c6", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1 (LAN)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2 (POE)", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "PoE 48": {
+        Manufacturer: "Ubiquiti",
+        Model: "PoE 48",
+        Slug: "ubiquiti-poe-48",
+        UHeight: 0,
+        PartNumber: "POE-48-24W-G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 159,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Input", Label: "", Type: "iec-60320-c6", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1 (LAN)", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2 (POE)", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Power Distribution Pro": {
         Manufacturer: "Ubiquiti",
         Model: "Power Distribution Pro",
@@ -6328,6 +6404,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Port 3 (PoE&#43;)", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 4 (PoE&#43;)", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 5 (PoE&#43;)", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "UniFi Switch Flex 2.5G 8 PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Flex 2.5G 8 PoE",
+        Slug: "ubiquiti-usw-flex-2-5g-8-poe",
+        UHeight: 0,
+        PartNumber: "USW-Flex-2-5G-8-PoE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 567,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "54VDC IN", Label: "", Type: "dc-terminal", MaximumDraw: 210, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 3 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 4 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 5 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 6 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 7 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 8 (PoE&#43;&#43;)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 9 (PoE&#43;&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "UniFi Switch Flex Mini": {

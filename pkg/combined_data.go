@@ -4,6 +4,7 @@ package devices
 var DeviceTypesMap = map[string]map[string]*DeviceData{
     "3Com": DeviceTypesMap3com,
     "A10": DeviceTypesMapa10,
+    "ADC": DeviceTypesMapadc,
     "ADVA": DeviceTypesMapadva,
     "AFL": DeviceTypesMapafl,
     "APC": DeviceTypesMapapc,
