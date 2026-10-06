@@ -1026,6 +1026,48 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "VMG3006-D70A": {
+        Manufacturer: "Zyxel",
+        Model: "VMG3006-D70A",
+        Slug: "zyxel-vmg3006-d70a",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 245,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DSL", Label: "DSL", Type: "xdsl", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN 1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN 2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN 3", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN 4", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "WAC6503D-S": {
         Manufacturer: "Zyxel",
         Model: "WAC6503D-S",

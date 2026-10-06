@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMapchatsworth_products = map[string]*DeviceData{
     "12816-701": {
-        Manufacturer: "Chatsworth Products",
+        Manufacturer: "Chatsworth-Products",
         Model: "12816-701",
         Slug: "chatsworth-products-12816-701",
         UHeight: 1,

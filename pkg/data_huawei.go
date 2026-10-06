@@ -1401,7 +1401,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         Manufacturer: "Huawei",
         Model: "D5V6-512G-NVMe-Ctrl",
         Slug: "huawei-d5v6-512g-nvme-ctrl",
-        UHeight: 1,
+        UHeight: 0,
         PartNumber: "02355GVC",
         IsFullDepth: false,
         Airflow: "",
