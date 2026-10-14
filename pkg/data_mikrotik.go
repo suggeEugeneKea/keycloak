@@ -4371,6 +4371,43 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "SXTsq Embedded LTE4": {
+        Manufacturer: "MikroTik",
+        Model: "SXTsq Embedded LTE4",
+        Slug: "mikrotik-sxtsq-embedded-lte4",
+        UHeight: 0,
+        PartNumber: "EC25-EU&amp;SXTsq",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 300,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lte1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "cAP RBcAP2nD": {
         Manufacturer: "MikroTik",
         Model: "cAP RBcAP2nD",

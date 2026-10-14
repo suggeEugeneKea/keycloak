@@ -14963,6 +14963,100 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Brocade 16Gb SAN Switch for HPE BladeSystem c-Class": {
+        Manufacturer: "HPE",
+        Model: "Brocade 16Gb SAN Switch for HPE BladeSystem c-Class",
+        Slug: "hpe-c8s46a",
+        UHeight: 0,
+        PartNumber: "C8S46A",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 3.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port0", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port21", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port22", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port23", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port24", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port25", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port26", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+            { Name: "port27", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+        },
+    },
+    "Brocade 8Gb SAN Switch for HPE BladeSystem c-Class": {
+        Manufacturer: "HPE",
+        Model: "Brocade 8Gb SAN Switch for HPE BladeSystem c-Class",
+        Slug: "hpe-aj821a",
+        UHeight: 0,
+        PartNumber: "AJ821A",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 2.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port0", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port21", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port22", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port23", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port24", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port25", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port26", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+            { Name: "port27", Label: "", Type: "8gfc-sfpp", MgmtOnly: false },
+        },
+    },
     "ClearPass C1000": {
         Manufacturer: "HPE",
         Model: "ClearPass C1000",
@@ -31065,6 +31159,9 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
+            { Name: "Mezzanine 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -31100,6 +31197,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
+            { Name: "Mezzanine 3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Synergy 480 Gen11": {
+        Manufacturer: "HPE",
+        Model: "Synergy 480 Gen11",
+        Slug: "hpe-synergy-480-gen11",
+        UHeight: 0,
+        PartNumber: "P39531-B21",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 8.16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Mezzanine 1", Label: "", Position: "1" },
+            { Name: "Mezzanine 2", Label: "", Position: "2" },
+            { Name: "Mezzanine 3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },

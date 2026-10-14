@@ -102,6 +102,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "DreamQuest": DeviceTypesMapdreamquest,
     "EFB Elektronik": DeviceTypesMapefb_elektronik,
     "EGSMTPC": DeviceTypesMapegsmtpc,
+    "ESCAM": DeviceTypesMapescam,
     "Eaton": DeviceTypesMapeaton,
     "Edgecore": DeviceTypesMapedgecore,
     "Edimax": DeviceTypesMapedimax,
