@@ -2411,6 +2411,60 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "CSS318-16G-2S&#43;IN": {
+        Manufacturer: "MikroTik",
+        Model: "CSS318-16G-2S&#43;IN",
+        Slug: "mikrotik-css318-16g-2s-plus-in",
+        UHeight: 1,
+        PartNumber: "CSS318-16G-2S&#43;IN",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "100-240 V, 0,25 A MAX, 50/60 Hz", Type: "iec-60320-c6", MaximumDraw: 13, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP1", Label: "SFP&#43; 1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP2", Label: "SFP&#43; 2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "CSS326-24G-2S&#43;RM": {
         Manufacturer: "MikroTik",
         Model: "CSS326-24G-2S&#43;RM",

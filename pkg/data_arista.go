@@ -2,6 +2,46 @@
 package devices
 
 var DeviceTypesMaparista = map[string]*DeviceData{
+    "AP-C460": {
+        Manufacturer: "Arista",
+        Model: "AP-C460",
+        Slug: "arista-ap-c460",
+        UHeight: 0,
+        PartNumber: "AP-C460",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.73,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 42 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Radio", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+        },
+    },
     "AWE-5310": {
         Manufacturer: "Arista",
         Model: "AWE-5310",
