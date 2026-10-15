@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapqnap = map[string]*DeviceData{
+    "ES1686dc-2142IT-128G": {
+        Manufacturer: "QNAP",
+        Model: "ES1686dc-2142IT-128G",
+        Slug: "qnap-es1686dc-2142it-128g",
+        UHeight: 3,
+        PartNumber: "ES1686dc-2142IT-128G",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30.22,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Controller A", Label: "", Position: "A" },
+            { Name: "Controller B", Label: "", Position: "B" },
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "TS-1232PXU-RP": {
         Manufacturer: "QNAP",
         Model: "TS-1232PXU-RP",

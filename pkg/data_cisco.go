@@ -4582,6 +4582,44 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "Aironet 1562I-E": {
+        Manufacturer: "Cisco",
+        Model: "Aironet 1562I-E",
+        Slug: "cisco-air-ap1562i-e-k9",
+        UHeight: 0,
+        PartNumber: "AIR-AP1562I-E-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Aironet 1572EAC-B": {
         Manufacturer: "Cisco",
         Model: "Aironet 1572EAC-B",
@@ -29204,6 +29242,46 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "Catalyst 9120AXE-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9120AXE-E",
+        Slug: "cisco-c9120axe-e",
+        UHeight: 0,
+        PartNumber: "C9120AXE-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.36,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "Catalyst 9120AXI-E": {
         Manufacturer: "Cisco",
         Model: "Catalyst 9120AXI-E",
@@ -29321,6 +29399,46 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
+    "Catalyst 9124AXE-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9124AXE-E",
+        Slug: "cisco-c9124axe-e",
+        UHeight: 0,
+        PartNumber: "C9124AXE-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
@@ -37240,6 +37358,88 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "FourHundredGigE1/0/99", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
             { Name: "FourHundredGigE1/0/100", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
             { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Catalyst CW9162I-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst CW9162I-E",
+        Slug: "cisco-cw9162i-e",
+        UHeight: 0,
+        PartNumber: "CW9162I-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.93,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
+    "Catalyst CW9166I-E": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst CW9166I-E",
+        Slug: "cisco-cw9166i-e",
+        UHeight: 0,
+        PartNumber: "CW9166I-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "5gbase-t", MgmtOnly: false },
         },
     },
     "Catalyst Digital Building 5-slot Rack Mount": {
