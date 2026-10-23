@@ -2,6 +2,88 @@
 package devices
 
 var DeviceTypesMapplanet = map[string]*DeviceData{
+    "IPOE-162": {
+        Manufacturer: "Planet",
+        Model: "IPOE-162",
+        Slug: "planet-ipoe-162",
+        UHeight: 0,
+        PartNumber: "IPOE-162",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.49,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR 1", Label: "", Type: "dc-terminal", MaximumDraw: 32, AllocatedDraw: 0 },
+            { Name: "PWR 2", Label: "", Type: "dc-terminal", MaximumDraw: 32, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet&#43;DC", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ISW-621TF": {
+        Manufacturer: "Planet",
+        Model: "ISW-621TF",
+        Slug: "planet-isw-621tf",
+        UHeight: 0,
+        PartNumber: "ISW-621TF",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.44,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR 1", Label: "", Type: "dc-terminal", MaximumDraw: 16, AllocatedDraw: 0 },
+            { Name: "PWR 2", Label: "", Type: "dc-terminal", MaximumDraw: 16, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "SFP 1", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+            { Name: "SFP 2", Label: "", Type: "100base-x-sfp", MgmtOnly: false },
+        },
+    },
     "POE-2400G": {
         Manufacturer: "PLANET",
         Model: "POE-2400G",

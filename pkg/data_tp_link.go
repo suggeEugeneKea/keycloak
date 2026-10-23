@@ -2439,6 +2439,50 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG1008P": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG1008P",
+        Slug: "tp-link-tl-sg1008p",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.37,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Input", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TL-SG1016DE": {
         Manufacturer: "TP-Link",
         Model: "TL-SG1016DE",

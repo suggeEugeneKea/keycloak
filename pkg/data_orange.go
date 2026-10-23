@@ -2,6 +2,94 @@
 package devices
 
 var DeviceTypesMaporange = map[string]*DeviceData{
+    "Livebox 6": {
+        Manufacturer: "Orange",
+        Model: "Livebox 6",
+        Slug: "orange-livebox-6",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Alim.", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Tel.1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Tel.2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2.5G", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Fibre", Label: "", Type: "gpon", MgmtOnly: false },
+        },
+    },
+    "Livebox 7": {
+        Manufacturer: "Orange",
+        Model: "Livebox 7",
+        Slug: "orange-livebox-7",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Alim.", Label: "", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Tel.1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Tel.2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10G", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Fibre", Label: "", Type: "xgs-pon", MgmtOnly: false },
+        },
+    },
     "Livebox Business 360": {
         Manufacturer: "Orange",
         Model: "Livebox Business 360",

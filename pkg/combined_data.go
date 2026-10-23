@@ -120,6 +120,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "FalconEye": DeviceTypesMapfalconeye,
     "FibroLAN": DeviceTypesMapfibrolan,
     "FireBrick": DeviceTypesMapfirebrick,
+    "Firebat": DeviceTypesMapfirebat,
     "Firewalla": DeviceTypesMapfirewalla,
     "Forcepoint": DeviceTypesMapforcepoint,
     "Fortinet": DeviceTypesMapfortinet,
@@ -373,4 +374,5 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "flir": DeviceTypesMapflir,
     "ghipsystems": DeviceTypesMapghipsystems,
     "i-PRO": DeviceTypesMapi_pro,
+    "multimatic": DeviceTypesMapmultimatic,
 }
