@@ -5139,6 +5139,49 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate 50G 5G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 50G 5G",
+        Slug: "fortinet-fg-50g-5g",
+        UHeight: 1,
+        PartNumber: "FG-50G-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC&#43;12V", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 8 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wwan", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "FortiGate 50G SFP": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 50G SFP",
@@ -6995,6 +7038,54 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "port9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
             { Name: "port10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
+    "FortiGate Rugged 50G 5G": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate Rugged 50G 5G",
+        Slug: "fortinet-fgr-50g-5g",
+        UHeight: 0,
+        PartNumber: "FGR-50G-5G",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC1", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 16 },
+            { Name: "DC2", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 16 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "serial", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP 1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "SFP 2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "WAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wwan", Label: "", Type: "5g", MgmtOnly: false },
         },
     },
     "FortiGate Rugged 60F": {
