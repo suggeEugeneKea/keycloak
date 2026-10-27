@@ -46113,10 +46113,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "main", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
-            { Name: "secondary", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
-            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
-            { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "main", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "secondary", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "Meraki MR72": {

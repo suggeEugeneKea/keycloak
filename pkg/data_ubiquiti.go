@@ -3991,7 +3991,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
@@ -4120,7 +4120,6 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
-            { Name: "wlan2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
     "U6 Lite": {

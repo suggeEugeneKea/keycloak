@@ -1981,6 +1981,59 @@ var DeviceTypesMapopengear = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: true },
         },
     },
+    "OM1204-4E-L": {
+        Manufacturer: "Opengear",
+        Model: "OM1204-4E-L",
+        Slug: "opengear-om1204-4e-l",
+        UHeight: 1,
+        PartNumber: "OM1204-4E-L",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Port 1", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Port 2", Type: "rj-45", Label: "" },
+            { Name: "Port 3", Type: "rj-45", Label: "" },
+            { Name: "Port 4", Type: "rj-45", Label: "" },
+            { Name: "USB A", Type: "usb-a", Label: "" },
+            { Name: "USB B", Type: "usb-a", Label: "" },
+            { Name: "USB C", Type: "usb-a", Label: "" },
+            { Name: "USB D", Type: "usb-a", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 25 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 25 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "net1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "net2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wwan0", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "sw0", Label: "", Type: "bridge", MgmtOnly: false },
+            { Name: "sw0p1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sw0p2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sw0p3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sw0p4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "OM1208-8E-L": {
         Manufacturer: "Opengear",
         Model: "OM1208-8E-L",
