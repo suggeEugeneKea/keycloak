@@ -254,6 +254,8 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PS1", Label: "", Position: "0" },
             { Name: "PS2", Label: "", Position: "1" },
+            { Name: "Linecard2", Label: "", Position: "2" },
+            { Name: "Linecard3", Label: "", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
