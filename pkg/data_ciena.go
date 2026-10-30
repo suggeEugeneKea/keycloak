@@ -2,6 +2,138 @@
 package devices
 
 var DeviceTypesMapciena = map[string]*DeviceData{
+    "0473": {
+        Manufacturer: "Ciena",
+        Model: "0473",
+        Slug: "ciena-0473",
+        UHeight: 0,
+        PartNumber: "170-0473-910",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Serial Port 1", Type: "rj-45", Label: "" },
+            { Name: "Serial Port 2", Type: "rj-45", Label: "" },
+            { Name: "Serial Port 3", Type: "rj-45", Label: "" },
+            { Name: "Serial Port 4", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "USB-C", Label: "", Type: "usb-c", MaximumDraw: 2, AllocatedDraw: 1 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "0480": {
+        Manufacturer: "Ciena",
+        Model: "0480",
+        Slug: "ciena-0480",
+        UHeight: 0,
+        PartNumber: "170-0480-910",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 2960,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "48VDC", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Service Slot 1", Label: "" },
+            { Name: "Service Slot 2", Label: "" },
+            { Name: "Service Slot 3", Label: "" },
+            { Name: "Service Slot 4", Label: "" },
+            { Name: "Service Slot 5", Label: "" },
+            { Name: "Service Slot 6", Label: "" },
+            { Name: "Service Slot 7", Label: "" },
+            { Name: "Service Slot 8", Label: "" },
+            { Name: "Service Slot 9", Label: "" },
+            { Name: "Service Slot 10", Label: "" },
+            { Name: "Splitter Slot", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "0575-900": {
+        Manufacturer: "Ciena",
+        Model: "0575-900",
+        Slug: "ciena-0575-900",
+        UHeight: 0,
+        PartNumber: "170-0575-900",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "OUT 1", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 2", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 3", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 4", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 5", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 6", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 7", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+            { Name: "OUT 8", Label: "", Type: "sc-apc", RearPort: "", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "IN 1", Label: "", Type: "sc-apc", Positions: 8, Poe: false },
+            { Name: "IN 2", Label: "", Type: "sc-apc", Positions: 8, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "3801": {
         Manufacturer: "Ciena",
         Model: "3801",
@@ -76,6 +208,48 @@ var DeviceTypesMapciena = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "XGS-PON", Label: "", Type: "xgs-pon", MgmtOnly: false },
             { Name: "10G LAN", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "3803-MTL": {
+        Manufacturer: "Ciena",
+        Model: "3803-MTL",
+        Slug: "ciena-3803-mtl",
+        UHeight: 0,
+        PartNumber: "170-3803-910-MTL",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 632,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "48VDC", Label: "", Type: "other", MaximumDraw: 9, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "USB-C", Type: "usb-c", Label: "", PowerPort: "48VDC", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XGS-PON", Label: "", Type: "xgs-pon", MgmtOnly: false },
+            { Name: "UNI-ETH 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "UNI-ETH 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "UNI-ETH 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "UNI-ETH 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "3806": {
