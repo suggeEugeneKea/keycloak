@@ -84,6 +84,44 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "AS-1015A-MT": {
+        Manufacturer: "Supermicro",
+        Model: "AS-1015A-MT",
+        Slug: "supermicro-as-1015a-mt",
+        UHeight: 1,
+        PartNumber: "AS-1015A-MT",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 500, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Drive Bay 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Motherboard", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AS-1114S-WN10RT": {
         Manufacturer: "Supermicro",
         Model: "AS-1114S-WN10RT",
@@ -301,6 +339,52 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "AS-2015A-TR": {
+        Manufacturer: "Supermicro",
+        Model: "AS-2015A-TR",
+        Slug: "supermicro-as-2015a-tr",
+        UHeight: 2,
+        PartNumber: "AS-2015A-TR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 16.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power 1", Label: "", Position: "1" },
+            { Name: "Power 2", Label: "", Position: "2" },
+            { Name: "Drive Bay 1", Label: "", Position: "3" },
+            { Name: "Drive Bay 2", Label: "", Position: "4" },
+            { Name: "Drive Bay 3", Label: "", Position: "5" },
+            { Name: "Drive Bay 4", Label: "", Position: "6" },
+            { Name: "Drive Bay 5", Label: "", Position: "7" },
+            { Name: "Drive Bay 6", Label: "", Position: "8" },
+            { Name: "Drive Bay 7", Label: "", Position: "9" },
+            { Name: "Drive Bay 8", Label: "", Position: "10" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Motherboard", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AS-2115HS-TNR": {
         Manufacturer: "Supermicro",
         Model: "AS-2115HS-TNR",
@@ -384,6 +468,47 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "AS-3015A-I": {
+        Manufacturer: "Supermicro",
+        Model: "AS-3015A-I",
+        Slug: "supermicro-as-3015a-i",
+        UHeight: 0,
+        PartNumber: "AS-3015A-I",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 8.16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 668, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Drive Bay 1", Label: "", Position: "1" },
+            { Name: "Drive Bay 2", Label: "", Position: "2" },
+            { Name: "Drive Bay 3", Label: "", Position: "3" },
+            { Name: "Drive Bay 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Motherboard", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "AS-4125GS-TNRT": {
@@ -779,6 +904,96 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "Motherboard H13SAE-MF": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard H13SAE-MF",
+        Slug: "supermicro-mbd-h13sae-mf",
+        UHeight: 0,
+        PartNumber: "MBD-H13SAE-MF",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CPU", Label: "", Position: "1" },
+            { Name: "DIMMA1", Label: "", Position: "2" },
+            { Name: "DIMMA2", Label: "", Position: "3" },
+            { Name: "DIMMB1", Label: "", Position: "4" },
+            { Name: "DIMMB2", Label: "", Position: "5" },
+            { Name: "SLOT4", Label: "", Position: "6" },
+            { Name: "SLOT6", Label: "", Position: "7" },
+            { Name: "SLOT7", Label: "", Position: "8" },
+            { Name: "M.2-C1", Label: "", Position: "9" },
+            { Name: "M.2-C2", Label: "", Position: "10" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Motherboard X10DRW-i": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X10DRW-i",
+        Slug: "supermicro-mbd-x10drw-i",
+        UHeight: 0,
+        PartNumber: "MBD-X10DRW-i",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Motherboard X10SRH-CF": {
