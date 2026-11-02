@@ -2,6 +2,42 @@
 package devices
 
 var DeviceTypesMaptiandy = map[string]*DeviceData{
+    "TC-32XN-PVZ": {
+        Manufacturer: "Tiandy",
+        Model: "TC-32XN-PVZ",
+        Slug: "tiandy-tc-32xn-pvz",
+        UHeight: 0,
+        PartNumber: "TC-32XN-PVZ",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "TC-C32GN": {
         Manufacturer: "Tiandy",
         Model: "TC-C32GN",
@@ -288,6 +324,44 @@ var DeviceTypesMaptiandy = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "microSD", Label: "", Position: "microSD" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "TC-C35UV W/E/Y/M/S/4mm": {
+        Manufacturer: "Tiandy",
+        Model: "TC-C35UV W/E/Y/M/S/4mm",
+        Slug: "tiandy-tc-c35uv-w-e-y-m-s-4mm",
+        UHeight: 0,
+        PartNumber: "TC-C35UV W/E/Y/M/S/4mm",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
