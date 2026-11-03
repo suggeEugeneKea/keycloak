@@ -82,4 +82,46 @@ var DeviceTypesMapminisforum = map[string]*DeviceData{
             { Name: "ethernet-2/2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "UM773 Lite": {
+        Manufacturer: "Minisforum",
+        Model: "UM773 Lite",
+        Slug: "minisforum-um773-lite",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "M.2 SSD", Label: "", Position: "1" },
+            { Name: "WLAN", Label: "", Position: "2" },
+            { Name: "SATA drive", Label: "", Position: "3" },
+            { Name: "DIMM A", Label: "", Position: "4" },
+            { Name: "DIMM B", Label: "", Position: "5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eno1", Label: "2.5G LAN", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
 }
