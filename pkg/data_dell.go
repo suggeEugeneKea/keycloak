@@ -2738,6 +2738,48 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge R470": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R470",
+        Slug: "dell-poweredge-r470",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "iDRAC Direct", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "OCP NIC Slot (3.0)", Label: "", Position: "OCP-1" },
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "1", Position: "PCIe-1" },
+            { Name: "PCIe Slot 4", Label: "4", Position: "PCIe-4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge R510": {
         Manufacturer: "Dell",
         Model: "PowerEdge R510",
