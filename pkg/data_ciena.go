@@ -601,6 +601,55 @@ var DeviceTypesMapciena = map[string]*DeviceData{
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "3924-905": {
+        Manufacturer: "Ciena",
+        Model: "3924-905",
+        Slug: "ciena-3924-905",
+        UHeight: 1,
+        PartNumber: "170-3924-905",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+            { Name: "1PPS", Type: "other", Label: "", Poe: false },
+            { Name: "SYNC", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSA", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 23 },
+            { Name: "PSB", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 23 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1.1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1.2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1.3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1.4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1.5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1.6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1.7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1.8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "3926": {
         Manufacturer: "Ciena",
         Model: "3926",

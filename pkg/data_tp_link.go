@@ -2545,6 +2545,46 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG1005P-PD": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG1005P-PD",
+        Slug: "tp-link-tl-sg1005p-pd",
+        UHeight: 0,
+        PartNumber: "840030705700",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 349,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TL-SG1008MP": {
         Manufacturer: "TP-Link",
         Model: "TL-SG1008MP",
