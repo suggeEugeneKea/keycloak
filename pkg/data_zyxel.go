@@ -1041,6 +1041,44 @@ var DeviceTypesMapzyxel = map[string]*DeviceData{
             { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "NR7302": {
+        Manufacturer: "Zyxel",
+        Model: "NR7302",
+        Slug: "zyxel-nr7302",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 665,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Cellular", Label: "", Type: "5g", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "P-660HNU-T1": {
         Manufacturer: "Zyxel",
         Model: "P-660HNU-T1",

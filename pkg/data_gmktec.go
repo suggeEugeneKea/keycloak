@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapgmktec = map[string]*DeviceData{
+    "NucBox G2 Plus": {
+        Manufacturer: "GMKtec",
+        Model: "NucBox G2 Plus",
+        Slug: "gmktec-nucbox-g2-plus",
+        UHeight: 0,
+        PartNumber: "G2Plus N150",
+        IsFullDepth: false,
+        Airflow: "bottom-to-top",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 218,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "NucBox G3 Plus": {
         Manufacturer: "GMKtec",
         Model: "NucBox G3 Plus",

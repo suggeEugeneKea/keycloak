@@ -361,6 +361,95 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
             { Name: "MGMT 2", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "XG 86": {
+        Manufacturer: "Sophos",
+        Model: "XG 86",
+        Slug: "sophos-xg-86",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Micro-USB", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC In", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "XG 86w": {
+        Manufacturer: "Sophos",
+        Model: "XG 86w",
+        Slug: "sophos-xg-86w",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Micro-USB", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC In", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "XGS 107": {
         Manufacturer: "Sophos",
         Model: "XGS 107",

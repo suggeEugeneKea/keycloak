@@ -11106,6 +11106,63 @@ var DeviceTypesMaphikvision = map[string]*DeviceData{
             { Name: "54", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "DS-7616NI-Q2/16P": {
+        Manufacturer: "Hikvision",
+        Model: "DS-7616NI-Q2/16P",
+        Slug: "hikvision-ds-7616ni-q2-16p",
+        UHeight: 1,
+        PartNumber: "S-7616NI-Q2/16P (D)",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 300, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+            { Name: "Audio Out", Label: "", Type: "other", Positions: 1, Poe: false },
+            { Name: "Audio In", Label: "", Type: "other", Positions: 1, Poe: false },
+            { Name: "HDMI", Label: "", Type: "other", Positions: 1, Poe: false },
+            { Name: "USB", Label: "", Type: "usb-a", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "16", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DS-7616NXI-K2": {
         Manufacturer: "Hikvision",
         Model: "DS-7616NXI-K2",

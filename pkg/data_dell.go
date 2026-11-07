@@ -2684,6 +2684,9 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU 1", Label: "", Position: "1" },
             { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe Mezzanine 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe Slot 3", Label: "", Position: "PCIe-3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2692,8 +2695,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -3264,8 +3265,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
@@ -3286,6 +3287,9 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe-Gen4 1", Label: "", Position: "PCIE1" },
+            { Name: "PCIe-Gen4 2", Label: "", Position: "PCIE2" },
+            { Name: "PCIe-Gen4 3", Label: "", Position: "PCIE3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3297,7 +3301,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC9 1", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "iDRAC9 2", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "PowerEdge R6515": {
@@ -3330,6 +3333,9 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe Mezzanine 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe Slot 3", Label: "", Position: "PCIe-3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3611,8 +3617,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 19.96,
         WeightUnit: "",
@@ -3884,16 +3890,19 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU 1", Label: "", Position: "1" },
             { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "Network Daughter Card Slot 1", Label: "", Position: "NDC-1" },
+            { Name: "PCIe Slot 1", Label: "1", Position: "PCIe-1" },
+            { Name: "PCIe Slot 2", Label: "2", Position: "PCIe-2" },
+            { Name: "PCIe Slot 3", Label: "3", Position: "PCIe-3" },
+            { Name: "PCIe Slot 4", Label: "4", Position: "PCIe-4" },
+            { Name: "PCIe Slot 5", Label: "5", Position: "PCIe-5" },
+            { Name: "PCIe Slot 6", Label: "6", Position: "PCIe-6" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -3999,8 +4008,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 33.1,
         WeightUnit: "",
@@ -5327,6 +5336,14 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe Slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe Slot 3", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe Slot 4", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe Slot 5", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe Slot 6", Label: "", Position: "PCIe-6" },
+            { Name: "PCIe Slot 7", Label: "", Position: "PCIe-7" },
+            { Name: "PCIe Slot 8", Label: "", Position: "PCIe-8" },
         },
 			  DeviceBays: []DeviceBay{
         },

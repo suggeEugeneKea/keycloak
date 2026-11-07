@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMaplinksys = map[string]*DeviceData{
+    "LGS308P": {
+        Manufacturer: "Linksys",
+        Model: "LGS308P",
+        Slug: "linksys-lgs308p",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 562,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 360, AllocatedDraw: 10 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "LGS528": {
         Manufacturer: "Linksys",
         Model: "LGS528",

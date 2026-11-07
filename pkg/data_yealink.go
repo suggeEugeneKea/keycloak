@@ -2,6 +2,46 @@
 package devices
 
 var DeviceTypesMapyealink = map[string]*DeviceData{
+    "RoomCast": {
+        Manufacturer: "Yealink",
+        Model: "RoomCast",
+        Slug: "yealink-roomcast",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 192,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 1248, AllocatedDraw: 620 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+            { Name: "USB", Label: "", Type: "usb-a", Positions: 2, Poe: false },
+            { Name: "HDMI", Label: "", Type: "other", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi", Label: "Wireless", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "W60B": {
         Manufacturer: "Yealink",
         Model: "W60B",
