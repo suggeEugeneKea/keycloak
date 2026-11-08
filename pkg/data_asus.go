@@ -2,6 +2,57 @@
 package devices
 
 var DeviceTypesMapasus = map[string]*DeviceData{
+    "ESC8000A-E13": {
+        Manufacturer: "ASUS",
+        Model: "ESC8000A-E13",
+        Slug: "asus-esc8000a-e13",
+        UHeight: 4,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PSU 3", Label: "", Position: "3" },
+            { Name: "PSU 4", Label: "", Position: "4" },
+            { Name: "GPU1 PCIe Gen5 x16", Label: "GPU 1", Position: "CPU1-PCIe1" },
+            { Name: "GPU2 PCIe Gen5 x16", Label: "GPU 2", Position: "CPU1-PCIe2" },
+            { Name: "GPU3 PCIe Gen5 x16", Label: "GPU 3", Position: "CPU1-PCIe3" },
+            { Name: "GPU4 PCIe Gen5 x16", Label: "GPU 4", Position: "CPU1-PCIe4" },
+            { Name: "NIC01 PCIe Gen5 x16", Label: "SLOT 1", Position: "CPU1-PCIe5" },
+            { Name: "GPU5 PCIe Gen5 x16", Label: "GPU 5", Position: "CPU2-PCIe1" },
+            { Name: "GPU6 PCIe Gen5 x16", Label: "GPU 6", Position: "CPU2-PCIe2" },
+            { Name: "GPU7 PCIe Gen5 x16", Label: "GPU 7", Position: "CPU2-PCIe3" },
+            { Name: "GPU8 PCIe Gen5 x16", Label: "GPU 8", Position: "CPU2-PCIe4" },
+            { Name: "NIC02 PCIe Gen5 x8", Label: "SLOT 2", Position: "CPU2-PCIe5" },
+            { Name: "RAID PCIe Gen5 x8", Label: "RAID", Position: "CPU2-PCIe6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DM_LAN1", Label: "DM LAN", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Pro WS X570-ACE": {
         Manufacturer: "ASUS",
         Model: "Pro WS X570-ACE",
