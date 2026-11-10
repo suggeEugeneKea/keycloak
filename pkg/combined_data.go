@@ -120,6 +120,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "EFB Elektronik": DeviceTypesMapefb_elektronik,
     "EGSMTPC": DeviceTypesMapegsmtpc,
     "ESCAM": DeviceTypesMapescam,
+    "Eagle Eye Networks": DeviceTypesMapeagle_eye_networks,
     "Eaton": DeviceTypesMapeaton,
     "Edgecore": DeviceTypesMapedgecore,
     "Edimax": DeviceTypesMapedimax,
