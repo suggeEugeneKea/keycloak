@@ -5438,6 +5438,46 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
         },
     },
+    "mAP RBmAP2nD": {
+        Manufacturer: "MikroTik",
+        Model: "mAP RBmAP2nD",
+        Slug: "mikrotik-map-rbmap2nd",
+        UHeight: 0,
+        PartNumber: "RBmAP2nD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 0 },
+            { Name: "USB", Label: "USB", Type: "usb-micro-b", MaximumDraw: 5, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "1", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ether2", Label: "2", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "netPower 16P": {
         Manufacturer: "MikroTik",
         Model: "netPower 16P",
