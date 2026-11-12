@@ -117,4 +117,46 @@ var DeviceTypesMapgmktec = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "NucBox5 N5105 8GB": {
+        Manufacturer: "GMKtec",
+        Model: "NucBox5 N5105 8GB",
+        Slug: "gmktec-nucbox5-n5105-8gb",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB-A 1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-A 2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB-A 3", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "usb-c", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "M.2", Label: "M.2 2242", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
 }

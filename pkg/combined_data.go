@@ -276,6 +276,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Oncam": DeviceTypesMaponcam,
     "OpenEye": DeviceTypesMapopeneye,
     "Opengear": DeviceTypesMapopengear,
+    "Oracle": DeviceTypesMaporacle,
     "Orange": DeviceTypesMaporange,
     "Orient": DeviceTypesMaporient,
     "Osnovo": DeviceTypesMaposnovo,
