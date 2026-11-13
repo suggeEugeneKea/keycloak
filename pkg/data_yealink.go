@@ -2,6 +2,134 @@
 package devices
 
 var DeviceTypesMapyealink = map[string]*DeviceData{
+    "AP08": {
+        Manufacturer: "Yealink",
+        Model: "AP08",
+        Slug: "yealink-ap08",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "RS-232", Poe: false },
+            { Name: "USB 1", Type: "usb-b", Label: "1", Poe: false },
+            { Name: "USB 2", Type: "usb-b", Label: "2", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 480, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "MGMT", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AVHub": {
+        Manufacturer: "Yealink",
+        Model: "AVHub",
+        Slug: "yealink-avhub",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.31,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "PC", Type: "usb-b", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 96, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Codec", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "VCH 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "MCore 4": {
+        Manufacturer: "Yealink",
+        Model: "MCore 4",
+        Slug: "yealink-mcore-4",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 20 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MTouch", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Internet", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RoomCast": {
         Manufacturer: "Yealink",
         Model: "RoomCast",

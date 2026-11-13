@@ -76,4 +76,78 @@ var DeviceTypesMap2n = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IP Solo 2N IP Solo with Camera Surface Mounted": {
+        Manufacturer: "2N",
+        Model: "IP Solo 2N IP Solo with Camera Surface Mounted",
+        Slug: "2n-ip-solo-9155301cs",
+        UHeight: 0,
+        PartNumber: "9155301CS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Indoor View Black Version": {
+        Manufacturer: "2N",
+        Model: "Indoor View Black Version",
+        Slug: "2n-indoor-view-black-version",
+        UHeight: 0,
+        PartNumber: "91378601",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 555,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }

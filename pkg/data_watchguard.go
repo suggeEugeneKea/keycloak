@@ -95,6 +95,106 @@ var DeviceTypesMapwatchguard = map[string]*DeviceData{
             { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Firebox M590": {
+        Manufacturer: "WatchGuard",
+        Model: "Firebox M590",
+        Slug: "watchguard-firebox-m590",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Firebox M690": {
+        Manufacturer: "WatchGuard",
+        Model: "Firebox M690",
+        Slug: "watchguard-firebox-m690",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "A", Label: "", Position: "A" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "eth10", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "eth11", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "Firebox T25": {
         Manufacturer: "WatchGuard",
         Model: "Firebox T25",

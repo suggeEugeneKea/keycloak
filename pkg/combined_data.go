@@ -130,6 +130,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Ernitec": DeviceTypesMapernitec,
     "EtherWAN": DeviceTypesMapetherwan,
     "Eufy": DeviceTypesMapeufy,
+    "EverFocus": DeviceTypesMapeverfocus,
     "ExaGrid": DeviceTypesMapexagrid,
     "Exegate": DeviceTypesMapexegate,
     "Extreme Networks": DeviceTypesMapextreme_networks,
