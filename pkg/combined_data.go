@@ -108,7 +108,6 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Longshine": DeviceTypesMaplongshine,
     "Meinberg": DeviceTypesMapmeinberg,
     "Mellanox": DeviceTypesMapmellanox,
-    "device-types": DeviceTypesMapdevice_types,
     "Middle Atlantic": DeviceTypesMapmiddle_atlantic,
     "MikroTik": DeviceTypesMapmikrotik,
     "Mimosa Networks": DeviceTypesMapmimosa_networks,
