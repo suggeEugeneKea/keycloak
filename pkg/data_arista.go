@@ -24970,6 +24970,55 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "DCS-7368-CH": {
+        Manufacturer: "Arista",
+        Model: "DCS-7368-CH",
+        Slug: "arista-dcs-7368-ch",
+        UHeight: 4,
+        PartNumber: "DCS-7368-CH",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 13.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "Supervisor", Position: "1" },
+            { Name: "Slot 2", Label: "Line Card", Position: "2" },
+            { Name: "Slot 3", Label: "Line Card", Position: "3" },
+            { Name: "Slot 4", Label: "Line Card", Position: "4" },
+            { Name: "Slot 5", Label: "Line Card", Position: "5" },
+            { Name: "Slot 6", Label: "Line Card", Position: "6" },
+            { Name: "Slot 7", Label: "Line Card", Position: "7" },
+            { Name: "Slot 8", Label: "Line Card", Position: "8" },
+            { Name: "Slot 9", Label: "Line Card", Position: "9" },
+            { Name: "Switchcard Slot", Label: "Switchcard", Position: "SW1" },
+            { Name: "PSU Slot 1", Label: "", Position: "P1" },
+            { Name: "PSU Slot 2", Label: "", Position: "P2" },
+            { Name: "PSU Slot 3", Label: "", Position: "P3" },
+            { Name: "PSU Slot 4", Label: "", Position: "P4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "DCS-7388X5": {
         Manufacturer: "Arista",
         Model: "DCS-7388X5",

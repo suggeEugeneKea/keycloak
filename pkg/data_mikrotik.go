@@ -2836,6 +2836,48 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "qsfp56-dd-2-1", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
         },
     },
+    "CSS106-1G-4P-1S": {
+        Manufacturer: "MikroTik",
+        Model: "CSS106-1G-4P-1S",
+        Slug: "mikrotik-css106-1g-4p-1s",
+        UHeight: 0,
+        PartNumber: "CSS106-1G-4P-1S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 212,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 53, AllocatedDraw: 5 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "CSS318-16G-2S&#43;IN": {
         Manufacturer: "MikroTik",
         Model: "CSS318-16G-2S&#43;IN",
@@ -3867,48 +3909,6 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-        },
-    },
-    "RB260GSP": {
-        Manufacturer: "MikroTik",
-        Model: "RB260GSP",
-        Slug: "mikrotik-rb260gsp",
-        UHeight: 0,
-        PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "RB3011UiAS-RM": {

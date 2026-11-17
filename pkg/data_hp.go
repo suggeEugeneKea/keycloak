@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMaphp = map[string]*DeviceData{
+    "EliteDesk 705 G4 Mini": {
+        Manufacturer: "HP",
+        Model: "EliteDesk 705 G4 Mini",
+        Slug: "hp-elitedesk-705-g4-mini",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "DIMM1", Label: "", Position: "DIMM1" },
+            { Name: "DIMM3", Label: "", Position: "DIMM3" },
+            { Name: "M.2 SSD", Label: "", Position: "SSD" },
+            { Name: "WLAN", Label: "", Position: "WLAN" },
+            { Name: "SATA drive", Label: "", Position: "P60" },
+            { Name: "Expansion connector", Label: "", Position: "P72" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "EliteDesk 800 G2 Mini": {
         Manufacturer: "HP",
         Model: "EliteDesk 800 G2 Mini",

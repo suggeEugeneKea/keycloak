@@ -521,6 +521,125 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ThinkSystem DE2000 Controller 8GB Gen2": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DE2000 Controller 8GB Gen2",
+        Slug: "lenovo-thinksystem-de2000-controller-8gb-gen2",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console RJ-45", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console Micro-USB", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HIC", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port P1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SAS Expansion 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS Expansion 2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "ThinkSystem DE2000H 2U12": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DE2000H 2U12",
+        Slug: "lenovo-thinksystem-de2000h-2u12",
+        UHeight: 2,
+        PartNumber: "7Y70",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 28.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "" },
+            { Name: "Controller B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ThinkSystem DE2000H 2U24": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DE2000H 2U24",
+        Slug: "lenovo-thinksystem-de2000h-2u24",
+        UHeight: 2,
+        PartNumber: "7Y71",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 24.59,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "" },
+            { Name: "Controller B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ThinkSystem DE4000H": {
         Manufacturer: "Lenovo",
         Model: "ThinkSystem DE4000H",
@@ -595,6 +714,88 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "ThinkSystem DM5100F": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DM5100F",
+        Slug: "lenovo-thinksystem-dm5100f",
+        UHeight: 2,
+        PartNumber: "7D3K",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 24.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller 1", Label: "" },
+            { Name: "Controller 2", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ThinkSystem DM5100F Controller": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem DM5100F Controller",
+        Slug: "lenovo-thinksystem-dm5100f-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "e0a", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "e0b", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "e0c", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e0d", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
     "ThinkSystem SR250 V2": {

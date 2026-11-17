@@ -10,7 +10,7 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         PartNumber: "3HE05676AC",
         IsFullDepth: false,
         Airflow: "side-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 1.72,
@@ -23,7 +23,53 @@ var DeviceTypesMapnokia = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c6", MaximumDraw: 84, AllocatedDraw: 0 },
-            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1/1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1/1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "7210 SAS-D ETR DC": {
+        Manufacturer: "Nokia",
+        Model: "7210 SAS-D ETR DC",
+        Slug: "nokia-7210-sas-d-etr-dc",
+        UHeight: 1,
+        PartNumber: "3HE05676AD",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 84, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

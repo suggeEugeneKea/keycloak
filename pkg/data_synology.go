@@ -1990,6 +1990,48 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS3618xs": {
+        Manufacturer: "Synology",
+        Model: "RS3618xs",
+        Slug: "synology-rs3618xs",
+        UHeight: 2,
+        PartNumber: "RS3618xs",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 500, AllocatedDraw: 143 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RS3621xs&#43;": {
         Manufacturer: "Synology",
         Model: "RS3621xs&#43;",
