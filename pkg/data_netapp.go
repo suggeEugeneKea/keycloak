@@ -42,6 +42,87 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "AFF A250 Chassis": {
+        Manufacturer: "NetApp",
+        Model: "AFF A250 Chassis",
+        Slug: "netapp-aff-a250-chassis",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 24.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "A" },
+            { Name: "Controller B", Label: "B" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AFF A250 Controller": {
+        Manufacturer: "NetApp",
+        Model: "AFF A250 Controller",
+        Slug: "netapp-aff-a250-controller",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "PSU", Label: "", Position: "PSU" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0a", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "e0b", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "e0c", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e0d", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "AFF A90 Chassis": {
         Manufacturer: "NetApp",
         Model: "AFF A90 Chassis",
@@ -445,6 +526,87 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "E2800-Ctrl": {
+        Manufacturer: "NetApp",
+        Model: "E2800-Ctrl",
+        Slug: "netapp-e2800-ctrl",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Micro USB serial", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HIC", Label: "", Position: "HIC" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "P1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "P2", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "EXP1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "EXP2", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "E2812": {
+        Manufacturer: "NetApp",
+        Model: "E2812",
+        Slug: "netapp-e2812",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 29,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller A", Label: "A" },
+            { Name: "Controller B", Label: "B" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "E2824": {
         Manufacturer: "NetApp",
         Model: "E2824",
@@ -485,6 +647,90 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
             { Name: "e0b", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
             { Name: "e0c", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
             { Name: "e0d", Label: "", Type: "16gfc-sfpp", MgmtOnly: false },
+        },
+    },
+    "FAS2650": {
+        Manufacturer: "NetApp",
+        Model: "FAS2650",
+        Slug: "netapp-fas2650",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FAS2650-Ctrl": {
+        Manufacturer: "NetApp",
+        Model: "FAS2650-Ctrl",
+        Slug: "netapp-fas2650-ctrl",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0a", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0b", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0c", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0d", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0e", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0f", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0M", Label: "", Type: "other", MgmtOnly: true },
+            { Name: "0a", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "0b", Label: "", Type: "other", MgmtOnly: false },
         },
     },
     "FAS2700 Controller 10GBASE-T": {
@@ -703,6 +949,86 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "0a", Label: "sas0", Type: "other", MgmtOnly: false },
             { Name: "0b", Label: "sas1", Type: "other", MgmtOnly: false },
+        },
+    },
+    "FAS2820": {
+        Manufacturer: "NetApp",
+        Model: "FAS2820",
+        Slug: "netapp-fas2820",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 25.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "FAS2820-Ctrl": {
+        Manufacturer: "NetApp",
+        Model: "FAS2820-Ctrl",
+        Slug: "netapp-fas2820-ctrl",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0a", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e0b", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "0a", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "0b1", Label: "", Type: "other", MgmtOnly: false },
         },
     },
     "FAS8200": {

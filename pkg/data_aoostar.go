@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMapaoostar = map[string]*DeviceData{
+    "GEM12&#43;Pro": {
+        Manufacturer: "AOOSTAR",
+        Model: "GEM12&#43;Pro",
+        Slug: "aoostar-gem12-plus-pro",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 460,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "M.2 SSD 1", Label: "", Position: "1" },
+            { Name: "M.2 SSD 2", Label: "", Position: "2" },
+            { Name: "WLAN", Label: "", Position: "WLAN" },
+            { Name: "P0 CHANNEL A DIMM 0", Label: "", Position: "P0 CHANNEL A" },
+            { Name: "P0 CHANNEL B DIMM 0", Label: "", Position: "P0 CHANNEL B" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eno1", Label: "LAN1", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eno2", Label: "LAN2", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "MACO 6850H": {
         Manufacturer: "AOOSTAR",
         Model: "MACO 6850H",

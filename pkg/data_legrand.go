@@ -2,6 +2,49 @@
 package devices
 
 var DeviceTypesMaplegrand = map[string]*DeviceData{
+    "6ACT8A": {
+        Manufacturer: "Legrand",
+        Model: "6ACT8A",
+        Slug: "legrand-6act8a",
+        UHeight: 0,
+        PartNumber: "6ACT8A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.01,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7&#39;", Label: "", Position: "7" },
+            { Name: "8", Label: "", Position: "8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "J06B0B": {
         Manufacturer: "Legrand",
         Model: "J06B0B",

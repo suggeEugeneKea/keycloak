@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapbelden = map[string]*DeviceData{
+    "AX100041": {
+        Manufacturer: "Belden",
+        Model: "AX100041",
+        Slug: "belden-ax100041",
+        UHeight: 1,
+        PartNumber: "NX7L26AA1",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "RV6PPF1U24BK": {
         Manufacturer: "Belden",
         Model: "RV6PPF1U24BK",

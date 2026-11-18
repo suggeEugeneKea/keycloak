@@ -291,10 +291,14 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         PowerOutlets: []PowerOutlet{
         },
         FrontPorts: []FrontPort{
+            { Name: "USB A", Label: "", Type: "usb-a", RearPort: "", RearPortPosition: 0 },
         },
         RearPorts: []RearPort{
+            { Name: "eSATA 1", Label: "", Type: "other", Positions: 1, Poe: false },
+            { Name: "eSATA 2", Label: "", Type: "other", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe expansion slot", Label: "PCIe", Position: "PCIe-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2080,6 +2084,52 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Expansion 2", Label: "", Type: "infiniband-ndr", MgmtOnly: false },
         },
     },
+    "RS4021xs&#43;": {
+        Manufacturer: "Synology",
+        Model: "RS4021xs&#43;",
+        Slug: "synology-rs4021xs-plus",
+        UHeight: 1,
+        PartNumber: "RS4021xs&#43;",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PCIe Slot 1", Label: "", Position: "1" },
+            { Name: "PCIe Slot 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 5", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN 6", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "RS422&#43;": {
         Manufacturer: "Synology",
         Model: "RS422&#43;",
@@ -2288,8 +2338,8 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         PartNumber: "RS820&#43;",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 6.4,
         WeightUnit: "",
@@ -2309,16 +2359,17 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe expansion slot", Label: "PCIe", Position: "PCIe-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Ethernet 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "RS820RP&#43;": {
@@ -2484,6 +2535,42 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Expansion", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "RX418": {
+        Manufacturer: "Synology",
+        Model: "RX418",
+        Slug: "synology-rx418",
+        UHeight: 1,
+        PartNumber: "RX418",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 4.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 23 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "TC500": {
         Manufacturer: "Synology",
         Model: "TC500",
@@ -2555,6 +2642,43 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "VisualStation VS600HD": {
+        Manufacturer: "Synology",
+        Model: "VisualStation VS600HD",
+        Slug: "synology-visualstation-vs600hd",
+        UHeight: 0,
+        PartNumber: "VS600HD",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 360,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 16, AllocatedDraw: 6 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
 }

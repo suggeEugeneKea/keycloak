@@ -2,6 +2,46 @@
 package devices
 
 var DeviceTypesMapfirebat = map[string]*DeviceData{
+    "A6 (7735HS, 16GB)": {
+        Manufacturer: "Firebat",
+        Model: "A6 (7735HS, 16GB)",
+        Slug: "firebat-a6-7735hs-16gb",
+        UHeight: 0,
+        PartNumber: "A6-IG7A16N8-L",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 400,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "M.2 SSD 1", Label: "", Position: "1" },
+            { Name: "M.2 SSD 2", Label: "", Position: "2" },
+            { Name: "WLAN", Label: "", Position: "WLAN" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eno1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "F1 (7640HS, 24GB)": {
         Manufacturer: "Firebat",
         Model: "F1 (7640HS, 24GB)",
