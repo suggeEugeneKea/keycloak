@@ -127,7 +127,7 @@ var DeviceTypesMapribbon_communications = map[string]*DeviceData{
         },
     },
     "SBC 5400": {
-        Manufacturer: "Ribbon",
+        Manufacturer: "Ribbon Communications",
         Model: "SBC 5400",
         Slug: "ribbon-communications-sbc-5400",
         UHeight: 2,

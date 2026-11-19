@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapcorning = map[string]*DeviceData{
+    "CCH-01U": {
+        Manufacturer: "Corning",
+        Model: "CCH-01U",
+        Slug: "corning-edge-cch-01u",
+        UHeight: 1,
+        PartNumber: "CCH-01U",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "EDGE-01U": {
         Manufacturer: "Corning",
         Model: "EDGE-01U",
