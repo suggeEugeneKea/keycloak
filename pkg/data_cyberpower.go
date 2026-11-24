@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapcyberpower = map[string]*DeviceData{
+    "BR1000ELCD": {
+        Manufacturer: "CyberPower",
+        Model: "BR1000ELCD",
+        Slug: "cyberpower-br1000elcd",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Input", Label: "", Type: "ita-g", MaximumDraw: 600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet-1", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet-2", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet-3", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet-4 (Surge Only)", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet-5 (Surge Only)", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet-6 (Surge Only)", Type: "ita-g", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "CP1500AVRLCD": {
         Manufacturer: "CyberPower",
         Model: "CP1500AVRLCD",

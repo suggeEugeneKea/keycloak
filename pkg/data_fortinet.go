@@ -1257,6 +1257,59 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port6", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiAnalyzer-BigData 4500F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiAnalyzer-BigData 4500F",
+        Slug: "fortinet-faz-bd-4500f",
+        UHeight: 4,
+        PartNumber: "FAZ-BD-4500F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 108.96,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CMM Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "PS3", Label: "", Position: "3" },
+            { Name: "PS4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CMM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "SW1 Ex0/57", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW1 Ex0/58", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW1 Ex0/59", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW1 Ex0/60", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW1 Qx0/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "SW1 Qx0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "SW2 Ex0/57", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW2 Ex0/58", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW2 Ex0/59", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW2 Ex0/60", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SW2 Qx0/1", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+            { Name: "SW2 Qx0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
+        },
+    },
     "FortiAuthenticator 3000F": {
         Manufacturer: "Fortinet",
         Model: "FortiAuthenticator 3000F",
