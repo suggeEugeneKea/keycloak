@@ -17412,7 +17412,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "JG925A",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 3.4,
