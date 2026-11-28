@@ -2,18 +2,18 @@
 package devices
 
 var DeviceTypesMapamcrest = map[string]*DeviceData{
-    "IP4M-1055E": {
+    "IP5M-T1179EW-AI-V3": {
         Manufacturer: "Amcrest",
-        Model: "IP4M-1055E",
-        Slug: "amcrest-ip4m-1055e",
+        Model: "IP5M-T1179EW-AI-V3",
+        Slug: "amcrest-ip5m-t1179ew-ai-v3",
         UHeight: 0,
-        PartNumber: "IP4M-1055E",
+        PartNumber: "",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 230,
+        Weight: 549,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -21,44 +21,7 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP5M-B1186EW": {
-        Manufacturer: "Amcrest",
-        Model: "IP5M-B1186EW",
-        Slug: "amcrest-ip5m-b1186ew",
-        UHeight: 0,
-        PartNumber: "IP5M-B1186EW",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 2 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -77,18 +40,18 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
-    "IP5M-D1188EW-AI-V3": {
+    "IP5M-T1277EW-AI": {
         Manufacturer: "Amcrest",
-        Model: "IP5M-D1188EW-AI-V3",
-        Slug: "amcrest-ip5m-d1188ew-ai-v3",
+        Model: "IP5M-T1277EW-AI",
+        Slug: "amcrest-ip5m-t1277ew-ai",
         UHeight: 0,
-        PartNumber: "IP5M-D1188EW-AI-V3",
+        PartNumber: "",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 350,
+        Weight: 549,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -96,7 +59,7 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 4 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -115,18 +78,18 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
-    "IP5M-T1273EW-AI": {
+    "IP8M-2779EW-AI": {
         Manufacturer: "Amcrest",
-        Model: "IP5M-T1273EW-AI",
-        Slug: "amcrest-ip5m-t1273ew-ai",
+        Model: "IP8M-2779EW-AI",
+        Slug: "amcrest-ip8m-2779ew-ai",
         UHeight: 0,
-        PartNumber: "IP5M-T1273EW-AI",
+        PartNumber: "",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 549,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -134,308 +97,7 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-2493EW-AI-V3": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-2493EW-AI-V3",
-        Slug: "amcrest-ip8m-2493ew-ai-v3",
-        UHeight: 0,
-        PartNumber: "IP8M-2493EW-AI-V3",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 350,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-2693EW": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-2693EW",
-        Slug: "amcrest-ip8m-2693ew",
-        UHeight: 0,
-        PartNumber: "IP8M-2693EW",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-2899EW-AI": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-2899EW-AI",
-        Slug: "amcrest-ip8m-2899ew-ai",
-        UHeight: 0,
-        PartNumber: "IP8M-2899EW-AI",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-2899EW-AI-V2": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-2899EW-AI-V2",
-        Slug: "amcrest-ip8m-2899ew-ai-v2",
-        UHeight: 0,
-        PartNumber: "IP8M-2899EW-AI-V2",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 3000,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-FCT2999EW-AI": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-FCT2999EW-AI",
-        Slug: "amcrest-ip8m-fct2999ew-ai",
-        UHeight: 0,
-        PartNumber: "IP8M-FCT2999EW-AI",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 989,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-T2599EW": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-T2599EW",
-        Slug: "amcrest-ip8m-t2599ew",
-        UHeight: 0,
-        PartNumber: "IP8M-T2599EW",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-VT2779EW": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-VT2779EW",
-        Slug: "amcrest-ip8m-vt2779ew",
-        UHeight: 0,
-        PartNumber: "IP8M-VT2779EW",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 690,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "microSD", Label: "", Position: "microSD" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "IP8M-VT2879EW-AI": {
-        Manufacturer: "Amcrest",
-        Model: "IP8M-VT2879EW-AI",
-        Slug: "amcrest-ip8m-vt2879ew-ai",
-        UHeight: 0,
-        PartNumber: "IP8M-VT2879EW-AI",
-        IsFullDepth: false,
-        Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 6, AllocatedDraw: 4 },
         },
         PowerOutlets: []PowerOutlet{
         },

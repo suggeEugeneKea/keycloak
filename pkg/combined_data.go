@@ -329,6 +329,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "QuarkView": DeviceTypesMapquarkview,
     "RAD": DeviceTypesMaprad,
     "RIPE NCC": DeviceTypesMapripe_ncc,
+    "RackChoice": DeviceTypesMaprackchoice,
     "RackifyUS": DeviceTypesMaprackifyus,
     "Rackmount IT": DeviceTypesMaprackmount_it,
     "Raisecom": DeviceTypesMapraisecom,
